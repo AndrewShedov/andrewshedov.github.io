@@ -103,7 +103,7 @@ position: absolute;
 
 
         .header::before {
-          content: url('../Ellipse 3.png');
+          content: url('images/Ellipse 3.png');
           
           position: absolute;
           top: -16px;
