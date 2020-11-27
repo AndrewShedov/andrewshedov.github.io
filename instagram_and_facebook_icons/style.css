@@ -1,0 +1,90 @@
+body{
+background-color: #00C6F2 ;
+}
+
+.wrap{
+ height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 110px;
+    transition: all 300ms ease;
+  }
+  
+  .inst_n {
+  transition: all 300ms ease;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top:  15px;
+    margin-right: 10px;
+}
+.inst_n:hover {
+border-radius: 20%;
+background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 43%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 43%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+color: transparent;
+transition: all 300ms ease
+}
+
+.inst_n2 {
+color: rgb(38, 176, 207);
+font-size: 45px;
+text-decoration: none; 
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 200ms ease
+}
+
+.inst_n2:hover {
+  color: white;
+    transition: all 200ms ease;
+    font-size: 58px;
+}
+
+
+.facebook{
+  transition: all 300ms ease;
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top:  15px;
+  margin-right: 10px;
+}
+.facebook:hover {
+  border-radius: 20%;
+background-color: #385593;
+transition: all 300ms ease
+}
+
+.facebook_2 {
+  color: rgb(39, 176, 207);
+font-size: 45px;
+text-decoration: none; 
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 200ms ease
+}
+
+.facebook_2:hover {
+  font-size: 53px;
+ padding-left: 5px;
+padding-top:12px;
+  color: #ffffff;
+transition: all 200ms ease
+}

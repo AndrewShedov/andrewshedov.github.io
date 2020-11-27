@@ -1,0 +1,2100 @@
+.menu-mobile,
+.menu-desktop {
+    display: none
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: .1
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fade-in {
+    0% {
+        opacity: .1
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fade-in {
+    0% {
+        opacity: .1
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: .1
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+body {
+    -webkit-animation: fade-in 700ms linear;
+    -moz-animation: fade-in 700ms linear;
+    -o-animation: fade-in 700ms linear;
+    animation: fade-in 700ms linear
+}
+
+.bone:hover {
+    cursor: pointer;
+    background-color: #33de8a;
+    transition: all 300ms ease
+}
+
+.bone {
+    max-width: 250px;
+    height: 40px;
+    width: 100%;
+    background-color: #00c6f2;
+    transition: all 500ms ease;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    margin-top: 3.63%;
+    top: 47%;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.slidetex {
+    position: absolute;
+    transition: all 500ms ease;
+    top: 41%;
+    left: 27%;
+    font-weight: 100;
+    font-size: 3.1vw
+}
+
+.slidetex a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Quicksand Light'
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.swiper-slide img {
+    filter: brightness(0.4);
+    width: 100%
+}
+
+.search {
+    max-width: 186px;
+    width: 100%;
+    max-height: 25px;
+    height: 100%;
+    position: relative;
+    margin-left: 5px;
+    right: 2px;
+    margin-top: 14px
+}
+
+.search input {
+    border: none
+}
+
+.search .input {
+    width: 100%;
+    height: 25px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 13px;
+    font-size: 13px;
+    font-family: "Quicksand Light Oblique";
+    outline: none;
+    padding-left: 10px;
+    padding-right: 33px;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+    color: #bbb;
+    font-weight: 400
+}
+
+input[type="search"]::-moz-placeholder {
+    color: #3f3f3f;
+    font-weight: 400
+}
+
+.search .submit {
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url(../images/search.png) no-repeat
+}
+
+.search .submit:hover {
+    opacity: .8
+}
+
+input[type="search"] {
+    -webkit-appearance: none
+}
+
+@font-face {
+    font-family: "Quicksand Bold";
+    src: url("../fonts/Quicksand Bold.otf")
+}
+
+@font-face {
+    font-family: "Quicksand Bold Oblique";
+    src: url("../fonts/quicksand bold oblique.otf")
+}
+
+@font-face {
+    font-family: "Quicksand Book";
+    src: url(../fonts/Quicksand_Book.otf)
+}
+
+@font-face {
+    font-family: "Quicksand Light Oblique";
+    src: url(../fonts/Quicksand_Light_Oblique.otf)
+}
+
+@font-face {
+    font-family: "Quicksand Light";
+    src: url(../fonts/quicksand-light.ttf)
+}
+
+.brand a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Quicksand Bold Oblique";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 18px;
+    transition: all 200ms ease
+}
+
+.brand a:hover {
+    transition: all 200ms ease;
+    font-size: 32px;
+    color: #88e24b
+}
+
+.brandm a:hover {
+    transition: all 200ms ease;
+    font-size: 32px;
+    color: #88e24b
+}
+
+.brandm a {
+    text-decoration: none;
+    width: 127px;
+    height: 52px;
+    color: #fff;
+    font-family: "Quicksand Bold Oblique";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    transition: all 200ms ease
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.nav-container {
+    height: 70px
+}
+
+.navq-container {
+    height: 62px
+}
+
+.nav {
+    height: 80px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    background-color: #00c6f2
+}
+
+.nav ul {
+    list-style: none
+}
+
+.nav ul li {
+    margin-left: 0
+}
+
+.nav ul li a:hover {
+    text-decoration: underline
+}
+
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    transition: all 500ms ease
+}
+
+.brand {
+    position: relative;
+    margin-right: 183px;
+    margin-top: 28px;
+    font-size: 1.25em;
+    font-weight: 900;
+    transition: all 300ms ease;
+    left: 0
+}
+
+.brandm {
+    display: inline-block;
+    position: relative;
+    left: 55px;
+    top: 30px;
+    font-size: 1.25em;
+    font-weight: 900;
+    transition: all 200ms ease
+}
+
+.nav__item a {
+    position: relative;
+    padding: 8px 24px;
+    transition: all 300ms ease;
+    left: 0
+}
+
+.nav__item a:hover {
+    position: relative;
+    padding: 8px 20px;
+    transition: all 500ms ease;
+    left: 0
+}
+
+.nav__item {
+    position: relative;
+    transition: all 500ms ease;
+    top: 31px;
+    right: 35px
+}
+
+.active a {
+    border-radius: 18px;
+    background-color: #33de8a;
+    transition: all 500ms ease;
+    position: relative;
+    padding: 8px 20px !important
+}
+
+.nav__link:hover {
+    border-radius: 18px;
+    background-color: #33de8a;
+    transition: all 300ms ease
+}
+
+.nav__link {
+    text-decoration: none !important;
+    border-radius: 18px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 18px;
+    text-transform: uppercase
+}
+
+.navq__link {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 16px;
+    transition: all 500ms ease
+}
+
+.aboutwrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: all 500ms ease
+}
+
+.servicestext2-1-1 {
+    width: 565px;
+    height: 25px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    text-align: left;
+    bottom: 45px
+}
+
+.servicestext2-1-2 {
+    width: 565px;
+    height: 25px;
+    bottom: 24px;
+    height: 13px;
+    color: #d0cfcf;
+    font-family: "Quicksand Light";
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
+    text-align: left
+}
+
+.servicestext2-1-3 {
+    bottom: 9px;
+    width: 565px;
+    height: 25px;
+    height: 13px;
+    color: #d0cfcf;
+    font-family: "Quicksand Light";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: left
+}
+
+.servicestext2-1-4 {
+    width: 580px;
+    height: 82px;
+    color: #cfcfcf;
+    font-family: "Quicksand Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    position: relative;
+    text-align: left;
+    top: 10px
+}
+
+.servicestext2-1-5 {
+    width: 490px;
+    height: 35px;
+    color: #cfcfcf;
+    font-family: "Quicksand Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    position: relative;
+    text-align: left;
+    transition: all 500ms ease;
+    cursor: pointer;
+    position: relative;
+    top: 27px;
+    padding-left: 13px;
+    border-radius: 18px
+}
+
+.servicestext2-1-5:hover {
+    transition: all 500ms ease;
+    width: 490px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: #33de8a;
+    position: relative;
+    padding-left: 30px;
+    color: #000
+}
+
+.servicestext2-1-5 img {
+    position: relative;
+    top: 3px;
+    right: 12px
+}
+
+.servicestext2-1-6 {
+    width: 490px;
+    height: 35px;
+    color: #cfcfcf;
+    font-family: "Quicksand Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    border-radius: 18px;
+    position: relative;
+    text-align: left;
+    transition: all 500ms ease;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    padding-left: 13px
+}
+
+.servicestext2-1-6:hover {
+    transition: all 500ms ease;
+    width: 490px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: #33de8a;
+    position: relative;
+    padding-left: 31px;
+    color: #000
+}
+
+.servicestext2-1-6 img {
+    position: relative;
+    top: 2px;
+    right: 12px
+}
+
+.servicestext2-1-7 {
+    width: 490px;
+    height: 35px;
+    color: #cfcfcf;
+    font-family: "Quicksand Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    border-radius: 18px;
+    position: relative;
+    text-align: left;
+    transition: all 500ms ease;
+    cursor: pointer;
+    position: relative;
+    top: 21px;
+    padding-left: 13px
+}
+
+.servicestext2-1-7:hover {
+    transition: all 500ms ease;
+    width: 490px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: #33de8a;
+    position: relative;
+    padding-left: 30px;
+    color: #000
+}
+
+.servicestext2-1-7 img {
+    position: relative;
+    top: 2px;
+    right: 12px
+}
+
+.servicestext2-1-8 {
+    width: 490px;
+    height: 35px;
+    color: #cfcfcf;
+    font-family: "Quicksand Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    border-radius: 18px;
+    position: relative;
+    text-align: left;
+    transition: all 500ms ease;
+    cursor: pointer;
+    position: relative;
+    top: 18px;
+    padding-left: 13px
+}
+
+.servicestext2-1-8:hover {
+    transition: all 500ms ease;
+    width: 490px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: #33de8a;
+    position: relative;
+    padding-left: 30px;
+    color: #000
+}
+
+.servicestext2-1-8 img {
+    position: relative;
+    top: 2px;
+    right: 12px
+}
+
+.servicestext2-1-5-it {
+    position: relative;
+    top: 5px
+}
+
+.services2-2-img {
+    position: relative;
+    right: 18px;
+    bottom: 12px;
+    margin-top: 26px;
+    margin-left: 30px;
+    transition: all 500ms ease
+}
+
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer
+}
+
+.img-adaptive {
+    height: 100%;
+    width: 100%
+}
+
+.services2-2-img:hover figcaption {
+    border-radius: 3px;
+    background-color: #00c6f2a8;
+    opacity: 1;
+    transition: all 500ms ease
+}
+
+.services2-1 {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: all 500ms ease;
+    width: 100%;
+    max-width: 570px;
+    position: relative;
+    right: 0;
+    height: 530px
+}
+
+.services2-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    left: 17px;
+    transition: all 500ms ease;
+    width: 100%;
+    max-width: 600px;
+    height: 530px;
+    position: relative
+}
+
+.serviceswrapper2 {
+    background-color: #1e2020;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    transition: all 500ms ease
+}
+
+.services {
+    background-image: linear-gradient(to right, #00abd1 0%, #13cef7 47%, #7ae7ff 100%);
+    height: 100%
+}
+
+.serviceswrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    transition: all 500ms ease
+}
+
+.project {
+    background-color: #f8f8f8;
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    position: relative;
+    bottom: 9px;
+    margin-top: 90px;
+    border-radius: 5px;
+    margin-bottom: 65px;
+    transition: all 400ms ease
+}
+
+.project:hover {
+    transition: all 400ms ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.projectimg1 {
+    transition: all 200ms ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.projecttext1 {
+    width: 200px;
+    height: 14px;
+    color: #1e2020;
+    font-family: "Quicksand Book";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 27px;
+    text-align: center
+}
+
+.projecttext2 {
+    width: 141px;
+    height: 14px;
+    color: #1e2020;
+    font-family: "Quicksand Light";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+    position: relative;
+    margin-top: 13px;
+    text-align: center;
+    left: 2px
+}
+
+.projecttext3 {
+    width: 210px;
+    height: 100%;
+    color: #6b6b6b;
+    font-family: "Quicksand Light";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -.75px;
+    position: relative;
+    margin-top: 20px
+}
+
+.button2 {
+    max-width: 220px;
+    font-family: "Quicksand Light";
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #00c6f2;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 18px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    left: 0;
+    transition: all 300ms ease;
+    cursor: pointer
+}
+
+.button2:hover {
+    background-color: #33de8a !important;
+    transition: all 300ms ease
+}
+
+.servicesm {
+    position: relative;
+    bottom: 17px
+}
+
+.rectangle {
+    content: "";
+    width: 29px;
+    height: 29px;
+    background: #fff;
+    transform: translate(-50%) rotate(45deg);
+    border-bottom-right-radius: 4px;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 200ms ease;
+    margin-top: -15px
+}
+
+.rectangle:hover {
+    transition: all 200ms ease;
+    width: 32px;
+    height: 32px;
+    margin-top: -16px
+}
+
+.projextbutton {
+    max-width: 220px;
+    width: 100%;
+    height: 100%
+}
+
+.contact {
+    background: url(../images/contact.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+/*
+    background-color: #000000a6 !important;
+    background-blend-mode: darken !important;
+*/
+    height: 100% !important
+}
+
+.contactwrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px
+}
+
+.contact-form {
+    max-width: 670px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 500ms ease
+}
+
+.contact-t1 {
+    margin-top: 82px;
+    width: 560px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center
+}
+
+.contact-t2 {
+    margin-top: 45px;
+    width: 560px;
+    color: #fff;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 44px
+}
+
+input[type=text],
+[type=email],
+[type=tel],
+select {
+    transition: all 500ms ease;
+    margin-bottom: 20px !important;
+    width: 550px !important;
+    height: 34px !important;
+    padding-left: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.788) !important;
+    border-radius: 20px;
+    resize: none;
+    background-color:transparent;
+    color: #fff !important;
+    
+    margin-bottom: 10px;
+    transition: all 500ms ease;
+    font-family: "Quicksand Light Oblique";
+    font-size: 15px;
+   
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none !important;
+}
+
+.contact-form textarea {
+    transition: all 500ms ease;
+    width: 550px !important;
+    margin-bottom: 21px !important;
+    resize: none;
+    font-family: "Quicksand Light Oblique";
+    font-size: 15px;
+    
+    font-weight: 400;
+    line-height: 18px;
+    background-color:transparent;
+    height: 200px !important;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #fff !important;
+    border: 2px solid rgba(255, 255, 255, 0.788) !important;
+    border-radius: 20px;
+    text-decoration: none  !important;
+    
+}
+
+.contact-button {
+    max-width: 570px;
+    width: 100%;
+    height: 100%
+}
+
+.button3 {
+    max-width: 570px;
+    font-family: "Quicksand Light";
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #00c6f2;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    line-height: 18px;
+    position: relative;
+    margin-bottom: 82px;
+    font-weight: 400;
+    transition: all 300ms ease;
+    cursor: pointer
+}
+
+.button3:hover {
+    background-color: #33de8a !important;
+    transition: all 300ms ease
+}
+
+.footer-ball-wr {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    transition: all 200ms ease;
+    margin-top: 36px;
+    z-index: 2;
+    margin-left: 290px
+}
+
+.footer-ball {
+    transition: all 200ms ease;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 20px
+}
+
+.contacts {
+    position: relative;
+    bottom: 15px
+}
+
+.twitter {
+    color: #00c6f2;
+    font-size: 15px;
+    max-width: 35px;
+    width: 100%;
+    max-height: 35px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 200ms ease
+}
+
+.twitter:hover {
+    color: #fff;
+    transition: all 200ms ease
+}
+
+.footer-ball:hover {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #33de8a;
+    transition: all 200ms ease
+}
+
+.footer {
+    display: flex;
+    background-color: #00c6f2;
+    height: 100%;
+    justify-content: center;
+    transition: all 300ms ease
+}
+
+.footer-1 {
+    transition: all 300ms ease;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 173px;
+    height: 100%;
+    margin-bottom: 26px
+}
+
+.footer-1:nth-child(2) {
+    transition: all 300ms ease;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    margin-right: 0;
+    height: 100%;
+    margin-right: 0
+}
+
+.footer-1-t1 {
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 25px
+}
+
+.footer-1-t1 a {
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    transition: all 300ms ease
+}
+
+.footer-1-t1 a:nth-child(2) {
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 300ms ease
+}
+
+.footer-1-t1 a:nth-child(2):hover {
+    color: #2be444;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 300ms ease
+}
+
+.footer-1-t2 {
+    height: 100%;
+    max-width: 500px;
+    width: 100%
+}
+
+.footer-1-t2 a {
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    transition: all 300ms ease
+}
+
+.footer-1-t2 a:nth-child(2) {
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 300ms ease
+}
+
+.footer-1-t2 a:nth-child(2):hover {
+    color: #2be444;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 300ms ease
+}
+
+.navi {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    transition: all 300ms ease;
+    margin-bottom: 72px
+}
+
+.navi-1 {
+    transition: all 300ms ease;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    height: 100%
+}
+
+.navi-1:nth-child(4) {
+    margin-right: 50px
+}
+
+.navi-1-t1 {
+    height: 100%;
+    margin-top: 54px;
+    margin-left: 10px;
+    width: 194px
+}
+
+.navi-1-t1 a {
+    text-decoration: none;
+    transition: all 300ms ease;
+    color: #00c6f2;
+    font-family: "Quicksand Bold Oblique";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 18px;
+    cursor: pointer
+}
+
+.navi-1-t1 a:hover {
+    text-decoration: none;
+    transition: all 300ms ease;
+    color: #88e24b;
+    font-family: "Quicksand Bold Oblique";
+    font-weight: 400;
+    cursor: pointer
+}
+
+.navi-2-t2 {
+    height: 100%;
+    margin-top: 49px;
+    margin-left: 13px;
+    max-width: 200px;
+    width: 100%;
+    color: #1e2020;
+    font-family: "Quicksand Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase
+}
+
+.navi-2-con {
+    max-width: 195px;
+    width: 100%;
+    height: 100%
+}
+
+.navi-2-t2-1 {
+    max-width: 80px;
+    width: 100%;
+    margin-left: 13px;
+    margin-top: 20px;
+    height: 100%
+}
+
+.navi-2-t2-1 ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #898989;
+    font-family: "Quicksand Light";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    transition: all 200ms ease
+}
+
+.navi-2-t2-1 ul li a:hover {
+    cursor: pointer;
+    color: #000;
+    transition: all 200ms ease
+}
+
+.navi-2-t2-1 ul li {
+    transition: all 300ms ease;
+    padding-top: 0;
+    margin-left: 1px;
+    height: 100%
+}
+
+.navi-3-t2 {
+    height: 100%;
+    margin-top: 49px;
+    max-width: 200px;
+    width: 100%;
+    color: #1e2020;
+    font-family: "Quicksand Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-left: 12px
+}
+
+.navi-3-con {
+    max-width: 195px;
+    width: 100%;
+    height: 100%
+}
+
+.navi-3-t2-1 {
+    max-width: 80px;
+    width: 100%;
+    margin-top: 18px;
+    height: 100%;
+    margin-left: 13px
+}
+
+.navi-3-t2-1 ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #898989;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    transition: all 200ms ease
+}
+
+.navi-3-t2-1 ul li a:hover {
+    cursor: pointer;
+    color: #000;
+    transition: all 200ms ease
+}
+
+.navi-3-t2-1 ul li {
+    transition: all 300ms ease;
+    padding-top: 0;
+    height: 100%
+}
+
+.navi-4-t2 {
+    height: 100%;
+    margin-top: 49px;
+    margin-left: 11px;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+    color: #1e2020;
+    font-family: "Quicksand Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase
+}
+
+.navi-4-t3 {
+    margin-left: 12px;
+    height: 100%;
+    margin-top: 20px;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+    color: #8a8a8a;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px
+}
+
+.navi-4-t4 {
+    margin-left: 12px;
+    height: 100%;
+    margin-top: 0;
+    max-width: 200px;
+    width: 100%
+}
+
+.navi-4-t4 a {
+    color: #8a8a8a;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none
+}
+
+.navi-4-t5 {
+    margin-left: 12px;
+    height: 100%;
+    margin-top: 0;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+    color: #8a8a8a;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px
+}
+
+.navi-4-t6 {
+    height: 100%;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #206804;
+    border-width: 1px;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+    color: #8a8a8a;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px
+}
+
+.blogt3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    transition: all 500ms ease;
+    color: #00c6f2;
+    font-family: "Quicksand Light";
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 21px;
+    position: relative;
+    top: 39px;
+    margin-bottom: 120px
+}
+
+.blogt3 img {
+    transition: all 500ms ease;
+    margin-right: 12px
+}
+
+.blogt3 img:hover {
+    width: 19px;
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    cursor: pointer;
+    transition: all 500ms ease
+}
+
+.blogs {
+    position: relative;
+    bottom: 90px
+}
+
+.blog {
+    width: 100%
+}
+
+.blogt1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 82px
+}
+
+.blog-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 66.5%
+}
+
+.blog-button1 {
+    width: 280px;
+    margin-right: 21%;
+    padding-left: 45px
+}
+
+.blog-button1-1 {
+    max-width: 180px;
+    height: 35px;
+    width: 100%;
+    background-color: #00c6f2;
+    transition: all 300ms ease;
+    border-radius: 18px;
+    border: none;
+    position: relative;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px
+}
+
+.blog-button1-1:hover {
+    background-color: #33de8a;
+    cursor: pointer;
+    transition: all 300ms ease
+}
+
+.scrollup {
+    position: fixed;
+    color: rgba(51, 222, 139, 0.651);
+    right: 20px;
+    bottom: 0;
+    padding: 4px 10px;
+    font-size: 50px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+    display: none;
+    text-align: center
+}
+
+.blogt1-1 {
+    text-align: center;
+    width: 246px;
+    height: 32px;
+    color: #1e2020;
+    font-family: "Quicksand Book";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 18px
+}
+
+.blogt2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px
+}
+
+.blogt2-2 {
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    width: 580px;
+    height: 54px;
+    color: #3f3e3e;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 22px
+}
+
+.bloggallery {
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    flex-wrap: nowrap;
+    margin-top: 81px
+}
+
+.bloggallery1 {
+    margin-right: 29px;
+    display: flex;
+    justify-content: center
+}
+
+.bloggallery2-2 {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center
+}
+
+.gallery {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #1e2020;
+    justify-content: center;
+    flex-wrap: nowrap
+}
+
+.gallery1 {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap
+}
+
+.gallery2 {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap
+}
+
+.gallery1_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.gallery1_2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.gallery2_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.bloggallery-1-img {
+    position: relative;
+    transition: all 500ms ease
+}
+
+.figcaptionbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    transition: all 500ms ease;
+    opacity: 0;
+    cursor: pointer
+}
+
+.bloggallery-1-img:hover .figcaptionbg {
+    border-radius: 5px;
+    background-color: #1e20208f;
+    opacity: 1;
+    transition: all 500ms ease
+}
+
+
+
+
+
+
+
+.figcaptionbgt1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 77%
+}
+
+.figcaptionbgt1-1 {
+    width: 280px;
+    height: 49px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    position: relative;
+    line-height: 31px;
+    margin-right: 21%;
+    padding-left: 45px
+}
+
+.figcaptionbgt2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 89%
+}
+
+.figcaptionbgt2-1 {
+    width: 280px;
+    height: 12px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-right: 21%;
+    padding-left: 45px
+}
+
+.bloggallery-2-1-img {
+    position: relative;
+    transition: all 500ms ease
+}
+
+.figcaptionbg-2-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    display: flex;
+    align-items: center;
+    transition: all 500ms ease;
+    opacity: 0;
+    cursor: pointer
+}
+
+.bloggallery-2-1-img:hover .figcaptionbg-2-1 {
+    border-radius: 5px;
+    background-color: #1e20208f !important;
+    opacity: 1;
+    transition: all 500ms ease
+}
+
+.figcaptionbg2-t1-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 52%
+}
+
+.figcaptionbg2-t1-2 {
+    width: 280px;
+    height: 49px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    position: relative;
+    line-height: 31px;
+    margin-right: 21%;
+    padding-left: 45px
+}
+
+.figcaptionbg2-t2-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 78%
+}
+
+.figcaptionb2gt-2-2 {
+    width: 280px;
+    height: 12px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-right: 21%;
+    padding-left: 45px
+}
+
+.bloggallery-2-2-img {
+    position: relative;
+    transition: all 500ms ease
+}
+
+.figcaptionbg-2-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    transition: all 500ms ease;
+    opacity: 0;
+    cursor: pointer
+}
+
+.bloggallery-2-2-img:hover .figcaptionbg-2-2 {
+    border-radius: 5px;
+    background-color: #00c6f2a9 !important;
+    opacity: 1;
+    transition: all 500ms ease
+}
+
+.figcaptionbg3-t1-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 52%
+}
+
+.figcaptionbg3-t1-2 {
+    width: 280px;
+    height: 49px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    position: relative;
+    line-height: 31px;
+    margin-right: 21%;
+    padding-left: 45px
+}
+
+.figcaptionbg3-t2-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 78%
+}
+
+.figcaptionb3gt-2-2 {
+    width: 280px;
+    height: 12px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-right: 21%;
+    padding-left: 45px
+}
+
+.gallery1_1img {
+    position: relative;
+    transition: all 500ms ease
+}
+
+.gallery1_1img:hover .figcaptiong {
+    background-color: #00c6f2a8 !important;
+    opacity: 1;
+    transition: all 500ms ease
+}
+
+.figcaptiong {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    transition: all 500ms ease;
+    opacity: 0;
+    cursor: pointer
+}
+
+.gallerys {
+    position: relative;
+    bottom: 17px
+}
+
+.figcaptiongimg3 {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 52.5%
+}
+
+.figcaptiongimg {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 55.2%
+}
+
+.figcaptiongt1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: -1%;
+    letter-spacing: -1.5px;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 18px
+}
+
+.figcaptiongt2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: #fff;
+    font-family: "Quicksand Book";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase
+}
+
+.gallery1_1img {
+    width: 100%;
+    display: flex
+}
+
+.gallery2_2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.circle {
+    width: 100%;
+    max-width: 275px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 62px;
+    position: relative;
+    bottom: 4px;
+    transition: all 500ms ease;
+    margin-top: 90px;
+    z-index: 2
+}
+
+.ball1 {
+    transition: all 200ms ease;
+    width: 200px;
+    height: 200px;
+    background-color: #00c6f2;
+    background-image: linear-gradient(45deg, #05c0e9 0%, #05e9dc 50%, #57ffba 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ball1:hover {
+    width: 210px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease
+}
+
+.ball2:hover {
+    width: 210px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease
+}
+
+.ball3:hover {
+    width: 210px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease
+}
+
+.ball2 {
+    transition: all 200ms ease;
+    width: 200px;
+    height: 200px;
+    background-color: #00c6f2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ball3 {
+    transition: all 200ms ease;
+    width: 200px;
+    height: 200px;
+    background-color: #00c6f2;
+    background-image: linear-gradient(45deg, #05c0e9 0%, #05e9dc 50%, #57ffba 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.circlet1_2 {
+    width: 230px;
+    height: 100%;
+    color: #6b6b6b;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px
+}
+
+.circlet1_1 {
+    color: #1e2020;
+    font-family: "Quicksand Bold";
+    font-size: 20px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    position: relative;
+    top: 30px
+}
+
+.circlet2_1 {
+    color: #00c6f2;
+    font-family: "Quicksand Bold";
+    font-size: 20px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    position: relative;
+    top: 30px;
+    width: 175px;
+    text-align: center
+}
+
+.burger__icon {
+    position: relative;
+    display: block;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+    transition: all .2s ease-in-out;
+    top: 1px
+}
+
+.burger__icon::before,
+.burger__icon::after {
+    content: '';
+    position: absolute;
+    background: #fff 255, 255);
+    height: 2px;
+    width: 35px;
+    transition: all .2s ease-in-out
+}
+
+.burger__icon::before {
+    top: -10px
+}
+
+.burger__icon::after {
+    top: 10px
+}
+
+.burger--active .burger__icon {
+    background: transparent
+}
+
+.burger--active .burger__icon::before {
+    transform: rotate(135deg);
+    top: 0
+}
+
+.burger--active .burger__icon::after {
+    transform: rotate(-135deg);
+    top: 0
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: all 500ms ease
+}
+
+button {
+    display: block
+}
+
+.navq {
+    z-index: 999;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #00c6f2 !important
+}
+
+.navq ul {
+    list-style: none
+}
+
+.navq ul li {
+    float: left;
+    margin-top: 40px;
+    padding: 6px
+}
+
+.navq ul li:first-child {
+    padding-left: 0
+}
+
+.navq ul li a:hover {
+    text-decoration: underline
+}
+
+.navq__list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center
+}
+
+.navq__item {
+    margin: 0 10px;
+    transition: all 300ms ease
+}
+
+.navq__link {
+    margin-top: 10px;
+    position: relative
+}
+
+.navq__link:hover {
+    color: #31ee69;
+    transition: all 500ms ease
+}
+
+.burger {
+    transition: all 300ms ease;
+    cursor: pointer;
+    display: flex;
+    top: 50%;
+    display: none;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 999
+}
+
+.burger__icon::before,
+.burger__icon::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    width: 35px;
+    transition: all .2s ease-in-out
+}
+
+.burger__icon::before {
+    top: -10px
+}
+
+.burger__icon::after {
+    top: 10px
+}
+
+.burger--active .burger__icon {
+    background: transparent
+}
+
+.burger--active .burger__icon::before {
+    transform: rotate(135deg);
+    top: 0
+}
+
+.burger--active .burger__icon::after {
+    transform: rotate(-135deg);
+    top: 0
+}
+
+.navq__list--open .navq__item {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: transform .2s ease-out, opacity .2s ease-out
+}
+
+.navq__list--open .navq__item:nth-child(1) {
+    transition-delay: .1s
+}
+
+.navq__list--open .navq__item:nth-child(2) {
+    transition-delay: .2s
+}
+
+.navq__list--open .navq__item:nth-child(3) {
+    transition-delay: .3s
+}
+
+.navq__list--open .navq__item:nth-child(4) {
+    transition-delay: .4s
+}
+
+.navq__list--open .navq__item:nth-child(5) {
+    transition-delay: .5s
+}
+
+.navq__list--open .navq__item:nth-child(6) {
+    transition-delay: .6s
+}
+
+.navq__list--open .navq__item:nth-child(7) {
+    transition-delay: .6s
+}
+
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0 !important;
+    outline-color: transparent !important;
+    outline-width: 0 !important;
+    outline-style: none !important;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta name = "robots" content = "noindex,nofollow">
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+      <link rel="manifest" href="site.webmanifest">
+      <link rel="mask-icon" href="safari-pinned-tab.svg" color="#e81616">
+      <meta name="msapplication-TileColor" content="#9f00a7">
+      <meta name="theme-color" content="#ffffff">
+  </head>
+<body>
+<nav class="container-fluid nav">
+  <div class="container cf">
+    <div class="brand">
+      <a href="#splash">Aircraft</a>
+    </div>
+    <i class="fa fa-bars nav-toggle"></i>
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#fly">We fly everywhere</a></li>
+      <li><a href="#places">Places</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="fullscreen-bg">
+    <div class="overlay">
+        <h1>Do you want to fly? We will help you!</h1>
+    </div>
+    <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
+        <source src="video/air.mp4" type="video/mp4">
+      </video>
+</div>
+<div class="container-fluid splash" id="splash">
+  <div class="container">
+    <h1>Aircraft</h1>
+    <span class="lead">Fly with us</span>
+    <span class="continue"><a href="#about"><i class="fas fa-plane fa-rotate-90"></i></a></span>
+  </div>
+</div>
+<div class="container-fluid intro" id="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly.</p>
+  </div>
+</div>
+<div class="container-fluid features" id="fly">
+  <div class="container cf">
+    <h2>We fly everywhere</h2>
+    <div class="col-3">
+      <h3>America</h3>
+      <p>We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love We love to fly We love to fly We love.</p>
+    </div>
+    <div class="col-3">
+       <h3>Europe</h3>
+      <p>We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love We love to fly We love to fly We love.</p>
+    </div>
+    <div class="col-3">
+      <h3>Asia</h3>
+      <p>We love to fly We love to fly We love to fly We love to fly We love to fly We love to fly We love We love to fly We love to fly We love.</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid places" id="places">
+  <div class="container cf">
+    <h2>Places</h2>
+    <div class="gallery">
+      <div class="gallery-image"><img src="images/3.jpg" alt=""></div>
+      <div class="gallery-image"><img src="images/3.jpg" alt=""></div>
+      <div class="gallery-image"><img src="images/3.jpg" alt=""></div>
+      <div class="gallery-image"><img src="images/3.jpg" alt=""></div>
+      <div class="gallery-image"><img src="images/3.jpg" alt=""></div>
+      <div class="gallery-image"><img src="images/3.jpg" alt=""></div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid contact" id="contact">
+  <div class="container">
+    <form>
+      <h2>Contact</h2>
+      <input type="text" placeholder="Name" id="name" name="name" class="full-half">
+      <input type="email" placeholder="Email" id="email" name="email" class="full-half">
+      <input type="text" placeholder="Subject" id="subject" name="subject">
+      <textarea placeholder="Message" id="message" name="message"></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+</div>
+<footer class="container-fluid footer">
+  <div class="container">
+    <div class="footer-copyright text-center py-3">Created by
+      <a href="https://shedov.top"> Andrew Shedov</a>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script  src="js/index.js"></script>
+<script>
+      $(function() {
+        // при нажатии на кнопку scrollup
+        $('.scrollup').click(function() {
+          // переместиться в верхнюю часть страницы
+          $("html, body").animate({
+            scrollTop:0
+          },100);
+        })
+      })
+      // при прокрутке окна (window)
+      $(window).scroll(function() {
+        // если пользователь прокрутил страницу более чем на 200px
+        if ($(this).scrollTop()>200) {
+          // то сделать кнопку scrollup видимой
+          $('.scrollup').fadeIn();
+        }
+        // иначе скрыть кнопку scrollup
+        else {
+          $('.scrollup').fadeOut();
+        }
+      });
+   </script>
+    <div class="scrollup">
+       <i class="fas fa-plane fa-rotate-270"></i>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+
+
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+.header_wrap{
+  display: flex;
+  justify-content: center;
+  }
+
+
+
+  .header{
+    height: 280px;
+    width: 731px;
+    margin: 0 auto;
+ 
+    position: relative;
+left: 0px;
+    left: 0px;
+    top: 180px;
+    border-radius: 0px;
+    background: #0A223D;
+    }
+
+   
+
+
+
+    .her_wrap{
+      display: flex;
+      justify-content: center;
+     
+      border: 1px solid rgb(255, 0, 0) !important; 
+
+      }
+    
+    
+    
+      .her{
+        height: 47.58935546875px;
+width: 70px;
+
+
+
+margin-left: 0;
+        position: absolute;
+          top: -16px;
+          left: 6px;
+        border-radius: 0px;
+        background: #1edd4e;
+        }
+    
+
+
+        .header::befor {
+          content: url('../Ellipse 3.png');
+          
+          position: absolute;
+          top: -16px;
+          right: 80px;
+          font-family: Georgia, serif;
+          font-size: 40px;
+          line-height: 1;
+          font-weight: bold;
+          border: 1px solid rgb(255, 0, 0) !important; 
+
+        }
+
+
+        .header::before {
+          content: url('../Ellipse 3.png');
+          
+          position: absolute;
+          top: -16px;
+          right: 60px;
+          font-family: Georgia, serif;
+          font-size: 40px;
+          line-height: 1;
+          font-weight: bold;
+          border: 1px solid rgb(255, 0, 0) !important; 
+
+        }
