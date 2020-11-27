@@ -34,6 +34,8 @@ dd {
 .header_wrap{
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
+  border: 1px solid rgb(255, 0, 0) !important;
   }
 
 
@@ -41,59 +43,63 @@ dd {
   .header{
     height: 280px;
     width: 731px;
-    margin: 0 auto;
+   
  
     position: relative;
 left: 0px;
-    left: 0px;
-    top: 180px;
+    
+ 
     border-radius: 0px;
     background: #0A223D;
     }
 
-   
-
-
-
-    .her_wrap{
+    .hr_1_wrap{
+      position: relative;
+     
+          
+          margin-top: 30px;
+          margin-bottom: 70px !important;
       display: flex;
       justify-content: center;
+      border: 1px solid rgb(0, 255, 42) !important; 
+
+
+    }
+
+
+
+    .hr_1{
      
+ 
+      position: relative;
+  left: 0px;
+      
+      
+      
+      height: 280px;
+      width: 731px;
       border: 1px solid rgb(255, 0, 0) !important; 
 
       }
     
     
     
-      .her{
+      .hr_2{
         height: 47.58935546875px;
 width: 70px;
 
 
 
-margin-left: 0;
-        position: absolute;
+position: absolute;
           top: -16px;
-          left: 6px;
+          right: 60px;
         border-radius: 0px;
         background: #1edd4e;
         }
     
 
 
-        .header::befor {
-          content: url('../Ellipse 3.png');
-          
-          position: absolute;
-          top: -16px;
-          right: 80px;
-          font-family: Georgia, serif;
-          font-size: 40px;
-          line-height: 1;
-          font-weight: bold;
-          border: 1px solid rgb(255, 0, 0) !important; 
-
-        }
+       
 
 
         .header::before {
