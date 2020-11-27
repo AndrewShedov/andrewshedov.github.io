@@ -25,22 +25,68 @@ dd {
 }
 
 
+.header_contact_wrap{
+display: flex;
+justify-content: center;
+  margin-top: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: 1px solid rgb(38, 255, 0) !important; 
 
 
+}
 
 
-
-
-.header_wrap{
+.header_contact_wrap{
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
-  border: 1px solid rgb(255, 0, 0) !important;
+   
+    
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .exs{
+
+
+    border: 1px solid rgb(0, 38, 255) !important; 
+
   }
 
 
 
-  .header{
+
+
+.hd_wrap{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  border: 1px solid rgb(0, 4, 255) !important;
+  }
+
+
+
+  .hd{
     height: 280px;
     width: 731px;
    
@@ -102,7 +148,7 @@ position: absolute;
        
 
 
-        .header::before {
+        .hd::before {
           content: url('images/Ellipse 3.png');
           
           position: absolute;
