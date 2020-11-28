@@ -60,7 +60,7 @@ border: 1px solid rgb(30, 255, 0) !important;
     text-decoration: none;
     position: relative;
     
- right: 300px;
+ right: 280px;
     
     
      }
@@ -68,7 +68,7 @@ border: 1px solid rgb(30, 255, 0) !important;
      .header_contact_wrap_2{
       
       display: flex;
-      left: 300px;
+      left: 270px;
       position: relative;
       margin-left: 0;
 
@@ -265,9 +265,9 @@ white-space: nowrap;
   .Loyalty_wrap{
 display: flex;
 flex-wrap: nowrap;
-border: 1px solid rgb(255, 0, 0) !important; 
+border: 1px solid rgb(21, 48, 9) !important; 
 position: relative;
-margin-left: 19px;
+margin-left: 100px;
   }
 
 
