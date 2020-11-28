@@ -68,9 +68,9 @@ border: 1px solid rgb(30, 255, 0) !important;
     }
   
    .Questions_wrap{
-    border: 1px solid rgb(255, 0, 0) !important; 
+border: 1px solid rgb(255, 0, 0) !important; 
 position: relative;
-
+right: 330px;
 display: flex;
 flex-wrap: nowrap;
 
@@ -96,7 +96,7 @@ margin-right:10px ;
 
    .Call p{
 
-
+    white-space: nowrap;
     font-family: Mulish;
 font-style: normal;
 font-weight: normal;
@@ -117,7 +117,8 @@ position: relative;
     border: 1px solid rgb(255, 0, 0) !important; 
 display: flex;
 flex-wrap: nowrap;
-
+position: relative;
+left: 220px;
 
    }
 
@@ -155,7 +156,7 @@ font-weight: normal;
 font-size: 10px;
 line-height: 13px;
 color: #333333;
-
+white-space: nowrap;
 
   }
 
@@ -165,7 +166,8 @@ color: #333333;
 display: flex;
 flex-wrap: nowrap;
 border: 1px solid rgb(255, 0, 0) !important; 
-
+position: relative;
+left: 320px;
   }
 
 
@@ -187,6 +189,7 @@ border: 1px solid rgb(255, 0, 0) !important;
 
 
 .Loyalty p{
+  white-space: nowrap;
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
