@@ -21,34 +21,83 @@ figcaption,
 blockquote,
 dl,
 dd {
+ 
   margin: 0;
 }
 
 
 .header_contact_wrap{
 display: flex;
-justify-content: center;
-  margin-top: 15px;
+border: 1px solid rgb(30, 255, 0) !important; 
+ 
   padding-left: 60px;
   padding-right: 60px;
-  border: 1px solid rgb(38, 255, 0) !important; 
-
+  
+  background: #F5FAFE;
 
 }
 
 
-.header_contact_wrap{
+
+
+@media screen and (min-width:1000px) and (max-width: 999999px) {
+  .header_contact_wrap{
   display: flex;
   justify-content: center;
-   
-    
-  
+ 
+  padding-left: 60px;
+  padding-right: 60px;
   }
+}
+  @media screen and (min-width:0px) and (max-width: 900px) {
+    .header_contact_wrap{
+    display: flex;
   
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    }
+
+  
+   .Questions_wrap{
+    
+position: relative;
+right: 441px;
+display: flex;
+flex-wrap: nowrap;
+top: 2px;
+padding-bottom: 22px;
+padding-top: 21px;
+   }
 
 
+   .Questions p{
+    color: #333333;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+
+   }
+
+   .Call p{
 
 
+    font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+   }
+
+ .Call {
+
+position: relative;
+
+left: 11px;
+
+   }
 
 
 
@@ -69,7 +118,7 @@ justify-content: center;
   .exs{
 
 
-    border: 1px solid rgb(0, 38, 255) !important; 
+    
 
   }
 
