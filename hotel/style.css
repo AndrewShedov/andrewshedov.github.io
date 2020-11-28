@@ -57,7 +57,11 @@ border: 1px solid rgb(30, 255, 0) !important;
     padding-right: 15px;
     }
     }
+    .header_contact{
 
+      display: flex;
+
+    }
   
    .Questions_wrap{
     
@@ -70,6 +74,8 @@ padding-bottom: 22px;
 padding-top: 21px;
    }
 
+   
+   
 
    .Questions p{
     color: #333333;
@@ -77,7 +83,7 @@ padding-top: 21px;
     font-style: normal;
     font-weight: bold;
     font-size: 10px;
-    line-height: 13px;
+    line-height: 12,55px;
 
    }
 
@@ -88,15 +94,106 @@ padding-top: 21px;
 font-style: normal;
 font-weight: normal;
 font-size: 10px;
-line-height: 13px;
+line-height: 12,55px;
    }
 
  .Call {
 
 position: relative;
 
-left: 11px;
+left: 13px;
 
+   }
+
+
+   .Gift_wrap{
+
+
+
+   }
+
+ 
+
+.Gift_image_wrap {
+ 
+  
+ 
+}
+
+svg path {
+  stroke:inherit;
+  stroke-width:inherit;
+  fill:inherit;
+  }
+
+  .Gift_image_svg {
+   cursor: pointer;
+    fill:#333333;
+    transition: all 1000ms ease;
+    }
+
+
+.Gift_image_svg:hover {
+  fill:rgb(0, 162, 255);
+  transition: all 300ms ease;
+  }
+  .Gift{
+
+  }
+
+  .Gift p{
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+color: #333333;
+
+
+  }
+
+
+
+  .Loyalty_wrap{
+
+
+  }
+
+.Loyalty_image_wrap{
+
+
+}
+
+
+.Loyalty{
+
+
+
+}
+
+
+.Loyalty p{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+
+  
+}
+
+  .Loyalty_image_svg {
+    cursor: pointer;
+     fill:#333333;
+     transition: all 1500ms ease;
+     }
+ 
+ 
+ .Loyalty_image_svg:hover {
+   fill:rgb(247, 212, 17);
+
+   
+   transition: all 300ms ease;
    }
 
 
@@ -115,12 +212,67 @@ left: 11px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   .exs{
 
 
     
 
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
