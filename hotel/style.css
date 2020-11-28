@@ -34,10 +34,10 @@ dd {
 .header_contact_wrap{
 display: flex;
 border: 1px solid rgb(30, 255, 0) !important; 
- 
+ flex-wrap: wrap !important;
   padding-left: 60px;
   padding-right: 60px;
-  
+  justify-content: center;
   background: #F5FAFE;
 
 }
@@ -57,21 +57,41 @@ border: 1px solid rgb(30, 255, 0) !important;
   @media screen and (min-width:0px) and (max-width: 900px) {
     .header_contact_wrap{
     display: flex;
-  
+ 
     padding-left: 15px;
     padding-right: 15px;
     }
     }
-    .header_contact{
 
+
+
+
+
+
+
+    .header_contact_wrap_1{
+    
+display: flex;
+justify-content: center;
+border: 2px solid rgb(255, 0, 0) !important;
+    }
+
+    .header_contact_wrap_2{
+      margin-left: 5px;
       display: flex;
 
-    }
+
+      border: 2px solid rgb(255, 0, 0) !important;
+      justify-content: center;
+          }
+
+
+
   
    .Questions_wrap{
 border: 1px solid rgb(255, 0, 0) !important; 
 position: relative;
-right: 330px;
+
 display: flex;
 flex-wrap: nowrap;
 
@@ -92,7 +112,7 @@ margin-right:10px ;
     font-weight: bold;
     font-size: 10px;
     line-height: 12,55px;
-
+    white-space: nowrap;
    }
 
    .Call p{
@@ -147,7 +167,7 @@ position: relative;
 display: flex;
 flex-wrap: nowrap;
 position: relative;
-left: 220px;
+
 
    }
 
@@ -196,7 +216,7 @@ display: flex;
 flex-wrap: nowrap;
 border: 1px solid rgb(255, 0, 0) !important; 
 position: relative;
-left: 325px;
+margin-left: 19px;
   }
 
 
@@ -210,7 +230,7 @@ left: 325px;
 
 
 .Loyalty{
-
+  
  padding-bottom: 14px;
   padding-top: 25px;
 
