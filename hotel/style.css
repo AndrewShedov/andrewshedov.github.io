@@ -1,4 +1,5 @@
 
+*{text-decoration: none;}
 
 svg path {
   stroke:inherit;
@@ -102,10 +103,38 @@ font-style: normal;
 font-weight: normal;
 font-size: 10px;
 line-height: 13px;
+color: #333333;
    }
 
- .Call {
+   .Call a{
 
+    white-space: nowrap;
+    font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+color: #333333;
+transition: all 200ms ease;
+   }
+
+   .Call a:hover{
+
+    white-space: nowrap;
+    font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 13px;
+color: #333333;
+transition: all 200ms ease;
+   }
+
+
+
+ .Call {
+display: flex;
+flex-wrap: nowrap;
 position: relative;
 
 
