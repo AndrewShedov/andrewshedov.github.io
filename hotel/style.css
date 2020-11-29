@@ -1,4 +1,7 @@
 
+
+
+
 *{text-decoration: none;}
 
 svg path {
@@ -474,14 +477,33 @@ transition: all 500ms ease;
 
 
     @media screen and (min-width:0px) and (max-width: 420px) {
-      .Loyalty_wrap{
-    display: flex;
-    flex-wrap: nowrap;
-    border: 1px solid rgb(21, 48, 9) !important; 
-    position: relative;
-    margin-left: 46px;
-    transition: all 500ms ease;
-      }
+     
+      .Loyalty_wrap {
+        display: flex;
+        flex-wrap: nowrap;
+        border: 1px solid rgb(21, 48, 9) !important; 
+        position: relative;
+        margin-left: 46px;
+        
+        transition: all 500ms ease;
+          }
+      
+      @-moz-document url-prefix() {
+        .Loyalty_wrap {
+          display: flex;
+          flex-wrap: nowrap;
+          border: 1px solid rgb(21, 48, 9) !important; 
+          position: relative;
+          margin-left: 50px ;
+          
+          transition: all 500ms ease;
+            }
+        }
+
+
+
+
+
 
 
 
