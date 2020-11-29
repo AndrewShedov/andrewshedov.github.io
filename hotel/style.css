@@ -244,7 +244,7 @@ font-weight: normal;
 font-size: 10px;
 line-height: 13px;
 color: #333333;
-transition: all 200ms ease;
+transition: all 500ms ease;
    }
   }
 
@@ -261,7 +261,7 @@ transition: all 200ms ease;
  font-size: 10px;
  line-height: 13px;
  color: #333333;
- transition: all 200ms ease;
+ transition: all 500ms ease;
     }
    }
 
@@ -278,7 +278,7 @@ transition: all 200ms ease;
  font-size: 10px;
  line-height: 13px;
  color: #333333;
- transition: all 200ms ease;
+ transition: all 500ms ease;
     }
    }
 
@@ -293,7 +293,7 @@ font-weight: bold;
 font-size: 13px;
 line-height: 13px;
 color: #333333;
-transition: all 200ms ease;
+transition: all 500ms ease;
    }
   }
 
@@ -415,7 +415,7 @@ transition: all 500ms ease;
 
 
   .Loyalty_image_wrap{
-
+    transition: all 500ms ease;
     padding-bottom: 14px;
     padding-top: 17px;
     margin-right: 23px;
@@ -427,7 +427,7 @@ transition: all 500ms ease;
     right: 2px;
    padding-bottom: 14px;
    padding-top: 20px;
-  
+   transition: all 500ms ease;
   }
 
 
@@ -451,7 +451,7 @@ transition: all 500ms ease;
 
 
     .Loyalty_image_wrap{
-
+      transition: all 500ms ease;
       padding-bottom: 10px;
       padding-top: 17px;
       margin-right: 23px;
@@ -463,7 +463,7 @@ transition: all 500ms ease;
       right: 2px;
      padding-bottom: 1px;
       padding-top: 20px;
-    
+      transition: all 500ms ease;
     }
 
 
@@ -486,7 +486,7 @@ transition: all 500ms ease;
 
 
       .Loyalty_image_wrap{
-
+        transition: all 500ms ease;
         padding-bottom: 1px;
         padding-top: 2px;
         margin-right: 9px;
@@ -498,7 +498,7 @@ transition: all 500ms ease;
         right: 2px;
        padding-bottom: 1px;
         padding-top: 5px;
-      
+        transition: all 500ms ease;
       }
 
 
