@@ -61,9 +61,10 @@ border: 1px solid rgb(30, 255, 0) !important;
     position: relative;
     
  right: 275px;
-    
-    
-     }
+    }
+
+
+
 
      .header_contact_wrap_2{
       
@@ -87,14 +88,15 @@ border: 1px solid rgb(30, 255, 0) !important;
   @media screen and (min-width:0px) and (max-width: 1150px) {
     .header_contact_wrap{
     display: flex;
- 
+ justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
+    transition: all 500ms ease;
     }
 
 
     .header_contact_wrap_2{
-      
+      transition: all 500ms ease;
       display: flex;
 position: relative;
 margin-left: auto ;
@@ -107,7 +109,7 @@ margin-left: auto ;
 
 
     .header_contact_wrap_2{
-      
+      transition: all 500ms ease;
       display: flex;
 position: relative;
 
@@ -118,8 +120,39 @@ position: relative;
 
 
 
+          @media screen and (min-width:0px) and (max-width: 555px) {
+            .header_contact_wrap_1{
+      width: 400px;
+              display: flex;
+              justify-content: center;
+              border: 1px solid rgb(255, 0, 0) !important;
+              transition: all 500ms ease;
+                  }
+
+
+
+                  .header_contact_wrap_2{
+                    transition: all 500ms ease;
+                    display: flex;
+              position: relative;
+              margin-left: 0px !important ;
+                    
+                    justify-content: center;
+                        }
+              
+              
+                  }
+
+
+
+
+                  
+          }
+
+
+
     .header_contact_wrap_1{
-      
+      transition: all 500ms ease;
 display: flex;
 justify-content: center;
 
@@ -177,6 +210,9 @@ line-height: 13px;
 color: #333333;
    }
 
+
+
+   @media screen and (min-width:250px) and (max-width: 99999999px) {
    .Call a{
 position: relative;
 left: 5px;
@@ -188,6 +224,22 @@ font-size: 10px;
 line-height: 13px;
 color: #333333;
 transition: all 200ms ease;
+   }
+  }
+
+  @media screen and (min-width:0px) and (max-width: 250px) {
+    .Call a{
+ position: relative;
+ left: 0px !important;
+     white-space: nowrap;
+     font-family: Mulish;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 10px;
+ line-height: 13px;
+ color: #333333;
+ transition: all 200ms ease;
+    }
    }
 
 
@@ -282,7 +334,7 @@ transition: all 500ms ease;
   }
 
 
-  @media screen and (min-width:0px) and (max-width: 700px) {
+  @media screen and (min-width:250px) and (max-width: 700px) {
     .Loyalty_wrap{
   display: flex;
   flex-wrap: nowrap;
@@ -293,7 +345,16 @@ transition: all 500ms ease;
     }
     }
 
-
+    @media screen and (min-width:0px) and (max-width: 250px) {
+      .Loyalty_wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid rgb(21, 48, 9) !important; 
+    position: relative;
+    margin-left: 15px;
+    transition: all 500ms ease;
+      }
+      }
 
 
 
