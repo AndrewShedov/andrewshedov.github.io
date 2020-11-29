@@ -125,7 +125,7 @@ position: relative;
 
           @media screen and (min-width:0px) and (max-width: 600px) {
             .header_contact_wrap_1{
-      width: 600px;
+      width: 510px;
               display: flex;
               justify-content: center;
               border: 1px solid rgb(255, 0, 0) !important;
@@ -173,7 +173,7 @@ justify-content: center;
    
 
 
-    @media screen and (min-width:600px) and (max-width: 999999999px) {
+    @media screen and (min-width:510px) and (max-width: 999999999px) {
   
    .Questions_wrap{
 border: 1px solid rgb(255, 0, 0) !important; 
@@ -189,7 +189,7 @@ padding-top: 21px;
 
 
 
-  @media screen and (min-width:0px) and (max-width: 600px) {
+  @media screen and (min-width:0px) and (max-width: 510px) {
   
     .Questions_wrap{
  border: 1px solid rgb(255, 0, 0) !important; 
@@ -236,7 +236,7 @@ color: #333333;
 
 
 
-   @media screen and (min-width:600px) and (max-width: 99999999px) {
+   @media screen and (min-width:510px) and (max-width: 99999999px) {
    .Call a{
 position: relative;
 left: 5px;
@@ -253,7 +253,7 @@ transition: all 500ms ease;
 
 
 
-  @media screen and (min-width:250px) and (max-width: 600px) {
+  @media screen and (min-width:250px) and (max-width: 510px) {
     .Call a{
  position: relative;
  right: 1px !important;
@@ -310,7 +310,7 @@ position: relative;
 
    }
 
-   @media screen and (min-width:600px) and (max-width: 999999999px) {
+   @media screen and (min-width:510px) and (max-width: 999999999px) {
    .Gift_wrap{
     border: 1px solid rgb(255, 0, 0) !important; 
 display: flex;
@@ -339,7 +339,7 @@ transition: all 500ms ease;
  
 
 
-  @media screen and (min-width:0px) and (max-width: 600px) {
+  @media screen and (min-width:0px) and (max-width: 510px) {
     .Gift_wrap{
      border: 1px solid rgb(255, 0, 0) !important; 
  display: flex;
@@ -442,7 +442,7 @@ transition: all 500ms ease;
   }
 
 
-  @media screen and (min-width:600px) and (max-width: 700px) {
+  @media screen and (min-width:510px) and (max-width: 700px) {
     .Loyalty_wrap{
   display: flex;
   flex-wrap: nowrap;
@@ -476,7 +476,7 @@ transition: all 500ms ease;
     }
 
 
-    @media screen and (min-width:0px) and (max-width: 600px) {
+    @media screen and (min-width:0px) and (max-width: 510px) {
      
       .Loyalty_wrap {
         display: flex;
