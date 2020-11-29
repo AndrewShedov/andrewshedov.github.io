@@ -505,7 +505,16 @@ transition: all 500ms ease;
 
 
 
-
+      .Loyalty p{
+        white-space: nowrap;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 13px;
+      
+        
+      }
 
 
 
