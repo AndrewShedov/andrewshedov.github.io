@@ -120,7 +120,7 @@ position: relative;
 
 
 
-          @media screen and (min-width:0px) and (max-width: 555px) {
+          @media screen and (min-width:0px) and (max-width: 600px) {
             .header_contact_wrap_1{
       width: 400px;
               display: flex;
