@@ -122,7 +122,7 @@ position: relative;
 
           @media screen and (min-width:0px) and (max-width: 600px) {
             .header_contact_wrap_1{
-      width: 400px;
+      width: 420px;
               display: flex;
               justify-content: center;
               border: 1px solid rgb(255, 0, 0) !important;
@@ -170,7 +170,7 @@ justify-content: center;
    
 
 
-    @media screen and (min-width:400px) and (max-width: 999999999px) {
+    @media screen and (min-width:420px) and (max-width: 999999999px) {
   
    .Questions_wrap{
 border: 1px solid rgb(255, 0, 0) !important; 
@@ -186,7 +186,7 @@ padding-top: 21px;
 
 
 
-  @media screen and (min-width:0px) and (max-width: 400px) {
+  @media screen and (min-width:0px) and (max-width: 420px) {
   
     .Questions_wrap{
  border: 1px solid rgb(255, 0, 0) !important; 
@@ -233,7 +233,7 @@ color: #333333;
 
 
 
-   @media screen and (min-width:250px) and (max-width: 99999999px) {
+   @media screen and (min-width:420px) and (max-width: 99999999px) {
    .Call a{
 position: relative;
 left: 5px;
@@ -247,6 +247,25 @@ color: #333333;
 transition: all 200ms ease;
    }
   }
+
+
+
+  @media screen and (min-width:250px) and (max-width: 420px) {
+    .Call a{
+ position: relative;
+ right: 1px !important;
+     white-space: nowrap;
+     font-family: Mulish;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 10px;
+ line-height: 13px;
+ color: #333333;
+ transition: all 200ms ease;
+    }
+   }
+
+
 
   @media screen and (min-width:0px) and (max-width: 250px) {
     .Call a{
@@ -288,7 +307,7 @@ position: relative;
 
    }
 
-   @media screen and (min-width:400px) and (max-width: 999999999px) {
+   @media screen and (min-width:420px) and (max-width: 999999999px) {
    .Gift_wrap{
     border: 1px solid rgb(255, 0, 0) !important; 
 display: flex;
@@ -317,7 +336,7 @@ transition: all 500ms ease;
  
 
 
-  @media screen and (min-width:0px) and (max-width: 400px) {
+  @media screen and (min-width:0px) and (max-width: 420px) {
     .Gift_wrap{
      border: 1px solid rgb(255, 0, 0) !important; 
  display: flex;
@@ -329,9 +348,9 @@ transition: all 500ms ease;
  
  
     .Gift_image_wrap {
-     padding-bottom: 5px;
-     padding-top: 5px;
-     margin-right: 23px;
+     padding-bottom: 2px;
+     padding-top: 2px;
+     margin-right: 10px;
      transition: all 500ms ease;
    }
  
@@ -363,7 +382,7 @@ transition: all 500ms ease;
     @media screen and (min-width:1000px) and (max-width: 99999999px) {
 .Gift_image_svg:hover {
   fill:rgb(0, 162, 255);
-  transition: all 300ms ease;
+  transition: all 500ms ease;
   }
     }
 
@@ -393,10 +412,34 @@ position: relative;
 margin-left: 100px;
 transition: all 500ms ease;
   }
+
+
+  .Loyalty_image_wrap{
+
+    padding-bottom: 14px;
+    padding-top: 17px;
+    margin-right: 23px;
+  }
+  
+  
+  .Loyalty{
+    position: relative;
+    right: 2px;
+   padding-bottom: 14px;
+   padding-top: 20px;
+  
   }
 
 
-  @media screen and (min-width:300px) and (max-width: 700px) {
+
+
+
+
+
+  }
+
+
+  @media screen and (min-width:420px) and (max-width: 700px) {
     .Loyalty_wrap{
   display: flex;
   flex-wrap: nowrap;
@@ -405,17 +448,57 @@ transition: all 500ms ease;
   margin-left: 65px;
   transition: all 500ms ease;
     }
+
+
+    .Loyalty_image_wrap{
+
+      padding-bottom: 10px;
+      padding-top: 17px;
+      margin-right: 23px;
+    }
+    
+    
+    .Loyalty{
+      position: relative;
+      right: 2px;
+     padding-bottom: 1px;
+      padding-top: 20px;
+    
     }
 
-    @media screen and (min-width:0px) and (max-width: 300px) {
+
+
+
+
+    }
+
+
+    @media screen and (min-width:0px) and (max-width: 420px) {
       .Loyalty_wrap{
     display: flex;
     flex-wrap: nowrap;
     border: 1px solid rgb(21, 48, 9) !important; 
     position: relative;
-    margin-left: 15px;
+    margin-left: 46px;
     transition: all 500ms ease;
       }
+
+
+
+      .Loyalty_image_wrap{
+
+        padding-bottom: 1px;
+        padding-top: 2px;
+        margin-right: 9px;
+      }
+      
+      
+      .Loyalty{
+        position: relative;
+        right: 2px;
+       padding-bottom: 1px;
+        padding-top: 5px;
+      
       }
 
 
@@ -423,21 +506,18 @@ transition: all 500ms ease;
 
 
 
-.Loyalty_image_wrap{
-
-  padding-bottom: 14px;
-  padding-top: 17px;
-  margin-right: 26px;
-}
 
 
-.Loyalty{
-  position: relative;
-  right: 2px;
- padding-bottom: 14px;
-  padding-top: 20px;
 
-}
+
+
+      }
+
+
+
+
+     
+
 
 
 .Loyalty p{
@@ -462,7 +542,7 @@ transition: all 500ms ease;
    fill:rgb(247, 212, 17);
 
    
-   transition: all 300ms ease;
+   transition: all 500ms ease;
    }
   }
 
