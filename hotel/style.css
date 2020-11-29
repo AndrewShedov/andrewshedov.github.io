@@ -281,7 +281,7 @@ position: relative;
 
 .Gift_image_wrap {
   padding-bottom: 14px;
-  padding-top: 21px;
+  padding-top: 17px;
   margin-right: 23px;
  
 }
@@ -307,7 +307,7 @@ position: relative;
 
   .Gift{
     padding-bottom: 14px;
-    padding-top: 25px;
+    padding-top: 20px;
   }
 
   .Gift p{
@@ -334,18 +334,18 @@ transition: all 500ms ease;
   }
 
 
-  @media screen and (min-width:250px) and (max-width: 700px) {
+  @media screen and (min-width:300px) and (max-width: 700px) {
     .Loyalty_wrap{
   display: flex;
   flex-wrap: nowrap;
   border: 1px solid rgb(21, 48, 9) !important; 
   position: relative;
-  margin-left: 30px;
+  margin-left: 50px;
   transition: all 500ms ease;
     }
     }
 
-    @media screen and (min-width:0px) and (max-width: 250px) {
+    @media screen and (min-width:0px) and (max-width: 300px) {
       .Loyalty_wrap{
     display: flex;
     flex-wrap: nowrap;
@@ -364,7 +364,7 @@ transition: all 500ms ease;
 .Loyalty_image_wrap{
 
   padding-bottom: 14px;
-  padding-top: 22.5px;
+  padding-top: 17px;
   margin-right: 26px;
 }
 
@@ -373,7 +373,7 @@ transition: all 500ms ease;
   position: relative;
   right: 2px;
  padding-bottom: 14px;
-  padding-top: 25px;
+  padding-top: 20px;
 
 }
 
