@@ -1300,7 +1300,7 @@ color: #ffffff;
    .burger-open .burger-bar-middle {
         width: 39px !important;
         height: 2.5px !important;
-        right: -15.5px;
+        right: -15px;
         top: 15px;
         background-color:#EC1F46;
         transform: rotate(270deg);
