@@ -666,7 +666,7 @@ color: rgba(236, 31, 70, 1);
 transition: all 500ms ease;
  ;
 }
-
+@media screen and (min-width:1000px) and (max-width: 99999999px) {
 .header_logo a span:nth-child(1):hover{
   font-family: Luckiest Guy;
   font-style: normal;
@@ -715,7 +715,7 @@ transition: all 500ms ease;
 transition: all 500ms ease;
  ;
 }
-
+}
 
 .header_search_wrap{
   margin-left: 40px;
@@ -775,19 +775,45 @@ transition: all 500ms ease;
       max-width: 65px !important;
   width: 100%;
   height: 40px;
-  
+  display: flex;
+  justify-content: center;
   border-top-right-radius: 6px;
     border-bottom-right-radius:6px;
+    cursor: pointer;
+    transition: all 500ms ease;
       }
   
+
+      @media screen and (min-width:1000px) and (max-width: 99999999px) {
+      .header_search_2:hover{
+        background: #0a9aee;
+        transition: all 500ms ease;
+        }
+      }
+
+
+
+
       .header_search_2_search{
-        
+        display: flex;
+        align-items: center;
         border: 1px solid rgb(0, 0, 0) !important;
   
       }
   
   
-  
+      .header_search_2_search_svg {
+        fill:rgb(255, 255, 255);
+        transition: all 500ms ease;
+        }
+
+
+      @media screen and (min-width:1000px) and (max-width: 99999999px) {
+        .header_search_2_search_svg:hover {
+          fill:rgb(255, 0, 34);
+          transition: all 500ms ease;
+          }
+            }
   
   
   
@@ -797,9 +823,10 @@ transition: all 500ms ease;
         border: 1px solid rgb(0, 0, 0) !important;
       }
 
+      
 
-
-
+            
+    
 
 
 
