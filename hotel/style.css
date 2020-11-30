@@ -581,25 +581,152 @@ transition: all 500ms ease;
 
 
 
+  .header_wrap{
+
+display: flex;
+justify-content: center;
+
+  }
+
+  .header_wrap_1{
+
+    display: flex;
+    justify-content: center;
+    
+      }
+
+     
 
 
 
+.header_logo a{
+
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  
+  /* identical to box height */
+  
+  /* Gray 1 */
+  color: #333333;
+}
+
+
+.header_logo a span:nth-child(1){
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+color: rgba(236, 31, 70, 1);
+transition: all 500ms ease;
+ ;
+}
+
+
+.header_logo a span:nth-child(2){
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+color: rgba(236, 31, 70, 1);
+transition: all 500ms ease;
+ ;
+}
 
 
 
+.header_logo a span:nth-child(3){
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+color: rgba(236, 31, 70, 1);
+transition: all 500ms ease;
+ ;
+}
 
 
 
+.header_logo a span:nth-child(4){
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+color: rgba(236, 31, 70, 1);
+transition: all 500ms ease;
+ ;
+}
+
+.header_logo a span:nth-child(1):hover{
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+color: #3a8be2;
+transition: all 500ms ease;
+ ;
+}
+
+
+.header_logo a span:nth-child(2):hover{
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #3a8be2;
+transition: all 500ms ease;
+ ;
+}
 
 
 
+.header_logo a span:nth-child(3):hover{
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #3a8be2;
+transition: all 500ms ease;
+ ;
+}
 
 
 
+.header_logo a span:nth-child(4):hover{
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #3a8be2;
+transition: all 500ms ease;
+ ;
+}
+
+
+.header_search{
+
+justify-content: center;
+  display: flex;
+}
 
 
 
-
+.header_search_1 input[type=text]{
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: #F5FAFE;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius:6px;
+  }
 
 
 
