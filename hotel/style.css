@@ -718,83 +718,84 @@ transition: all 500ms ease;
 
 
 .header_search_wrap{
-margin-left: 40px;
-justify-content: center;
-  display: flex;
+  margin-left: 40px;
+  
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid rgb(94, 255, 0) !important;
+  }
+  .header_search_1{
+  
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid rgb(94, 255, 0) !important;
+  
+  }
+  
+  .header_search_1_input{
+    position: relative;
+  
+  max-width: 285px !important;
   width: 100%;
-  max-width: 350px
-}
-
-.header_search_1{
-
-position: relative;
-margin-left: 5px;
-max-width: 285px !important;
-width: 100%;
-height: 40px;
-
-
-}
-
-.header_search_1_input{
-  border: 1px solid rgba(255, 255, 255, 0);
-  background: #F5FAFE;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius:6px;
   height: 40px;
   
+    border: 1px solid rgba(255, 255, 255, 0);
+    background: #F5FAFE;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px;
+   
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    
+    /* identical to box height */
+    
+    /* Gray 1 */
+    color: #333333 !important;
+  
+  
+  
+  
+    }
+  
+  
+    .header_search_2{
+      background: #ee0a0a;
+      max-width: 65px !important;
   width: 100%;
-
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  outline: none;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-family: Mulish;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
+  height: 40px;
   
-  /* identical to box height */
+  border-top-right-radius: 6px;
+    border-bottom-right-radius:6px;
+      }
   
-  /* Gray 1 */
-  color: #333333 !important;
-
-
-
-
-  }
-
-
-  .header_search_2{
-    background: #ee0a0a;
-    max-width: 65px !important;
-width: 100%;
-height: 40px;
-
-border-top-right-radius: 6px;
-  border-bottom-right-radius:6px;
-    }
-
-    .header_search_2_search{
-      
-      border: 1px solid rgb(0, 0, 0) !important;
-
-    }
-
-
-
-
-
-
-
-    .header_wrap_2{
-
-      border: 1px solid rgb(0, 0, 0) !important;
-    }
+      .header_search_2_search{
+        
+        border: 1px solid rgb(0, 0, 0) !important;
+  
+      }
+  
+  
+  
+  
+  
+  
+  
+      .header_wrap_2{
+  
+        border: 1px solid rgb(0, 0, 0) !important;
+      }
 
 
 
