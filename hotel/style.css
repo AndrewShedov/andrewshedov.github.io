@@ -786,7 +786,7 @@ transition: all 500ms ease;
 
       @media screen and (min-width:1000px) and (max-width: 99999999px) {
       .header_search_2:hover{
-        background: #2b82e6;
+        background: #1576c5;
         transition: all 500ms ease;
         }
       }
