@@ -272,7 +272,7 @@ font-weight: normal;
 font-size: 10px;
 line-height: 13px;
 color: #333333;
-transition: all 500ms ease;
+transition: all 300ms ease;
    }
   }
 
@@ -289,7 +289,7 @@ transition: all 500ms ease;
  font-size: 10px;
  line-height: 13px;
  color: #333333;
- transition: all 500ms ease;
+ transition: all 300ms ease;
     }
    }
 
@@ -306,7 +306,7 @@ transition: all 500ms ease;
  font-size: 10px;
  line-height: 13px;
  color: #333333;
- transition: all 500ms ease;
+ transition: all 300ms ease;
     }
    }
 
@@ -321,7 +321,7 @@ font-weight: bold;
 font-size: 13px;
 line-height: 13px;
 color: #333333;
-transition: all 500ms ease;
+transition: all 300ms ease;
    }
   }
 
