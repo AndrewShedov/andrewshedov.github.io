@@ -11,7 +11,7 @@ function calcShowMenu(showMenu) {
    
     const menuWidth = menu.offsetWidth;
     [wrap.style, footer.style, burger.style].map(v => v.transform = `translateX(${showMenu ? -menuWidth + 1 : 0}px)`);
-    [burger.style].map(v => v.transform = `translateX(${showMenu ? -menuWidth - 0 : 0}px)`);
+    [burger.style].map(v => v.transform = `translateX(${showMenu ? -menuWidth - 25 : 0}px)`);
     
     }
 

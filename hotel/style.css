@@ -955,7 +955,7 @@ transition: all 500ms ease;
         transform: translateX(101%);
         
         height: 100%;
-        background: rgb(0, 198, 242);
+        background: rgba(10, 34, 61, 1);
         text-align: center;
         transition: all 200ms ease;
         overflow-y: auto;
@@ -981,19 +981,29 @@ transition: all 500ms ease;
       
       
       .menu ul li  a{
-        color: rgb(255, 255, 255);
-          font-family: "Trebuchet MS";
-          font-size: 25px;
-          text-decoration: none;
+        font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 18px;
+
+/* identical to box height */
+text-transform: uppercase;
+
+color: #FFFFFF;
           transition: all 300ms ease;
           
         }
         
         .menu li:nth-child(1) a {
+          white-space: nowrap;
           position: relative;
-          font-size: 37px;
-          color: rgb(241, 106, 196);
-          font-family: 'Pacifico', cursive; 
+          font-family: Luckiest Guy;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 24px;
+color: #ffffff;
         }
         
         .menu li:nth-child(1) {
@@ -1010,18 +1020,80 @@ transition: all 500ms ease;
           }
         
           .menu li:nth-child(1) a:hover {
-            font-size: 38px;
-            color: rgb(36, 248, 114) !important;
+            font-size: 28px;
+            color: #ffffff; !important;
             }
         
         .menu ul li a:hover{
-          font-size: 30px;
-          transition: all 300ms ease;
-          color: rgb(36, 248, 114) !important;
+          
+         
+          
+         
+          
+          
+          /* identical to box height */
+          text-transform: uppercase;
+          
+          color: #EC1F46;
+                    transition: all 300ms ease;
           
         }
       
       
+        .menu ul li a span:nth-child(1){
+          font-family: Luckiest Guy;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 24px;
+        color: rgba(236, 31, 70, 1);
+        transition: all 500ms ease;
+         ;
+        }
+        
+        
+        .menu ul li a span:nth-child(2){
+          font-family: Luckiest Guy;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 24px;
+        color: rgba(236, 31, 70, 1);
+        transition: all 500ms ease;
+         ;
+        }
+        
+        
+        
+        .menu ul li a span:nth-child(3){
+          font-family: Luckiest Guy;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 24px;
+        color: rgba(236, 31, 70, 1);
+        transition: all 500ms ease;
+         ;
+        }
+        
+        
+        
+        .menu ul li a span:nth-child(4){
+          font-family: Luckiest Guy;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 24px;
+        color: rgba(236, 31, 70, 1);
+        transition: all 500ms ease;
+         ;
+        }
+
+
+
+
+
+
       
       
       /*///////////////////////FOOTER///////////////////////*/
@@ -1110,42 +1182,56 @@ transition: all 500ms ease;
       }
       
       /*//////////BURGER//////////*/
+      @media screen and (min-width: 0px) and (max-width:1040px) {
       
+    
+
       .burger {
-        width: 35px;
+        /*width: 35px;*/
+        width: 25px;
         height: 20px;
          padding: 4px;
         transition: all 300ms ease;
         z-index: 999;
         cursor: pointer;
         position: fixed;
-        right: 20px;
-        top: 20px;
+        /*right: 25px;*/
+        right: -16px;
+        top: 3px;
+        /*top: 30px;*/
+       
+      }
+
+
+
+      .hoverBurger{
+        transition: all 100ms ease;
         
       }
-      
+  
       .burger:hover {
         cursor: pointer;
+        
         }
       
       .burger .burger-bar {
         position: absolute;
         border-radius: 2px;
-        width: 33px;
-        transition: .5s;
-       
+        width: 10px;
+        transition: all 500ms ease !important ;
+        
       }
       
       .burger .burger-bar-top {
         height: 4px;
         border-bottom: none;
         top: 0;
-        background-color: #ec1f447c;
-        }
+        background-color: #ec1f4486;
+         }
       
       .burger .burger-bar-middle {
         height: 4px;
-        background-color:  #ec1f447c;
+        background-color: #ec1f4486;
         margin-top: 7px;
         margin-bottom: 7px;
         top: 4px;
@@ -1153,58 +1239,99 @@ transition: all 500ms ease;
       
       .burger .burger-bar-bottom {
         height: 4px;
-        background-color:  #ec1f447c;
+        background-color: #ec1f4486;
         border-top: none;
         top: 22px;
        }
       
+   .burger .burger-bar-bottom1 {
+        height: 4px;
+        background-color: #ec1f4486;
+        border-top: none;
+        top: 33px;
+       }
+
+       
+       .burger .burger-bar-bottom2 {
+        height:70px;
+        width: 70px;
+        background-color: rgba(131, 236, 140, 0);
+        border-top: none;
+        top: -3px;
+        right: 0px;
+        
+       }
   
-       .hoverBurger .burger-bar-top {
-     
-        background-color:  #ec1f44ca;
-        transition: all 300ms ease !important;
+      
+  .hoverBurger .burger-bar-top {
+    width: 10px;
+    
+        background-color:#EC1F46;
         }
       
       .hoverBurger .burger-bar-middle {
-        transition: all 300ms ease !important;
-        background-color:  #ec1f44ca;
+        width: 10px;
+        background-color:#EC1F46;
         
       }
       
       .hoverBurger .burger-bar-bottom {
-        transition: all 300ms ease !important;
-        background-color: #ec1f44ca;
+        width: 10px;
+        background-color:#EC1F46;
         
        }
   
-  
-  
-  
-       .burger-open .burger-bar-top {
-        transform: rotate(318deg)  translate(-3.4px, 15px);
-        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
-        height: 4px;
-        width: 35px;
-        background-color: #ec1f44ca;
-        right: 8px;
-       }
-       
-       .burger-open .burger-bar-middle {
-         opacity: 0;
-         height: 5px;
-         border-radius: 70%;
-         transform: rotate(150deg);
-         
-       }
-       
-       .burger-open .burger-bar-bottom {
-         transform: rotate(225deg)  translate(0.7px, 11px);
-         height: 4px;
-         width: 35px;
-         background-color: #ec1f44ca;
-         right: 8px;
-         
+       .hoverBurger .burger-bar-bottom1 {
+        width: 10px;
+        background-color:#EC1F46;
         }
+  
+      .burger-open .burger-bar-top {
+        transform: rotate(270deg)  translate(-4px, 15px);
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
+        height: 4px !important;
+        width: 39px !important;
+        background-color:#EC1F46;
+        right: -7px;
+        top: 18px;
+       
+       }
+  
+   .burger-open .burger-bar-middle {
+        width: 39px !important;
+        height: 4px !important;
+        right: -4.4px;
+        top: 15px;
+        background-color:#EC1F46;
+        transform: rotate(270deg);
+        
+      }
+  
+  .burger-open .burger-bar-bottom {
+    transform: rotate(270deg)  translate(1px, 11px);
+    height: 4px !important;
+    width: 39px !important;
+    background-color:#EC1F46;
+    right: -2.4px;
+    top: 18px;
+    
+  }
+    
+      .burger-open .burger-bar-bottom1 {
+        transform: rotate(225deg)  translate(1px, 11px);
+        height: 0px;
+        width: 0px;
+        opacity: 0;
+      }
+
+
+
+
+
+
+    }
+  
+     
 
 
 
