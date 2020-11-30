@@ -1289,7 +1289,7 @@ color: #ffffff;
       .burger-open .burger-bar-top {
         transform: rotate(270deg)  translate(-4px, 15px);
         transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
-        height: 4px !important;
+        height: 3px !important;
         width: 39px !important;
         background-color:#EC1F46;
         right: -7px;
@@ -1299,8 +1299,8 @@ color: #ffffff;
   
    .burger-open .burger-bar-middle {
         width: 39px !important;
-        height: 4px !important;
-        right: -4.4px;
+        height: 3px !important;
+        right: -12px;
         top: 15px;
         background-color:#EC1F46;
         transform: rotate(270deg);
@@ -1309,10 +1309,10 @@ color: #ffffff;
   
   .burger-open .burger-bar-bottom {
     transform: rotate(270deg)  translate(1px, 11px);
-    height: 4px !important;
+    height: 2.5px !important;
     width: 39px !important;
     background-color:#EC1F46;
-    right: -2.4px;
+    right: -6px;
     top: 18px;
     
   }
