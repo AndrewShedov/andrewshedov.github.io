@@ -921,6 +921,302 @@ transition: all 500ms ease;
 
 
 
+
+
+
+
+
+
+
+      body{
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        user-select: none;  
+        overflow-x: hidden;
+        overflow-anchor: none;
+      }
+      
+         html, body {
+            
+          }
+      
+      .wrap{
+       
+       
+        transition: all 300ms ease;
+      }
+      
+       /*///////////////////////MENU//////////////////////*/
+      
+       .menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        transform: translateX(101%);
+        
+        height: 100%;
+        background: rgb(0, 198, 242);
+        text-align: center;
+        transition: all 200ms ease;
+        overflow-y: auto;
+       }
+      
+      .menu-open{
+        transition: all 300ms ease;
+      display: block !important;
+     
+      }
+      
+      .menu ul li{
+        margin-bottom: 15px;
+        list-style: none;
+        margin-right: 37px;
+      }
+      .menuMoveLeft{
+       transform: translateX(0%);
+      }
+      .wrapMoveLeft{
+       
+      }
+      
+      
+      .menu ul li  a{
+        color: rgb(255, 255, 255);
+          font-family: "Trebuchet MS";
+          font-size: 25px;
+          text-decoration: none;
+          transition: all 300ms ease;
+          
+        }
+        
+        .menu li:nth-child(1) a {
+          position: relative;
+          font-size: 37px;
+          color: rgb(241, 106, 196);
+          font-family: 'Pacifico', cursive; 
+        }
+        
+        .menu li:nth-child(1) {
+          padding-top: 10px;
+        padding-bottom: 15px !important;
+        
+        }
+      
+      
+      
+        .menu li:nth-child(5) {
+          padding-bottom: 6.5px !important;
+          
+          }
+        
+          .menu li:nth-child(1) a:hover {
+            font-size: 38px;
+            color: rgb(36, 248, 114) !important;
+            }
+        
+        .menu ul li a:hover{
+          font-size: 30px;
+          transition: all 300ms ease;
+          color: rgb(36, 248, 114) !important;
+          
+        }
+      
+      
+      
+      
+      /*///////////////////////FOOTER///////////////////////*/
+      
+      
+       .footer {
+            background: rgb(43, 186, 243);
+          display: flex;
+          flex-wrap: wrap !important;
+          transition: all 300ms ease;
+          justify-content: center;
+         height: 150px;
+          }
+      
+          .block1-footer {
+            display: flex;
+      transition: all 300ms ease;
+       flex-wrap: wrap !important;
+          justify-content: center;
+          position: relative;
+          }
+      
+      @media screen and (min-width:750px) and (max-width: 9999999px)
+        {
+          .blockt1-footer a{
+          text-align: center;
+          padding-top: 70px;
+          display: flex;
+          justify-content: center;
+          font-family: "Trebuchet MS";
+          font-size: 35px;
+          font-weight: 400;
+          line-height: 18px;
+          text-decoration: none !important;
+          transition: all 300ms ease;
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+          text-decoration: none;
+        }
+      
+      
+      .blockt1-footer a:hover {
+        text-align: center;
+        padding-top: 70px;
+        display: flex;
+        justify-content: center;
+        font-family: "Trebuchet MS";
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 18px;
+        text-decoration: none !important;
+        transition: all 300ms ease;
+        color: rgb(77, 235, 63);
+      }
+      }
+      
+      @media screen and (min-width:0px) and (max-width: 750px)
+        {
+        .blockt1-footer a{
+          text-align: center;
+          padding-top: 70px;
+          display: flex;
+          justify-content: center;
+          font-family: "Trebuchet MS";
+          font-size: 6vw;
+          font-weight: 400;
+          line-height: 18px;
+          text-decoration: none !important;
+          transition: all 300ms ease;
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+        }
+        
+      .blockt1-footer a:hover {
+        text-align: center;
+        padding-top: 70px;
+        display: flex;
+        justify-content: center;
+        font-family: "Trebuchet MS";
+        font-weight: 400;
+        line-height: 18px;
+        text-decoration: none !important;
+        transition: all 300ms ease;
+        color: rgb(77, 235, 63);
+      }
+      }
+      
+      /*//////////BURGER//////////*/
+      
+      .burger {
+        width: 35px;
+        height: 20px;
+         padding: 4px;
+        transition: all 300ms ease;
+        z-index: 999;
+        cursor: pointer;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        
+      }
+      
+      .burger:hover {
+        cursor: pointer;
+        }
+      
+      .burger .burger-bar {
+        position: absolute;
+        border-radius: 2px;
+        width: 33px;
+        transition: .5s;
+       
+      }
+      
+      .burger .burger-bar-top {
+        height: 4px;
+        border-bottom: none;
+        top: 0;
+        background-color: #ec1f447c;
+        }
+      
+      .burger .burger-bar-middle {
+        height: 4px;
+        background-color:  #ec1f447c;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        top: 4px;
+      }
+      
+      .burger .burger-bar-bottom {
+        height: 4px;
+        background-color:  #ec1f447c;
+        border-top: none;
+        top: 22px;
+       }
+      
+  
+       .hoverBurger .burger-bar-top {
+     
+        background-color:  #ec1f44ca;
+        transition: all 300ms ease !important;
+        }
+      
+      .hoverBurger .burger-bar-middle {
+        transition: all 300ms ease !important;
+        background-color:  #ec1f44ca;
+        
+      }
+      
+      .hoverBurger .burger-bar-bottom {
+        transition: all 300ms ease !important;
+        background-color: #ec1f44ca;
+        
+       }
+  
+  
+  
+  
+       .burger-open .burger-bar-top {
+        transform: rotate(318deg)  translate(-3.4px, 15px);
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
+        height: 4px;
+        width: 35px;
+        background-color: #ec1f44ca;
+        right: 8px;
+       }
+       
+       .burger-open .burger-bar-middle {
+         opacity: 0;
+         height: 5px;
+         border-radius: 70%;
+         transform: rotate(150deg);
+         
+       }
+       
+       .burger-open .burger-bar-bottom {
+         transform: rotate(225deg)  translate(0.7px, 11px);
+         height: 4px;
+         width: 35px;
+         background-color: #ec1f44ca;
+         right: 8px;
+         
+        }
+
+
+
+
+
+
+
+
+
+
+
+
   
   .exs{
 
