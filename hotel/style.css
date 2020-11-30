@@ -588,7 +588,7 @@ align-items: center;
             .header_contact_wrap_2{
               transition: all 500ms ease;
               position: relative;
-              right: 50px !important;
+              right: 40px !important;
                   }
                 }
 
@@ -599,7 +599,7 @@ align-items: center;
                   .header_contact_wrap_2{
                     border: 1px solid rgb(255, 0, 0) !important;
                     position: relative;
-                    right: 40px !important;
+                    right: 20px !important;
                     transition: all 500ms ease;
                         }
                       }
