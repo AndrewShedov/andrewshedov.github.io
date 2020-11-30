@@ -1292,7 +1292,7 @@ color: #ffffff;
         height: 2.5px !important;
         width: 39px !important;
         background-color:#EC1F46;
-        right: -7px;
+        right: -9.5px;
         top: 18px;
        
        }
@@ -1300,7 +1300,7 @@ color: #ffffff;
    .burger-open .burger-bar-middle {
         width: 39px !important;
         height: 2.5px !important;
-        right: -12px;
+        right: -15.5px;
         top: 15px;
         background-color:#EC1F46;
         transform: rotate(270deg);
@@ -1312,7 +1312,7 @@ color: #ffffff;
     height: 2.5px !important;
     width: 39px !important;
     background-color:#EC1F46;
-    right: -6px;
+    right: -8.9px;
     top: 18px;
     
   }
