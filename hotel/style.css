@@ -724,6 +724,7 @@ width: 100% !important;
     display: flex;
     justify-content: center;
     max-width: 600px;
+    align-items: center;
     width: 100% !important;
       }
 
@@ -856,14 +857,14 @@ transition: all 500ms ease;
     display: flex;
     width: 100%;
     max-width: 350px;
-    border: 1px solid rgb(94, 255, 0) !important;
+    
   }
   .header_search_1{
   
     display: flex;
     width: 100%;
     max-width: 350px;
-    border: 1px solid rgb(94, 255, 0) !important;
+    
   
   }
   
@@ -990,7 +991,25 @@ justify-content: center;
 align-items: center;
 border-radius: 50%;
 background: #EC1F46;
+cursor: pointer;
+transition: all 500ms ease;
     }
+
+    @media screen and (min-width:1000px) and (max-width: 99999999px) {
+    .header_basket_number:hover{
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background: #007ACC;
+      transition: all 500ms ease;
+          }
+
+        }
+
+
 
 
     .header_basket_number p{
@@ -1005,12 +1024,57 @@ background: #EC1F46;
       
       color: #FFFFFF;
           }
+          .header_user_wrap{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid rgb(255, 0, 0) !important;
+
+          }
+          .header_user_photo{
+            cursor: pointer;
 
 
 
 
+          }
+
+          .header_user_select_svg{
+            cursor: pointer;
+                          fill:black;
+                          transition: all 500ms ease;
+                        }
+                
+               @media screen and (min-width:1000px) and (max-width: 99999999px) {
+                .header_user_select_svg:hover {
+              fill:rgb(0, 162, 255);
+              transition: all 500ms ease;
+              }
+                }
 
 
+                .header_user_name{
+
+                  
+                }
+
+
+
+
+                .header_user_name p{
+
+                  font-family: Mulish;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 14px;
+                  line-height: 18px;
+                  
+                  /* identical to box height */
+                  
+                  /* Gray 1 */
+                  color: #333333;
+
+                }
 
 
       body{
