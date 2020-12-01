@@ -731,6 +731,11 @@ width: 100% !important;
 
 
 
+
+
+
+
+
 .header_logo a{
 
   font-family: Luckiest Guy;
@@ -976,6 +981,30 @@ cursor: pointer;
     }
 
 
+
+    .header_basket_number{
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+background: #EC1F46;
+    }
+
+
+    .header_basket_number p{
+      
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 13px;
+      
+      /* identical to box height */
+      
+      color: #FFFFFF;
+          }
 
 
 
