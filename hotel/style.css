@@ -572,15 +572,40 @@ align-items: center;
 
 
 
+      @media screen and (min-width:440px) and (max-width: 600px) {
+
+        .header_contact_wrap_2{
+          transition: all 500ms ease;
+          position: relative;
+          right: 80px !important;
+              }
+            }
 
 
-      @media screen and (min-width:390px) and (max-width: 600px) {
+
+
+
+
+
+
+      @media screen and (min-width:390px) and (max-width: 440px) {
 
       .header_contact_wrap_2{
         transition: all 500ms ease;
         position: relative;
-        right: 80px !important;
+        right: 40px !important;
             }
+
+            .Questions_wrap{
+
+              position: relative;
+              left: 40px !important;
+
+
+            }
+        
+
+
           }
      
           @media screen and (min-width:360px) and (max-width: 390px) {
@@ -588,8 +613,20 @@ align-items: center;
             .header_contact_wrap_2{
               transition: all 500ms ease;
               position: relative;
-              right: 40px !important;
+              right: 30px !important;
                   }
+
+
+                  .Questions_wrap{
+
+                    position: relative;
+                    left: 30px !important;
+      
+      
+                  }
+
+
+
                 }
 
 
