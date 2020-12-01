@@ -1,7 +1,7 @@
 let burger = document.getElementById('burger');
 let menu = document.getElementById('menu');
 let wrap = document.getElementById('wrap');
-let footer = document.getElementById('footer');
+
 
 ///////////////Function opening menu
 function calcShowMenu(showMenu) {
@@ -10,7 +10,7 @@ function calcShowMenu(showMenu) {
     menu.classList.toggle("menuMoveLeft", showMenu);
    
     const menuWidth = menu.offsetWidth;
-    [wrap.style, footer.style, burger.style].map(v => v.transform = `translateX(${showMenu ? -menuWidth + 1 : 0}px)`);
+    [wrap.style, burger.style].map(v => v.transform = `translateX(${showMenu ? -menuWidth + 1 : 0}px)`);
     [burger.style].map(v => v.transform = `translateX(${showMenu ? -menuWidth - 25 : 0}px)`);
     
     }

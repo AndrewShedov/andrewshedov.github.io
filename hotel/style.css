@@ -973,15 +973,9 @@ transition: all 500ms ease;
         overflow-anchor: none;
       }
       
-         html, body {
-            
-          }
       
-      .wrap{
-       
-       
-        transition: all 300ms ease;
-      }
+      
+     
       
        /*///////////////////////MENU//////////////////////*/
       
@@ -1127,22 +1121,44 @@ color: #ffffff;
         }
 
 
+      
+
+html,
+body {
+  height: 100%;
+}
+
+        .content {
+         
+  flex: 1 0 auto;
+          
+        }
 
 
 
+        .wrap{
+        
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+         
+          transition: all 300ms ease;
+        }
 
       
       
       /*///////////////////////FOOTER///////////////////////*/
       
+
       
        .footer {
             background: rgb(43, 186, 243);
-          display: flex;
-          flex-wrap: wrap !important;
+          
           transition: all 300ms ease;
           justify-content: center;
          height: 150px;
+         
+         flex: 0 0 auto;
           }
       
           .block1-footer {
