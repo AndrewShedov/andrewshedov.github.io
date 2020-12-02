@@ -842,6 +842,25 @@ transition: all 500ms ease;
 
 */
 
+
+
+@media screen and (min-width:630px) and (max-width: 99999999999px) {
+
+  .header_logo{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 500ms ease;
+height: 120px !important;
+
+border: 1px solid rgb(255, 0, 0) !important; 
+  }
+
+}
+
+
+
 @media screen and (min-width:0px) and (max-width: 630px) {
 
       .header_logo{
@@ -850,6 +869,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 transition: all 500ms ease;
+height: 30px !important;
 
 border: 1px solid rgb(255, 0, 0) !important; 
       }
