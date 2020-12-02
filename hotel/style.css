@@ -997,8 +997,8 @@ transition: all 500ms ease;
               flex-wrap: nowrap;
               width: 100%;
               max-width:  475px;
-              justify-content: right; 
-              border: 1px solid rgb(255, 27, 27) !important;
+              justify-content:  flex-end; 
+              border: 1px solid rgb(61, 255, 27) !important;
 
             }
   
