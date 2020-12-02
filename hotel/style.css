@@ -717,15 +717,19 @@ justify-content: center !important;
     display: flex;
 justify-content: center;
 width: 100% !important;
+height: 100%;
+max-height: 120px;
   }
 
   .header_wrap_1{
     border: 1px solid rgb(255, 94, 0) !important;
     display: flex;
     justify-content: center;
-    max-width: 600px;
+    max-width: 720px;
     align-items: center;
     width: 100% !important;
+    position: relative;
+    right: 200px;
       }
 
      
@@ -734,7 +738,10 @@ width: 100% !important;
 
 
 
+      .header_logo{
 
+
+      }
 
 
 .header_logo a{
@@ -959,7 +966,8 @@ flex-wrap: nowrap;
         border: 1px solid rgb(0, 0, 0) !important;
       }
       .header_basket_wrap{
-
+justify-content: center;
+align-items: center;
         display: flex;
         flex-wrap: nowrap;
       }
@@ -993,6 +1001,9 @@ border-radius: 50%;
 background: #EC1F46;
 cursor: pointer;
 transition: all 500ms ease;
+position: relative;
+bottom: 13px;
+right:10px;
     }
 
     @media screen and (min-width:1000px) and (max-width: 99999999px) {
