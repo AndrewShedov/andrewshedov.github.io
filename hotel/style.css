@@ -725,11 +725,11 @@ max-height: 120px;
     border: 1px solid rgb(255, 94, 0) !important;
     display: flex;
     justify-content: center;
-    max-width: 720px;
+    max-width: 635px;
     align-items: center;
     width: 100% !important;
     position: relative;
-    right: 195px;
+    right: 214px;
       }
 
       @-moz-document url-prefix() {
@@ -739,11 +739,11 @@ max-height: 120px;
           border: 1px solid rgb(255, 94, 0) !important;
           display: flex;
           justify-content: center;
-          max-width: 720px;
+          max-width: 740px;
           align-items: center;
           width: 100% !important;
           position: relative;
-          right: 197px;
+          right: 216px;
             }
 
 
@@ -876,12 +876,13 @@ transition: all 500ms ease;
 }
 
 .header_search_wrap{
-  margin-left: 40px;
   
+  border: 1px solid rgb(255, 0, 0) !important;
     display: flex;
     width: 100%;
     max-width: 350px;
-    
+    position: relative;
+    left: 104px;
   }
   .header_search_1{
   
@@ -907,8 +908,8 @@ transition: all 500ms ease;
    -moz-box-sizing: border-box;
     box-sizing: border-box;
     outline: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: Mulish;
@@ -979,14 +980,19 @@ transition: all 500ms ease;
       .header_wrap_2{
   display: flex;
 flex-wrap: nowrap;
-
-        border: 1px solid rgb(0, 0, 0) !important;
+width: 100%;
+max-width: 340px;
+justify-content: space-between;
+position: relative;
+left: 30px;
+        border: 1px solid rgb(22, 226, 50) !important;
       }
       .header_basket_wrap{
 justify-content: center;
 align-items: center;
         display: flex;
         flex-wrap: nowrap;
+        border: 1px solid rgb(38, 0, 255) !important;
       }
       .header_basket{
 
@@ -1054,10 +1060,11 @@ right:10px;
           }
           .header_user_wrap{
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 border: 1px solid rgb(255, 0, 0) !important;
-
+width: 100%;
+max-width: 140px;
           }
           .header_user_photo{
             cursor: pointer;
