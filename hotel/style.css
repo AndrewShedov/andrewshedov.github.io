@@ -844,12 +844,13 @@ transition: all 500ms ease;
 
 
 
+
 @media screen and (min-width:630px) and (max-width: 99999999999px) {
 
   .header_logo{
 width: 100%;
 display: flex;
-justify-content: center;
+
 align-items: center;
 transition: all 500ms ease;
 height: 120px !important;
@@ -1250,6 +1251,25 @@ max-width: 150px;
       
        /*///////////////////////MENU//////////////////////*/
       
+
+       .header_logo_menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease;
+        
+        
+        
+          }
+
+
+
+
+
+
+
+
        .menu{
         position: fixed;
         top: 0;
