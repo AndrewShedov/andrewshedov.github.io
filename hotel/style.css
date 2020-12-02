@@ -991,7 +991,16 @@ transition: all 500ms ease;
             }
   
   
-  
+            .header_wrap_2_0{
+
+              display: flex;
+              flex-wrap: nowrap;
+              width: 100%;
+              max-width:  475px;
+              justify-content: right; 
+              border: 1px solid rgb(255, 27, 27) !important;
+
+            }
   
       .header_wrap_2{
   display: flex;
