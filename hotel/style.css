@@ -719,7 +719,7 @@ justify-content: center !important;
     border: 1px solid rgb(9, 255, 0) !important; 
   }
 
-  @media screen and (min-width:1100px) and (max-width: 99999999px) {
+  @media screen and (min-width:900px) and (max-width: 99999999px) {
 
   .header_wrap_0{
     border: 1px solid rgb(255, 0, 0) !important;
@@ -743,7 +743,7 @@ transition: all 500ms ease;
 
 
   }
-  @media screen and (min-width:0px) and (max-width: 1100px) {
+  @media screen and (min-width:0px) and (max-width: 900px) {
 
     .header_wrap_0{
       border: 1px solid rgb(255, 0, 0) !important;
@@ -764,7 +764,7 @@ transition: all 500ms ease;
 
 
 
- @media screen and (min-width:1100px) and (max-width: 99999999999px) {
+ @media screen and (min-width:900px) and (max-width: 99999999999px) {
 
   .header_wrap_1{
     border: 1px solid rgb(255, 94, 0) !important;
@@ -782,7 +782,7 @@ transition: all 500ms ease;
 
 
 
-    @media screen and (min-width:630px) and (max-width: 1100px) {
+    @media screen and (min-width:630px) and (max-width: 900px) {
 
       .header_wrap_1{
         border: 1px solid rgb(255, 94, 0) !important;
@@ -991,17 +991,34 @@ transition: all 500ms ease;
 }
 }
 
+@media screen and (min-width:1150px) and (max-width: 99999999px) {
 .header_search_wrap{
-  
+  transition: all 500ms ease;
   border: 1px solid rgb(255, 0, 0) !important;
     display: flex;
     width: 100%;
     max-width: 350px;
     position: relative;
-    
+    flex-wrap: nowrap !important;
   }
+}
+
+@media screen and (min-width:0px) and (max-width: 1150px) {
+  .header_search_wrap{
+    transition: all 500ms ease;
+    border: 1px solid rgb(255, 0, 0) !important;
+      display: flex;
+      
+      width: 270px !important;
+      position: relative;
+      margin-left: 70px ;
+      flex-wrap: nowrap;
+    }
+  }
+
+
   .header_search_1{
-  
+    flex-wrap: nowrap !important;
     display: flex;
     width: 100%;
     max-width: 350px;
@@ -1011,7 +1028,7 @@ transition: all 500ms ease;
   
   .header_search_1_input{
     position: relative;
-  
+    flex-wrap: nowrap;
   max-width: 285px !important;
   width: 100%;
   height: 40px;
