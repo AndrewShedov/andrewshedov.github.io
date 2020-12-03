@@ -981,6 +981,8 @@ transition: all 500ms ease;
                 display: flex;
                 flex-wrap: nowrap;
                 width: 100%;
+                max-width:  100%;
+
                 margin-top: 30px ;
                 justify-content: center; 
                 border: 1px solid rgb(61, 255, 27) !important;
