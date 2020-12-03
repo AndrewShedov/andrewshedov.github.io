@@ -35,36 +35,35 @@ dd {
 
 
 .header_contact_wrap{
-display: flex;
 
+display: flex ;
+  justify-content: center !important;
  flex-wrap: wrap !important;
-  padding-left: 60px;
-  padding-right: 60px;
+  
   
   
   background: #F5FAFE;
 
 }
 
+.header_contact_wrap_0{
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+justify-content: center;
+margin-left: 15px;
+margin-right: 15px;
+}
 
 
 
-@media screen and (min-width:1150px) and (max-width: 999999px) {
-  .header_contact_wrap{
-  display: flex ;
-  justify-content: center !important;
+
+
   
   
-  }
 
 
-  .header_contact_wrap_1 {
-    
-    text-decoration: none;
-    position: relative;
-   
- right: 275px;
-    }
+  
 
 
 
@@ -72,31 +71,24 @@ display: flex;
      .header_contact_wrap_2{
       
       display: flex;
-      left: 277px;
+      
       position: relative;
-      margin-left: 0;
+      
 
-   
+      border: 1px solid rgb(0, 255, 13) !important; 
       
       
       justify-content: center;
           }
 
 
-}
+
 
 
 
 
   @media screen and (min-width:0px) and (max-width: 1150px) {
-    .header_contact_wrap{
-    display: flex;
-
-    padding-left: 15px;
-    padding-right: 15px;
-    transition: all 500ms ease;
     
-    }
 
 
     .header_contact_wrap_2{
@@ -125,14 +117,7 @@ position: relative;
 
 
           @media screen and (min-width:0px) and (max-width: 600px) {
-            .header_contact_wrap_1{
-    width: 100%;
-              display: flex;
-              
-              transition: all 500ms ease;
-             
-
-                  }
+           
 
 
 
@@ -156,12 +141,13 @@ position: relative;
 
 
 
-    .header_contact_wrap_1{
-      transition: all 500ms ease;
-display: flex;
-
-align-items: center;
-    }
+                  .header_contact_wrap_1 {
+    
+                    text-decoration: none;
+                    position: relative;
+                   
+                    border: 1px solid rgb(255, 0, 0) !important; 
+                    }
 
 
    
@@ -577,7 +563,7 @@ align-items: center;
         .header_contact_wrap_2{
           transition: all 500ms ease;
           position: relative;
-          right: 80px !important;
+          
               }
             }
 
@@ -593,7 +579,7 @@ align-items: center;
       .header_contact_wrap_2{
         transition: all 500ms ease;
         position: relative;
-        right: 40px !important;
+        
             }
 
             .Questions_wrap{
@@ -608,77 +594,10 @@ align-items: center;
 
           }
      
-          @media screen and (min-width:360px) and (max-width: 390px) {
-
-            .header_contact_wrap_2{
-              transition: all 500ms ease;
-              position: relative;
-              right: 30px !important;
-                  }
+          
 
 
-                  .Questions_wrap{
-
-                    position: relative;
-                    left: 30px !important;
-      
-      
-                  }
-
-
-
-                }
-
-
-
-                @media screen and (min-width:310px) and (max-width: 360px) {
-
-                  .header_contact_wrap_2{
-                    border: 1px solid rgb(255, 0, 0) !important;
-                    position: relative;
-                    right: 20px !important;
-                    transition: all 500ms ease;
-                        }
-                      }
-
-
-                      @media screen and (min-width:0px) and (max-width: 310px) {
-
-                        .header_contact_wrap_2{
-                          transition: all 500ms ease;
-                          position: relative;
-                          right: 0px !important;
-                              }
-
-
-
-                              .header_contact_wrap {
-                                flex-wrap: wrap !important;
-                            }
-
-                            .Gift_wrap {
-                              transition: all 500ms ease;
-                              right: 0px;
-                          }
-
-
-
-
-                          .Loyalty_wrap {
-                            transition: all 500ms ease;
-                            height: 30px !important;
-                            margin-left: 15px;
-                        }
-
-                        .header_contact_wrap_2{
-                          transition: all 500ms ease;
-justify-content: center !important;
-
-                        }
-
-
-
-                            }
+              
 
 
 
