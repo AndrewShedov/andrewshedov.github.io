@@ -74,11 +74,12 @@ margin-right: 15px;
       
       position: relative;
       
-
+width: 100%;
+max-width: 315px;
       border: 1px solid rgb(0, 255, 13) !important; 
       
       
-      justify-content: center;
+      justify-content: space-between;
           }
 
 
@@ -223,7 +224,7 @@ position: relative;
 
   
    .Gift_wrap{
-     
+    border: 1px solid rgb(255, 0, 0) !important; 
 display: flex;
 flex-wrap: nowrap;
 position: relative;
@@ -283,16 +284,16 @@ white-space: nowrap;
   }
 
 
-  @media screen and (min-width:700px) and (max-width: 99999999px) {
+  
   .Loyalty_wrap{
 display: flex;
 flex-wrap: nowrap;
  
 position: relative;
-margin-left: 100px;
 transition: all 500ms ease;
 height: 60px !important;
 align-items: center;
+border: 1px solid rgb(255, 0, 0) !important; 
   }
 
 
@@ -310,136 +311,6 @@ align-items: center;
    transition: all 500ms ease;
   }
 
-
-
-
-
-
-
-  }
-
-
-  @media screen and (min-width:600px) and (max-width: 700px) {
-    .Loyalty_wrap{
-  display: flex;
-  flex-wrap: nowrap;
-  
-  position: relative;
-  margin-left: 65px;
-  transition: all 500ms ease;
-  height: 60px !important;
-align-items: center;
-    }
-
-    
-
-
-    .Loyalty_image_wrap{
-      transition: all 500ms ease;
-      
-      margin-right: 23px;
-    }
-    
-    
-    .Loyalty{
-      position: relative;
-      right: 2px;
-    
-      transition: all 500ms ease;
-    }
-
-
-
-
-
-    }
-
-
-    @media screen and (min-width:0px) and (max-width: 600px) {
-     
-      .Loyalty_wrap {
-        display: flex;
-        flex-wrap: nowrap;
-         
-        position: relative;
-        
-        height: 20px !important;
-align-items: center;
-        transition: all 500ms ease;
-          }
-      
-      @-moz-document url-prefix() {
-        .Loyalty_wrap {
-          display: flex;
-          flex-wrap: nowrap;
-           
-          position: relative;
-          
-          
-          transition: all 500ms ease;
-            }
-        }
-
-
-
-        
-
-
-
-
-      .Loyalty_image_wrap{
-        transition: all 500ms ease;
-        
-        margin-right: 12px;
-      }
-      
-      
-      .Loyalty{
-        position: relative;
-        right: 2px;
-       
-        transition: all 500ms ease;
-      }
-
-
-
-
-
-      .Loyalty p{
-        white-space: nowrap;
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 13px;
-      
-        
-      }
-
-
-
-
-
-      }
-
-
-
-
-     
-
-
-
-
-
-
-
-
-      
-     
-          
-
-
-              
 
 
 
