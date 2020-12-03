@@ -307,7 +307,7 @@ border: 1px solid rgb(255, 0, 0) !important;
   
   .Loyalty{
     position: relative;
-    right: 2px;
+    
    
    transition: all 500ms ease;
   }
@@ -360,7 +360,7 @@ border: 1px solid rgb(255, 0, 0) !important;
 justify-content: center;
 width: 100% !important;
 flex-wrap: nowrap;
-max-width: 1120px;
+
 
 margin-left: 15px;
 margin-right: 15px;
@@ -384,7 +384,7 @@ transition: all 500ms ease;
   justify-content: flex-end;
   flex-wrap: wrap;
   width: 100% !important;
-  max-width: 1440px;
+  
   height: 100%;
   
   margin-left: 15px;
