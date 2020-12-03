@@ -218,6 +218,7 @@ align-items: center;
  transition: all 500ms ease;
  height: 30px !important;
  align-items: center;
+ margin-right: 10px;
     }
    }
 
