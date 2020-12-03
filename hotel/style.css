@@ -47,7 +47,7 @@ display: flex ;
 }
 
 
-@media screen and (min-width:400px) and (max-width: 99999999px) {
+@media screen and (min-width:405px) and (max-width: 99999999px) {
 .header_contact_wrap_0 {
  flex-wrap: nowrap;
   width: 100%;
@@ -60,7 +60,7 @@ margin-right: 15px;
 
 }
 
-@media screen and (min-width:0px) and (max-width: 400px) {
+@media screen and (min-width:0px) and (max-width: 405px) {
   .header_contact_wrap_0 {
    flex-wrap: wrap;
     width: 100%;
@@ -73,7 +73,7 @@ margin-right: 15px;
   
   }
 
-  @media screen and (min-width:400px) and (max-width: 99999999px) {
+  @media screen and (min-width:405px) and (max-width: 99999999px) {
      .header_contact_wrap_2{
       transition: all 500ms ease;
       display: flex;
@@ -90,7 +90,7 @@ max-width: 315px;
         }
 
 
-          @media screen and (min-width:0px) and (max-width: 400px) {
+          @media screen and (min-width:0px) and (max-width: 405px) {
 
           .header_contact_wrap_2{
             transition: all 500ms ease;
@@ -99,7 +99,7 @@ max-width: 315px;
             position: relative;
             
       width: 100%;
-      
+      max-width: 100%;
             border: 1px solid rgb(0, 255, 13) !important; 
             
             
@@ -127,7 +127,7 @@ max-width: 315px;
    .Questions_wrap{
 
 position: relative;
-transition: all 500ms ease;
+transition: all 200ms ease;
 display: flex;
 flex-wrap: nowrap;
 height: 100%;
@@ -137,11 +137,11 @@ align-items: center;
    }
                     }
 
-                    @media screen and (min-width:400px) and (max-width: 700px) {
+                    @media screen and (min-width:405px) and (max-width: 700px) {
                       .Questions_wrap{
                    
                    position: relative;
-                   transition: all 500ms ease;
+                   transition: all 200ms ease;
                    display: flex;
                    flex-wrap: wrap;
                    height: 100%;
@@ -163,16 +163,17 @@ align-items: center;
 
 
 
-@media screen and (min-width:0px) and (max-width: 400px) {
+@media screen and (min-width:0px) and (max-width: 405px) {
                       .Questions_wrap{
                    width: 100% !important;
+                   max-width: 100%;
                    position: relative;
-                   transition: all 500ms ease;
+                   transition: all 200ms ease;
                    display: flex;
                    flex-wrap: wrap;
-                   height: 30px !important;
+                   height: 20px !important;
                    align-items: center;
-                   
+                   justify-content: center;
                       }
 
 
