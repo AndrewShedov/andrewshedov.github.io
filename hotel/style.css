@@ -1029,7 +1029,8 @@ align-items: center;
         
       }
       .header_basket{
-
+position: relative;
+top: 5px
 
       }
 
@@ -1059,7 +1060,7 @@ background: #EC1F46;
 cursor: pointer;
 transition: all 500ms ease;
 position: relative;
-bottom: 13px;
+bottom: 9px;
 right:10px;
     }
 
@@ -1611,7 +1612,6 @@ background-color: rgba(10, 34, 61, 1);
 
 .menu_desktop ul {
 
-  
   list-style: none; 
   margin: 0; 
   padding: 0; 
@@ -1620,23 +1620,20 @@ background-color: rgba(10, 34, 61, 1);
 
 }
 
+
+
+@media screen and (min-width: 1100px) and (max-width:999999999px) {
 .menu_desktop li {
   height: 80px;
-   
+ 
  padding-right: 44px;
  padding-left: 44px;
 cursor: pointer;
 display: flex;
 justify-content: center;
 align-items: center;
-transition: all 300ms ease;
+transition: all 500ms ease;
 }
-
-
-
-
-
-
 
 
 @-moz-document url-prefix() {
@@ -1649,13 +1646,40 @@ cursor: pointer;
 display: flex;
 justify-content: center;
 align-items: center;
-transition: all 300ms ease;
+transition: all 500ms ease;
 }
 }
+}
 
 
-
-
+@media screen and (min-width: 0px) and (max-width:1100px) {
+  .menu_desktop li {
+    height: 80px;
+   
+   padding-right: 34px;
+   padding-left: 34px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms ease;
+  }
+  
+  
+  @-moz-document url-prefix() {
+  .menu_desktop li {
+    height: 80px;
+     
+   padding-right: 33px;
+   padding-left: 32px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms ease;
+  }
+  }
+  }
 
 
 
@@ -1664,7 +1688,7 @@ transition: all 300ms ease;
 .menu_desktop li:hover {
   background-color: rgb(214, 28, 44);
   
-  transition: all 300ms ease;
+  transition: all 100ms ease;
 
 
 
@@ -1678,7 +1702,7 @@ transition: all 300ms ease;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
-  
+
   /* identical to box height */
   text-transform: uppercase;
   
@@ -1707,7 +1731,30 @@ transition: all 300ms ease;
 
 
 
-
+  a.active.focus,
+  a.active:focus,
+  a.focus,
+  a:active.focus,
+  a:active:focus,
+  a:focus,
+  button.active.focus,
+  button.active:focus,
+  button.focus,
+  button:active.focus,
+  button:active:focus,
+  button:focus,
+  .btn.active.focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn:active:focus,
+  .btn:focus {
+      outline: 0 !important;
+      outline-color: transparent !important;
+      outline-width: 0 !important;
+      outline-style: none !important;
+      box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important
+  }
 
 
 
