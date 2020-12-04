@@ -1601,26 +1601,46 @@ body {
 
 
 
-
+@media screen and (min-width:1040px) and (max-width: 99999999999px)
+        {
 .nav{
   background-color: rgba(10, 34, 61, 1);
-  
+  transition: all 500ms ease;
+  display: block;
 }
+        }
+
+
+        @media screen and (min-width:0px) and (max-width: 1040px)
+        {
+.nav{
+  background-color: rgba(10, 34, 61, 1);
+  transition: all 500ms ease;
+  display: none;
+}
+        }
+
+
+
+
+
 
 .nav ul{
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   height: 80px;
   margin: 0; 
   padding: 0;
+  transition: all 500ms ease;
 }
 
 
 
-
+@media screen and (min-width:1200px) and (max-width: 99999999999px)
+        {
 .nav ul li {
   height: 80px;
   cursor: pointer;
@@ -1651,6 +1671,83 @@ body {
 
 }
 }
+        }
+
+
+
+
+        @media screen and (min-width:1125px) and (max-width: 1200px)
+        {
+          .nav ul li {
+            height: 80px;
+            cursor: pointer;
+            padding-right: 38px;
+            padding-left: 38px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             
+            transition: all 500ms ease;
+          }
+          
+
+
+
+
+
+@-moz-document url-prefix() {
+  .nav ul li {
+    height: 80px;
+    cursor: pointer;
+    padding-right: 38px;
+    padding-left: 38px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease;
+  
+  }
+}
+        }
+
+
+
+        @media screen and (min-width:0px) and (max-width: 1125px)
+        {
+          .nav ul li {
+            height: 80px;
+            cursor: pointer;
+            padding-right: 30px;
+            padding-left: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             
+            transition: all 500ms ease;
+          }
+          
+
+
+
+
+
+@-moz-document url-prefix() {
+  .nav ul li {
+    height: 80px;
+    cursor: pointer;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease;
+  
+  }
+}
+        }
+
 
 
 .nav li:hover {
@@ -1677,7 +1774,7 @@ body {
 
   /* identical to box height */
   text-transform: uppercase;
-  
+  transition: all 500ms ease;
   color: #FFFFFF;
  
 }
