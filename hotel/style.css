@@ -1561,7 +1561,7 @@ body {
         height: 2.5px !important;
         width: 39px !important;
         background-color:#EC1F46;
-        right: -9.5px;
+        right: -10.3px;
         top: 18px;
        
        }
@@ -1569,7 +1569,7 @@ body {
    .burger-open .burger-bar-middle {
         width: 39px !important;
         height: 2.5px !important;
-        right: -15px;
+        right: -16.7px;
         top: 22px;
         background-color:#EC1F46;
         transform: rotate(270deg);
@@ -1581,7 +1581,7 @@ body {
     height: 2.5px !important;
     width: 39px !important;
     background-color:#EC1F46;
-    right: -8.9px;
+    right: -9.9px;
     top: 18px;
     
   }
