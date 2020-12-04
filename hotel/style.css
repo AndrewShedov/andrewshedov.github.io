@@ -805,7 +805,7 @@ transition: all 500ms ease;
     display: flex;
     width: 100%;
     max-width: 350px;
-    
+    transition: all 500ms ease;
   
   }
   
@@ -941,7 +941,7 @@ transition: all 500ms ease;
       .header_search_2_search{
         display: flex;
         align-items: center;
-        
+        transition: all 500ms ease;
   
       }
   
