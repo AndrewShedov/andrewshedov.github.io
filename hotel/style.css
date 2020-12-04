@@ -1596,10 +1596,91 @@ body {
 
 
 
+
+
+
+
+
+
+.nav{
+  background: #6abcec;
+  
+}
+
+.nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  margin: 0; 
+  padding: 0;
+}
+
+
+
+
+.nav ul li {
+ 
+  cursor: pointer;
+  padding-right: 44.1px;
+  padding-left: 44.1px;
+
+}
+
+
+
+
+
+@-moz-document url-prefix() {
+.nav ul li {
+ 
+  cursor: pointer;
+  padding-right: 42.8px;
+  padding-left: 42.8px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+.nav ul li a{
+  white-space:  nowrap;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .menu_desktop_wrap{
 display: flex;
 justify-content: center;
- 
+ display: none;
 background-color: rgba(10, 34, 61, 1);
 }
      
