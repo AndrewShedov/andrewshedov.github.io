@@ -1603,7 +1603,7 @@ body {
 
 
 .nav{
-  background: #6abcec;
+  background-color: rgba(10, 34, 61, 1);
   
 }
 
@@ -1622,11 +1622,15 @@ body {
 
 
 .nav ul li {
- 
+  height: 80px;
   cursor: pointer;
   padding-right: 44.1px;
   padding-left: 44.1px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+  transition: all 500ms ease;
 }
 
 
@@ -1635,16 +1639,28 @@ body {
 
 @-moz-document url-prefix() {
 .nav ul li {
- 
+  height: 80px;
   cursor: pointer;
   padding-right: 42.8px;
   padding-left: 42.8px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms ease;
 
 }
 }
 
 
+.nav li:hover {
+  background-color: rgb(214, 28, 44);
+  
+  transition: all 100ms ease;
 
+
+
+}
 
 
 
