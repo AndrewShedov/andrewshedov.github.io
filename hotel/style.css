@@ -82,7 +82,7 @@ margin-right: 15px;
       
 width: 100%;
 max-width: 315px;
-      border: 1px solid rgb(0, 255, 13) !important; 
+       
       
       
       justify-content: space-between;
@@ -100,7 +100,7 @@ max-width: 315px;
             
       width: 100%;
       max-width: 100%;
-            border: 1px solid rgb(0, 255, 13) !important; 
+             
             
             
            
@@ -117,7 +117,7 @@ max-width: 315px;
                     position: relative;
                    width: 100%;
                    max-width: 792px;
-                    border: 1px solid rgb(255, 0, 0) !important; 
+                     
                     }
 
 
@@ -272,7 +272,7 @@ position: relative;
 
    @media screen and (min-width:700px) and (max-width: 99999999px) {
    .Gift_wrap{
-    border: 1px solid rgb(255, 0, 0) !important; 
+     
 display: flex;
 flex-wrap: nowrap;
 position: relative;
@@ -286,7 +286,7 @@ align-items: center;
 
   @media screen and (min-width:405px) and (max-width: 700px) {
     .Gift_wrap{
-     border: 1px solid rgb(255, 0, 0) !important; 
+      
  display: flex;
  flex-wrap: nowrap;
  position: relative;
@@ -302,7 +302,7 @@ align-items: center;
 
    @media screen and (min-width:0px) and (max-width: 405px) {
     .Gift_wrap{
-     border: 1px solid rgb(255, 0, 0) !important; 
+      
  display: flex;
  flex-wrap: nowrap;
  position: relative;
@@ -379,7 +379,7 @@ position: relative;
 transition: all 500ms ease;
 height: 60px !important;
 align-items: center;
-border: 1px solid rgb(255, 0, 0) !important; 
+ 
   }
   }
 
@@ -394,7 +394,7 @@ border: 1px solid rgb(255, 0, 0) !important;
   transition: all 500ms ease;
   height: 30px !important;
   align-items: center;
-  border: 1px solid rgb(255, 0, 0) !important; 
+   
     }
 
 
@@ -411,7 +411,7 @@ border: 1px solid rgb(255, 0, 0) !important;
   transition: all 500ms ease;
   height: 20px !important;
   align-items: center;
-  border: 1px solid rgb(255, 0, 0) !important; 
+   
     }
 
     
@@ -471,13 +471,13 @@ border: 1px solid rgb(255, 0, 0) !important;
     
     display: flex;
     justify-content: center;
-    border: 1px solid rgb(9, 255, 0) !important; 
+     
   }
 
   @media screen and (min-width:900px) and (max-width: 99999999px) {
 
   .header_wrap_0{
-    border: 1px solid rgb(255, 0, 0) !important;
+    
     display: flex;
 justify-content: center;
 width: 100% !important;
@@ -501,7 +501,7 @@ transition: all 500ms ease;
   @media screen and (min-width:0px) and (max-width: 900px) {
 
     .header_wrap_0{
-      border: 1px solid rgb(255, 0, 0) !important;
+      
       display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -522,7 +522,7 @@ transition: all 500ms ease;
  @media screen and (min-width:900px) and (max-width: 99999999999px) {
 
   .header_wrap_1{
-    border: 1px solid rgb(255, 94, 0) !important;
+    
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -540,7 +540,7 @@ transition: all 500ms ease;
     @media screen and (min-width:630px) and (max-width: 900px) {
 
       .header_wrap_1{
-        border: 1px solid rgb(255, 94, 0) !important;
+        
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -556,7 +556,7 @@ transition: all 500ms ease;
         @media screen and (min-width:0px) and (max-width: 630px) {
 
           .header_wrap_1{
-            border: 1px solid rgb(255, 94, 0) !important;
+            
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -580,7 +580,7 @@ transition: all 500ms ease;
        
 
         .header_wrap_1{
-          border: 1px solid rgb(255, 94, 0) !important;
+          
           display: flex;
           justify-content: center;
           max-width: 635px;
@@ -608,7 +608,7 @@ display: flex;
 
 align-items: center;
 transition: all 500ms ease;
-height: 115px !important;
+height: 120px !important;
 
 
   }
@@ -627,7 +627,7 @@ align-items: center;
 transition: all 500ms ease;
 height: 70px !important;
 
-border: 1px solid rgb(255, 0, 0) !important; 
+ 
       }
 
 
@@ -756,7 +756,7 @@ transition: all 500ms ease;
 @media screen and (min-width:1150px) and (max-width: 99999999px) {
 .header_search_wrap{
   transition: all 500ms ease;
-  border: 1px solid rgb(255, 0, 0) !important;
+  
     display: flex;
     width: 100%;
     max-width: 350px;
@@ -768,7 +768,7 @@ transition: all 500ms ease;
 @media screen and (min-width:630px) and (max-width: 1150px) {
   .header_search_wrap{
     transition: all 500ms ease;
-    border: 1px solid rgb(255, 0, 0) !important;
+    
       display: flex;
       
       width: 270px !important;
@@ -782,7 +782,7 @@ transition: all 500ms ease;
   @media screen and (min-width:0px) and (max-width: 630px) {
     .header_search_wrap{
       transition: all 500ms ease;
-      border: 1px solid rgb(255, 0, 200) !important;
+      
         display: flex;
         
         width: 270px !important;
@@ -941,7 +941,7 @@ transition: all 500ms ease;
       .header_search_2_search{
         display: flex;
         align-items: center;
-        border: 1px solid rgb(0, 0, 0) !important;
+        
   
       }
   
@@ -968,7 +968,7 @@ transition: all 500ms ease;
                 width: 100%;
                 max-width:  475px;
                 justify-content:  flex-end; 
-                border: 1px solid rgb(61, 255, 27) !important;
+                
   
               }
             
@@ -985,7 +985,7 @@ transition: all 500ms ease;
 
                 margin-top: 30px ;
                 justify-content: center; 
-                border: 1px solid rgb(61, 255, 27) !important;
+                
                 height: 30px !important;
   
               }
@@ -1007,7 +1007,7 @@ max-width: 237px;
 justify-content: space-between;
 position: relative;
 
-        border: 1px solid rgb(0, 0, 0) !important;
+        
       }
               
 
@@ -1026,7 +1026,7 @@ justify-content: center;
 align-items: center;
         display: flex;
         flex-wrap: nowrap;
-        border: 1px solid rgb(38, 0, 255) !important;
+        
       }
       .header_basket{
 
@@ -1096,7 +1096,7 @@ right:10px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-border: 1px solid rgb(255, 0, 0) !important;
+
 width: 100%;
 max-width: 150px;
           }
@@ -1112,7 +1112,7 @@ max-width: 150px;
 
           .header_user_select{
 position: relative;
-
+right:1.8px;
 
           }
 
@@ -1591,20 +1591,103 @@ body {
         width: 0px;
         opacity: 0;
       }
+}
 
 
 
-
-
-
-    }
-  
+.menu_desktop_wrap{
+display: flex;
+justify-content: center;
+ 
+background-color: rgba(10, 34, 61, 1);
+}
      
+.menu_desktop {
+  
+   
+
+
+}
+
+.menu_desktop ul {
+
+  
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex;
+
+
+}
+
+.menu_desktop li {
+  height: 80px;
+   
+ padding-right: 44px;
+ padding-left: 44px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 300ms ease;
+}
 
 
 
 
 
+
+
+
+@-moz-document url-prefix() {
+.menu_desktop li {
+  height: 80px;
+   
+ padding-right: 43px;
+ padding-left: 42px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 300ms ease;
+}
+}
+
+
+
+
+
+
+
+
+
+.menu_desktop li:hover {
+  background-color: rgb(214, 28, 44);
+  
+  transition: all 300ms ease;
+
+
+
+}
+
+
+.menu_desktop li  a{
+  white-space:  nowrap;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  
+  /* identical to box height */
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  
+
+
+}
 
 
 
@@ -1667,7 +1750,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  border: 1px solid rgb(0, 4, 255) !important;
+  
   }
 
 
@@ -1693,7 +1776,7 @@ left: 0px;
           margin-bottom: 70px !important;
       display: flex;
       justify-content: center;
-      border: 1px solid rgb(0, 255, 42) !important; 
+       
 
 
     }
@@ -1710,7 +1793,7 @@ left: 0px;
       
       height: 280px;
       width: 731px;
-      border: 1px solid rgb(255, 0, 0) !important; 
+       
 
       }
     
@@ -1744,6 +1827,6 @@ position: absolute;
           font-size: 40px;
           line-height: 1;
           font-weight: bold;
-          border: 1px solid rgb(255, 0, 0) !important; 
+           
 
         }
