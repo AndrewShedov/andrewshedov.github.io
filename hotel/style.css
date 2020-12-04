@@ -1661,8 +1661,8 @@ body {
 .nav ul li {
   height: 80px;
   cursor: pointer;
-  padding-right: 42.8px;
-  padding-left: 42.8px;
+  padding-right: 42.6px;
+  padding-left: 42.6px;
   
   display: flex;
   justify-content: center;
