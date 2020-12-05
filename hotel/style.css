@@ -2013,14 +2013,14 @@ line-height: 13px;
   }
 
 
-
+  @media screen and (min-width:1000px) and (max-width: 99999999px) {
   ul.Breadcrumbs_ul li a:hover {
     color: #0A223D;
     font-weight: 900;
     transition: all 200ms ease;
     font-size: 11px;
   }
-
+  }
 
 
 
