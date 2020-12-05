@@ -1461,10 +1461,10 @@ body {
         cursor: pointer;
         position: fixed;
         /*right: 25px;*/
-        right: -16px;
+        right: -17.7px;
         top: 3px;
         /*top: 30px;*/
-       
+         
       }
 
 
@@ -1488,14 +1488,18 @@ body {
       }
       
       .burger .burger-bar-top {
-        height: 4px;
+        border-radius: 50%;
+        height: 7px;
+        width: 7px;
         border-bottom: none;
         top: 0;
         background-color: #ec1f4486;
          }
       
       .burger .burger-bar-middle {
-        height: 4px;
+        border-radius: 50%;
+        height: 7px;
+        width: 7px;
         background-color: #ec1f4486;
         
         
@@ -1504,7 +1508,9 @@ body {
       }
       
       .burger .burger-bar-bottom {
-        height: 4px;
+        border-radius: 50%;
+        height: 7px;
+        width: 7px;
         background-color: #ec1f4486;
         border-top: none;
         top: 22px;
@@ -1512,7 +1518,9 @@ body {
        }
       
    .burger .burger-bar-bottom1 {
-        height: 4px;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
         background-color: #ec1f4486;
         border-top: none;
         top: 33px;
@@ -1533,25 +1541,25 @@ body {
   
       
   .hoverBurger .burger-bar-top {
-    width: 10px;
+    width: 7px;
     
         background-color:#EC1F46;
         }
       
       .hoverBurger .burger-bar-middle {
-        width: 10px;
+        width: 7px;
         background-color:#EC1F46;
         
       }
       
       .hoverBurger .burger-bar-bottom {
-        width: 10px;
+        width: 7px;
         background-color:#EC1F46;
         
        }
   
        .hoverBurger .burger-bar-bottom1 {
-        width: 10px;
+        width: 7px;
         background-color:#EC1F46;
         }
   
@@ -1561,19 +1569,19 @@ body {
         height: 2.5px !important;
         width: 39px !important;
         background-color:#EC1F46;
-        right: -10.3px;
+        right: -8.5px;
         top: 18px;
-       
+       border-radius: 2px;
        }
   
    .burger-open .burger-bar-middle {
         width: 39px !important;
         height: 2.5px !important;
-        right: -16.7px;
+        right: -15px;
         top: 22px;
         background-color:#EC1F46;
         transform: rotate(270deg);
-        
+        border-radius: 2px;
       }
   
   .burger-open .burger-bar-bottom {
@@ -1581,9 +1589,9 @@ body {
     height: 2.5px !important;
     width: 39px !important;
     background-color:#EC1F46;
-    right: -9.9px;
+    right: -8.3px;
     top: 18px;
-    
+    border-radius: 2px;
   }
     
       .burger-open .burger-bar-bottom1 {
@@ -1591,6 +1599,7 @@ body {
         height: 0px;
         width: 0px;
         opacity: 0;
+        border-radius: 2px;
       }
 }
 
