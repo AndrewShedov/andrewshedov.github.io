@@ -293,7 +293,7 @@ align-items: center;
  flex-wrap: nowrap;
  position: relative;
  transition: all 500ms ease;
- height: 50px !important;
+ height: 45px !important;
  align-items: center;
  margin-right: 10px;
     }
@@ -396,7 +396,7 @@ align-items: center;
    
   position: relative;
   transition: all 500ms ease;
-  height: 50px !important;
+  height: 45px !important;
   align-items: center;
    
     }
