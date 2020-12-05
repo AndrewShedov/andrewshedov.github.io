@@ -309,11 +309,10 @@ align-items: center;
  flex-wrap: nowrap;
  position: relative;
  transition: all 500ms ease;
- height: 20px !important;
+ height: 25px !important;
  align-items: center;
  margin-right: 10px;
- margin-bottom: 2px;
-   margin-top: 2px;
+
     }
    }
 
@@ -411,12 +410,11 @@ align-items: center;
   display: flex;
   flex-wrap: nowrap;
    
-  position: relative;
+  position: relative !important;
   transition: all 500ms ease;
-  height: 20px !important;
-  align-items: center;
-   margin-bottom: 2px;
-   margin-top: 2px;
+  height: 25px !important;
+  align-items: center !important;
+   
     }
 
     
