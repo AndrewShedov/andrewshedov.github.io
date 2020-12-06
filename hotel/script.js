@@ -108,7 +108,7 @@ window.addEventListener('scroll', function(e){
 */
 
 
-
+/*Menu scrolling*/
 document.addEventListener('scroll', () => { 
     let scrollTop = window.scrollY;    
     console.log(scrollTop);
