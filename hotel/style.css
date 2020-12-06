@@ -1636,6 +1636,36 @@ body {
 
 
 
+        .nav{
+          position: sticky;
+
+          top: -2px;
+height: 80px;
+z-index: 99999999;
+
+        }
+
+        .scroll{
+          transition: all 500ms ease;
+          height:40px !important;
+
+
+        }
+
+
+        .nav ul li{
+
+          height: 80px;
+          display: flex;
+          border: 1px solid rgb(255, 0, 0) !important; 
+          align-items: center;
+          justify-content: center;
+
+        }
+
+      
+        
+
 
 
 
@@ -1645,19 +1675,19 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  height: 80px;
+  border: 1px solid rgb(255, 0, 0) !important; 
   margin: 0; 
   padding: 0;
   transition: all 500ms ease;
- 
+ height: 100%;
 }
-
+        
 
 
 @media screen and (min-width:1200px) and (max-width: 99999999999px)
         {
 .nav ul li {
-  height: 80px;
+  
   cursor: pointer;
   padding-right: 44.1px;
   padding-left: 44.1px;
@@ -1674,7 +1704,7 @@ body {
 
 @-moz-document url-prefix() {
 .nav ul li {
-  height: 80px;
+
   cursor: pointer;
   padding-right: 42.6px;
   padding-left: 42.6px;
@@ -1694,7 +1724,7 @@ body {
         @media screen and (min-width:1125px) and (max-width: 1200px)
         {
           .nav ul li {
-            height: 80px;
+           
             cursor: pointer;
             padding-right: 38px;
             padding-left: 38px;
@@ -1712,7 +1742,7 @@ body {
 
 @-moz-document url-prefix() {
   .nav ul li {
-    height: 80px;
+    
     cursor: pointer;
     padding-right: 38px;
     padding-left: 38px;
@@ -1731,7 +1761,7 @@ body {
         @media screen and (min-width:0px) and (max-width: 1125px)
         {
           .nav ul li {
-            height: 80px;
+           
             cursor: pointer;
             padding-right: 30px;
             padding-left: 30px;
@@ -1749,7 +1779,7 @@ body {
 
 @-moz-document url-prefix() {
   .nav ul li {
-    height: 80px;
+   
     cursor: pointer;
     padding-right: 30px;
     padding-left: 30px;

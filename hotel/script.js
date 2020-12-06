@@ -59,3 +59,36 @@ document.getElementById('menu').onclick = function(event) {
 	}
     }
     
+
+
+    $(window).scroll(function(){
+        if ($(window).scrollTop() > 100) {
+            $('.nav').css("height", "40px");
+            
+        }
+        else {
+            $('.nav').css("height", "80px");
+          
+        }
+    });
+
+
+
+
+
+
+    $(window).scroll(function(){
+        if ($(window).scrollTop() > 100) {
+            
+            $(".nav  ul  li").css("height", "40px");
+        }
+        else {
+            
+            $(".nav  ul  li").css("height", "80px");
+        }
+    });
+
+   
+    
+
+   
