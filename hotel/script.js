@@ -59,22 +59,21 @@ document.getElementById('menu').onclick = function(event) {
 	}
     }
     
-    
+
 /*Menu scrolling*/
 document.addEventListener('scroll', () => { 
-    let scrollTop = window.scrollY;    
-    console.log(scrollTop);
-    let nav = document.querySelector('.nav');
-    let li = document.querySelectorAll(".nav  ul  li")
     
-    if(scrollTop >= 180){
-        li.forEach(el => el.style.height = "50px");
-        nav.style.height = "50px";
+let scrollTop = window.scrollY;    
+let nav = document.querySelector('.nav');
+let li = document.querySelectorAll(".nav  ul  li")
+    
+if(scrollTop >= 180){
+    li.forEach(el => el.style.height = "50px");
+     nav.style.height = "50px";
        }
-
 else{
-nav.style.height = "80px";
-li.forEach(el => el.style.height = "80px");
+     nav.style.height = "80px";
+     li.forEach(el => el.style.height = "80px");
 };
 });
     
