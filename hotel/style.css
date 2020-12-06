@@ -1638,7 +1638,7 @@ body {
 
         .nav{
           position: sticky;
-
+          transition: all 200ms ease !important;
           top: -2px;
 height: 80px;
 z-index: 99999999;
@@ -1657,14 +1657,18 @@ z-index: 99999999;
 
           height: 80px;
           display: flex;
-          border: 1px solid rgb(255, 0, 0) !important; 
+           
           align-items: center;
           justify-content: center;
-
+          transition: all 200ms ease;
         }
 
       
-        
+        .nav ul li:hover {
+          background-color: rgb(214, 28, 44);
+          
+          transition: all 100ms ease;
+        }
 
 
 
@@ -1675,10 +1679,10 @@ z-index: 99999999;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
   margin: 0; 
   padding: 0;
-  transition: all 500ms ease;
+  
  height: 100%;
 }
         
@@ -1695,7 +1699,7 @@ z-index: 99999999;
   justify-content: center;
   align-items: center;
  
-  transition: all 500ms ease;
+ 
 }
 
 
@@ -1712,7 +1716,7 @@ z-index: 99999999;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 500ms ease;
+  
 
 }
 }
@@ -1732,7 +1736,7 @@ z-index: 99999999;
             justify-content: center;
             align-items: center;
             
-            transition: all 500ms ease;
+           
           }
           
 
@@ -1750,7 +1754,7 @@ z-index: 99999999;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 500ms ease;
+   
   
   }
 }
@@ -1769,7 +1773,7 @@ z-index: 99999999;
             justify-content: center;
             align-items: center;
             
-            transition: all 500ms ease;
+           
           }
           
 
@@ -1787,7 +1791,7 @@ z-index: 99999999;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 500ms ease;
+    
   
   }
 }
@@ -1795,17 +1799,10 @@ z-index: 99999999;
 
 
 
-.nav li:hover {
-  background-color: rgb(214, 28, 44);
-  
-  transition: all 100ms ease;
 
 
 
-}
-
-
-.nav ul  a{
+.nav ul a{
   white-space:  nowrap;
   font-family: Mulish;
   font-style: normal;

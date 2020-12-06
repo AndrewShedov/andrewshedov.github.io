@@ -60,35 +60,72 @@ document.getElementById('menu').onclick = function(event) {
     }
     
 
-
+/*
     $(window).scroll(function(){
-        if ($(window).scrollTop() > 100) {
+        if ($(window).scrollTop() > 150) {
             $('.nav').css("height", "40px");
-            
-        }
-        else {
-            $('.nav').css("height", "80px");
-          
-        }
-    });
-
-
-
-
-
-
-    $(window).scroll(function(){
-        if ($(window).scrollTop() > 100) {
-            
             $(".nav  ul  li").css("height", "40px");
         }
         else {
-            
+            $('.nav').css("height", "80px");
             $(".nav  ul  li").css("height", "80px");
         }
     });
+*/
+/*
+.scrollTop = intValue
+Window.scroll(function(){
+    if (Window.scrollTop > 150) {
+        document.getElementById("nav").style.height = 10 + "px";
+     
+    }
 
    
+
+    else {
+        document.getElementById("nav").style.height = 80 + "px";
+        
+    }
+});
+    
+window.addEventListener('scroll', function(e){
+    document.getElementById("nav").style.height = document.body.scrollTop/2+"px";
+  });
+*/
+/*
+  var block = document.querySelector('.nav');
+
+  window.addEventListener('scroll', function() {
+    var
+   
+      height = 200;
+  
+    block.style.height = height + 'px';
+
+    console.log(height);
+
+  });
+*/
+
+
+
+document.addEventListener('scroll', () => { 
+    let scrollTop = window.scrollY;    
+    console.log(scrollTop);
+    let nav = document.querySelector('.nav');
+    let li = document.querySelectorAll(".nav  ul  li")
+    
+    if(scrollTop >= 180){
+        li.forEach(el => el.style.height = "50px");
+        nav.style.height = "50px";
+       }
+
+else{
+nav.style.height = "80px";
+li.forEach(el => el.style.height = "80px");
+};
+});
     
 
-   
+
+     
