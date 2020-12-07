@@ -1579,18 +1579,38 @@ body {
         top: -3px
        
        }
-  
+       @-moz-document url-prefix() {
    .burger-open .burger-bar-middle {
     border-radius: 50%;
     height: 7px;
     width: 7px;
-        right: -3px;
+        right: -3.2px !important;
+       
         top: 33px;
         background-color:#0A223D;
         transform: rotate(270deg);
         
       }
-  
+    }
+
+
+
+    .burger-open .burger-bar-middle {
+      border-radius: 50%;
+      height: 7px;
+      width: 7px;
+          right: -3px;
+         
+          top: 33px;
+          background-color:#0A223D;
+          transform: rotate(270deg);
+          
+        }
+
+
+
+
+
   .burger-open .burger-bar-bottom {
     transform: rotate(270deg)  translate(1px, 11px);
     border-radius: 50%;
