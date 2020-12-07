@@ -87,7 +87,7 @@ else{
     };
 });
     
-
+/*
 document.addEventListener('scroll', () => { 
     
 let scrollTop = window.scrollY; 
@@ -104,5 +104,5 @@ if(scrollTop >= 175){
 
 
 });
-
+*/
 
