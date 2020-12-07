@@ -1584,7 +1584,7 @@ body {
     border-radius: 50%;
     height: 7px;
     width: 7px;
-        right: -3.3px;
+        right: -3px;
         top: 33px;
         background-color:#0A223D;
         transform: rotate(270deg);
@@ -1608,13 +1608,14 @@ body {
       border-radius: 50%;
       height: 7px;
       width: 7px;
-      right: 3.7px;
+      right: 3.8px !important;
   top: 31px;
       
       background-color:#0A223D;
     }
 
 
+ 
 
 
 
