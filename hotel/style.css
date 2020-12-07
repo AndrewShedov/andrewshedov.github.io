@@ -1575,7 +1575,7 @@ body {
         height: 7px;
         width: 7px;
         background-color:#0A223D;
-        right: 11px;
+        right: 12px;
         top: -3px
        
        }
@@ -1584,8 +1584,8 @@ body {
     border-radius: 50%;
     height: 7px;
     width: 7px;
-        right: -4px;
-        top: 23px;
+        right: -3.3px;
+        top: 33px;
         background-color:#0A223D;
         transform: rotate(270deg);
         
@@ -1597,22 +1597,30 @@ body {
         height: 7px;
         width: 7px;
     background-color:#0A223D;
-    right: 7px;
+    right: 7.8px;
     top: 13px;
     
   }
-    
-      .burger-open .burger-bar-bottom1 {
-        transform: rotate(225deg)  translate(1px, 11px);
-        border-radius: 50%;
-        height: 7px;
-        width: 7px;
-        right: 3px;
-    top: 42px;
-        
-        background-color:#0A223D;
-      }
+  
+
+  .burger-open .burger-bar-bottom1 {
+      transform: rotate(225deg)  translate(1px, 11px);
+      border-radius: 50%;
+      height: 7px;
+      width: 7px;
+      right: 3.7px;
+  top: 31px;
+      
+      background-color:#0A223D;
+    }
+
+
+
+
+
+
 }
+
 
 
 
