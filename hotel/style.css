@@ -1618,7 +1618,7 @@ body {
 @media screen and (min-width:1040px) and (max-width: 99999999999px)
         {
 .nav{
-  background-color: rgba(10, 34, 61, 1);
+  
   transition: all 500ms ease;
   display: block;
 }
@@ -1628,7 +1628,7 @@ body {
         @media screen and (min-width:0px) and (max-width: 1040px)
         {
 .nav{
-  background-color: rgba(10, 34, 61, 1);
+  
   transition: all 500ms ease;
   display: none;
 }
@@ -1637,9 +1637,10 @@ body {
 
 
         .nav{
+          background-color: rgb(10, 34, 61);
           position: sticky;
           transition: all 200ms ease !important;
-          top: -2px;
+          top: 0px;
 height: 80px;
 z-index: 99999999;
 
@@ -1657,13 +1658,20 @@ z-index: 99999999;
 
           height: 80px;
           display: flex;
-           
+          
           align-items: center;
           justify-content: center;
-          transition: all 200ms ease;
-        }
+          transition: all 500ms ease;
+          }
 
-      
+
+.lit{
+
+  transition: all 200ms ease !important;
+
+}
+
+
         .nav ul li:hover {
           background-color: rgb(214, 28, 44);
           
@@ -1950,7 +1958,7 @@ line-height: 13px;
 
   @media screen and (min-width:1000px) and (max-width: 99999999px) {
   ul.Breadcrumbs_ul li a:hover {
-    color: #0A223D;
+    color: #000000;
     font-weight: 900;
     transition: all 200ms ease;
     font-size: 11px;
