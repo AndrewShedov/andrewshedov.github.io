@@ -2063,7 +2063,7 @@ line-height: 13px;
 
     .gh_hotel_name_rating_wrap{
 display: flex;
-justify-content: center;
+
 width: 100%;
 flex-wrap:nowrap ;
 max-width: 1115px;
@@ -2079,16 +2079,36 @@ max-width: 1115px;
       display: flex;
       justify-content: center;
       width: 100%;
+      max-width: 728px;
       flex-wrap:nowrap ;
+
     }
 
+    .gh_hotel_name_wrap_2{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    
+    }
 
     .gh_hotel_name{
      width: 100%;
      max-width: 268px;
+     border: 1px solid rgb(0, 0, 0) !important; 
     }
 
+    .gh_hotel_name p{
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 30px;
+      
+      /* Gray 1 */
+      color: #333333;
 
+
+     }
 
 
     .gh_hotel_name_wrap_2{
