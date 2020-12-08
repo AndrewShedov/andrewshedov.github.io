@@ -2075,10 +2075,10 @@ max-width: 1115px;
     }
 
 
-    .gh_hotel_name_wrap_1{
-      border: 1px solid rgb(255, 0, 0) !important; 
+    .gh_hotel_name_offer_wrap{
+      border: 1px solid rgb(38, 255, 0) !important; 
       display: flex;
-      justify-content: center;
+      justify-content: start;
       width: 100%;
       max-width: 728px;
       flex-wrap:nowrap ;
@@ -2090,6 +2090,7 @@ max-width: 1115px;
     .gh_hotel_name{
      width: 100%;
      max-width: 268px;
+     margin-right: 15px;
      border: 1px solid rgb(0, 0, 0) !important; 
     }
 
@@ -2107,7 +2108,7 @@ max-width: 1115px;
      }
 
 
-    .gh_hotel_name_wrap_2{
+    .gh_hotel_name_offer_wrap_2{
       border: 1px solid rgb(0, 0, 0) !important;
       display: flex;
       
@@ -2117,7 +2118,7 @@ max-width: 1115px;
 
 
 
-    .gh_hotel_name_offer_wrap{
+    .gh_hotel_offer_wrap{
 justify-content: start;
 align-items: center;
       display: flex;
@@ -2127,7 +2128,7 @@ align-items: center;
 
     }
 
-    .gh_hotel_name_offer{
+    .gh_hotel_offer{
 display:flex;
 justify-content: center;
 align-items: center;
@@ -2139,7 +2140,7 @@ height: 20px;
     }
 
 
-    .gh_hotel_name_offer a{
+    .gh_hotel_offer a{
       font-family: Mulish;
       font-style: normal;
       font-weight: 600;
