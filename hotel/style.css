@@ -1600,7 +1600,7 @@ body {
       height: 7px;
       width: 7px;
           right: -3px;
-         
+          
           top: 33px;
           background-color:#0A223D;
           transform: rotate(270deg);
@@ -2020,7 +2020,7 @@ justify-content: center;
   .gh_hotel_stars{
 
     display: flex;
-    
+    margin-top: 50px;
     width: 100% !important;
     flex-wrap: nowrap;
     max-width: 1115px;
