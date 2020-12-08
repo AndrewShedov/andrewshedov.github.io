@@ -2124,18 +2124,31 @@ max-width: 1115px;
     .gh_hotel_name_offer_wrap{
 
       display: flex;
-      
+      max-width: 400px;
       width: 100%;
       flex-wrap:nowrap ;
 
     }
 
+    .gh_hotel_name_offer{
+display:flex;
+justify-content: center;
+align-items: center;
+background: rgba(236, 31, 70, 1);
+max-width: 70px;
+      width: 100%;
+    }
 
 
-
-
-
-
+    .gh_hotel_name_offer a{
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 13px;
+color: #FFFFFF;
+      
+    }
 
 
 
