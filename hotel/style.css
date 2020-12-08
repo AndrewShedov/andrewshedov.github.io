@@ -2101,7 +2101,7 @@ max-width: 1115px;
       
       /* Gray 1 */
       color: #333333;
-
+      white-space: nowrap !important;
 
      }
 
@@ -2117,7 +2117,7 @@ max-width: 1115px;
 
 
     .gh_hotel_name_offer_wrap{
-justify-content: center;
+justify-content: start;
 align-items: center;
       display: flex;
       max-width: 400px;
@@ -2145,7 +2145,7 @@ height: 20px;
       font-size: 10px;
       line-height: 13px;
 color: #FFFFFF;
-      
+
     }
 
 
