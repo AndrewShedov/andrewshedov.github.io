@@ -1861,6 +1861,36 @@ z-index: 99999999;
 }
 
 
+.gh_hotel_rating_wrap{
+  
+width: 100%;
+max-width: 350px;
+
+display: flex;
+justify-content: flex-end; 
+  border: 1px solid rgb(0, 0, 0) !important; 
+
+
+
+}
+
+
+
+.gh_hotel_rating{
+  border: 1px solid rgb(252, 0, 0) !important; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2064,7 +2094,7 @@ line-height: 13px;
 
     .gh_hotel_name_rating_wrap{
 display: flex;
-
+justify-content: space-between;
 width: 100%;
 flex-wrap:nowrap ;
 max-width: 1115px;
