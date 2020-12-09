@@ -1949,7 +1949,15 @@ align-items: center;
 }
 
 
-
+.gh_hotel_name_description_wrap{
+width: 100%;
+max-width: 1115px;
+display: flex;
+justify-content: start;
+border: 1px solid rgb(255, 0, 0) !important; 
+margin-left: 15px;
+margin-right: 15px;
+}
 
 
 
@@ -2181,6 +2189,9 @@ max-width: 1115px;
      max-width: 268px;
      margin-right: 15px;
      border: 1px solid rgb(0, 0, 0) !important; 
+     display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
     .gh_hotel_name p{
