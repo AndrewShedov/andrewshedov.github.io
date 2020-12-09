@@ -1960,8 +1960,24 @@ margin-right: 15px;
 }
 
 
+.gh_hotel_name_description{
 
 
+}
+.gh_hotel_name_description p{
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  
+  /* identical to box height */
+  
+  /* Gray 1 */
+  color: #333333;
+
+}
 
 
 
