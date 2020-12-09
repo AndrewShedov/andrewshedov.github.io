@@ -1877,17 +1877,76 @@ justify-content: flex-end;
 
 
 .gh_hotel_rating{
-  border: 1px solid rgb(252, 0, 0) !important; 
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+max-width: 65px;
+height: 45px;
+background: #EC1F46;
+border-radius: 4px;
+flex-wrap: wrap ;
+}
 
-
+.gh_hotel_rating_text{
+  border: 1px solid rgb(0, 0, 0) !important; 
+  width: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
 
+.gh_hotel_rating_text p{
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+  
+  
+
+}
+
+.gh_hotel_rating_number{
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0) !important; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gh_hotel_rating_number p{
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+
+}
+.gh_hotel_rating_number span:nth-child(1){
 
 
-
-
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7px;
+  line-height: 18px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+}
 
 
 
