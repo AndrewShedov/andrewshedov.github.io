@@ -2112,8 +2112,9 @@ line-height: 13px;
   .gh_hotel_wrap{
     display: flex;
     flex-wrap: wrap;
-    background: rgba(245, 250, 254, 1);
     justify-content: center;
+    background: rgba(245, 250, 254, 1);
+    
   }
 
   .gh_hotel{
