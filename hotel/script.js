@@ -75,8 +75,8 @@ let nav = document.querySelector('.nav');
 let li = document.querySelectorAll(".nav  ul  li")
     
 if(scrollTop >= 180){
-    li.forEach(el => el.style.height = "50px");
-    nav.style.height = "50px";
+    li.forEach(el => el.style.height = "40px");
+    nav.style.height = "40px";
 
 }
 else{
