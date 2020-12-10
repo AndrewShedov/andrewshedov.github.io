@@ -2325,49 +2325,7 @@ left: 0px;
     background: #0A223D;
     }
 
-    .hr_1_wrap{
-      position: relative;
-     
-          
-          margin-top: 30px;
-          margin-bottom: 70px !important;
-      display: flex;
-      justify-content: center;
-       
-
-
-    }
-
-
-
-    .hr_1{
-     
- 
-      position: relative;
-  left: 0px;
-      
-      
-      
-      height: 280px;
-      width: 731px;
-       
-
-      }
     
-    
-    
-      .hr_2{
-        height: 47.58935546875px;
-width: 70px;
-
-
-
-position: absolute;
-          top: -16px;
-          right: 60px;
-        border-radius: 0px;
-        
-        }
     
 
 
@@ -2387,3 +2345,52 @@ position: absolute;
            
 
         }
+
+
+
+
+
+
+        .hr_1_wrap{
+          position: relative;
+         
+              
+              margin-top: 30px;
+              margin-bottom: 70px !important;
+          display: flex;
+          justify-content: center;
+           
+    
+    
+        }
+    
+    
+    
+        .hr_1{
+         
+     
+          position: relative;
+      left: 0px;
+          
+          
+          
+          height: 280px;
+          width: 731px;
+           
+    
+          }
+        
+        
+        
+          .hr_2{
+            height: 47.58935546875px;
+    width: 70px;
+    
+    
+    
+    position: absolute;
+              top: -16px;
+              right: 60px;
+            border-radius: 0px;
+            
+            }
