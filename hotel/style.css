@@ -1978,12 +1978,6 @@ border: 1px solid rgb(255, 0, 0) !important;
 
 }
 
-.gh_hotel_slide_options_map_wrap{
-
-
-
-  
-}
 
 
 
@@ -1993,42 +1987,7 @@ border: 1px solid rgb(255, 0, 0) !important;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  .exs{
-
-
-    
-
-  }
-
-
-
-
-
-  a.active.focus,
+a.active.focus,
   a.active:focus,
   a.focus,
   a:active.focus,
@@ -2378,46 +2337,149 @@ left: 0px;
 
 
 
-        .hr_1_wrap{
-          position: relative;
-         
-              
-              margin-top: 30px;
-              margin-bottom: 70px !important;
-          display: flex;
-          justify-content: center;
-           
+       
+
+
+
+
+
+
+
+
+
+.gh_hotel_slide_options_map_wrap{
+
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.gh_hotel_slide_wrap{
+
+  display: flex;
+  justify-content: center;
+  
+ 
+  border: 1px solid rgb(255, 0, 0) !important; 
+
+
+
+}
+
+
+
+
+
+.gh_hotel_slide{
+display: flex;
+justify-content: center;
+border: 2px solid rgb(0, 0, 0) !important; 
+max-width: 500px;
+align-items: center;
+width: 100%;
+}
+
+
+
+.hr_1_wrap{
+  position: relative;
+  border: 2px solid rgb(72, 255, 0) !important; 
+      
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 100%;
+height: 100%;
+
+}
+
+
+
+.hr_1{
+ 
+
+  position: relative;
+left: 0px;
+  
+  
+  
+  height: 280px;
+  max-width: 400px;
+   width: 100%;
+  border: 2px solid rgb(255, 0, 0) !important; 
+  }
+
+
+
+  .hr_2{
+    height: 47.58935546875px;
+width: 70px;
+
+border: 2px solid rgb(255, 0, 0) !important; 
+
+position: absolute;
+      top: -16px;
+      right: 60px;
+    border-radius: 0px;
     
-    
-        }
-    
-    
-    
-        .hr_1{
-         
-     
-          position: relative;
-      left: 0px;
-          
-          
-          
-          height: 280px;
-          width: 731px;
-           
-    
-          }
-        
-        
-        
-          .hr_2{
-            height: 47.58935546875px;
-    width: 70px;
-    
-    
-    
-    position: absolute;
-              top: -16px;
-              right: 60px;
-            border-radius: 0px;
-            
-            }
+    }
+
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
