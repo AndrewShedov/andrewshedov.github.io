@@ -18,7 +18,7 @@
     }
 
     body {
-      background: #000;
+     
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color: #000;
@@ -34,11 +34,41 @@
     .swiper-slide {
       overflow: hidden;
     }
+
+
+    .swap_wrap{
+
+display: flex;
+justify-content: center;
+margin-left: 15px;
+margin-right: 15px;
+
+
+
+    }
+
+
+
+    .swap{
+width: 100%;
+
+max-width: 500px;
+
+
+
+
+
+    }
+
   </style>
 </head>
 
 <body>
   <!-- Swiper -->
+
+
+<div class="swap_wrap">
+  <div class="swap">
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -63,6 +93,10 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   </div>
+</div>
+</div>
+
+
 
   <!-- Swiper JS -->
   <script src="../slider/swiper-bundle.min.js"></script>
