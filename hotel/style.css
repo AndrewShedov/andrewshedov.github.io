@@ -2336,31 +2336,21 @@ left: 0px;
 
 
 
+.gh_hotel_slider_options_map_wrap{
 
-       
-
-
-
-
-
-
-
-
-
-.gh_hotel_slide_options_map_wrap{
-
-
+  border: 1px solid rgb(0, 255, 42) !important; 
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  width: 100%;
 }
 
-.gh_hotel_slide_wrap{
+.gh_hotel_slider_wrap{
 
   display: flex;
   justify-content: center;
-  
- 
+max-width: 700px;
+ width: 100%;
   border: 1px solid rgb(255, 0, 0) !important; 
 
 
@@ -2371,7 +2361,7 @@ left: 0px;
 
 
 
-.gh_hotel_slide{
+.gh_hotel_slider{
 display: flex;
 justify-content: center;
 border: 2px solid rgb(0, 0, 0) !important; 
@@ -2382,7 +2372,7 @@ width: 100%;
 
 
 
-.hotel_slide_image_wrap_1{
+.hotel_slider_image_wrap_1{
   position: relative;
   border: 2px solid rgb(72, 255, 0) !important; 
       
@@ -2397,7 +2387,7 @@ height: 100%;
 
 
 
-.hotel_slide_image_wrap_2{
+.hotel_slider_image_wrap_2{
  
 
   position: relative;
@@ -2413,7 +2403,7 @@ left: 0px;
 
 
 
-  .hotel_slide_image{
+  .hotel_slider_image{
     height: 47.58935546875px;
 width: 70px;
 
@@ -2430,6 +2420,8 @@ position: absolute;
     .swiper-container {
       width: 100%;
       height: 100%;
+     
+ 
     }
 
     .swiper-slide {
@@ -2455,13 +2447,20 @@ position: absolute;
 
 
 
+    
+    .sliiiii_wrap{
+      display: flex;
+      justify-content: center;
+      
+     
+      border: 1px solid rgb(0, 174, 255) !important; 
+
+    }
 
 
 
 
-
-
-
+   
 
 
 
