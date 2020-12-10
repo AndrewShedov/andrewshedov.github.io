@@ -2345,6 +2345,8 @@ left: 0px;
   width: 100%;
 }
 
+
+/*
 .gh_hotel_slider_wrap{
 
   display: flex;
@@ -2356,7 +2358,7 @@ max-width: 700px;
 
 
 }
-
+*/
 
 
 
@@ -2365,10 +2367,20 @@ max-width: 700px;
 display: flex;
 justify-content: center;
 border: 2px solid rgb(0, 0, 0) !important; 
-max-width: 500px;
+max-width: 728px;
 align-items: center;
 width: 100%;
 }
+
+
+
+
+
+.hotel_slider_image_wrap{
+width: 100%;
+max-width: 728px;
+}
+
 
 
 
@@ -2423,13 +2435,13 @@ position: absolute;
      
  
     }
-
+/*
     .swiper-slide {
       text-align: center;
       font-size: 18px;
       background: #fff;
 
-      /* Center slide text vertically */
+    
       display: -webkit-box;
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -2443,9 +2455,11 @@ position: absolute;
       -webkit-align-items: center;
       align-items: center;
     }
+*/
 
-
-
+.swiper-slide {
+  overflow: hidden;
+}
 
     
     .sliiiii_wrap{
