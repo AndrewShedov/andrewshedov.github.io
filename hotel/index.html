@@ -7,7 +7,7 @@
     
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <link rel="stylesheet" type="text/css" href="plugins/slider/swiper-bundle.min.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -325,9 +325,9 @@
 
     
     </div>
-    <div class="gh_hotel_image_options_map_wrap">
-        <div class="gh_hotel_image_wrap">
-            <div class="gh_hotel_image">
+    <div class="gh_hotel_slide_options_map_wrap">
+        <div class="gh_hotel_slide_wrap">
+            <div class="gh_hotel_slide">
 
 
 
@@ -439,7 +439,26 @@
 
 
 
+<!-- Swiper JS -->
+<script src=plugins/slider/swiper-bundle.min.js></script>
 
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    zoom: true,
+    loop: true,
+    pagination: {
+      /*el: '.swiper-pagination',*/
+      /*type: 'progressbar',*/
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay:{delay:4000,disableOnInteraction:false}
+
+  });
+</script>
 <script src=script.js></script>
 </body>
 </html>
