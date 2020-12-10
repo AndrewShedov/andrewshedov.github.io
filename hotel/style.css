@@ -2382,7 +2382,7 @@ width: 100%;
 
 
 
-.hr_1_wrap{
+.hotel_slide_image_wrap_1{
   position: relative;
   border: 2px solid rgb(72, 255, 0) !important; 
       
@@ -2397,7 +2397,7 @@ height: 100%;
 
 
 
-.hr_1{
+.hotel_slide_image_wrap_2{
  
 
   position: relative;
@@ -2413,7 +2413,7 @@ left: 0px;
 
 
 
-  .hr_2{
+  .hotel_slide_image{
     height: 47.58935546875px;
 width: 70px;
 
