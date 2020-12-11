@@ -249,7 +249,7 @@
       </div>
 
 <div class="gh_hotel_wrap">
-<div class="gh_hotel">
+<div class="gh_hotel" id="gh_hotel">
 <div class="gh_hotel_stars_wrap">
       
     <div class="gh_hotel_stars"> 
@@ -339,16 +339,11 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                         
-                            <div class="hotel_slider_image_wrap">
-                              
-    
-                                    <div class="swiper-zoom-container">
+                        <div class="swiper-zoom-container">
                                     <img class="img-adaptive" src="images/Rectangle 5.png" alt=image>
                               
-    
-                                     </div>   
-                           </div>
-                    
+                          </div>
+                     
                           </div>
                       <div class="swiper-slide">Slide 1
                  </div>
@@ -564,10 +559,12 @@
 
 <!-- Initialize Swiper -->
 <script>
-  var swiper = new Swiper('.swiper-container', {
+
+var swiper = new Swiper('.swiper-container', {
     zoom: true,
     loop: true,
     
+    slidesPerView:'auto',
     pagination: {
       /*el: '.swiper-pagination',*/
       /*type: 'progressbar',*/
@@ -577,8 +574,9 @@
       prevEl: '.swiper-button-prev',
     },
    /* autoplay:{delay:4000,disableOnInteraction:false}*/
-
+ 
   });
+  
 </script>
 <script src=script.js></script>
 </body>
