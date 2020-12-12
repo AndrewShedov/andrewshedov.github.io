@@ -1737,8 +1737,8 @@ z-index: 99999999;
 .nav ul li {
   
   cursor: pointer;
-  padding-right: 44.1px;
-  padding-left: 44.1px;
+  padding-right: 43px;
+  padding-left: 43px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1754,8 +1754,8 @@ z-index: 99999999;
 .nav ul li {
 
   cursor: pointer;
-  padding-right: 42.6px;
-  padding-left: 42.6px;
+  padding-right: 41.6px;
+  padding-left: 41.6px;
  
   display: flex;
   justify-content: center;
@@ -2590,6 +2590,7 @@ transition: all 500ms ease;
 
 .gh_hotel_options{
   display: flex;
+  flex-wrap: wrap;
   border: 1px solid rgb(43, 255, 0) !important; 
   max-width: 295px;
   width: 100%;
@@ -2609,6 +2610,28 @@ transition: all 500ms ease;
 cursor: pointer;
 }
 
+
+
+.options_button p{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+  
+  
+
+}
+
+
+
+
+
+
 @media screen and (min-width:1000px) and (max-width: 99999999px) {
   .options_button:hover{
     background: #1576c5;
@@ -2616,7 +2639,13 @@ cursor: pointer;
     }
   }
 
+  .gh_hotel_options_price_wrap{
+display: flex;
+justify-content: space-between;
+border: 1px solid rgb(255, 0, 0) !important; 
 
+width: 100%;
+  }
 
 
 
