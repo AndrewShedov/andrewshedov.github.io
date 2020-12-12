@@ -2181,7 +2181,7 @@ width: 100%;
 flex-wrap:nowrap ;
 max-width: 1115px;
     
-    
+    border: 1px solid rgb(255, 0, 0) !important; 
 
     }
 
@@ -2202,7 +2202,7 @@ max-width: 1115px;
      width: 100%;
      max-width: 268px;
      margin-right: 15px;
-     
+     border: 1px solid rgb(0, 0, 0) !important; 
      display: flex;
     justify-content: center;
     align-items: center;
@@ -2223,7 +2223,7 @@ max-width: 1115px;
 
 
     .gh_hotel_name_offer_wrap_2{
-      
+      border: 1px solid rgb(0, 0, 0) !important;
       display: flex;
       
       width: 100%;
@@ -2339,7 +2339,7 @@ left: 0px;
 
 .gh_hotel_slider_options_map_wrap{
 
- 
+  border: 1px solid rgb(0, 255, 42) !important; 
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
@@ -2359,7 +2359,7 @@ left: 0px;
   justify-content: center;
 
  width: 100%;
- 
+  border: 5px solid rgb(255, 0, 0) !important; 
   max-width: 1115px;
   }
 
@@ -2370,7 +2370,7 @@ left: 0px;
 .gh_hotel_slider{
 display: flex;
 justify-content: center;
-
+border: 2px solid rgb(0, 0, 0) !important; 
 max-width: 728px;
 
 width: 100%;
@@ -2388,7 +2388,7 @@ width: 100%;
 
 display: flex;
 justify-content: center;
-
+border: 2px solid rgb(0, 0, 0) !important; 
 max-width: 728px;
 
 width: 100%;
@@ -2401,7 +2401,7 @@ width: 100%;
 
 .hotel_slider_image_wrap_1{
   position: relative;
-   
+  border: 2px solid rgb(72, 255, 0) !important; 
       
   
   display: flex;
@@ -2425,7 +2425,7 @@ left: 0px;
   height: 280px;
   max-width: 400px;
    width: 100%;
-  
+  border: 2px solid rgb(255, 0, 0) !important; 
   }
 
 
@@ -2434,7 +2434,7 @@ left: 0px;
     height: 47.58935546875px;
 width: 70px;
 
-
+border: 2px solid rgb(255, 0, 0) !important; 
 
 position: absolute;
       top: -16px;
