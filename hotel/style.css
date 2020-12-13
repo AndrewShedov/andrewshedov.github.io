@@ -2388,6 +2388,25 @@ transition: all 500ms ease;
 width: 100%;
 
 }
+
+.gh_hotel_image_background:after{
+
+background: url(images/Rectangle_6.png) repeat-y;
+content: '';
+
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 1;
+
+}
+
+
+
+
 .swiper-wrapper {
  
 
@@ -2593,11 +2612,11 @@ transition: all 500ms ease;
   .gh_hotel_options_wrap{
     transition: all 500ms ease;
    
-    height: 188px;
+    height: 168px;
    
   }
   .gh_hotel_options{
-    height:175px!important;
+    height:155px!important;
 
   }
 
@@ -2896,7 +2915,7 @@ justify-content: end;
       }
       .gh_hotel_map{
        
-        height: 185px;
+        height: 205px;
        }
        .gh_hotel_options_map_wrap{
         justify-content: space-between; 
