@@ -2493,10 +2493,7 @@ position: absolute;
 
 
 
-.swiper-slide {
-  overflow: hidden;
-  
-}
+
 
     
     .sliiiii_wrap{
@@ -2871,4 +2868,15 @@ justify-content: end;
     .gmnoprint > div,
     .gm-svpc {
       background-color: #f63981 !important;
+    }
+
+
+  
+
+
+
+
+    .swiper-slide {
+      overflow: hidden;
+      
     }
