@@ -2593,11 +2593,11 @@ transition: all 500ms ease;
   .gh_hotel_options_wrap{
     transition: all 500ms ease;
    
-    height: 173px;
+    height: 188px;
    
   }
   .gh_hotel_options{
-    height:160px!important;
+    height:175px!important;
 
   }
 
@@ -2896,7 +2896,7 @@ justify-content: end;
       }
       .gh_hotel_map{
        
-        height: 200px;
+        height: 185px;
        }
        .gh_hotel_options_map_wrap{
         justify-content: space-between; 
