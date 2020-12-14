@@ -1,5 +1,5 @@
 
-*{text-decoration: none;}
+*{text-decoration: none;list-style-type: none;}
 
 
 
@@ -23,7 +23,7 @@
 display: flex;
 justify-content: center;
 margin-top: 30px;
-
+margin-bottom: 30px;
 }
 
 
@@ -40,41 +40,7 @@ margin-top: 30px;
 
 .nav-tab.active {
   color: #ff4200;
-  background-color: #ff6033;
-  display: block;
-  content: "";
-  height: 3px;
   
-  -webkit-transition: width .3s ease-in-out;
-  -moz--transition: width .3s ease-in-out;
-transition: width .3s ease-in-out;
-
-position: relative;
-}
-
-
-
-
-.nav-tab :after {
-  background-color: #ff6033;
-  display: block;
-  content: "";
-  height: 3px;
-  width: 0%;
-  -webkit-transition: width .3s ease-in-out;
-  -moz--transition: width .3s ease-in-out;
-transition: width .3s ease-in-out;
-bottom: 26px;
-position: relative;
-
-}
-
-
-
-
-.nav-tab :hover:after,
-.nav-tab :focus /*:after*/ {
-  width: 100%;
   
 }
 
@@ -88,7 +54,7 @@ position: relative;
   -webkit-transition: width .3s ease-in-out;
   -moz--transition: width .3s ease-in-out;
 transition: width .3s ease-in-out;
-bottom: 26px;
+top: 5px;
 position: relative;
 
 }
@@ -98,7 +64,7 @@ position: relative;
 
 .nav__item :hover:after,
 
-.nav__item :focus /*:after*/ {
+.nav__item :focus :after {
   width: 100%;
   
 }
