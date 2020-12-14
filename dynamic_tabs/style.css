@@ -22,6 +22,7 @@
 .menu{
 display: flex;
 justify-content: center;
+margin-top: 30px;
 
 }
 
@@ -34,7 +35,7 @@ justify-content: center;
 .nav-tab {
   display: inline-block;
   margin-right: 20px ;
-  border: 1px solid rgb(255, 0, 0) !important; 
+ 
 }
 
 .nav-tab.active {
