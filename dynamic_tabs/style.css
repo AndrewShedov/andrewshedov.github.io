@@ -73,7 +73,7 @@ margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 1400ms ease !important;
+  transition: all 400ms ease !important;
   
   height: 100%;
 }
@@ -169,7 +169,7 @@ position: relative;
 
 
         .nav{
-          background-color: rgb(10, 34, 61);
+         
           position: sticky;
           transition: all 200ms ease !important;
           top: 0px;
@@ -352,6 +352,6 @@ z-index: 99999999;
 /* identical to box height */
   text-transform: uppercase;
   transition: all 400ms ease;
-  color: #FFFFFF;
+  color: #333333;
  
 }
