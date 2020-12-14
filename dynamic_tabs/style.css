@@ -44,6 +44,7 @@ dd {
 .tab.active {
   display: block;
   transition: all 500ms ease !important;
+  
 }
 
 
@@ -58,19 +59,33 @@ margin-bottom: 30px;
 
 
 
+.nav__item{
+ 
+
+}
+
+.menu li{
+
+  height: 25px;
+
+}
+
 
 
 .nav-tab {
   display: inline-block;
+  
   margin-right: 20px ;
-  border: 1px solid rgb(255, 0, 0) !important; 
+ 
   height: 100%;
 }
 
+
+
 .nav-tab.active {
   color: #ff4200;
-  
-  
+  border-bottom:3px solid #ff6033;
+
 }
 
 .nav__item a:hover{
@@ -92,7 +107,7 @@ color: rgb(226, 35, 35);
   -webkit-transition: width .3s ease-in-out;
   -moz--transition: width .3s ease-in-out;
 transition: width .3s ease-in-out;
-top: 5px;
+top: 6.5px;
 position: relative;
 
 }
@@ -100,7 +115,7 @@ position: relative;
 
 .nav__item :before {
   background-color: #ff6033;
-  display: block;
+  display: none;
   content: "";
   height: 3px;
   
