@@ -35,7 +35,7 @@ dd {
  
   border: 1px solid #000;
   display: none;
-  transition: all 500ms ease !important;
+  transition: all 100ms ease !important;
 
 
 
@@ -43,7 +43,7 @@ dd {
 
 .tab.active {
   display: block;
-  transition: all 500ms ease !important;
+  transition: all 100ms ease !important;
   
 }
 
@@ -89,18 +89,18 @@ margin-bottom: 30px;
 }
 
 .nav__item a:hover{
-  transition: all 300ms ease;
+  transition: all 100ms ease;
 color: rgb(226, 35, 35);
 } 
 
 .nav__item a{
-  transition: all 300ms ease;
+  transition: all 100ms ease;
   color: rgb(24, 24, 24);
   } 
 
 .nav__item :after {
   background-color: #ff6033;
-  display: block;
+  display: none;
   content: "";
   height: 3px;
   width: 0%;
@@ -152,7 +152,7 @@ position: relative;
         {
 .nav{
   
-  transition: all 500ms ease;
+  transition: all 100ms ease;
   display: block;
 }
         }
@@ -162,7 +162,7 @@ position: relative;
         {
 .nav{
   
-  transition: all 500ms ease;
+  transition: all 100ms ease;
   display: block;
 }
         }
@@ -180,7 +180,7 @@ z-index: 99999999;
         }
 
         .scroll{
-          transition: all 500ms ease;
+          transition: all 100ms ease;
           height:40px !important;
 
 
@@ -347,12 +347,12 @@ z-index: 99999999;
   white-space:  nowrap;
   font-family: Mulish;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 100;
   font-size: 14px;
   line-height: 18px;
 /* identical to box height */
   text-transform: uppercase;
-  transition: all 500ms ease;
+  transition: all 100ms ease;
   color: #FFFFFF;
  
 }
