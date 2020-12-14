@@ -43,8 +43,8 @@ dd {
 
 .tab.active {
   display: block;
-  transition: all 100ms ease !important;
   
+  transition: all 400ms ease;
 }
 
 
@@ -73,7 +73,7 @@ margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  transition: all 1400ms ease !important;
   
   height: 100%;
 }
@@ -82,8 +82,8 @@ margin-bottom: 30px;
 
 .nav-tab.active {
   color: #ff4200;
-  border-bottom:3px solid #ff6033;
-
+  border-bottom:4px solid #ff6033;
+  transition: all 100ms ease !important;
 }
 
 
@@ -95,10 +95,7 @@ margin-bottom: 30px;
 color: rgb(226, 35, 35);
 } 
 
-.nav__item a{
-  transition: all 100ms ease;
-  color: rgb(24, 24, 24);
-  } 
+
 
 .nav__item :after {
   background-color: #ff6033;
@@ -176,7 +173,7 @@ position: relative;
           position: sticky;
           transition: all 200ms ease !important;
           top: 0px;
-
+margin-bottom: 20px;
 z-index: 99999999;
 
         }
@@ -190,7 +187,7 @@ z-index: 99999999;
 
 
         .nav ul li{
-          border: 1px solid rgb(255, 0, 0) !important; 
+          
           height: 80px;
           display: flex;
           
@@ -208,9 +205,9 @@ z-index: 99999999;
 
 
         .nav ul li:hover {
-          background-color: rgb(214, 28, 44);
+         /* background-color: rgb(214, 28, 44);*/
           
-          transition: all 100ms ease;
+          transition: all 400ms ease;
         }
 
 
@@ -222,7 +219,7 @@ z-index: 99999999;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
   margin: 0; 
   padding: 0;
   
@@ -235,7 +232,7 @@ z-index: 99999999;
         {
 .nav ul li {
   
-  cursor: pointer;
+  
   padding-right: 43px;
   padding-left: 43px;
   display: flex;
@@ -252,7 +249,7 @@ z-index: 99999999;
 @-moz-document url-prefix() {
 .nav ul li {
 
-  cursor: pointer;
+ 
   padding-right: 43.1px;
   padding-left: 43.1px;
  
@@ -272,7 +269,7 @@ z-index: 99999999;
         {
           .nav ul li {
            
-            cursor: pointer;
+           
             padding-right: 38px;
             padding-left: 38px;
             display: flex;
@@ -290,7 +287,7 @@ z-index: 99999999;
 @-moz-document url-prefix() {
   .nav ul li {
     
-    cursor: pointer;
+    
     padding-right: 38px;
     padding-left: 38px;
     
@@ -309,7 +306,7 @@ z-index: 99999999;
         {
           .nav ul li {
            
-            cursor: pointer;
+            
             padding-right: 30px;
             padding-left: 30px;
             display: flex;
@@ -327,7 +324,7 @@ z-index: 99999999;
 @-moz-document url-prefix() {
   .nav ul li {
    
-    cursor: pointer;
+   
     padding-right: 30px;
     padding-left: 30px;
   
@@ -354,7 +351,7 @@ z-index: 99999999;
   line-height: 18px;
 /* identical to box height */
   text-transform: uppercase;
-  transition: all 100ms ease;
+  transition: all 400ms ease;
   color: #FFFFFF;
  
 }
