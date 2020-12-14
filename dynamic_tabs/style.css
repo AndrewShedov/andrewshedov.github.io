@@ -73,6 +73,15 @@ margin-bottom: 30px;
   
 }
 
+.nav__item a:hover{
+  transition: all 300ms ease;
+color: rgb(226, 35, 35);
+} 
+
+.nav__item a{
+  transition: all 300ms ease;
+  color: rgb(24, 24, 24);
+  } 
 
 .nav__item :after {
   background-color: #ff6033;
