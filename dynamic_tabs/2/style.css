@@ -1,0 +1,103 @@
+
+*{text-decoration: none;}
+
+
+
+.tab {
+  padding: 20px;
+  border: 1px solid #000;
+  display: none;
+  transition: all 500ms ease !important;
+
+
+
+}
+
+.tab.active {
+  display: block;
+  transition: all 500ms ease !important;
+}
+
+
+.menu{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+
+
+
+.nav-tab {
+  display: inline-block;
+  margin-right: 20px ;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+.nav-tab.active {
+  color: #ff4200;
+  background-color: #ff6033;
+  display: block;
+  content: "";
+  height: 3px;
+  
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+transition: width .3s ease-in-out;
+
+position: relative;
+}
+
+
+
+
+.nav-tab :after {
+  background-color: #ff6033;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+transition: width .3s ease-in-out;
+bottom: 26px;
+position: relative;
+
+}
+
+
+
+
+.nav-tab :hover:after,
+.nav-tab :focus /*:after*/ {
+  width: 100%;
+  
+}
+
+
+.nav__item :after {
+  background-color: #ff6033;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+transition: width .3s ease-in-out;
+bottom: 26px;
+position: relative;
+
+}
+
+
+
+
+.nav__item :hover:after,
+
+.nav__item :focus /*:after*/ {
+  width: 100%;
+  
+}
