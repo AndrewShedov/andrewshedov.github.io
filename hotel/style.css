@@ -2987,7 +2987,7 @@ justify-content: end;
     
     
     
-    
+    /*
     .nav2-tab {
       display: flex;
       justify-content: center;
@@ -2996,7 +2996,7 @@ justify-content: end;
       
       height: 100%;
     }
-    
+    */
     
     
     .nav2-tab.active {
@@ -3099,7 +3099,7 @@ justify-content: end;
     
             .nav2 ul li{
               border: 1px solid rgb(255, 0, 0) !important; 
-              height: 80px;
+              height: 40px;
               display: flex;
               
               align-items: center;
