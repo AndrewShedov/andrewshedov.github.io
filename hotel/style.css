@@ -3019,7 +3019,7 @@ justify-content: end;
       background-color: #ff6033;
       display: block;
       content: "";
-      height: 3px;
+      height: 4px;
       width: 0%;
       -webkit-transition: width .3s ease-in-out;
       -moz--transition: width .3s ease-in-out;
