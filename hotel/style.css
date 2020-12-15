@@ -3001,9 +3001,7 @@ justify-content: end;
     
     .nav2-tab.active {
       color: #ff4200;
-      border-bottom:4px solid #ff6033;
-      position: relative;
-      top: 2px;
+   
 }
     
     
@@ -3015,7 +3013,7 @@ justify-content: end;
     color: rgb(226, 35, 35);
     } 
     
-    
+  
     
     .nav2__item :after {
       background-color: #ff6033;
@@ -3026,7 +3024,7 @@ justify-content: end;
       -webkit-transition: width .3s ease-in-out;
       -moz--transition: width .3s ease-in-out;
     transition: width .3s ease-in-out;
-    bottom: 26px;
+    top: 15px;
     position: relative;
     
     }
