@@ -48,12 +48,6 @@ dd {
 }
 
 
-.menu{
-display: flex;
-justify-content: center;
-margin-top: 30px;
-margin-bottom: 30px;
-}
 
 
 
@@ -61,15 +55,12 @@ margin-bottom: 30px;
 
 
 
-.menu li{
-
-  height: 25px;
-
-}
 
 
 
-.nav-tab {
+
+
+.nav2-tab {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +71,7 @@ margin-bottom: 30px;
 
 
 
-.nav-tab.active {
+.nav2-tab.active {
   color: #ff4200;
   border-bottom:4px solid #ff6033;
   position: relative;
@@ -92,14 +83,14 @@ margin-bottom: 30px;
 
 
 
-.nav__item a:hover{
+.nav2__item a:hover{
   
 color: rgb(226, 35, 35);
 } 
 
 
 
-.nav__item :after {
+.nav2__item :after {
   background-color: #ff6033;
   display: none;
   content: "";
@@ -114,7 +105,7 @@ position: relative;
 }
 
 
-.nav__item :before {
+.nav2__item :before {
   background-color: #ff6033;
   display: none;
   content: "";
@@ -129,18 +120,18 @@ position: relative;
 
 
 
-.nav__item :hover:after,
+.nav2__item :hover:after,
 
-.nav__item :focus :after {
+.nav2__item :focus :after {
   width: 100%;
   
 }
 
 
 
-.nav__item :hover:before,
+.nav2__item :hover:before,
 
-.nav__item :focus :before {
+.nav2__item :focus :before {
   width: 100%;
   
 }
@@ -151,7 +142,7 @@ position: relative;
 
 @media screen and (min-width:1040px) and (max-width: 99999999999px)
         {
-.nav{
+.nav2{
   
   
   display: block;
@@ -161,7 +152,7 @@ position: relative;
 
         @media screen and (min-width:0px) and (max-width: 1040px)
         {
-.nav{
+.nav2{
   
   
   display: block;
@@ -170,7 +161,7 @@ position: relative;
 
 
 
-        .nav{
+        .nav2{
          
           position: sticky;
           
@@ -188,7 +179,7 @@ z-index: 99999999;
         }
 
 
-        .nav ul li{
+        .nav2 ul li{
           border: 1px solid rgb(255, 0, 0) !important; 
           height: 80px;
           display: flex;
@@ -199,14 +190,9 @@ z-index: 99999999;
           }
 
 
-.lit{
-
-  
-
-}
 
 
-        .nav ul li:hover {
+        .nav2 ul li:hover {
          /* background-color: rgb(214, 28, 44);*/
           
           transition: all 300ms ease;
@@ -215,7 +201,7 @@ z-index: 99999999;
 
 
 
-.nav ul{
+.nav2 ul{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -232,7 +218,7 @@ z-index: 99999999;
 
 @media screen and (min-width:1200px) and (max-width: 99999999999px)
         {
-.nav ul li {
+.nav2 ul li {
   
   
   padding-right: 21px;
@@ -249,7 +235,7 @@ z-index: 99999999;
 
 
 @-moz-document url-prefix() {
-.nav ul li {
+.nav2 ul li {
 
  
   padding-right: 21px;
@@ -269,7 +255,7 @@ z-index: 99999999;
 
         @media screen and (min-width:1125px) and (max-width: 1200px)
         {
-          .nav ul li {
+          .nav2 ul li {
            
            
             padding-right: 19px;
@@ -287,7 +273,7 @@ z-index: 99999999;
 
 
 @-moz-document url-prefix() {
-  .nav ul li {
+  .nav2 ul li {
     
     
     padding-right: 19px;
@@ -306,7 +292,7 @@ z-index: 99999999;
 
         @media screen and (min-width:0px) and (max-width: 1125px)
         {
-          .nav ul li {
+          .nav2 ul li {
            
             
             padding-right: 15px;
@@ -324,7 +310,7 @@ z-index: 99999999;
 
 
 @-moz-document url-prefix() {
-  .nav ul li {
+  .nav2 ul li {
    
    
     padding-right: 15px;
@@ -344,7 +330,7 @@ z-index: 99999999;
 
 
 
-.nav ul a{
+.nav2 ul a{
   white-space:  nowrap;
   font-family: Mulish;
   font-style: normal;
