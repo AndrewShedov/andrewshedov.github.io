@@ -35,7 +35,7 @@ dd {
  
   border: 1px solid #000;
   display: none;
-  transition: all 100ms ease !important;
+  
 
 
 
@@ -44,7 +44,7 @@ dd {
 .tab.active {
   display: block;
   
-  transition: all 400ms ease;
+  transition: all 300ms ease;
 }
 
 
@@ -73,7 +73,7 @@ margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 400ms ease !important;
+  
   
   height: 100%;
 }
@@ -83,7 +83,9 @@ margin-bottom: 30px;
 .nav-tab.active {
   color: #ff4200;
   border-bottom:4px solid #ff6033;
-  transition: all 100ms ease !important;
+  position: relative;
+  top: 2px;
+  
 }
 
 
@@ -91,7 +93,7 @@ margin-bottom: 30px;
 
 
 .nav__item a:hover{
-  transition: all 100ms ease;
+  
 color: rgb(226, 35, 35);
 } 
 
@@ -151,7 +153,7 @@ position: relative;
         {
 .nav{
   
-  transition: all 100ms ease;
+  
   display: block;
 }
         }
@@ -161,7 +163,7 @@ position: relative;
         {
 .nav{
   
-  transition: all 100ms ease;
+  
   display: block;
 }
         }
@@ -171,7 +173,7 @@ position: relative;
         .nav{
          
           position: sticky;
-          transition: all 200ms ease !important;
+          
           top: 0px;
 margin-bottom: 20px;
 z-index: 99999999;
@@ -179,7 +181,7 @@ z-index: 99999999;
         }
 
         .scroll{
-          transition: all 100ms ease;
+          
           height:40px !important;
 
 
@@ -199,7 +201,7 @@ z-index: 99999999;
 
 .lit{
 
-  transition: all 200ms ease !important;
+  
 
 }
 
@@ -207,7 +209,7 @@ z-index: 99999999;
         .nav ul li:hover {
          /* background-color: rgb(214, 28, 44);*/
           
-          transition: all 400ms ease;
+          transition: all 300ms ease;
         }
 
 
@@ -350,8 +352,8 @@ z-index: 99999999;
   font-size: 14px;
   line-height: 18px;
 /* identical to box height */
-  text-transform: uppercase;
-  transition: all 400ms ease;
+  
+ 
   color: #333333;
 
 }
