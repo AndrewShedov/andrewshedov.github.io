@@ -187,7 +187,7 @@ z-index: 99999999;
 
 
         .nav ul li{
-          
+          border: 1px solid rgb(255, 0, 0) !important; 
           height: 80px;
           display: flex;
           
@@ -222,7 +222,7 @@ z-index: 99999999;
   
   margin: 0; 
   padding: 0;
-  
+ 
  height: 100%;
 }
         
@@ -233,8 +233,8 @@ z-index: 99999999;
 .nav ul li {
   
   
-  padding-right: 43px;
-  padding-left: 43px;
+  padding-right: 21px;
+  padding-left: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,8 +250,8 @@ z-index: 99999999;
 .nav ul li {
 
  
-  padding-right: 43.1px;
-  padding-left: 43.1px;
+  padding-right: 21px;
+  padding-left: 21px;
  
   display: flex;
   justify-content: center;
@@ -270,8 +270,8 @@ z-index: 99999999;
           .nav ul li {
            
            
-            padding-right: 38px;
-            padding-left: 38px;
+            padding-right: 19px;
+            padding-left: 19px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -288,8 +288,8 @@ z-index: 99999999;
   .nav ul li {
     
     
-    padding-right: 38px;
-    padding-left: 38px;
+    padding-right: 19px;
+    padding-left: 19px;
     
     display: flex;
     justify-content: center;
@@ -307,8 +307,8 @@ z-index: 99999999;
           .nav ul li {
            
             
-            padding-right: 30px;
-            padding-left: 30px;
+            padding-right: 15px;
+            padding-left: 15px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -325,8 +325,8 @@ z-index: 99999999;
   .nav ul li {
    
    
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
   
     display: flex;
     justify-content: center;
@@ -353,5 +353,5 @@ z-index: 99999999;
   text-transform: uppercase;
   transition: all 400ms ease;
   color: #333333;
- 
+
 }
