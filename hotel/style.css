@@ -3019,50 +3019,42 @@ justify-content: end;
     
     .nav2__item :after {
       background-color: #ff6033;
-      display: none;
+      display: block;
       content: "";
       height: 3px;
       width: 0%;
       -webkit-transition: width .3s ease-in-out;
       -moz--transition: width .3s ease-in-out;
     transition: width .3s ease-in-out;
-    top: 6.5px;
+    bottom: 26px;
     position: relative;
     
     }
     
     
-    .nav2__item :before {
-      background-color: #ff6033;
-      display: none;
-      content: "";
-      height: 3px;
-      
-      width: 100%;
-    transition: width .3s ease-in-out;
-    bottom: 5px;
-    position: relative;
+   
     
-    }
+
+
+
+.nav2__item :hover:after,
+.nav2__item :focus :after {
+  width: 100%;
+  
+}
+
+
+.active:after,
+.active:after {
+  width: 100%;
+  
+}
     
-    
-    
-    .nav2__item :hover:after,
-    
-    .nav2__item :focus :after {
-      width: 100%;
-      
-    }
+   
     
     
     
-    .nav2__item :hover:before,
-    
-    .nav2__item :focus :before {
-      width: 100%;
-      
-    }
-    
+  
     
     
     
@@ -3071,7 +3063,7 @@ justify-content: end;
             {
     .nav2{
       
-      
+      margin-top:30px ;
       display: block;
     }
             }
@@ -3081,7 +3073,7 @@ justify-content: end;
             {
     .nav2{
       
-      
+      margin-top:30px ;
       display: block;
     }
             }
