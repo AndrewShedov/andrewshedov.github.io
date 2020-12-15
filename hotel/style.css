@@ -3134,13 +3134,13 @@ justify-content: end;
             
     
     
-    @media screen and (min-width:1200px) and (max-width: 99999999999px)
+    @media screen and (min-width:900px) and (max-width: 99999999999px)
             {
     .nav2 ul li {
       
       
-      padding-right: 21px;
-      padding-left: 21px;
+      padding-right: 28.5px;
+      padding-left: 28.5px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -3156,8 +3156,8 @@ justify-content: end;
     .nav2 ul li {
     
      
-      padding-right: 21px;
-      padding-left: 21px;
+      padding-right: 27px;
+      padding-left: 27px;
      
       display: flex;
       justify-content: center;
@@ -3252,12 +3252,13 @@ justify-content: end;
       white-space:  nowrap;
       font-family: Mulish;
       font-style: normal;
-      font-weight: 100;
+      font-weight: 900;
       font-size: 14px;
       line-height: 18px;
     /* identical to box height */
-      
+      height:100%;
      
+    
       color: #333333;
     
     }
