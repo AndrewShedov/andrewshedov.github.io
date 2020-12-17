@@ -2408,9 +2408,9 @@ position: absolute;
 max-height: 450px;
 width: 100%;
 height: 100%;
-/*
-border-radius: 8px;
-*/
+
+border-radius: 5px;
+
 left: 0;
 z-index: 1;
 
@@ -2419,16 +2419,16 @@ z-index: 1;
 
 .gh_hotel_image_background_2{
 
-  /*
-  border-radius: 8px;
- */
+ 
+  border-radius: 5px;
+
 }
 
 .gh_hotel_image_background_3{
 
-  /*
-  border-radius: 8px;
- */
+  
+  border-radius: 5px;
+ 
 }
 
 
