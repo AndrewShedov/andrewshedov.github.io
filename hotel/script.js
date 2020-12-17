@@ -63,7 +63,7 @@ document.getElementById('menu').onclick = function(event) {
 
 
 
-/*Menu scrolling*/
+/*Menu scrolling
 
 
 
@@ -86,7 +86,7 @@ else{
      
     };
 });
-    
+    */
 
 /*Menu_2*/
 
