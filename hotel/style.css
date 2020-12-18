@@ -2376,6 +2376,92 @@ margin-top: 20px;
 
 
 
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  }
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0.35;
+    cursor: auto;
+    pointer-events: none;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none !important;
+    letter-spacing: 0;
+    text-transform: none;
+    font-variant: initial;
+    line-height: 1;
+  }
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    left: 10px;
+    right: auto;
+  }
+  .swiper-button-prev:after,
+  .swiper-container-rtl .swiper-button-next:after {
+    content: "prev";
+  }
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    right: 10px;
+    left: auto;
+  }
+  .swiper-button-next:after,
+  .swiper-container-rtl .swiper-button-prev:after {
+    
+  }
+  .swiper-button-next.swiper-button-white,
+  .swiper-button-prev.swiper-button-white {
+    --swiper-navigation-color: #ffffff;
+  }
+  .swiper-button-next.swiper-button-black,
+  .swiper-button-prev.swiper-button-black {
+    --swiper-navigation-color: #000000;
+  }
+
+
+
+  .slider_button_next_1_svg {
+    fill:rgba(255, 255, 255, 0.8);
+    opacity:0.8;
+    transition: all 500ms ease;
+    }
+
+
+  @media screen and (min-width:1000px) and (max-width: 99999999px) {
+    .slider_button_next_1_svg:hover {
+      fill:rgb(255, 0, 34);
+      transition: all 500ms ease;
+      }
+        }
+
+
+
+
+
+  .slider_button_next_1{
+
+
+  }
+
+
+
+
+
 .gh_hotel_slider{
 display: flex;
 justify-content: center;
