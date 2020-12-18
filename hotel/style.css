@@ -2408,16 +2408,18 @@ margin-top: 20px;
   }
   .swiper-button-prev,
   .swiper-container-rtl .swiper-button-next {
-    left: 10px;
+    left: 18px;
     right: auto;
   }
   .swiper-button-prev:after,
   .swiper-container-rtl .swiper-button-next:after {
+    /*
     content: "prev";
+    */
   }
   .swiper-button-next,
   .swiper-container-rtl .swiper-button-prev {
-    right: 10px;
+    right: 18px;
     left: auto;
   }
   .swiper-button-next:after,
@@ -2444,13 +2446,25 @@ margin-top: 20px;
 
   @media screen and (min-width:1000px) and (max-width: 99999999px) {
     .slider_button_next_1_svg:hover {
-      fill:rgb(255, 0, 34);
+      fill:#EC1F46;
       transition: all 500ms ease;
       }
         }
 
 
-
+        .slider_button_prev_1_svg {
+          fill:rgba(255, 255, 255, 0.8);
+          opacity:0.8;
+          transition: all 500ms ease;
+          }
+      
+      
+        @media screen and (min-width:1000px) and (max-width: 99999999px) {
+          .slider_button_prev_1_svg:hover {
+            fill:#EC1F46;
+            transition: all 500ms ease;
+            }
+              }
 
 
   .slider_button_next_1{
