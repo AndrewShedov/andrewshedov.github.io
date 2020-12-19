@@ -1867,7 +1867,7 @@ z-index: 99999999;
 
 .gh_hotel_rating_wrap{
 position: relative;
-
+right:1px;
 width: 100%;
 max-width: 350px;
 transition: all 500ms ease;
@@ -1886,6 +1886,12 @@ justify-content: flex-end;
       }
     }
 
+    @media screen and (min-width:0px) and (max-width: 1140px)
+    {
+    .gh_hotel_rating_wrap{
+      right:0px;
+        }
+      }
 
 .gh_hotel_rating{
 display: flex;
@@ -2219,7 +2225,7 @@ flex-wrap:nowrap ;
 max-width: 1110px;
 margin-top: 0px;    
      height: 35px;
-     border: 1px solid rgba(255, 0, 0, 0) !important; 
+     
     }
 
 
@@ -2240,7 +2246,7 @@ margin-top: 0px;
     max-width: 268px;
     margin-right: 13px;
     position: relative;
-    right:2px;
+    right:1px;
     display: flex;
     justify-content: start;
     align-items: center;
