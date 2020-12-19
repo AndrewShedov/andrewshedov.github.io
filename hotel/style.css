@@ -1866,7 +1866,8 @@ z-index: 99999999;
 
 
 .gh_hotel_rating_wrap{
-  
+position: relative;
+right:2px;
 width: 100%;
 max-width: 350px;
 transition: all 500ms ease;
@@ -2835,7 +2836,12 @@ transition: all 500ms ease;
 cursor: pointer;
 }
 
-
+@media screen and (min-width:0px) and (max-width: 1150px) {
+  .options_button{
+position: relative;
+bottom: 3px;
+  }
+}
 
 .options_button p{
   font-family: Nunito;
@@ -2881,7 +2887,16 @@ max-width: 119px;
 flex-wrap: wrap;
   }
 
-  .gh_hotel_options_price_starts_1 p{
+
+
+  .gh_hotel_options_price_starts_1{
+
+position: relative;
+top: 2px;
+  }
+
+
+.gh_hotel_options_price_starts_1 p{
 
     font-family: Nunito;
 font-style: normal;
@@ -2898,8 +2913,13 @@ color: #FFFFFF;
   
   .gh_hotel_options_price_starts_2{
     width: 100%;
-     
+    position: relative;
+    top: 2px;
   }
+
+
+
+
 
   .gh_hotel_options_price_starts_2 p{
     font-family: Nunito;
@@ -2924,6 +2944,21 @@ line-height: 16px;
 color: #FFFFFF;
 
   }
+
+
+  .gh_hotel_options_price_starts_4{
+
+position: relative;
+top: 8px;
+}
+
+@media screen and (min-width:0px) and (max-width: 1150px) {
+  .gh_hotel_options_price_starts_4{
+
+    position: relative;
+    top: 0px;
+    }
+}
 
 
   .gh_hotel_options_price_starts_4 p{
@@ -3030,9 +3065,38 @@ justify-content: end;
 
 .gh_hotel_options_guests_3{
   display: flex;
-   
+   position: relative;
+   top:13px;
+   left: 3px;
   justify-content: center;
   align-items: center;
+}
+
+@-moz-document url-prefix() {
+  .gh_hotel_options_guests_3{
+   position: relative;
+   left: 0px;
+}
+}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width: 1150px) {
+  .gh_hotel_options_guests_3{
+
+    position: relative;
+    top: 5px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1000px) and (max-width: 99999999px) {
+
+
 }
 
   .gh_hotel_options_guests_3 p{
