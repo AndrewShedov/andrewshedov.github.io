@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name=robots content=noindex,nofollow>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="plugins/slider/swiper-bundle.min.css">
@@ -765,8 +764,17 @@
 var swiper = new Swiper('.swiper-container', {
     zoom: true,
     loop: true,
-    
+    observer: true, 
+    observeParents: true,
     slidesPerView:'auto',
+    
+    breakpoints: {
+        960: {
+          
+        }
+    },
+   
+
     pagination: {
       /*el: '.swiper-pagination',*/
       /*type: 'progressbar',*/
@@ -779,7 +787,27 @@ var swiper = new Swiper('.swiper-container', {
  
   });
   
+
+ 
+
+window.addEventListener('resize', res);
+
+function res(swiper){
+let width =  document.documentElement.clientWidth;
+ 
+if (width >= 900) {
+
+ console.log (width)
+ swiper.update();
+}
+}
+
+res();
+
 </script>
+
+
+
 <script src=script.js></script>
 </body>
 </html>
