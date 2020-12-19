@@ -2413,6 +2413,8 @@ margin-top: 20px;
 @media screen and (min-width:0px) and (max-width: 1040px) {
   .gh_hotel_slider_options_map{
   flex-wrap: wrap !important;
+  transition: all 500ms ease;
+  justify-content: center !important;
   }
   .gh_hotel_slider_wrap{
   width: 100%;
@@ -2423,6 +2425,17 @@ margin-top: 20px;
     margin-right: 0px !important;
   }
 
+
+  .gh_hotel_options_map_wrap{
+    max-width: 728px !important;
+width: 100%;
+border: 1px solid rgb(255, 0, 0) !important; 
+
+  }
+ 
+
+
+
 }
 
 
@@ -2432,7 +2445,7 @@ margin-top: 20px;
 
   display: flex;
   justify-content: start;
-  
+  transition: all 500ms ease;
   width: 100%;
   max-width: 1110px;
 
@@ -2792,7 +2805,6 @@ position: absolute;
 .gh_hotel_options_map_wrap{
 display: flex;
 flex-wrap: wrap;
- 
 max-width: 350px;
 width: 100%;
 justify-content: center;
