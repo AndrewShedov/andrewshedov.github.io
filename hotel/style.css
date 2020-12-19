@@ -2009,7 +2009,7 @@ margin-top: 0px;
   .gh_hotel_name_description{
     width: 100%;
     max-width: 220px;
-    border: 1px solid rgb(255, 0, 0) !important; 
+     
     transition: all 500ms ease;
   }
 
