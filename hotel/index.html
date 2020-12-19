@@ -7,7 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="plugins/slider/swiper-bundle.min.css">
-    
+    <script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Mulish" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet"> 
@@ -761,12 +764,34 @@
 <!-- Initialize Swiper -->
 <script>
 
-var swiper = new Swiper('.swiper-container', {
+var mySwiper = new Swiper('.swiper-container', {
     zoom: true,
     loop: true,
+    observeSlideChildren: true,
     observer: true, 
     observeParents: true,
     slidesPerView: "auto",
+
+/*
+    breakpoints: {
+   
+    
+    
+    800: {
+        slidesPerView: 1,
+    
+    },
+   
+   },
+   on:{
+     beforeResize() {
+       if (window.innerWidth >= 800) {
+         swiper.slides.css('width', '');
+       }
+     }
+   },
+ */
+
     /*
     slidesPerView:'auto',
    */
@@ -779,21 +804,26 @@ var swiper = new Swiper('.swiper-container', {
       prevEl: '.swiper-button-prev',
     },
    /* autoplay:{delay:4000,disableOnInteraction:false}*/
- 
+   
   });
-  
 
- 
+  $(window).on("resize", function() {
+    mySwiper.destroy(cleanStyles);
+    console.log ("width")
+});
+
+
+var mySwiper = document.querySelector('.swiper-container').swiper
 /*
 window.addEventListener('resize', res);
 
-function res(swiper){
+function res(){
 let width =  document.documentElement.clientWidth;
  
-if (width >= 900) {
+if (width <= 99999999999) {
 
  console.log (width)
- swiper.update();
+ mySwiper.update();
 }
 }
 
