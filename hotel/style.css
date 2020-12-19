@@ -1867,7 +1867,7 @@ z-index: 99999999;
 
 .gh_hotel_rating_wrap{
 position: relative;
-right:2px;
+
 width: 100%;
 max-width: 350px;
 transition: all 500ms ease;
@@ -2219,7 +2219,7 @@ flex-wrap:nowrap ;
 max-width: 1110px;
 margin-top: 0px;    
      height: 35px;
-
+     border: 1px solid rgba(255, 0, 0, 0) !important; 
     }
 
 
@@ -2239,7 +2239,8 @@ margin-top: 0px;
     width: 100%;
     max-width: 268px;
     margin-right: 13px;
-    
+    position: relative;
+    right:2px;
     display: flex;
     justify-content: start;
     align-items: center;
