@@ -2008,8 +2008,8 @@ margin-top: 0px;
 @media screen and (min-width:0px) and (max-width: 440px) {
   .gh_hotel_name_description{
     width: 100%;
-    max-width: 200px;
-     
+    max-width: 220px;
+    border: 1px solid rgb(255, 0, 0) !important; 
     transition: all 500ms ease;
   }
 
