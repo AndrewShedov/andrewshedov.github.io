@@ -2403,7 +2403,7 @@ display: flex;
   justify-content: center;
   flex-wrap: nowrap;
   width: 100%;
-transition: all 500ms ease;
+
 margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
@@ -2413,7 +2413,7 @@ margin-top: 20px;
 @media screen and (min-width:0px) and (max-width: 1040px) {
   .gh_hotel_slider_options_map{
   flex-wrap: wrap !important;
-  transition: all 500ms ease;
+  
   justify-content: center !important;
   }
   .gh_hotel_slider_wrap{
@@ -2457,7 +2457,7 @@ margin-top: 0px!important;
 
   display: flex;
   justify-content: start;
-  transition: all 500ms ease;
+  
   width: 100%;
   max-width: 1110px;
 
@@ -2468,7 +2468,7 @@ margin-top: 0px!important;
 
   display: flex;
   justify-content: center;
-  transition: all 500ms ease;
+ 
  width: 100%;
 
   max-width: 728px;
@@ -2546,14 +2546,14 @@ margin-top: 0px!important;
   .slider_button_next_1_svg {
     fill:rgba(255, 255, 255, 0.8);
     opacity:0.8;
-    transition: all 500ms ease;
+   
     }
 
 
   @media screen and (min-width:1000px) and (max-width: 99999999px) {
     .slider_button_next_1_svg:hover {
       fill:#EC1F46;
-      transition: all 500ms ease;
+      
       }
         }
 
@@ -2561,14 +2561,14 @@ margin-top: 0px!important;
         .slider_button_prev_1_svg {
           fill:rgba(255, 255, 255, 0.8);
           opacity:0.8;
-          transition: all 500ms ease;
+          
           }
       
       
         @media screen and (min-width:1000px) and (max-width: 99999999px) {
           .slider_button_prev_1_svg:hover {
             fill:#EC1F46;
-            transition: all 500ms ease;
+            
             }
               }
 
@@ -2587,7 +2587,7 @@ display: flex;
 justify-content: center;
 
 max-width: 728px;
-transition: all 500ms ease;
+
 width: 100%;
 
 }
@@ -2653,7 +2653,7 @@ display: flex;
 justify-content: center;
 
 max-width: 728px;
-transition: all 500ms ease;
+
 width: 100%;
 
 }
@@ -2672,7 +2672,7 @@ width: 100%;
   align-items: center;
    width: 100%;
 height: 100%;
-transition: all 500ms ease;
+
 }
 
 
@@ -2683,7 +2683,7 @@ transition: all 500ms ease;
   position: relative;
 left: 0px;
   
-transition: all 500ms ease;
+
   
   height: 280px;
   max-width: 400px;
@@ -2698,7 +2698,7 @@ transition: all 500ms ease;
 width: 70px;
 
 
-transition: all 500ms ease;
+
 position: absolute;
       top: -16px;
       right: 60px;
@@ -2820,7 +2820,9 @@ flex-wrap: wrap;
 max-width: 350px;
 width: 100%;
 justify-content: center;
+/*
 transition: all 500ms ease;
+*/
 }
 
 .gh_hotel_options_wrap{
@@ -2834,7 +2836,9 @@ transition: all 500ms ease;
   background: #0A223D;
   border-radius: 8px;
   justify-content: center;
+  /*
   transition: all 500ms ease;
+  */
   align-items: center;
 }
 
