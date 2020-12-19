@@ -2546,14 +2546,14 @@ margin-top: 0px!important;
   .slider_button_next_1_svg {
     fill:rgba(255, 255, 255, 0.8);
     opacity:0.8;
-   
+    transition: all 500ms ease;
     }
 
 
   @media screen and (min-width:1000px) and (max-width: 99999999px) {
     .slider_button_next_1_svg:hover {
       fill:#EC1F46;
-      
+      transition: all 500ms ease;
       }
         }
 
@@ -2561,14 +2561,14 @@ margin-top: 0px!important;
         .slider_button_prev_1_svg {
           fill:rgba(255, 255, 255, 0.8);
           opacity:0.8;
-          
+          transition: all 500ms ease;
           }
       
       
         @media screen and (min-width:1000px) and (max-width: 99999999px) {
           .slider_button_prev_1_svg:hover {
             fill:#EC1F46;
-            
+            transition: all 500ms ease;
             }
               }
 
