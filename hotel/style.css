@@ -3681,10 +3681,10 @@ max-width: 1115px;
     }
     
     .nav_tab{
-    margin-top:30px ;
+    margin-top:65px ;
     margin-bottom: 20px;
     z-index: 99999999;
-     
+    
     }
     
             .nav_tab ul li{
@@ -3714,15 +3714,23 @@ max-width: 1115px;
     
     
     .nav_tab ul li {
-      padding-right: 15px;
-      padding-left: 15px;
+     
+/*
+      padding-right: 53px;
+*/
+padding-right: 30px;
+padding-left: 28.4px;
       display: flex;
       justify-content: center;
       align-items: center;
      }
+    /*
+     .nav_tab ul li:nth-child(7) {
+     
+      padding-right: 0px;
     
-    
-    
+     }
+    */
     .nav_tab ul a{
       font-family: Mulish;
       font-style: normal;
