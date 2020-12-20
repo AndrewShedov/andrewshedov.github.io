@@ -3565,7 +3565,7 @@ max-width: 1115px;
     .Tabs_wrap{
       display: flex;
       justify-content: center;
-      
+      width: 100%;
      
       }
     .Tabs{
@@ -3671,13 +3671,20 @@ max-width: 1115px;
     
     }
     
-    
+    .nav_tab_wrap{
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: rgba(245, 250, 254, 1);
+
+    }
     
     .nav_tab{
     margin-top:30px ;
     margin-bottom: 20px;
     z-index: 99999999;
-    border: 1px solid rgb(255, 0, 0) !important; 
+     
     }
     
             .nav_tab ul li{
