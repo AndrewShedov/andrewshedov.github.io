@@ -2867,7 +2867,7 @@ position: absolute;
       justify-content: center;
       
      
-      border: 1px solid rgb(0, 174, 255) !important; 
+    
 
     }
 
@@ -3312,100 +3312,7 @@ justify-content: end;
     }
 
 
-    .tab {
- 
-      border: 1px solid #000;
-      display: none;
-      
     
-    
-    
-    }
-    
-    .tab.active {
-      display: block;
-      
-      transition: all 300ms ease;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /*
-    .nav2-tab {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
-      
-      height: 100%;
-    }
-    */
-    
-    
-    .nav2-tab.active {
-      color: #ff4200;
-   
-}
-    
-    
-    
-    
-    
-    .nav2__item a:hover{
-      
-    color: rgb(226, 35, 35);
-    } 
-    
-  
-    
-    .nav2__item :after {
-      background-color: #ff6033;
-      display: block;
-      content: "";
-      height: 4px;
-      width: 0%;
-      -webkit-transition: width .3s ease-in-out;
-      -moz--transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
-    top: 15px;
-    position: relative;
-    
-    }
-    
-    
-   
-    
-
-
-
-.nav2__item :hover:after,
-.nav2__item :focus :after {
-  width: 100%;
-  
-}
-
-
-
-.active:after {
-  width: 100%;
-  
-}
-    
-   
-    
-    
-    
-  
     
     
     
@@ -3653,3 +3560,169 @@ max-width: 1115px;
       color: #333333;
     
     }
+
+
+    .Tabs_wrap{
+      display: flex;
+      justify-content: center;
+      
+     
+      }
+    .Tabs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1115px;
+    margin-right: 15px;
+    margin-left: 15px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .tab {
+      
+    width: 100%;
+    /*
+    border: 2px solid rgba(155, 155, 155, 0.137);
+    */
+    display: none;
+    border-radius: 7px;
+     }
+    
+    
+    .tab_content_wrap{
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .tab_content{
+     
+      width: 100%;
+      max-width: 500px;
+      height: 100%;
+      text-align: center;
+      }
+    
+    
+      .tab_content p{
+        
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 18px;
+        height:100%;
+        color: #000000;
+     }
+    
+    
+    .tab.active {
+      display: block;
+      
+      transition: all 300ms ease;
+    }
+    
+    
+    
+    .nav_tab-tab.active {
+      color: #FF0000;
+      transition: all 300ms ease;
+    }
+    
+    .nav_tab__item a{
+      transition: all 400ms ease;
+     } 
+    
+    .nav_tab__item a:hover{
+      transition: all 400ms ease;
+      color: #FF0000;
+    } 
+    
+    
+    
+    .nav_tab__item :after {
+      background-color: #FF0000;
+      display: block;
+      content: "";
+      height: 4px;
+      width: 0%;
+      transition: all 300ms ease;
+    top: 5px;
+    position: relative;
+    border-radius: 2px;
+    }
+    
+    
+    .nav_tab__item :hover:after,
+    .nav_tab__item :focus :after {
+    width: 100%;
+    
+    }
+    
+    
+    .active:after {
+    width: 100%;
+    
+    }
+    
+    
+    
+    .nav_tab{
+    margin-top:30px ;
+    margin-bottom: 20px;
+    z-index: 99999999;
+    }
+    
+            .nav_tab ul li{
+              height: 40px;
+              display: flex;
+               align-items: center;
+              justify-content: center;
+              transition: all 200ms ease;
+              }
+    
+    
+     .nav_tab ul li:hover {
+              transition: all 300ms ease;
+            }
+    
+    .nav_tab ul{
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: 0; 
+      padding: 0;
+      height: 100%;
+    }
+       
+    
+    
+    .nav_tab ul li {
+      padding-right: 15px;
+      padding-left: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+    
+    
+    
+    .nav_tab ul a{
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 18px;
+      height:100%;
+      color: #000000;
+    
+    }
+    
+    
