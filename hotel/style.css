@@ -3630,7 +3630,7 @@ max-width: 1115px;
     
     
     .nav_tab-tab.active {
-      color: #FF0000;
+      color: #EC1F46;
       transition: all 300ms ease;
     }
     
@@ -3640,13 +3640,14 @@ max-width: 1115px;
     
     .nav_tab__item a:hover{
       transition: all 400ms ease;
-      color: #FF0000;
+      color: #EC1F46;
+      
     } 
     
     
     
     .nav_tab__item :after {
-      background-color: #FF0000;
+      background-color: #EC1F46;
       display: block;
       content: "";
       height: 4px;
@@ -3654,7 +3655,7 @@ max-width: 1115px;
       transition: all 300ms ease;
     top: 5px;
     position: relative;
-    border-radius: 2px;
+    
     }
     
     
@@ -3676,6 +3677,7 @@ max-width: 1115px;
     margin-top:30px ;
     margin-bottom: 20px;
     z-index: 99999999;
+    border: 1px solid rgb(255, 0, 0) !important; 
     }
     
             .nav_tab ul li{
@@ -3717,11 +3719,12 @@ max-width: 1115px;
     .nav_tab ul a{
       font-family: Mulish;
       font-style: normal;
-      font-weight: 200;
-      font-size: 18px;
+      font-weight: 500;
+      font-size: 14px;
       line-height: 18px;
-      height:100%;
-      color: #000000;
+      height: 100%;
+      /* Gray 1 */
+      color: #333333;
     
     }
     
