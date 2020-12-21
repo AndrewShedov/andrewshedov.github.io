@@ -3566,15 +3566,18 @@ max-width: 1115px;
       display: flex;
       justify-content: center;
       width: 100%;
-     
+      transition: all 500ms ease;
       }
     .Tabs{
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 1115px;
+    /*
     margin-right: 15px;
     margin-left: 15px;
+    */
+    transition: all 500ms ease;
     }
     
     
@@ -3591,17 +3594,18 @@ max-width: 1115px;
     */
     display: none;
     border-radius: 7px;
+    transition: all 500ms ease;
      }
     
     
     .tab_content_wrap{
     display: flex;
     justify-content: center;
-    
+    transition: all 500ms ease;
     }
     
     .tab_content{
-     
+      transition: all 500ms ease;
       width: 100%;
       max-width: 500px;
       height: 100%;
@@ -3627,7 +3631,7 @@ max-width: 1115px;
       transition: all 300ms ease;
     }
     
-    
+   
     
     .nav_tab-tab.active {
       color: #EC1F46;
@@ -3672,7 +3676,7 @@ max-width: 1115px;
     }
     
     .nav_tab_wrap{
-
+      transition: all 500ms ease;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -3684,7 +3688,7 @@ max-width: 1115px;
     margin-top:65px ;
     margin-bottom: 20px;
     z-index: 99999999;
-    
+    transition: all 500ms ease;
     }
     
             .nav_tab ul li{
@@ -3709,6 +3713,7 @@ max-width: 1115px;
       margin: 0; 
       padding: 0;
       height: 100%;
+      transition: all 500ms ease;
     }
        
     
@@ -3722,7 +3727,7 @@ max-width: 1115px;
 position: relative;
 right:32px;
 margin-left: 58.5px;
-
+transition: all 500ms ease;
 
       display: flex;
       justify-content: center;
@@ -3736,6 +3741,7 @@ margin-left: 58.5px;
      {
       .nav_tab ul li {
 margin-left: 35px;
+transition: all 500ms ease;
 }
      
  }
@@ -3746,6 +3752,7 @@ margin-left: 35px;
  .nav_tab{
   margin-right: 15px;
   margin-left: 15px;
+  transition: all 500ms ease;
    }
   }
 
@@ -3754,6 +3761,7 @@ margin-left: 35px;
   {
    .nav_tab{
  margin-top:35px ;
+ transition: all 500ms ease;
 }
     }
 
@@ -3761,6 +3769,7 @@ margin-left: 35px;
     {
      .nav_tab{
    margin-top:30px ;
+   transition: all 500ms ease;
   }
 
 
@@ -3768,29 +3777,51 @@ margin-left: 35px;
   
 
 
+      @media screen and (min-width:390px) and (max-width: 1025px)
+      {
+       
+       .nav_tab ul li {
+      margin-left: 25px;
+      right:13px;
+      transition: all 500ms ease;
+      }
 
+    }
+
+
+    @media screen and (min-width:0px) and (max-width: 390px)
+    {
+     
+     .nav_tab ul li {
+    margin-left: 25px;
+    right:12px !important;
+    transition: all 500ms ease;
+    }
+
+  }
 
 
 @media screen and (min-width:0px) and (max-width: 1025px)
 {
  
- .nav_tab ul li {
-margin-left: 25px;
-right:13px;
-}
+
 .nav_tab__item :after {
 top: 3px;
+transition: all 500ms ease;
 }
 .nav_tab_wrap_p_h_r{
 width: 100%;
+transition: all 500ms ease;
 }
 
        .nav_tab_wrap_f_d_r{
         width: 100%;
+        transition: all 500ms ease;
 }
 
 .nav_tab_wrap_q{
   width: 100%;
+  transition: all 500ms ease;
 }
 }
 
@@ -3804,6 +3835,7 @@ width: 100%;
   font-size: 3vw !important;
   color: #e40404 !important;
   white-space: nowrap;
+  transition: all 500ms ease;
 }
 
 }
@@ -3820,18 +3852,20 @@ border: 1px solid rgb(255, 0, 0) !important;
       display: flex;
       justify-content: center;
       border: 1px solid rgb(255, 0, 0) !important; 
-     
+      transition: all 500ms ease;
            }
            .nav_tab_wrap_f_d_r{
             display: flex;
             justify-content: center;
-            border: 1px solid rgb(255, 0, 0) !important; 
+            border: 1px solid rgb(255, 0, 0) !important;
+            transition: all 500ms ease; 
 }
 
 .nav_tab_wrap_q{
   display: flex;
   justify-content: center;
   border: 1px solid rgb(255, 0, 0) !important; 
+  transition: all 500ms ease;
 }
 
     /*
