@@ -3778,6 +3778,28 @@ margin-left: 35px;
       }
   
 
+      @media screen and (min-width:800px) and (max-width: 1200px)
+      {
+       
+       .nav_tab ul li {
+      margin-left: 25px;
+      right:13px;
+      }
+    }
+
+
+
+
+    @media screen and (min-width:0px) and (max-width: 800px)
+    {
+     
+     .nav_tab ul li {
+    margin-left: 25px;
+    right:12px;
+    }
+  }
+
+
 
 
 
@@ -3785,10 +3807,7 @@ margin-left: 35px;
 @media screen and (min-width:0px) and (max-width: 1025px)
 {
  
- .nav_tab ul li {
-margin-left: 25px;
-right:13px;
-}
+ 
 .nav_tab__item :after {
 top: 3px;
 }
