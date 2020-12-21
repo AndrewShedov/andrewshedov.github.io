@@ -3702,7 +3702,7 @@ max-width: 1115px;
               {
 
               .nav_tab ul li{
-                height: 30px;
+                height: 33px;
               }
             }
 
@@ -3764,14 +3764,14 @@ margin-left: 35px;
   @media screen and (min-width:660px) and (max-width: 1025px)
   {
    .nav_tab{
- margin-top:35px ;
+ margin-top:29px ;
 }
     }
 
     @media screen and (min-width:0px) and (max-width: 660px)
     {
      .nav_tab{
-   margin-top:30px ;
+   margin-top:17px ;
   }
 
 
@@ -3830,19 +3830,19 @@ border: 1px solid rgb(255, 0, 0) !important;
      .nav_tab_wrap_p_h_r{
       display: flex;
       justify-content: center;
-      border: 1px solid rgb(255, 0, 0) !important; 
+     
      
            }
            .nav_tab_wrap_f_d_r{
             display: flex;
             justify-content: center;
-            border: 1px solid rgb(255, 0, 0) !important; 
+            
 }
 
 .nav_tab_wrap_q{
   display: flex;
   justify-content: center;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
 }
 
     /*
