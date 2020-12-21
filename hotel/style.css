@@ -3653,7 +3653,7 @@ max-width: 1115px;
       height: 4px;
       width: 0%;
       transition: all 300ms ease;
-    top: 5px;
+    top: 15px;
     position: relative;
     
     }
@@ -3718,9 +3718,12 @@ max-width: 1115px;
 /*
       padding-right: 53px;
 */
+
 position: relative;
 right:32px;
 margin-left: 58.5px;
+
+
       display: flex;
       justify-content: center;
       align-items: center;
