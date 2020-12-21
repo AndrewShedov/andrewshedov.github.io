@@ -3566,15 +3566,18 @@ max-width: 1115px;
       display: flex;
       justify-content: center;
       width: 100%;
-     
-      }
+  }
+
+
     .Tabs{
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 1115px;
+    /*
     margin-right: 15px;
     margin-left: 15px;
+    */
     }
     
     
@@ -3695,6 +3698,14 @@ max-width: 1115px;
               transition: all 200ms ease;
               }
     
+              @media screen and (min-width:0px) and (max-width: 430px)
+              {
+
+              .nav_tab ul li{
+                height: 30px;
+              }
+            }
+
     
      .nav_tab ul li:hover {
               transition: all 300ms ease;
