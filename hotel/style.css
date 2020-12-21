@@ -3790,17 +3790,24 @@ margin-left: 35px;
 
 
 
-    @media screen and (min-width:0px) and (max-width: 1080px)
+    @media screen and (min-width:700px) and (max-width: 1080px)
     {
      
      .nav_tab ul li {
-    margin-left: 25px;
-    right:12px;
+    margin-left: 40px;
+    right:18px;
     }
   }
 
 
-
+  @media screen and (min-width:0px) and (max-width: 700px)
+  {
+   
+   .nav_tab ul li {
+  margin-left: 25px;
+  right:12px;
+  }
+}
 
 
 
