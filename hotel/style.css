@@ -3778,19 +3778,19 @@ margin-left: 35px;
       }
   
 
-      @media screen and (min-width:800px) and (max-width: 1200px)
+      @media screen and (min-width:1080px) and (max-width: 1200px)
       {
        
        .nav_tab ul li {
-      margin-left: 25px;
-      right:13px;
+      margin-left: 45px;
+      right:23px;
       }
     }
 
 
 
 
-    @media screen and (min-width:0px) and (max-width: 800px)
+    @media screen and (min-width:0px) and (max-width: 1080px)
     {
      
      .nav_tab ul li {
