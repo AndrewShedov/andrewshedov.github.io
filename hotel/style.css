@@ -3736,13 +3736,12 @@ margin-left: 58.5px;
      {
       .nav_tab ul li {
 position: relative;
-        right:0px;
+        
         margin-left: 58.5px;
 }
       .nav_tab ul li:nth-child(2) {
      
-        margin-left: 58.5px;
-        margin-right: 240px;
+        
        }
 
 
