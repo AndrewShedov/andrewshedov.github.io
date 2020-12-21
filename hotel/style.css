@@ -3714,12 +3714,13 @@ max-width: 1115px;
     
     
     .nav_tab ul li {
-     
+   
 /*
       padding-right: 53px;
 */
-padding-right: 30px;
-padding-left: 28.4px;
+position: relative;
+right:32px;
+margin-left: 58.5px;
       display: flex;
       justify-content: center;
       align-items: center;
