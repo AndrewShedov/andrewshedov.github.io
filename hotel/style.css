@@ -3747,12 +3747,22 @@ position: relative;
 
      }
 
-     .nav_tab_wrap_1{
+     .nav_tab_wrap_p_h{
 display: flex;
 justify-content: center;
 border: 1px solid rgb(255, 0, 0) !important; 
-width: 100%;
+
      }
+
+
+     .nav_tab_wrap_p_h_r{
+      display: flex;
+      justify-content: center;
+      border: 1px solid rgb(255, 0, 0) !important; 
+     width: 100%;
+           }
+
+
 
     /*
      .nav_tab ul li:nth-child(7) {
