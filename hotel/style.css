@@ -3977,7 +3977,9 @@ margin-top: 27px;
 
 display: flex;
 justify-content: start;
-
+align-items: center;
+margin-bottom: 21px ;
+border: 1px solid rgb(255, 0, 0) !important; 
 
 }
 
@@ -4017,6 +4019,25 @@ margin-right: 21px;
    }
 */
 
+.package_options_t_text{
+
+}
+
+.package_options_t_text p{
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+
+/* identical to box height */
+
+/* Gray 1 */
+color: #333333
+
+
+}
 
 
 .package_highlights_options_2_wrap{
