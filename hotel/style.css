@@ -3952,3 +3952,13 @@ align-items: center;
 padding-right: 24px;
 padding-left: 24px;
           }
+
+
+.package_highlights_options_wrap{
+  width: 100%;
+  max-width: 538px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
