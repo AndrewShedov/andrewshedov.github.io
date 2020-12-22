@@ -3884,6 +3884,7 @@ border: 1px solid rgb(255, 0, 0) !important;
 display: flex;
 justify-content: start;
 border: 1px solid rgb(255, 0, 0) !important; 
+margin-top: 15px;
 }
 .package_summery{
   display: flex;
@@ -3902,6 +3903,14 @@ text-transform: uppercase;
 color: #333333;
     }
 
+    
+
+    .package_highlights_and_offer_details_wrap{
+
+      display: flex;
+      justify-content: space-between;
+margin-top: 20px;
+          }
 
     .package_highlights_wrap{
       display: flex;
@@ -3960,6 +3969,7 @@ padding-left: 24px;
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
+
 }
 
 .package_highlights_options_1_wrap{
