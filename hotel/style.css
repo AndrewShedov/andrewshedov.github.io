@@ -3909,16 +3909,16 @@ color: #333333;
       width: 100%;
       max-width: 538px;
       height: 200px;
-
+      border: 1px solid rgb(179, 255, 0) !important; 
     }
 
     .package_highlights{
       display: flex;
-      
+      flex-wrap:wrap ;
       width: 100%;
       max-width: 538px;
       height: 200px;
-
+      border: 1px solid rgb(255, 0, 0) !important; 
     }
 
 
