@@ -4306,3 +4306,43 @@ align-items: center;
     
     
     }
+
+
+    .package_options_Benefit_t_wrap{
+
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 21px ;
+      border: 1px solid rgb(234, 0, 255) !important; 
+      
+      }
+
+
+
+
+      .package_options_Benefit_t_text{
+        border: 1px solid rgb(115, 255, 0) !important; 
+        display: flex;
+        /*
+        width: 100%;
+        max-width: 100px;
+        justify-content: center;
+        */
+      }
+      
+      .package_options_Benefit_t_text p{
+      
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      
+      /* identical to box height */
+      
+      /* Gray 1 */
+      color: #333333
+      
+      
+      }
