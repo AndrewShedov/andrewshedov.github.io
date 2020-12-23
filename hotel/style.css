@@ -4083,7 +4083,7 @@ margin-top: 27px;
   justify-content: start;
   width: 100%;
   max-width: 538px;
-  height: 200px;
+  height: 100%;
   border: 1px solid rgb(179, 255, 0) !important; 
 }
 
@@ -4092,7 +4092,7 @@ margin-top: 27px;
   flex-wrap:wrap ;
   width: 100%;
   max-width: 538px;
-  height: 200px;
+  height: 100%;
   border: 1px solid rgb(255, 0, 0) !important; 
 }
 
@@ -4358,7 +4358,7 @@ align-items: center;
 
 
       .package_options_offer_1_wrap{
-height: 150px;
+        height: 100%;
         border: 1px solid rgb(255, 0, 0) !important; 
       }
 
@@ -4379,7 +4379,7 @@ height: 150px;
         justify-content: start;
         width: 100%;
         max-width: 538px;
-        height: 200px;
+        height: 100%;
         border: 1px solid rgb(179, 255, 0) !important; 
       }
 
@@ -4390,7 +4390,7 @@ height: 150px;
         flex-wrap:wrap ;
         width: 100%;
         max-width: 538px;
-        height: 200px;
+        height: 100%;
         border: 1px solid rgb(255, 0, 0) !important; 
       }
 
