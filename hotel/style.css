@@ -3525,9 +3525,7 @@ max-width: 1115px;
     .tab {
       
     width: 100%;
-    /*
-    border: 2px solid rgba(155, 155, 155, 0.137);
-    */
+   
     display: none;
     border-radius: 7px;
      }
@@ -3547,7 +3545,7 @@ max-width: 1115px;
        
       width: 100%;
       max-width: 1110px;
-      
+     
       height: 100%;
       text-align: center;
       }
@@ -3785,14 +3783,7 @@ width: 100%;
 }
 
 }
-/*
-     .nav_tab_wrap_p_h{
-display: flex;
-justify-content: center;
-border: 1px solid rgb(255, 0, 0) !important; 
 
-     }
-*/
 
      .nav_tab_wrap_p_h_r{
       display: flex;
@@ -3846,7 +3837,7 @@ margin-top: 15px;
 
 
   .package_summery p{
-    font-family: Mulish;
+font-family: Mulish;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -3858,84 +3849,17 @@ color: #333333;
     
 
     .package_highlights_and_offer_details_wrap{
-width: 100%;
-max-width: 1110px;
+
       display: flex;
       justify-content: space-between;
-margin-top: 20px;
+margin-top: 30px;
 
           }
 
-    .package_highlights_wrap{
-      display: flex;
-      justify-content: start;
-      width: 100%;
-      max-width: 538px;
-      height: 200px;
-     
-    }
-
-    .package_highlights{
-      display: flex;
-      flex-wrap:wrap ;
-      width: 100%;
-      max-width: 538px;
-      height: 200px;
-       
-    }
+    
 
 
-    .package_highlights_header_wrap{
-display: flex;
-justify-content: start;
-align-items: center;
-      width: 100%;
-      max-width: 538px;
-      height: 50px;
-      background: #0A223D;
-      border-radius: 4px 4px 0px 0px;
 
-    }
-    .package_highlights_header p{
-      font-family: Mulish;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 18px;
-      
-      /* identical to box height */
-      
-      color: #FFFFFF;
-      
-          }
-
-
-          .package_highlights_header{
-
-padding-right: 24px;
-padding-left: 24px;
-          }
-
-
-.package_highlights_options_wrap{
-  width: 100%;
-  max-width: 538px;
-  display: flex;
-  justify-content: space-between;
-  background-color: #ffffff;
-
-}
-
-.package_highlights_options_1_wrap{
-
- 
-}
-
-.package_highlights_options_1{
-   
-margin-left: 24px ;
-margin-top: 27px;
-}
 
 .package_options_t_wrap{
 
@@ -4032,7 +3956,7 @@ margin-top: 27px;
 
 
 
-.offer_details_wrap{
+.package_highlights_wrap{
   display: flex;
   justify-content: start;
   width: 100%;
@@ -4042,7 +3966,7 @@ margin-top: 27px;
   
 }
 
-.offer_details{
+.package_highlights{
   display: flex;
   flex-wrap:wrap ;
   width: 100%;
@@ -4052,21 +3976,11 @@ margin-top: 27px;
 }
 
 
-.offer_details_header_wrap{
-display: flex;
-justify-content: start;
-align-items: center;
-  width: 100%;
-  max-width: 538px;
-  height: 50px;
-  background: #0A223D;
-  border-radius: 4px 4px 0px 0px;
-
-}
 
 
 
-.offer_details_header_wrap{
+
+.package_highlights_header_wrap{
   display: flex;
   justify-content: start;
   align-items: center;
@@ -4077,7 +3991,7 @@ align-items: center;
         border-radius: 4px 4px 0px 0px;
   
       }
-      .offer_details_header p{
+      .package_highlights_header p{
         font-family: Mulish;
         font-style: normal;
         font-weight: bold;
@@ -4091,14 +4005,14 @@ align-items: center;
             }
   
   
-            .offer_details_header{
+            .package_highlights_header{
   
   padding-right: 24px;
   padding-left: 24px;
             }
   
   
-  .offer_details_options_wrap{
+  .package_highlights_options_wrap{
     width: 100%;
     max-width: 538px;
     display: flex;
@@ -4107,13 +4021,13 @@ align-items: center;
   
   }
   
-  .offer_details_options_1_wrap{
+  .package_highlights_options_1_wrap{
     min-height: 150px !important;
     max-height: 100%;
      
   }
   
-  .offer_details_options_1{
+  .package_highlights_options_1{
      
   margin-left: 24px ;
   margin-top: 27px;
@@ -4333,7 +4247,7 @@ align-items: center;
 
       .package_offer_wrap{
         display: flex;
-        justify-content: start;
+        justify-content: center;
         width: 100%;
         max-width: 538px;
         min-height: 200px !important;
@@ -4356,7 +4270,7 @@ align-items: center;
 
       .package_offer_header_wrap{
         display: flex;
-        justify-content: start;
+        
         align-items: center;
               width: 100%;
               max-width: 538px;
@@ -4373,18 +4287,7 @@ align-items: center;
               padding-left: 24px;
                         }          
                         
-.package_highlights_header p{
-      font-family: Mulish;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 18px;
-      
-      /* identical to box height */
-      
-      color: #FFFFFF;
-      
-          }
+
           
           
           .package_offer_header p{
