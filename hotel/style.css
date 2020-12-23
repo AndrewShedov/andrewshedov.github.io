@@ -4324,15 +4324,15 @@ align-items: center;
       .package_options_Benefit_t_text{
         border: 1px solid rgb(115, 255, 0) !important; 
         display: flex;
-        /*
+        
         width: 100%;
-        max-width: 100px;
+        max-width: 170px;
         justify-content: center;
-        */
+        
       }
       
       .package_options_Benefit_t_text p{
-      
+      text-align: left;
       font-family: Mulish;
       font-style: normal;
       font-weight: normal;
