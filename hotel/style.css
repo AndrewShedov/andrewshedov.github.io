@@ -4061,6 +4061,8 @@ color: #333333
 .package_highlights_options_2_wrap{
 width: 100%;
 max-width: 227px;
+min-height: 150px !important;
+    max-height: 100%;
   border: 1px solid rgb(0, 255, 55) !important; 
 }
 
@@ -4155,7 +4157,8 @@ align-items: center;
   }
   
   .offer_details_options_1_wrap{
-  
+    min-height: 150px !important;
+    max-height: 100%;
     border: 1px solid rgb(255, 0, 0) !important; 
   }
   
@@ -4314,7 +4317,7 @@ align-items: center;
 
       display: flex;
       justify-content: start;
-      margin-top: 27px;
+      margin-top: 30px;
       
       border: 1px solid rgb(234, 0, 255) !important; 
       
@@ -4360,7 +4363,8 @@ align-items: center;
 
 
       .package_options_offer_1_wrap{
-        height: 100%;
+        min-height: 150px !important;
+        max-height: 100%;
         border: 1px solid rgb(255, 0, 0) !important; 
       }
 
@@ -4449,7 +4453,8 @@ align-items: center;
 
 .package_offer_options_2_wrap{
 border: 1px solid rgb(0, 255, 55) !important; 
-height: 100%;
+min-height: 150px !important;
+max-height: 100%;
 width: 100%;
 max-width: 260px;
 
