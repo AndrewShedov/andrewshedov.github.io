@@ -1370,12 +1370,12 @@ body {
 
       
        .footer {
-            background: rgb(43, 186, 243);
+            background: #F5FAFE;
           
           transition: all 300ms ease;
           justify-content: center;
          height: 150px;
-        margin-top: 40px ;
+        margin-top: 340px ;
          flex: 0 0 auto;
           }
       
@@ -2346,55 +2346,7 @@ color: #FFFFFF;
 
 
 
-
-
-
-.hd_wrap{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-  
-  }
-
-
-
-  .hd{
-    height: 280px;
-    width: 731px;
-   
- 
-    position: relative;
-left: 0px;
     
- 
-    border-radius: 0px;
-    background: #0A223D;
-    }
-
-    
-    
-
-
-       
-
-
-        .hd::before {
-          content: url('images/Ellipse 3.png');
-          
-          position: absolute;
-          top: -16px;
-          right: 60px;
-          font-family: Georgia, serif;
-          font-size: 40px;
-          line-height: 1;
-          font-weight: bold;
-           
-
-        }
-
-
-
-
 
 .gh_hotel_slider_options_map_wrap{
 display: flex;
@@ -4034,15 +3986,12 @@ margin-right: 21px;
 .package_options_t_text{
   border: 1px solid rgb(115, 255, 0) !important; 
   display: flex;
-  /*
-  width: 100%;
-  max-width: 100px;
-  justify-content: center;
-  */
+
+  
 }
 
 .package_options_t_text p{
-
+text-align: left;
 font-family: Mulish;
 font-style: normal;
 font-weight: normal;
