@@ -3826,17 +3826,20 @@ width: 100%;
     .package_summery_wrap{
 display: flex;
 justify-content: start;
-
+ 
 margin-top: 15px;
 }
 .package_summery{
   display: flex;
   justify-content: start;
+  position: relative;
+  right: 2px;
    
   }
 
 
   .package_summery p{
+
 font-family: Mulish;
 font-style: normal;
 font-weight: bold;
