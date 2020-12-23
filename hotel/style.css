@@ -3849,7 +3849,8 @@ color: #333333;
     
 
     .package_highlights_and_offer_details_wrap{
-
+width: 100%;
+max-width: 1109px;
       display: flex;
       justify-content: space-between;
 margin-top: 30px;
