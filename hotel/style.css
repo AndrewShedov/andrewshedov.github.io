@@ -4250,3 +4250,59 @@ align-items: center;
   margin-top: 27px;
   }
   
+
+
+  .package_highlights_options_t_date_wrap{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 21px ;
+    border: 1px solid rgb(255, 0, 0) !important; 
+    
+    }
+    
+    .package_highlights_options_t_date{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    min-width: 18px;
+    max-width: 18px;
+    max-height: 18px;
+    min-height: 18px;
+    
+    
+    margin-right: 21px;
+    }
+   
+    
+ 
+    .package_highlights_options_t_date_svg {
+    
+       fill:#333333;
+       transition: all 1000ms ease;
+       }
+    
+  
+    
+    .package_highlights_options_t_date_text{
+      border: 1px solid rgb(115, 255, 0) !important; 
+      display: flex;
+    
+    }
+    
+    .package_highlights_options_t_date_text p{
+    
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    
+    /* identical to box height */
+    
+    /* Gray 1 */
+    color: #333333
+    
+    
+    }
