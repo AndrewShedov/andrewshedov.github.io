@@ -4446,13 +4446,14 @@ height: 150px;
 
 .package_offer_options_2_wrap{
 border: 1px solid rgb(0, 255, 55) !important; 
+height: 150px;
 }                
 
 
 .package_offer_options_2{
   border: 1px solid rgb(255, 0, 0) !important; 
 margin-right: 35px ;
-height: 150px;
+
 }
 
 
@@ -4511,3 +4512,46 @@ height: 150px;
     
     
     }    
+
+
+
+
+
+    .package_options_valid_t_wrap{
+
+      display: flex;
+      justify-content: end;
+      
+      margin-bottom: 21px ;
+      border: 1px solid rgb(234, 0, 255) !important; 
+      
+      }
+
+
+
+
+      .package_options_valid_t_text{
+        border: 1px solid rgb(115, 255, 0) !important; 
+        display: flex;
+        
+        width: 100%;
+        max-width: 170px;
+        justify-content: left;
+        
+      }
+      
+      .package_options_valid_t_text p{
+      text-align: left;
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      
+      /* identical to box height */
+      
+      /* Gray 1 */
+      color: #333333
+      
+      
+      }
