@@ -4590,8 +4590,14 @@ margin-right: 20px;
  
   margin-right: 7px;
 }
+}
 
+@media screen and (min-width:0px) and (max-width: 710px)
+{
 
+  .package_highlights_and_offer_details_wrap {
+justify-content: center;
+flex-wrap: wrap;
 
 }
 
