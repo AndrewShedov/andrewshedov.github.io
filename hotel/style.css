@@ -3848,7 +3848,7 @@ width: 100%;
     .package_summery_wrap{
 display: flex;
 justify-content: start;
- 
+
 margin-top: 36px;
 }
 .package_summery{
@@ -3856,12 +3856,12 @@ margin-top: 36px;
   justify-content: start;
   position: relative;
   right: 2px;
-   
+  
   }
 
 
   .package_summery p{
-
+    
 font-family: Mulish;
 font-style: normal;
 font-weight: bold;
