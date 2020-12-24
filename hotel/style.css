@@ -4464,5 +4464,40 @@ justify-content: flex-end;
 margin-right: 20px; 
 }
 
+.package_options_Benefit_t_text {
+  display: flex;
+  width: 120px;
+  max-width: 120px;
+  justify-content: center;
+  margin-right: 20px; 
+}
+
+
+.package_options_valid_t_text{
+   
+  width: 100%;
+  max-width: 120px;
+  margin-right: 19px;
+}
+
+}
+
+@media screen and (min-width:1000px) and (max-width: 1050px)
+{
+  .package_options_valid_t_wrap {
+    
+    margin-top: 55px;
+  }
+
+ 
+
+}
+
+@media screen and (min-width:0px) and (max-width: 1000px)
+{
+  .package_options_valid_t_wrap {
+  
+    margin-top: 73px;
+  }
 
 }
