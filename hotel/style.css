@@ -4450,6 +4450,9 @@ margin-right: 20px;
 
 @media screen and (min-width:0px) and (max-width: 1070px)
 {
+.package_highlights_wrap {
+ margin-right: 35px;
+}
 
   .package_offer_options_t_date_text p{
     font-size: 12px;}
@@ -4577,6 +4580,16 @@ margin-right: 20px;
     max-width: 120px;
     margin-right: 19px;
   }
+
+  .package_options_offer_1 {
+    margin-left: 10px;
+}
+
+
+.package_offer_options_2_wrap {
+ 
+  margin-right: 7px;
+}
 
 
 
