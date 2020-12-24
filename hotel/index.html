@@ -963,31 +963,7 @@ var mySwiper = new Swiper('.swiper-container', {
     observer: true, 
     observeParents: true,
     slidesPerView: "auto",
-
-/*
-    breakpoints: {
-   
-    
-    
-    800: {
-        slidesPerView: 1,
-    
-    },
-   
-   },
-   on:{
-     beforeResize() {
-       if (window.innerWidth >= 800) {
-         swiper.slides.css('width', '');
-       }
-     }
-   },
- */
-
-    /*
-    slidesPerView:'auto',
-   */
-    pagination: {
+   pagination: {
       /*el: '.swiper-pagination',*/
       /*type: 'progressbar',*/
     },
@@ -999,28 +975,6 @@ var mySwiper = new Swiper('.swiper-container', {
    
   });
 
-  $(window).on("resize", function() {
-    mySwiper.destroy(cleanStyles);
-    console.log ("width")
-});
-
-
-var mySwiper = document.querySelector('.swiper-container').swiper
-/*
-window.addEventListener('resize', res);
-
-function res(){
-let width =  document.documentElement.clientWidth;
- 
-if (width <= 99999999999) {
-
- console.log (width)
- mySwiper.update();
-}
-}
-
-res();
-*/
 </script>
 
 
