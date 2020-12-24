@@ -4602,3 +4602,36 @@ flex-wrap: wrap;
 }
 
 }
+
+
+@media screen and (min-width:0px) and (max-width: 711px)
+{
+
+  .package_highlights_wrap {
+  
+    margin-right: 0px;
+    
+}
+
+.package_highlights_header_wrap {
+  width: 100%;
+  max-width: 100%;
+  }
+
+  .package_highlights {
+width: 100%;
+    max-width: 100%;
+}
+
+.package_highlights_wrap {
+  width: 100%;
+  max-width: 100%;
+
+}
+
+.package_highlights_options_wrap {
+  width: 100%;
+  max-width: 100%;}
+
+
+}
