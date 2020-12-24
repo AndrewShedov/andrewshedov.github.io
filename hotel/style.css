@@ -2272,7 +2272,18 @@ margin-top: 0px;
 
 
 
+    @media screen and (min-width:0px) and (max-width: 333px) {
+      .gh_hotel_offer_wrap{
+       
+    }
 
+    .gh_hotel_name{
+
+      margin-right: 7px;
+      
+    }
+
+  }
 
 
     .gh_hotel_offer_wrap{
