@@ -1004,11 +1004,8 @@ transition: all 500ms ease;
               
             }
   
-            .img-adaptive {
-              width: 100% !important;
-              
-              height: auto !important;
-          }
+           
+
              
       .header_wrap_2{
   display: flex;
@@ -2540,6 +2537,31 @@ flex-wrap: nowrap !important;
   margin-right: 30px;
   }
 
+
+
+
+/*
+  .img-adaptive {
+    width: 100% !important;
+    
+    height: auto !important;
+
+    max-width: 1200px;
+  width: 100%;
+  height: auto !important;
+}
+*/
+
+
+.img-adaptive {
+ width: 100% !important;
+ height: auto !important;
+}
+
+
+
+
+
   .swiper-container{
     border-radius: 8px !important;
 
@@ -2651,16 +2673,16 @@ flex-wrap: nowrap !important;
 display: flex;
 justify-content: center;
 
-max-width: 728px;
+max-width: 1200px;
 
 width: 100%;
 
 }
 .gh_hotel_image_background{
-  max-width: 728px;
+  max-width: 1200px;
   width: 100%;
   height: 100%;
-  max-height: 450px;
+ 
 display: flex;
 justify-content: center;
 align-items: center;
@@ -2669,21 +2691,20 @@ overflow: hidden;
 
 .gh_hotel_image_background:after{
 
-background: url(images/Rectangle_6.png) repeat-y;
+background: url(images/Rectangle_6.png);
 content: '';
 display: flex;
 justify-content: center;
 align-items: center;
 display: block;
 position: absolute;
-max-height: 450px;
 width: 100%;
 height: 100%;
-
 border-radius: 5px;
-
+background-repeat: no-repeat;
 left: 0;
 z-index: 1;
+background-size: cover;
 
 }
 
@@ -2717,7 +2738,7 @@ z-index: 1;
 display: flex;
 justify-content: center;
 
-max-width: 728px;
+max-width: 1200px;
 
 width: 100%;
 
@@ -3749,13 +3770,10 @@ margin-left: 35px;
 }
 
 
-
-
- 
- 
 .nav_tab__item :after {
 top: 3px;
 }
+
 .nav_tab_wrap_p_h_r{
 width: 100%;
 }
@@ -3767,9 +3785,6 @@ width: 100%;
 .nav_tab_wrap_q{
   width: 100%;
 }
-}
-
-
 
 
 
@@ -4436,13 +4451,13 @@ margin-top: 27px;
 {
   .package_options_t_wrap{
   width: 140px;
-  border: 1px solid rgb(255, 0, 0) !important; 
+   
 }
 
 .package_highlights_options_2_wrap{
 display: flex;
 justify-content: flex-end;
-border: 1px solid rgb(255, 0, 0) !important;
+
 margin-right: 20px; 
 }
 }      
