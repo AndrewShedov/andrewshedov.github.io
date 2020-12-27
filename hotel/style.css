@@ -3912,10 +3912,10 @@ border: 1px solid rgb(255, 0, 0) !important;
   display: flex;
   justify-content: center;
   align-items: center;
-min-width: 18px;
-max-width: 18px;
-max-height: 18px;
-min-height: 18px;
+min-width: 16.5px;
+max-width: 16.5px;
+max-height: 16.5px;
+min-height: 16.5px;
 border-radius: 50%;
 background-color: #333333;
 margin-right: 21px;
@@ -5180,7 +5180,7 @@ width: 100%;
   .Package_Summery_Details_3_column_options_wrap{
 
     display:flex;
-border: 3px solid rgb(205, 3, 255) !important; 
+border: 1px solid rgb(205, 3, 255) !important; 
 justify-content: flex-end;
 width: 100%;
   max-width: 300px;
@@ -5254,6 +5254,87 @@ width: 100%;
         margin-left: 10px;
       }
     }
+
+
+
+
+
+    @media screen and (min-width:790px) and (max-width: 1070px)
+    {
+      .package_offer_options_t_date_wrap{
+        width: 140px;
+        }
+      
+        
+      .package_offer_options_2_wrap{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 20px; 
+      }
+      
+      .package_options_Benefit_t_text {
+        display: flex;
+        width: 120px;
+        max-width: 120px;
+        justify-content: center;
+        margin-right: 20px; 
+      }
+      
+      
+      .package_options_valid_t_text{
+         
+        width: 100%;
+        max-width: 120px;
+        margin-right: 19px;
+      }
+    
+    }
+    
+    
+    .Package_Summery_Details_options_circle{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    min-width: 14.67px;
+    max-width: 14.67px;
+    max-height: 14.67px;
+    min-height: 14.67px;
+    border-radius: 50%;
+    background-color: #333333;
+    margin-right: 21px;
+    }
+    
+    @media screen and (min-width:711px) and (max-width: 790px)
+    {
+      
+    
+      .Package_Summery_Details_options_circle{
+    
+        margin-right: 15px;
+      }
+
+    }
+
+
+
+
+
+
+    @media screen and (min-width:0px) and (max-width: 530px)
+    {
+      
+    
+      .Package_Summery_Details_options_circle{
+    
+        margin-right: 15px;
+      }
+    }
+
+
+
+
+
+
 
 
 
