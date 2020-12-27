@@ -5107,7 +5107,7 @@ width: 100%;
 
 .Package_Summery_Details_options_1_wrap{
   width: 100%;
-  max-width: 258px;
+  max-width: 280px;
   min-height: 150px !important;
   max-height: 100%;
   border: 1px solid rgb(30, 255, 0) !important; 
@@ -5120,7 +5120,7 @@ width: 100%;
 .Package_Summery_Details_options_1{
   width: 100%;
   max-width: 258px;
-  
+  margin-left: 20px;
   margin-top: 27px;
   border: 1px solid rgb(234, 0, 255) !important; 
   }
@@ -5190,7 +5190,7 @@ width: 100%;
 
 .Package_Summery_Details_options_2_wrap{
   width: 100%;
-  max-width: 250px;
+  max-width: 280px;
   min-height: 150px !important;
   max-height: 100%;
   border: 1px solid rgb(30, 255, 0) !important; 
@@ -5201,7 +5201,8 @@ width: 100%;
 
 .Package_Summery_Details_options_2{
   
-  
+  width: 100%;
+  max-width: 250px;
   margin-top: 27px;
   border: 1px solid rgb(234, 0, 255) !important; 
   }
