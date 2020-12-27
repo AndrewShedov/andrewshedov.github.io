@@ -5081,7 +5081,7 @@ width: 100%;
     width: 100%;
     max-width:100%;
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: space-between;
     background-color: #ffffff;
     height: 100%;
@@ -5174,7 +5174,8 @@ width: 100%;
   display:flex;
   border: 1px solid rgb(255, 0, 0) !important; 
   justify-content: space-between;
-  
+  width: 100%;
+  max-width: 690px;
   }
 
   .Package_Summery_Details_3_column_options_wrap{
@@ -5183,7 +5184,7 @@ width: 100%;
 border: 1px solid rgb(205, 3, 255) !important; 
 justify-content: flex-end;
 width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   }
 
 .Package_Summery_Details_options_2_wrap{
