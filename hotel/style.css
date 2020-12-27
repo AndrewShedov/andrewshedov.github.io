@@ -5082,10 +5082,10 @@ width: 100%;
     max-width:100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
     background-color: #ffffff;
     height: 100%;
-    border: 1px solid rgb(255, 0, 0) !important; 
+    border: 1px solid rgb(0, 217, 255) !important; 
   }
 
 
@@ -5113,15 +5113,7 @@ width: 100%;
   border: 1px solid rgb(30, 255, 0) !important; 
 }
 
-.Package_Summery_Details_options_1_wrap:nth-child(3){
-  display: flex;
-  width: 100%;
-  max-width: 100%;
-  min-height: 150px !important;
-  max-height: 100%;
-  border: 1px solid rgb(255, 0, 0) !important; 
-  justify-content: center;
-}
+
 
 
 .Package_Summery_Details_options_1{
@@ -5170,6 +5162,93 @@ margin-bottom: 20px;
       }
 
 
+.Package_Summery_Details_2_column_options_wrap{
+display:flex;
+border: 1px solid rgb(255, 0, 0) !important; 
+justify-content: center;
+
+}
+
+.Package_Summery_Details_2_column_options{
+  display:flex;
+  border: 1px solid rgb(255, 0, 0) !important; 
+  justify-content: space-between;
+  
+  }
+
+
+
+.Package_Summery_Details_options_2_wrap{
+  width: 100%;
+  max-width: 229px;
+  min-height: 150px !important;
+  max-height: 100%;
+  border: 1px solid rgb(30, 255, 0) !important; 
+}
+
+
+
+.Package_Summery_Details_options_2{
+  
+  margin-right: 30px;
+  margin-left: 27px ;
+  margin-top: 27px;
+  border: 1px solid rgb(234, 0, 255) !important; 
+  }
+
+  @media screen and (min-width:711px) and (max-width: 790px)
+  {
+    .Package_Summery_Details_options_2{
+      margin-right: 0px;
+      margin-left: 10px;
+    }
+  }  
+
+  @media screen and (min-width:0px) and (max-width: 530px)
+  {
+    .Package_Summery_Details_options_2{
+      margin-right: 0px;
+      margin-left: 10px;
+    }
+  }
+
+
+
+
+  .Package_Summery_Details_options_3_wrap{
+    width: 100%;
+    max-width: 229px;
+    min-height: 150px !important;
+    max-height: 100%;
+    border: 1px solid rgb(30, 255, 0) !important; 
+  }
+  
+  
+  
+  .Package_Summery_Details_options_3{
+    
+    margin-right: 30px;
+    margin-left: 27px ;
+    margin-top: 27px;
+    border: 1px solid rgb(234, 0, 255) !important; 
+    }
+  
+    @media screen and (min-width:711px) and (max-width: 790px)
+    {
+      .Package_Summery_Details_options_3{
+        margin-right: 0px;
+        margin-left: 10px;
+      }
+    }  
+  
+    @media screen and (min-width:0px) and (max-width: 530px)
+    {
+      .Package_Summery_Details_options_3{
+        margin-right: 0px;
+        margin-left: 10px;
+      }
+    }
+
 
 
 
@@ -5178,7 +5257,6 @@ margin-bottom: 20px;
   border-bottom: 2px dashed red; 
   
 }
-
 
 
 
