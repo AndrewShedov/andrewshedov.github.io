@@ -5111,6 +5111,7 @@ width: 100%;
   min-height: 150px !important;
   max-height: 100%;
   border: 1px solid rgb(30, 255, 0) !important; 
+  margin-left: 20px;
 }
 
 
