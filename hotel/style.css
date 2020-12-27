@@ -5107,7 +5107,7 @@ width: 100%;
 
 .Package_Summery_Details_options_1_wrap{
   width: 100%;
-  max-width: 229px;
+  max-width: 258px;
   min-height: 150px !important;
   max-height: 100%;
   border: 1px solid rgb(30, 255, 0) !important; 
@@ -5117,9 +5117,9 @@ width: 100%;
 
 
 .Package_Summery_Details_options_1{
+  width: 100%;
+  max-width: 258px;
   
-  margin-right: 30px;
-  margin-left: 27px ;
   margin-top: 27px;
   border: 1px solid rgb(234, 0, 255) !important; 
   }
