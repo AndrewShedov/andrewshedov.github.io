@@ -4958,7 +4958,7 @@ margin-right: 10px;
         display: flex;
         justify-content: center;
   margin-top: 30px;
-
+margin-bottom: 300px;
 }
 
 .Package_Summery_Details_wrap{
@@ -5111,7 +5111,7 @@ width: 100%;
   min-height: 150px !important;
   max-height: 100%;
   border: 1px solid rgb(30, 255, 0) !important; 
-  margin-left: 20px;
+  
 }
 
 
@@ -5146,7 +5146,7 @@ width: 100%;
 
   .Package_Summery_Details_contents{
 margin-bottom: 20px;
-
+margin-top: 10px;
 
   }
 
@@ -5194,7 +5194,7 @@ width: 100%;
   min-height: 150px !important;
   max-height: 100%;
   border: 1px solid rgb(30, 255, 0) !important; 
-  margin-right: 40px;
+  
 }
 
 
@@ -5227,17 +5227,19 @@ width: 100%;
 
   .Package_Summery_Details_options_3_wrap{
     width: 100%;
-    max-width: 250px;
+    max-width: 320px;
     min-height: 150px !important;
     max-height: 100%;
     border: 1px solid rgb(30, 255, 0) !important;
-    margin-left: 15px;
+    display: flex;
+    justify-content: start;
   }
   
   
   
   .Package_Summery_Details_options_3{
-    
+    width: 100%;
+    max-width: 245px;
    
     margin-top: 27px;
     border: 1px solid rgb(234, 0, 255) !important; 
