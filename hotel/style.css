@@ -5107,7 +5107,7 @@ width: 100%;
 
 .Package_Summery_Details_options_1_wrap{
   width: 100%;
-  max-width: 280px;
+  max-width: 285px;
   min-height: 150px !important;
   max-height: 100%;
   border: 1px solid rgb(30, 255, 0) !important; 
@@ -5119,7 +5119,7 @@ width: 100%;
 
 .Package_Summery_Details_options_1{
   width: 100%;
-  max-width: 258px;
+  max-width: 260px;
   margin-left: 20px;
   margin-top: 27px;
   border: 1px solid rgb(234, 0, 255) !important; 
@@ -5154,7 +5154,7 @@ margin-top: 10px;
   .Package_Summery_Details_contents p{
     font-family: Mulish;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 200;
     font-size: 13px;
     line-height: 16px;
     color: #EC1F46;
@@ -5200,7 +5200,7 @@ width: 100%;
 
 
 .Package_Summery_Details_options_2{
-  margin-left: 7px;
+  margin-left: 5px;
   width: 100%;
   max-width: 250px;
   margin-top: 27px;
@@ -5308,7 +5308,7 @@ width: 100%;
     min-height: 14.67px;
     border-radius: 50%;
     background-color: #333333;
-    margin-right: 21px;
+    margin-right: 24px;
     }
     
     @media screen and (min-width:711px) and (max-width: 790px)
