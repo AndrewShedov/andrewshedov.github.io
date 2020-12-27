@@ -3635,12 +3635,23 @@ max-width: 1115px;
       height: 4px;
       width: 0%;
       transition: all 300ms ease;
-    top: 15px;
-    position: relative;
+    top: 15px !important;
+    position: relative !important;
     
     }
     
     
+
+    @media screen and (min-width:0px) and (max-width: 1050px)
+    {
+    .nav_tab__item :after {
+      top: 5px !important;
+      }
+    }
+
+
+
+
     .nav_tab__item :hover:after,
     .nav_tab__item :focus :after {
     width: 100%;
@@ -3786,12 +3797,11 @@ margin-left: 35px;
   margin-left: 25px;
   right:12px;
   }
-}
+
+  }
 
 
-.nav_tab__item :after {
-top: 3px;
-}
+
 
 .nav_tab_wrap_p_h_r{
 width: 100%;
@@ -3904,7 +3914,7 @@ display: flex;
 justify-content: start;
 align-items: center;
 margin-bottom: 20.5px ;
-border: 1px solid rgb(255, 0, 0) !important; 
+
 
 }
 
@@ -4968,7 +4978,7 @@ margin-bottom: 300px;
   max-width: 100%;
  
   height: 100%;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
 
 }
 
@@ -5085,7 +5095,7 @@ width: 100%;
     justify-content: space-between;
     background-color: #ffffff;
     height: 100%;
-    border: 1px solid rgb(0, 217, 255) !important; 
+    
   }
 
 
@@ -5110,7 +5120,7 @@ width: 100%;
   max-width: 285px;
   min-height: 150px !important;
   max-height: 100%;
-  border: 1px solid rgb(30, 255, 0) !important; 
+  
   
 }
 
@@ -5122,7 +5132,7 @@ width: 100%;
   max-width: 260px;
   margin-left: 20px;
   margin-top: 27px;
-  border: 1px solid rgb(234, 0, 255) !important; 
+   
   }
 
   @media screen and (min-width:711px) and (max-width: 790px)
@@ -5165,7 +5175,7 @@ margin-top: 10px;
 
 .Package_Summery_Details_1_2_column_options_wrap{
 display:flex;
-border: 1px solid rgb(0, 0, 0) !important; 
+
 justify-content: center;
 width: 100%;
   max-width: 690px;
@@ -5173,7 +5183,7 @@ width: 100%;
 
 .Package_Summery_Details_1_2_column_options{
   display:flex;
-  border: 1px solid rgb(255, 0, 0) !important; 
+ 
   justify-content: space-between;
   width: 100%;
   max-width: 690px;
@@ -5182,7 +5192,7 @@ width: 100%;
   .Package_Summery_Details_3_column_options_wrap{
 
     display:flex;
-border: 1px solid rgb(205, 3, 255) !important; 
+
 justify-content: center;
 width: 100%;
   max-width: 410px;
@@ -5193,7 +5203,7 @@ width: 100%;
   max-width: 280px;
   min-height: 150px !important;
   max-height: 100%;
-  border: 1px solid rgb(30, 255, 0) !important; 
+
   
 }
 
@@ -5203,8 +5213,8 @@ width: 100%;
   margin-left: 5px;
   width: 100%;
   max-width: 250px;
-  margin-top: 27px;
-  border: 1px solid rgb(234, 0, 255) !important; 
+  margin-top: 40px !important;
+  
   }
 
   @media screen and (min-width:711px) and (max-width: 790px)
@@ -5231,7 +5241,7 @@ width: 100%;
     max-width: 320px;
     min-height: 150px !important;
     max-height: 100%;
-    border: 1px solid rgb(30, 255, 0) !important;
+   
     display: flex;
     justify-content: start;
   }
@@ -5243,7 +5253,7 @@ width: 100%;
     max-width: 245px;
    
     margin-top: 27px;
-    border: 1px solid rgb(234, 0, 255) !important; 
+     
     }
   
     @media screen and (min-width:711px) and (max-width: 790px)
