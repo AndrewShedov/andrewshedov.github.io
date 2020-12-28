@@ -5133,13 +5133,7 @@ width: 100%;
    
   }
 
-  @media screen and (min-width:711px) and (max-width: 790px)
-  {
-    .Package_Summery_Details_options_1{
-      margin-right: 0px;
-      margin-left: 10px;
-    }
-  }  
+    
 
   @media screen and (min-width:0px) and (max-width: 530px)
   {
@@ -5216,13 +5210,7 @@ justify-content: start;
   
   }
 
-  @media screen and (min-width:711px) and (max-width: 790px)
-  {
-    .Package_Summery_Details_options_2{
-      margin-right: 0px;
-      margin-left: 10px;
-    }
-  }  
+  
 
   @media screen and (min-width:0px) and (max-width: 530px)
   {
@@ -5255,13 +5243,7 @@ justify-content: start;
      
     }
   
-    @media screen and (min-width:711px) and (max-width: 790px)
-    {
-      .Package_Summery_Details_options_3{
-        margin-right: 0px;
-        margin-left: 10px;
-      }
-    }  
+    
   
     @media screen and (min-width:0px) and (max-width: 530px)
     {
@@ -5320,12 +5302,12 @@ justify-content: start;
     margin-right: 24px;
     }
     
-    @media screen and (min-width:711px) and (max-width: 790px)
+    @media screen and (min-width:0px) and (max-width: 790px)
     {
       
     
       .Package_Summery_Details_options_circle{
-    
+        border: 1px solid rgb(255, 0, 0) !important; 
         margin-right: 15px;
       }
 
@@ -5370,6 +5352,15 @@ margin-right: 10px;
     }
 
 
+    }
+
+
+
+
+
+    @media screen and (min-width:700px) and (max-width: 1000px)
+    {
+
     .Package_Summery_Details_options_2_wrap {
       width: 100%;
       max-width: 260px;
@@ -5390,14 +5381,10 @@ margin-right: 10px;
     margin-right: 10px;
 }
 
-
-
     }
 
 
-
-
-
+    
 
 
     @media screen and (min-width:0px) and (max-width: 1000px)
