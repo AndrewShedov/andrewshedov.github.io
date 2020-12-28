@@ -5390,6 +5390,37 @@ margin-left: 120px;
 
 
 
+
+
+    @media screen and (min-width:530px) and (max-width: 685px)
+    {
+
+      .Package_Summery_Details_options_3_wrap{
+        
+        margin-left: 15px;
+       
+      }
+
+    }
+
+
+
+    @media screen and (min-width:0px) and (max-width: 530px)
+    {
+
+      .Package_Summery_Details_options_3_wrap{
+        
+        margin-left: 0px;
+       
+      }
+
+    }
+
+
+
+
+
+
     @media screen and (min-width:685px) and (max-width: 1000px)
     {
 
@@ -5408,7 +5439,7 @@ margin-left: 120px;
         width: 100%;
         max-width: 150px;
      
-margin-right: 10px;
+
     }
 
 
