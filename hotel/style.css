@@ -5168,8 +5168,7 @@ width: 100%;
 .Package_Summery_Details_options_1_wrap{
   margin-right: 5px;
   margin-left: 10px;
- 
-   }
+}
 
   }
 
@@ -5327,13 +5326,7 @@ margin-left: 90px;
   
     
   
-    @media screen and (min-width:0px) and (max-width: 530px)
-    {
-      .Package_Summery_Details_options_3{
-        margin-right: 0px;
-        margin-left: 10px;
-      }
-    }
+  
 
 
 
@@ -5397,7 +5390,7 @@ margin-left: 90px;
 
 
 
-    @media screen and (min-width:0px) and (max-width: 1000px)
+    @media screen and (min-width:685px) and (max-width: 1000px)
     {
 
       .Package_Summery_Details_options_3_wrap{
