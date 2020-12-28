@@ -3973,9 +3973,13 @@ line-height: 15px;
 
 /* Gray 1 */
 color: #333333
-
-
 }
+
+
+
+
+
+
 
 
 .package_highlights_options_2_wrap{
@@ -5193,6 +5197,20 @@ margin-bottom: 20px;
     text-align: left;
     
       }
+
+
+      @media screen and (min-width:0px) and (max-width: 300px)
+      {
+        .Package_Summery_Details_contents p{
+       
+          font-size: 4vw;
+        }
+}
+
+
+
+
+
 
 
 .Package_Summery_Details_1_2_column_options_wrap{
