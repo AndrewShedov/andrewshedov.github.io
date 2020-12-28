@@ -4981,7 +4981,7 @@ margin-right: 10px;
         display: flex;
         justify-content: center;
   margin-top: 33px;
-margin-bottom: 300px;
+
 }
 
 .Package_Summery_Details_wrap{
@@ -5284,7 +5284,7 @@ margin-left: 120px;
 
 
 .Package_Summery_Details_options_2{
-  margin-left: 2px;
+  margin-left: 12px;
   width: 100%;
   max-width: 250px;
   margin-top: 40px !important;
@@ -5533,13 +5533,6 @@ margin-left: 120px;
   }
 }
 
-.Package_Summery_Details_dashed{
-  width:100%;
-  border-bottom: 2px dashed red; 
-  
-}
-
-
 
 @media screen and (min-width:0px) and (max-width: 685px)
 {
@@ -5560,4 +5553,12 @@ max-width: 100%;
 justify-content: start;
 }
 
+}
+
+
+.Package_Summery_Details_dashed{
+  width:100%;
+  border-bottom: 2px dashed rgba(224, 224, 224, 1); 
+  background-color: #FFFFFF;
+  padding-bottom: 30px;
 }
