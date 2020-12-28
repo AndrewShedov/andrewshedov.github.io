@@ -5405,7 +5405,7 @@ margin-left: 120px;
 
 
 
-    @media screen and (min-width:0px) and (max-width: 530px)
+    @media screen and (min-width:298px) and (max-width: 530px)
     {
 
       .Package_Summery_Details_options_3_wrap{
@@ -5416,7 +5416,16 @@ margin-left: 120px;
 
     }
 
+    @media screen and (min-width:0px) and (max-width: 298px)
+    {
 
+      .Package_Summery_Details_options_3_wrap{
+        
+        margin-left: 25px;
+       
+      }
+
+    }
 
 
 
