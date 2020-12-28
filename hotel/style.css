@@ -5574,6 +5574,8 @@ justify-content: start;
   justify-content: space-between;
   background-color: #ffffff;
   height: 100%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   
 }
 
