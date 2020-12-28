@@ -5562,3 +5562,38 @@ justify-content: start;
   background-color: #FFFFFF;
   padding-bottom: 30px;
 }
+
+
+
+.Package_Summery_Details_options_under_dashed_wrap{
+  width: 100%;
+  max-width:100%;
+  display: flex;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 100%;
+  
+}
+
+
+@media screen and (min-width:0px) and (max-width: 711px)
+{
+
+ 
+
+.Package_Summery_Details_options_under_dashed_wrap {
+  width: 100%;
+  max-width: 100%;
+}
+
+}
+
+
+@media screen and (min-width:0px) and (max-width: 685px)
+{
+
+  .Package_Summery_Details_options_under_dashed_wrap{
+flex-wrap: wrap;
+
+  }
