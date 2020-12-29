@@ -6134,7 +6134,7 @@ margin-top: 33px;
         .Other_Packages_p_1_description_book p{
           font-family: Nunito;
           font-style: normal;
-          font-weight: 600;
+          font-weight: 200;
           font-size: 14px;
           line-height: 19px;
           
@@ -6197,10 +6197,13 @@ width: 95px;
 
     .Other_Packages_p_1_image_offer p{
       font-family: Mulish;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 10px;
-      line-height: 13px;
+font-style: normal;
+font-weight: 200;
+font-size: 12px;
+line-height: 15px;
+
+/* identical to box height */
+
 color: #FFFFFF;
 
     }
