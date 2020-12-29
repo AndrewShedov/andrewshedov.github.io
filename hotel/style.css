@@ -5807,7 +5807,7 @@ max-width: 364px;
 margin-top: 46px;
 margin-left: 43px;
 margin-right: 21px;
-
+margin-bottom: 30px;
     }
 
     .Other_Packages_p_1_description_stars_wrap{
@@ -6069,7 +6069,135 @@ margin-top: 33px;
 
 
      .Other_Packages_p_1_description_price_book_wrap{
-
-
+      width: 100%;
+      max-width: 364px;
+      align-items: center;
       display: flex;
+      justify-content: space-between;
      }
+
+     .Other_Packages_p_1_description_price{
+
+
+
+     }
+
+     .Other_Packages_p_1_description_price p{
+
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 30px;
+      
+      color: #FFFFFF;
+
+    }
+
+
+    .Other_Packages_p_1_description_book{
+
+
+
+    }
+
+ .Other_Packages_p_1_description_book_href{
+      transition: all 500ms ease;
+      max-width: 120px;
+      width: 120px;
+    }
+
+
+
+    .Other_Packages_p_1_description_book{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      background: #EC1F46;
+      border-radius: 3px;
+      transition: all 500ms ease;
+      height: 40px;
+      
+          }
+      
+          @media screen and (min-width:1000px) and (max-width: 99999999px) {
+          .Other_Packages_p_1_description_book:hover{
+            transition: all 500ms ease;
+            background: #1576c5;
+      
+      
+          }
+        }
+
+
+        .Other_Packages_p_1_description_book p{
+          font-family: Nunito;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 19px;
+          
+          /* identical to box height */
+          
+          color: #FFFFFF;
+    
+        }       
+
+
+
+
+        .Other_Packages_p_1_image_offer_wrap{
+          justify-content: start;
+          align-items: center;
+                display: flex;
+                max-width: 400px;
+                width: 100%;
+                flex-wrap:nowrap ;
+                transition: all 500ms ease;
+                 
+              }
+
+
+.Other_Packages_p_1_image_offer_href{
+transition: all 500ms ease;
+max-width: 70px;
+width: 70px;
+ }
+
+
+
+
+
+ .Other_Packages_p_1_image_offer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #EC1F46;
+  border-radius: 3px;
+  transition: all 500ms ease;
+  height: 20px;
+  
+      }
+  
+      @media screen and (min-width:1000px) and (max-width: 99999999px) {
+      .Other_Packages_p_1_image_offer:hover{
+        transition: all 500ms ease;
+        background: #1576c5;
+  
+  
+      }
+    } 
+
+
+
+
+    .Other_Packages_p_1_image_offer p{
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 13px;
+color: #FFFFFF;
+
+    }
+   
