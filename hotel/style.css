@@ -5807,3 +5807,31 @@ display:flex;
 
 
     }
+
+
+    .Other_Packages_p_1_description_name_wrap{
+      display:flex;
+margin-top: 4px;
+
+    }   
+
+
+    .Other_Packages_p_1_description_name{
+     
+
+
+    } 
+
+    .Other_Packages_p_1_description_name p{
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 23px;
+      
+      /* identical to box height */
+      
+      color: #FFFFFF;
+
+
+    }  
