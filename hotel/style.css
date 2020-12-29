@@ -2575,8 +2575,8 @@ flex-wrap: nowrap !important;
 .img-adaptive {
  width: 100% !important;
 
- /*height: auto !important;*/
  height: 100% !important;
+ /*height: auto !important;*/
 
 }
 
@@ -5756,7 +5756,7 @@ background-color: rgba(245, 250, 254, 1);
       display: flex;
    
       justify-content: center;
-
+     
 
     }
 
@@ -5772,8 +5772,9 @@ background-color: rgba(245, 250, 254, 1);
 
     .Other_Packages_p_1{
       display: flex;
-
       justify-content: center;
+      
+      border: 1px solid rgb(255, 0, 0) !important; 
     }
 
 
@@ -5795,12 +5796,15 @@ background-color: rgba(245, 250, 254, 1);
 background-color: rgba(10, 34, 61, 1);
 border-top-right-radius: 8px;
     border-bottom-right-radius:8px;
+    width: 100%;
+max-width: 364px;
     }
 
     .Other_Packages_p_1_description{
 margin-top: 46px;
 margin-left: 43px;
 margin-right: 21px;
+
     }
 
     .Other_Packages_p_1_description_stars_wrap{
@@ -5925,6 +5929,7 @@ margin-left: 15px;
   display:flex;
   width: 100%;
   max-width: 100%;
+  margin-top: 7px;
 }
 
 
@@ -5969,3 +5974,70 @@ margin-left: 15px;
     color: #FFFFFF;
 
    }
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+   .Other_Packages_p_1_description_room_wrap{
+    display:flex;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 7px;
+    
+  }
+  
+  
+  .Other_Packages_p_1_description_room_home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .Other_Packages_p_1_description_room_home_svg{
+  
+    cursor: pointer;
+    fill:#ffffff;
+    transition: all 1000ms ease;
+  }
+  
+  
+     @media screen and (min-width:1000px) and (max-width: 99999999px) {
+  .Other_Packages_p_1_description_room_home_svg:hover {
+   fill:rgb(0, 162, 255);
+   transition: all 500ms ease;
+   }
+     }
+  
+  
+     .Other_Packages_p_1_description_room_text{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px;
+     }
+  
+  
+     .Other_Packages_p_1_description_room_text p{
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      
+      /* identical to box height */
+      
+      color: #FFFFFF;
+  
+     }
