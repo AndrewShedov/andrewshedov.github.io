@@ -5773,9 +5773,10 @@ background-color: rgba(245, 250, 254, 1);
     .Other_Packages_p_1{
       display: flex;
       justify-content: center;
+      /*
       max-height: 500px;
       height: 100%;
-     
+     */
     }
 
 
@@ -5800,8 +5801,10 @@ border-top-right-radius: 8px;
     border-bottom-right-radius:8px;
     width: 100%;
 max-width: 364px;
-
-
+/*
+max-height: 500px;
+      height: 100%;
+*/
     }
 
     .Other_Packages_p_1_description{
@@ -6208,3 +6211,18 @@ color: #FFFFFF;
 
     }
    
+
+
+
+    .Other_Packages_p_1_description_image_wrap  {
+
+display: flex;
+flex-wrap: wrap;
+border: 1px solid rgb(255, 0, 0) !important; 
+width: 100%;
+max-width: 364px;
+/*
+max-height: 500px;
+      height: 100%;
+      */
+    } 
