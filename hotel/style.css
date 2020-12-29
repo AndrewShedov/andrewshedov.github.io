@@ -5863,7 +5863,7 @@ margin-top: 28px;
 
 
 .Other_Packages_p_1_description_address_guests_room_wrap {
-
+flex-wrap: wrap;
   display:flex;
 margin-top: 48px;
 }  
@@ -5900,9 +5900,72 @@ margin-top: 48px;
    }
 
 
+   .Other_Packages_p_1_description_address_text{
+
+margin-left: 15px;
+
+   }
+
+.Other_Packages_p_1_description_address_text p{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+
+}
 
 
-.Other_Packages_p_1_description_address_text{
+
+.Other_Packages_p_1_description_guests_wrap{
+  display:flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.Other_Packages_p_1_description_guests_user{
 
 
 }
+
+
+
+.Other_Packages_p_1_description_guests_user_svg{
+
+  cursor: pointer;
+  fill:#ffffff;
+  transition: all 1000ms ease;
+}
+
+
+   @media screen and (min-width:1000px) and (max-width: 99999999px) {
+.Other_Packages_p_1_description_guests_user_svg:hover {
+ fill:rgb(0, 162, 255);
+ transition: all 500ms ease;
+ }
+   }
+
+
+   .Other_Packages_p_1_description_guests_text{
+
+    margin-left: 15px;
+   }
+
+
+   .Other_Packages_p_1_description_guests_text p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    
+    /* identical to box height */
+    
+    color: #FFFFFF;
+
+   }
