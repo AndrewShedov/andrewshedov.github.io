@@ -6803,3 +6803,20 @@ margin-right: 30px;
 flex-wrap: wrap;
 
 }
+
+
+
+@media screen and (min-width:0px) and (max-width: 940px) {
+.Other_Packages_p_2_wrap{
+display: none;
+}
+
+.Other_Packages_p_1_wrap {
+  display: flex;
+  margin-right: 0px;
+  justify-content: center;
+  width: 100%;
+}
+
+
+}
