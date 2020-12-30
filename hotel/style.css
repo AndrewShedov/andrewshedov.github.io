@@ -6691,7 +6691,7 @@ width: 100%;
 
   display: flex;
   width: 100%;
-flex-wrap:wrap;
+
 }
 
 
@@ -6699,7 +6699,7 @@ flex-wrap:wrap;
 .Other_Packages_Second_line_wrap_1{
 display: flex;
 
-width: 100%;
+
 }
 
 
@@ -6722,5 +6722,21 @@ width: 100%;
 
   display: flex;
 
-  width: 100%;
+
 }
+
+
+.Other_Packages_Second_line_wrap_2_1{
+  display: flex;
+  
+}
+
+
+.Other_Packages_Second_line_wrap_2_1_1{
+  display: flex;
+
+
+
+}
+
+
