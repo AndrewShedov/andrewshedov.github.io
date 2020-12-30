@@ -6234,10 +6234,7 @@ max-width: 364px;
 max-height: 500px;
       height: 100%;
       */
-
-    
-
-    } 
+} 
 
 
 
@@ -6266,3 +6263,90 @@ flex-wrap: wrap;
     
     }
 
+
+
+
+
+    .Other_Packages_p_2_description_image_wrap  {
+
+      display: flex;
+      flex-wrap: wrap;
+      
+      width: 100%;
+      max-width: 364px;
+      /*
+      max-height: 500px;
+            height: 100%;
+            */
+      } 
+      
+      
+      .Other_Packages_p_2_image_wrap{
+       
+        position: relative;
+        left: 0px;
+      }
+
+      
+
+
+      .Other_Packages_p_2_image_offer_wrap{
+        justify-content: start;
+        align-items: center;
+              display: flex;
+              max-width: 400px;
+              width: 100%;
+              flex-wrap:nowrap ;
+              transition: all 500ms ease;
+              position: absolute;
+              top: 25px;
+              right: 0px;
+            }     
+
+
+            .Other_Packages_p_2_image_offer_href{
+              transition: all 500ms ease;
+              max-width: 95px;
+              width: 95px;
+               }           
+
+
+
+
+
+               .Other_Packages_p_2_image_offer{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background: #EC1F46;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius:4px;
+                transition: all 500ms ease;
+                height: 30px;
+                
+                    }
+                
+                    @media screen and (min-width:1000px) and (max-width: 99999999px) {
+                    .Other_Packages_p_2_image_offer:hover{
+                      transition: all 500ms ease;
+                      background: #1576c5;
+                
+                
+                    }
+                  } 
+              
+              
+              
+              
+                  .Other_Packages_p_2_image_offer p{
+                    font-family: Mulish;
+              font-style: normal;
+              font-weight: 200;
+              font-size: 12px;
+              line-height: 15px;
+              
+              /* identical to box height */
+              
+              color: #FFFFFF;
+              
+                  }              
