@@ -5778,15 +5778,7 @@ background-color: rgba(245, 250, 254, 1);
 
     }
 
-    .Other_Packages_p_2_wrap{
-      display: flex;
-
-      justify-content: center;
-
-      
-    }
-
-
+  
 
     .Other_Packages_p_1{
       display: flex;
@@ -5800,15 +5792,6 @@ background-color: rgba(245, 250, 254, 1);
       height: 100%;
      */
     }
-
-
-
-    .Other_Packages_p_2{
-      display: flex;
-
-      justify-content: center;
-    }
-
 
 
     .Other_Packages_p_1_image_wrap{
@@ -6263,4 +6246,23 @@ max-height: 500px;
       position: relative;
       left: 0px;
     }   
+
+
+
+
+    .Other_Packages_p_2_wrap{
+      display: flex;
+
+      justify-content: center;
+
+      
+    }
+
+
+
+    .Other_Packages_p_2{
+      display: flex;
+flex-wrap: wrap;
+    
+    }
 
