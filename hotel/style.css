@@ -5803,7 +5803,7 @@ background-color: rgba(245, 250, 254, 1);
 
     .Other_Packages_p_1_wrap{
       display: flex;
-   margin-right: 20px;
+   margin-right: 29px;
       justify-content: center;
      
 
@@ -6717,7 +6717,7 @@ width: 100%;
 
 
 .Other_Packages_Second_line{
-margin-top: 40px;
+margin-top: 30px;
   display: flex;
   width: 100%;
 
@@ -6787,14 +6787,14 @@ flex-wrap: wrap;
 .Other_Packages_p_4{
   display: flex;
 flex-wrap: wrap;
-margin-right: 20px;
+margin-right: 30px;
 }
 
 
 .Other_Packages_p_5{
   display: flex;
 flex-wrap: wrap;
-
+margin-right: 30px;
 }
 
 
