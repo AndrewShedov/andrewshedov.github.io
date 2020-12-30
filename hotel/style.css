@@ -6273,7 +6273,6 @@ max-width: 364px;
 
     .Other_Packages_p_2_wrap{
       display: flex;
-     
       justify-content: center;
 
       
@@ -6774,4 +6773,33 @@ display: flex;
 
 .Other_Packages_Second_line_wrap_2_1_2{
   display: flex;
+}
+
+
+
+.Other_Packages_p_3{
+  display: flex;
+flex-wrap: wrap;
+
+}
+
+
+.Other_Packages_p_4{
+  display: flex;
+flex-wrap: wrap;
+margin-right: 20px;
+}
+
+
+.Other_Packages_p_5{
+  display: flex;
+flex-wrap: wrap;
+
+}
+
+
+.Other_Packages_p_6{
+  display: flex;
+flex-wrap: wrap;
+
 }
