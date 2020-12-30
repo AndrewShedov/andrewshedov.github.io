@@ -5754,7 +5754,7 @@ background-color: rgba(245, 250, 254, 1);
       display: flex;
      padding-top: 65px;
       justify-content: center;
-      
+     
     }
 
 
@@ -6688,9 +6688,10 @@ width: 100%;
 
 
 .Other_Packages_Second_line{
-
+margin-top: 40px;
   display: flex;
   width: 100%;
+
 
 }
 
@@ -6740,3 +6741,7 @@ display: flex;
 }
 
 
+
+.Other_Packages_Second_line_wrap_2_1_2{
+  display: flex;
+}
