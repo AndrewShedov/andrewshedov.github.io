@@ -6720,8 +6720,6 @@ width: 100%;
 margin-top: 30px;
   display: flex;
   width: 100%;
-
-
 }
 
 
@@ -6818,5 +6816,30 @@ display: none;
   width: 100%;
 }
 
+.Other_Packages_Second_line_wrap_1_1_1{
+  display: flex;
+}
+
+.Other_Packages_Second_line{
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.Other_Packages_p_3 {
+
+margin-right: 30px;
+
+}
+
+.Other_Packages_p_4 {
+
+  margin-right: 0px;
+  
+  }
+
+  .Other_Packages_Second_line_wrap_2{
+    margin-top: 30px;
+    border: 1px solid rgb(255, 0, 0) !important; 
+  }
 
 }
