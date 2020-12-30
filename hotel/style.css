@@ -6231,10 +6231,10 @@ flex-wrap: wrap;
 
 width: 100%;
 max-width: 364px;
-/*
+
 max-height: 500px;
       height: 100%;
-      */
+     
 } 
 
 
@@ -6250,7 +6250,8 @@ max-height: 500px;
 
     .Other_Packages_p_2_wrap{
       display: flex;
-    
+      max-height: 500px;
+      height: 100%;
       justify-content: center;
 
       
@@ -6261,7 +6262,8 @@ max-height: 500px;
     .Other_Packages_p_2{
       display: flex;
 flex-wrap: wrap;
-    
+max-height: 500px;
+height: 100%;
     }
 
 
@@ -6275,10 +6277,10 @@ flex-wrap: wrap;
       
       width: 100%;
       max-width: 350px;
-      /*
-      max-height: 500px;
+   
+      max-height: 250px;
             height: 100%;
-            */
+         
           
         
 
@@ -6287,7 +6289,8 @@ flex-wrap: wrap;
       
       
       .Other_Packages_p_2_image_wrap{
-       
+        max-height: 250px;
+        height: 100%;
         position: relative;
         left: 0px;
       }
@@ -6362,15 +6365,13 @@ color: #FFFFFF;
 
 .Other_Packages_p_2_description_wrap{
 background-color: rgba(10, 34, 61, 1);
-border-top-right-radius: 8px;
+
+    border-bottom-left-radius:8px;
+  
     border-bottom-right-radius:8px;
     width: 100%;
 max-width: 350px;
 
-/*
-max-height: 500px;
-      height: 100%;
-*/
 max-height: 250px;
       height: 100%;
 
@@ -6422,7 +6423,7 @@ margin-top: 0px;
     .Other_Packages_p_2_description_address_guests_room_wrap {
       flex-wrap: wrap;
         display:flex;
-      margin-top: 48px;
+      margin-top: 20px;
       }      
 
 
