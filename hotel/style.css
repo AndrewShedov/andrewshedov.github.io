@@ -5763,9 +5763,10 @@ background-color: rgba(245, 250, 254, 1);
     display: flex;
     max-width: 1110px;
     width: 100%;
-  
+    justify-content: space-between;
     margin-left: 15px;
     margin-right: 15px; 
+    border: 1px solid rgb(255, 0, 0) !important; 
     }
 
 
@@ -6249,7 +6250,7 @@ max-height: 500px;
 
     .Other_Packages_p_2_wrap{
       display: flex;
-
+      border: 1px solid rgb(0, 0, 0) !important; 
       justify-content: center;
 
       
@@ -6273,11 +6274,15 @@ flex-wrap: wrap;
       flex-wrap: wrap;
       
       width: 100%;
-      max-width: 364px;
+      max-width: 350px;
       /*
       max-height: 500px;
             height: 100%;
             */
+          
+        
+
+
       } 
       
       
@@ -6301,6 +6306,7 @@ flex-wrap: wrap;
               position: absolute;
               top: 25px;
               right: 0px;
+              
             }     
 
 
@@ -6349,4 +6355,340 @@ flex-wrap: wrap;
               
               color: #FFFFFF;
               
-                  }              
+                  }
+                  
+                  
+
+
+.Other_Packages_p_2_description_wrap{
+background-color: rgba(10, 34, 61, 1);
+border-top-right-radius: 8px;
+    border-bottom-right-radius:8px;
+    width: 100%;
+max-width: 350px;
+
+/*
+max-height: 500px;
+      height: 100%;
+*/
+max-height: 250px;
+      height: 100%;
+
+    } 
+    
+   
+    
+
+.Other_Packages_p_2_description{
+margin-top: 46px;
+margin-left: 43px;
+margin-right: 21px;
+margin-bottom: 30px;
+    }    
+
+
+
+.Other_Packages_p_2_description_name_wrap{
+  display:flex;
+margin-top: 4px;
+
+    }    
+
+
+
+
+.Other_Packages_p_2_description_name{
+     
+
+
+    } 
+
+    .Other_Packages_p_2_description_name p{
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 23px;
+      
+      /* identical to box height */
+      
+      color: #FFFFFF;
+
+
+    } 
+    
+    
+
+    .Other_Packages_p_2_description_address_guests_room_wrap {
+      flex-wrap: wrap;
+        display:flex;
+      margin-top: 48px;
+      }      
+
+
+
+
+
+
+
+      .Other_Packages_p_2_description_address_wrap{
+        display:flex;
+        width: 100%;
+        max-width: 100%;
+      
+      
+      }
+      
+      
+      .Other_Packages_p_2_description_address_map{
+      
+      
+      }
+      
+      
+      .Other_Packages_p_2_description_address_map_svg{
+      
+        cursor: pointer;
+        fill:#ffffff;
+        transition: all 1000ms ease;
+      }
+      
+      
+         @media screen and (min-width:1000px) and (max-width: 99999999px) {
+      .Other_Packages_p_2_description_address_map_svg:hover {
+       fill:rgb(0, 162, 255);
+       transition: all 500ms ease;
+       }
+         }
+      
+      
+         .Other_Packages_p_2_description_address_text{
+      
+      margin-left: 15px;
+      
+         }
+      
+      .Other_Packages_p_2_description_address_text p{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        
+        /* identical to box height */
+        
+        color: #FFFFFF;
+      
+      }
+      
+      
+      
+      .Other_Packages_p_2_description_guests_wrap{
+        display:flex;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 7px;
+      }
+      
+      
+      .Other_Packages_p_2_description_guests_user{
+      
+      
+      }
+      
+      
+      
+      .Other_Packages_p_2_description_guests_user_svg{
+      
+        cursor: pointer;
+        fill:#ffffff;
+        transition: all 1000ms ease;
+      }
+      
+      
+         @media screen and (min-width:1000px) and (max-width: 99999999px) {
+      .Other_Packages_p_2_description_guests_user_svg:hover {
+       fill:rgb(0, 162, 255);
+       transition: all 500ms ease;
+       }
+         }
+      
+      
+         .Other_Packages_p_2_description_guests_text{
+      
+          margin-left: 15px;
+         }
+      
+      
+         .Other_Packages_p_2_description_guests_text p{
+          font-family: Mulish;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+          
+          /* identical to box height */
+          
+          color: #FFFFFF;
+      
+         }
+      
+      
+      
+      
+         
+      
+      
+      
+      
+      
+      
+      
+      
+      
+         .Other_Packages_p_2_description_room_wrap{
+          display:flex;
+          width: 100%;
+          max-width: 100%;
+          margin-top: 7px;
+          
+        }
+        
+        
+        .Other_Packages_p_2_description_room_home{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        
+        
+        .Other_Packages_p_2_description_room_home_svg{
+        
+          cursor: pointer;
+          fill:#ffffff;
+          transition: all 1000ms ease;
+        }
+        
+        
+           @media screen and (min-width:1000px) and (max-width: 99999999px) {
+        .Other_Packages_p_2_description_room_home_svg:hover {
+         fill:rgb(0, 162, 255);
+         transition: all 500ms ease;
+         }
+           }
+        
+        
+           .Other_Packages_p_2_description_room_text{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 15px;
+           }
+        
+        
+           .Other_Packages_p_2_description_room_text p{
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            
+            /* identical to box height */
+            
+            color: #FFFFFF;
+        
+           }
+      
+      
+           .Other_Packages_p_2_description_sale_wrap{
+      display: flex;
+      
+      margin-top: 33px;
+           }
+      
+      
+           .Other_Packages_p_2_description_sale p {
+      
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            
+            /* identical to box height */
+            text-decoration-line: line-through;
+            
+            color: #FFFFFF;
+           }
+      
+      
+           .Other_Packages_p_2_description_price_book_wrap{
+            width: 100%;
+            max-width: 364px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+           }
+      
+           .Other_Packages_p_2_description_price{
+      
+      
+      
+           }
+      
+           .Other_Packages_p_2_description_price p{
+    
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            
+            color: #FFFFFF;
+      
+          }
+      
+      
+      
+       .Other_Packages_p_2_description_book_href{
+            transition: all 500ms ease;
+            max-width: 120px;
+            width: 120px;
+          }
+      
+      
+      
+          .Other_Packages_p_2_description_book{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background: #EC1F46;
+            border-radius: 3px;
+            transition: all 500ms ease;
+            height: 40px;
+            
+                }
+            
+                @media screen and (min-width:1000px) and (max-width: 99999999px) {
+                .Other_Packages_p_2_description_book:hover{
+                  transition: all 500ms ease;
+                  background: #1576c5;
+            
+            
+                }
+              }
+      
+      
+              .Other_Packages_p_2_description_book p{
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: 200;
+                font-size: 14px;
+                line-height: 19px;
+                
+                /* identical to box height */
+                
+                color: #FFFFFF;
+          
+              }     
