@@ -5289,15 +5289,45 @@ margin-right: 10px;
 
 
 
-@media screen and (min-width:685px) and (max-width: 1120px)
+@media screen and (min-width:1000px) and (max-width: 1120px)
 {
 
   .Package_Summery_Details_options_2_wrap{
-margin-left: 120px;
 
+position: relative;
+left: 50px;
 /*margin-left: 120px;*/
   }
 }
+
+
+
+
+@media screen and (min-width:900px) and (max-width: 1000px)
+{
+
+  .Package_Summery_Details_options_2_wrap{
+
+position: relative;
+left: 90px;
+/*margin-left: 120px;*/
+  }
+}
+
+
+
+
+@media screen and (min-width:685px) and (max-width: 900px)
+{
+
+  .Package_Summery_Details_options_2_wrap{
+
+position: relative;
+left: 110px;
+/*margin-left: 120px;*/
+  }
+}
+
 
 
 
