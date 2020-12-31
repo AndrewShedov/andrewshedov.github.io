@@ -44,7 +44,7 @@ dd {
 
 .serviceswrapper {
 
- display: flex;
+ display: none;
  justify-content: center;
  align-content: center;
  flex-wrap: nowrap;
@@ -6896,14 +6896,16 @@ max-width: 350px;
 }
 
 .Other_Packages_Second_line_wrap_1_1_2{
- 
+  border: 1px solid rgb(255, 0, 0) !important; 
  margin-right: 30px;
  justify-content: center;
 }
 .Other_Packages_p_4{
 display: flex;
 flex-wrap: wrap;
+/*
 height: 100%;
+*/
 width: 100%;
 max-width: 350px;
 }
@@ -6930,6 +6932,17 @@ height: 100%;
 
 
 @media screen and (min-width:0px) and (max-width: 940px) {
+
+  .Other_Packages_First_line{
+    justify-content: center;
+  }
+
+  .Other_Packages_p_1{
+  
+  margin-right: 0px;
+  }
+
+
 .Other_Packages_p_2{
 display: none;
 }
