@@ -6890,7 +6890,9 @@ display: flex;
 .Other_Packages_p_3{
  display: flex;
 flex-wrap: wrap;
+/*
 height: 100%;
+*/
 width: 100%;
 max-width: 350px;
 }
@@ -6917,7 +6919,9 @@ flex-wrap: wrap;
 margin-right: 30px;
 width: 100%;
 max-width: 350px;
+/*
 height: 100%;
+*/
 }
 
 
@@ -6926,7 +6930,9 @@ display: flex;
 flex-wrap: wrap;
 width: 100%;
 max-width: 350px;
+/*
 height: 100%;
+*/
 }
 
 
@@ -6998,13 +7004,12 @@ margin-right: 30px;
   }
 
   .Other_Packages_p_2_description_wrap {
-   max-height: none;
+  
 
 
   }
   .Other_Packages_p_2_description_wrap{
-   justify-content: center !important;
-   align-items: center !important;
+ 
 
   }
 
