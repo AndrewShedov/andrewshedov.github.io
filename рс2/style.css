@@ -6878,7 +6878,7 @@ border: 1px solid rgb(0, 255, 42) !important;
 
 
 .Other_Packages_Second_line_wrap_2{
-
+height: 100%;
  display: flex;
 
 
@@ -6887,13 +6887,13 @@ border: 1px solid rgb(0, 255, 42) !important;
 
 .Other_Packages_Second_line_wrap_2_1{
  display: flex;
- 
+ height: 100%;
 }
 
 
 .Other_Packages_Second_line_wrap_2_1_1{
  display: flex;
-
+ height: 100%;
 
 
 }
@@ -6902,6 +6902,7 @@ border: 1px solid rgb(0, 255, 42) !important;
 
 .Other_Packages_Second_line_wrap_2_1_2{
  display: flex;
+ height: 100%;
 }
 
 
