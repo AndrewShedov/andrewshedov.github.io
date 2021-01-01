@@ -6976,7 +6976,16 @@ margin-right: 30px;
 justify-content: center;
 flex-wrap: wrap;
   }
+  
+  .p_1_image_2{
+    border-top-right-radius:8px !important;
+  }
 
+  .Other_Packages_p_1_image_2_wrap{
+   
+    border-top-right-radius:8px !important;
+
+  }
 
   .Other_Packages_Second_line_wrap_2_1{
     justify-content: center;
