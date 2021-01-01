@@ -6955,6 +6955,14 @@ height: 100%;
     justify-content: center;
   }
 
+
+  .Other_Packages_Second_line_wrap_1{
+justify-content: center;
+    width: 100%;
+  }
+
+
+
   .Other_Packages_p_1{
   
   margin-right: 0px;
@@ -6984,7 +6992,7 @@ display: none;
 }
 
 .Other_Packages_Second_line{
-
+flex-wrap: wrap;
 justify-content: center;
 
 }
