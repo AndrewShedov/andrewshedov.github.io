@@ -7067,6 +7067,14 @@ flex-wrap: wrap;
 
   }
 
+  .Other_Packages_p_1_image_wrap{
+display: none
+}
+
+.Other_Packages_p_1_image_2_wrap{
+  display: block;
+
+}
 
 
 }
