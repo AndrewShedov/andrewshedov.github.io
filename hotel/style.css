@@ -6972,9 +6972,42 @@ margin-right: 30px;
 
 @media screen and (min-width:0px) and (max-width: 630px) {
 
+
+  .Other_Packages_p_6{
+    margin-top: 30px;
+
+  }
+
+  .Other_Packages_p_4{
+margin-top: 30px;
+
+  }
+
+
+  .Other_Packages_p_5{
+
+margin-right: 0px;
+
+  }
+
+
+  .Other_Packages_p_1_description_image_wrap {
+max-width: 350px;
+    
+}
+
+
+
+
   .Other_Packages_p_1_description_wrap{
   border-top-right-radius: 0px;
   border-bottom-left-radius: 8px;
+  }
+
+
+  .Other_Packages_p_3{
+
+    margin-right: 0px;
   }
 
 
