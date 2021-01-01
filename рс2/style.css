@@ -6867,6 +6867,7 @@ border: 1px solid rgb(0, 255, 42) !important;
 }
 
 
+
 .Other_Packages_Second_line_wrap_1_1_1{
  display: none;
 
@@ -6978,6 +6979,7 @@ display: none;
 
 .Other_Packages_Second_line_wrap_1_1_1{
  display: flex;
+ height: 100%;
 }
 
 .Other_Packages_Second_line{
