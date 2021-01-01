@@ -6859,8 +6859,19 @@ margin-top: 13px
 
   }
 
-  
+  .Other_Packages_p_2_image_wrap{
 
+height: none;
+
+  }
+
+
+  .Other_Packages_p_2_description_wrap{
+
+height:inherit;
+
+
+  }
 
   .Other_Packages_First_line{
     justify-content: center;
