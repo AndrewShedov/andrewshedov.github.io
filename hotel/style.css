@@ -5803,7 +5803,7 @@ background-color: rgba(245, 250, 254, 1);
    margin-left: 15px;
    margin-right: 15px; 
    flex-wrap: wrap;
-   border: 1px solid rgb(0, 0, 0) !important; 
+   
    }
 
    .Other_Packages_First_line_wrap{
@@ -5816,7 +5816,7 @@ height: 100%;
      display: flex;
   margin-right: 29px;
      justify-content: center;
-     border: 1px solid rgb(255, 0, 0) !important; 
+      
 
    }
 
@@ -5830,7 +5830,7 @@ height: 100%;
      */
      height: 100%;
      margin-right: 29px;
-     border: 1px solid rgb(0, 255, 13) !important; 
+     
    }
 
 
@@ -6294,7 +6294,7 @@ position: relative;
 width: 100%;
 max-width: 350px;
 height: 100%;
-border: 1px solid rgb(255, 0, 0) !important; 
+ 
 
 
    }
@@ -6714,14 +6714,14 @@ margin-top: 0px;
 .Other_Packages_First_line {
 display: flex;
 width: 100%;
-border: 1px solid rgb(255, 0, 0) !important; 
+
 
 }
 
 
 .Other_Packages_Second_line{
 margin-top: 30px;
-border: 1px solid rgb(255, 0, 0) !important; 
+ 
 width: 100%;
 
 display: flex;
@@ -6733,7 +6733,7 @@ display: flex;
 .Other_Packages_Second_line_wrap_1{
 display: flex;
 height: 100%;
-border: 1px solid rgb(0, 255, 42) !important; 
+
 }
 
 
@@ -6747,7 +6747,7 @@ border: 1px solid rgb(0, 255, 42) !important;
  
  width: 100%;
  max-width: 350px;
- border: 1px solid rgb(255, 0, 0) !important; 
+
  }
 
 
@@ -6801,7 +6801,7 @@ height: 100%;
 
 
 .Other_Packages_Second_line_wrap_1_1_2{
-  border: 1px solid rgb(255, 0, 0) !important; 
+ 
  margin-right: 30px;
  justify-content: center;
  height: 100%;
