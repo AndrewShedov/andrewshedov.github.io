@@ -6832,16 +6832,16 @@ border: 1px solid rgb(255, 0, 0) !important;
 margin-top: 30px;
 border: 1px solid rgb(255, 0, 0) !important; 
 width: 100%;
-/*
+
 display: flex;
-*/
+
 }
 
 
 
 .Other_Packages_Second_line_wrap_1{
 display: flex;
-
+height: 100%;
 }
 
 
