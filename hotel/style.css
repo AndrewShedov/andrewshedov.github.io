@@ -5827,12 +5827,13 @@ height: 100%;
      justify-content: center;
      height: 500px;
      margin-right: 29px;
+    
      
    }
 
 
    .Other_Packages_p_1_image_wrap{
-  
+    
      position: relative;
      left: 0px;
     
@@ -7033,7 +7034,8 @@ flex-wrap: wrap;
   }
 
   .Other_Packages_p_1_image_wrap{
-display: none
+display: none;
+
 }
 
 .Other_Packages_p_1_image_2_wrap{
