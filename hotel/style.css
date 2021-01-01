@@ -6842,6 +6842,26 @@ height: 100%;
 
 @media screen and (min-width:0px) and (max-width: 980px) {
 
+  .Other_Packages_p_1_description_wrap{
+
+    height: 100%;
+  }
+
+
+  .Other_Packages_p_1{
+
+    height: 100%;
+  } 
+
+
+  .Other_Packages_p_1_description_guests_wrap{
+margin-top: 13px
+
+  }
+
+  
+
+
   .Other_Packages_First_line{
     justify-content: center;
   }
