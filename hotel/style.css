@@ -6972,6 +6972,12 @@ margin-right: 30px;
 
 @media screen and (min-width:0px) and (max-width: 630px) {
 
+  .Other_Packages_p_1_description_wrap{
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 8px;
+  }
+
+
   .Other_Packages_Second_line_wrap_1_1{
 justify-content: center;
 flex-wrap: wrap;
