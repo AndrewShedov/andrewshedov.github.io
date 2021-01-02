@@ -6975,6 +6975,10 @@ margin-right: 30px;
 @media screen and (min-width:0px) and (max-width: 630px) {
 
 
+  .Other_Packages_p_1{
+flex-wrap: wrap;
+  }
+
   .Other_Packages_p_6{
     margin-top: 30px;
 
@@ -7022,6 +7026,11 @@ flex-wrap: wrap;
     border-top-right-radius:8px !important;
   }
 
+
+  .p_1_image_1{
+    border-top-right-radius:8px !important;
+  }
+
   .Other_Packages_p_1_image_2_wrap{
    
     border-top-right-radius:8px !important;
@@ -7035,12 +7044,12 @@ flex-wrap: wrap;
   }
 
   .Other_Packages_p_1_image_wrap{
-display: none;
+    border-top-right-radius:8px !important;
 
 }
 
 .Other_Packages_p_1_image_2_wrap{
-  display: block;
+  
 
 }
 

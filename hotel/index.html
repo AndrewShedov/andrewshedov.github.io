@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="plugins/lightgallery/css/lightgallery.css">
     <link rel="stylesheet" type="text/css" href="plugins/slider/swiper-bundle.min.css">
     <script
 			  src="https://code.jquery.com/jquery-3.5.1.js"
@@ -2986,16 +2987,17 @@
 
 
 
-<div class="Other_Packages_wrap">
+<div class="Other_Packages_wrap" >
   <div class="Other_Packages">
 
   <div class="Other_Packages_First_line">
 
-    
-        <div class="Other_Packages_p_1">
+   
+        <div class="Other_Packages_p_1" >
           <div class="Other_Packages_p_1_image_wrap">
-            <img class="img-adaptive"  src="images/Other_Packages_1.png" alt="Hotel Blue Haven">
-  
+           
+            <img  class="img-adaptive" class="p_1_image_1" src="images/Other_Packages_1.png" alt="Hotel Blue Haven">
+         
             <div class="Other_Packages_p_1_image_offer_wrap">
               <a class="Other_Packages_p_1_image_offer_href" href="#a">
           <div class="Other_Packages_p_1_image_offer">
@@ -3467,7 +3469,7 @@
 
             <div class="Other_Packages_p_4">
               
-                <div class="Other_Packages_p_2_image_wrap">
+                <div  class="Other_Packages_p_2_image_wrap">
                   <img class="img-adaptive"  src="images/Other_Packages_3.png" alt="White Palace">
         
                   <div class="Other_Packages_p_2_image_offer_wrap">
@@ -3982,10 +3984,24 @@ var mySwiper = new Swiper('.swiper-container', {
   });
 
 </script>
-
-
-
 <script src=script.js></script>
+
+<!-- gallery -->
+
+<script src="plugins/lightgallery/js/lightgallery.js"></script>
+<script src="plugins/lightgallery/js/lg-autoplay.js"></script>
+<script src="plugins/lightgallery/js/lg-fullscreen.js"></script>
+<script src="plugins/lightgallery/js/lg-zoom.js"></script>
+<script src="plugins/lightgallery/js/lg-hash.js"></script>
+<script src="plugins/lightgallery/js/lg-share.js"></script>
+<script src="../demo/js/lg-rotate.js"></script>
+<script>
+            
+lightGallery(document.getElementById('lightgallery'), {
+autoplayControls: true,
+dynamic: true,
+});
+        </script>
 </body>
 </html>
 
