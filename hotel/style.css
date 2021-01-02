@@ -6967,6 +6967,21 @@ margin-right: 30px;
    
   }
 
+
+  .Other_Packages_heading{
+
+    margin-top: 50px;
+
+  }
+
+  .Other_Packages_heading p {
+  
+    font-size: 24px;
+  }
+  .Other_Packages_wrap {
+       padding-top: 45px;
+  }
+
 }
 
 
