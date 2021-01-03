@@ -7212,10 +7212,13 @@ flex-wrap: wrap;
 
  .thinks_slider {
  display: flex;
+ position: relative;
  justify-content: center;
 width: 100%;
 max-width: 731px;
 border: 1px solid rgb(255, 0, 0) !important; 
+margin-top: 115px;
+background-color: rgb(255, 255, 255);
  }
 
 
@@ -7240,3 +7243,77 @@ margin-bottom:  30px;
   /* Gray 1 */
   color: #333333;
    }
+
+
+
+.thinks_slider_user_wrap{
+display: flex;
+flex-wrap:wrap;
+position: absolute;
+justify-content: center;
+top: -16px; 
+right: 60px;
+width: 97px;
+border: 1px solid rgb(255, 0, 0) !important; 
+
+   }  
+
+   .thinks_slider_user_name{
+
+
+   }
+
+.thinks_slider_user_name p {
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  white-space:nowrap;
+  /* identical to box height */
+  
+  color: #EC1F46;
+  
+  
+} 
+
+
+.thinks_slider_user_date{
+
+}
+
+.thinks_slider_user_date p{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  white-space:nowrap;
+  /* identical to box height */
+  
+  color: #000000;
+}
+
+
+.thinks_slider_user_stars{
+
+ 
+
+}
+
+
+
+.thinks_slider_user_stars_svg{
+
+  fill:"#F2994A";
+  transition: all 1000ms ease;
+}
+
+
+  @media screen and (min-width:1000px) and (max-width: 99999999px) {
+    .thinks_slider_user_stars_svg:hover {
+
+transition: all 500ms ease;
+}
+  }
