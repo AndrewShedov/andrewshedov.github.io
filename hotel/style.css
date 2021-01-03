@@ -2642,6 +2642,10 @@ height: 100%!important;
    line-height: 1;
    
  }
+
+
+ 
+
  .swiper-button-prev,
  .swiper-container-rtl .swiper-button-next {
    left: 18px;
@@ -7410,22 +7414,13 @@ transition: all 500ms ease;
      }
     
 
-   
-
-     .thinks_slider{
-
-display: flex;
-     }
- 
-
-
-
+  
 
      .thinks_slider_button_next_wrap{
 display: flex;
 justify-content: start;
 align-items: center;
-      border: 1px solid rgb(255, 0, 0) !important; 
+      border: 1px solid rgb(0, 60, 255) !important; 
 cursor: pointer;
       width: 100%;
       outline: none;
