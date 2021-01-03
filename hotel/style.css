@@ -488,6 +488,27 @@ align-items: center;
     
  }
 
+
+
+
+ .header_wrap_0{
+   
+  display: flex;
+justify-content: center;
+width: 100% !important;
+flex-wrap: nowrap;
+max-width: 1115px;
+
+margin-left: 15px;
+margin-right: 15px;
+transition: all 500ms ease;
+}
+
+
+
+
+
+
  @media screen and (min-width:900px) and (max-width: 99999999px) {
 
  .header_wrap_0{
