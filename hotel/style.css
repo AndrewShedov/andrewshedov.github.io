@@ -7272,7 +7272,7 @@ overflow: hidden;
 
 
    .thinks_slider_user_name{
-
+margin-top: 10px;
 
    }
 
@@ -7293,7 +7293,7 @@ overflow: hidden;
 
 
 .thinks_slider_user_date{
-
+  margin-top: 10px;
 }
 
 .thinks_slider_user_date p{
@@ -7311,8 +7311,8 @@ overflow: hidden;
 
 .thinks_slider_user_stars{
 
- 
-
+ position: relative;
+bottom: 2px;
 }
 
 
@@ -7338,8 +7338,8 @@ transition: all 500ms ease;
     flex-wrap:wrap;
     position: absolute;
     justify-content: center;
-    left: 60px;
-    top: -10px; 
+    left: 50px;
+    top: 10px; 
     width: 97px;
     
   }
@@ -7348,7 +7348,7 @@ transition: all 500ms ease;
 
   .thinks_slider_upper_commas_svg{
    
-    fill:#f2f2f2;
+    fill:#f2f2f2c5;
     transition: all 1500ms ease;
     
   }
@@ -7372,15 +7372,15 @@ transition: all 500ms ease;
     flex-wrap:wrap;
     position: absolute;
     justify-content: center;
-    right: 60px;
-    top: -50px; 
+    right: 50px;
+    top: 120px; 
     width: 97px;
     
   }
 
 
   .thinks_slider_lower_commas_svg{
-    fill:#f2f2f2;
+    fill:#f2f2f2c5;
     transition: all 1500ms ease;
   
     
@@ -7496,7 +7496,7 @@ cursor: pointer;
       top:20px;
       }
 
-      
+
       .thinks_slider_button_prev_svg{
         fill:rgba(130, 130, 130, 1);
         
