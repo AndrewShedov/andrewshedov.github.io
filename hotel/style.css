@@ -7417,3 +7417,47 @@ transition: all 500ms ease;
 display: flex;
      }
  
+
+
+
+
+     .thinks_slider_button_next_wrap{
+display: flex;
+justify-content: start;
+align-items: center;
+      border: 1px solid rgb(255, 0, 0) !important; 
+
+      width: 100%;
+      max-width: 140px;
+     }
+
+
+
+
+     .thinks_slider_button_next{
+cursor: pointer;
+      border: 1px solid rgb(255, 0, 0) !important; 
+     }
+
+
+     .thinks_slider_button_next_svg{
+      fill:rgba(130, 130, 130, 1);
+      ;
+      transition: all 400ms ease;
+    
+      
+      
+    }
+    
+    
+      @media screen and (min-width:1000px) and (max-width: 99999999px) {
+  
+        .thinks_slider_button_next_svg:hover {
+          fill:#F2994A ;
+    transition: all 400ms ease;
+    }
+  
+      }
+
+
+
