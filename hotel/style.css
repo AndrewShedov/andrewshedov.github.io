@@ -7431,11 +7431,11 @@ cursor: pointer;
 
 
 
-
+     @media screen and (min-width:1000px) and (max-width: 99999999px) {
      .thinks_slider_button_next_wrap:hover .thinks_slider_button_next_svg{
       fill:#F2994A ;
     }
-
+  }
 
 
 
@@ -7485,11 +7485,11 @@ cursor: pointer;
       }     
 
 
-
+      @media screen and (min-width:1000px) and (max-width: 99999999px) {
       .thinks_slider_button_prev_wrap:hover .thinks_slider_button_prev_svg{
         fill:#F2994A ;
       }
-
+    }
 
       .thinks_slider_button_prev{
       position: relative;
