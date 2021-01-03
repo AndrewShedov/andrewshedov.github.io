@@ -644,7 +644,16 @@ transition: all 500ms ease;
 */
 
 
+.header_logo{
 
+  display: flex;
+  
+  align-items: center;
+  transition: all 500ms ease;
+  height: 120px !important;
+  
+  
+   }
 
 @media screen and (min-width:630px) and (max-width: 99999999999px) {
 
