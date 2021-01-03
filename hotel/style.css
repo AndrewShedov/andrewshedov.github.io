@@ -7261,6 +7261,17 @@ border: 1px solid rgb(255, 0, 0) !important;
 
    }  
 
+
+   .thinks_slider_user{
+border-radius: 50%;
+border: 1px solid rgb(255, 0, 0) !important; 
+overflow: hidden;
+   }
+
+
+
+
+
    .thinks_slider_user_name{
 
 
@@ -7394,8 +7405,8 @@ transition: all 500ms ease;
 
     .swiper_2_container {
      
-      width: 100%;
-      height: 100%;
+    display: flex;
+    justify-content: center;
      cursor: pointer;
      border: 1px solid rgb(255, 0, 0) !important; 
     }
