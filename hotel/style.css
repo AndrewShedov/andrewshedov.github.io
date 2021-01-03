@@ -1696,7 +1696,8 @@ z-index: 99999999;
 
          height: 80px;
          display: flex;
-         
+         padding-right: 43px;
+         padding-left: 43px;
          align-items: center;
          justify-content: center;
          transition: all 200ms ease;
