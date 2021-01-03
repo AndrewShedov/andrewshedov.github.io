@@ -2615,12 +2615,14 @@ height: 100%!important;
    align-items: center;
    justify-content: center;
    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  
  }
  .swiper-button-next.swiper-button-disabled,
  .swiper-button-prev.swiper-button-disabled {
    opacity: 0.35;
    cursor: auto;
    pointer-events: none;
+  
  }
  .swiper-button-next:after,
  .swiper-button-prev:after {
@@ -2631,11 +2633,13 @@ height: 100%!important;
    text-transform: none;
    font-variant: initial;
    line-height: 1;
+   
  }
  .swiper-button-prev,
  .swiper-container-rtl .swiper-button-next {
    left: 18px;
    right: auto;
+   
  }
  .swiper-button-prev:after,
  .swiper-container-rtl .swiper-button-next:after {
@@ -2667,6 +2671,7 @@ height: 100%!important;
    fill:rgba(255, 255, 255, 0.8);
    opacity:0.8;
    transition: all 400ms ease;
+   
    }
 
 
