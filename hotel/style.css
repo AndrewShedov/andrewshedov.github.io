@@ -7428,6 +7428,7 @@ align-items: center;
       border: 1px solid rgb(255, 0, 0) !important; 
 cursor: pointer;
       width: 100%;
+      outline: none;
       max-width: 140px;
      }
 
