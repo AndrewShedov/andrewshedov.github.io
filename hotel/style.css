@@ -7199,3 +7199,44 @@ flex-wrap: wrap;
 
 
 }
+
+
+
+.thinks_slider_wrap{
+
+  display: flex;
+  justify-content: center;
+  background-color: rgba(245, 250, 254, 1);
+
+ }
+
+ .thinks_slider {
+ display: flex;
+ justify-content: center;
+width: 100%;
+max-width: 731px;
+border: 1px solid rgb(255, 0, 0) !important; 
+ }
+
+
+ .thinks_slider_text{
+margin-top:  136px;
+border: 1px solid rgb(255, 0, 0) !important; 
+margin-left:  99px;
+margin-right:  99px;
+margin-bottom:  30px;
+ }
+
+ .thinks_slider_text p{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  
+  /* or 19px */
+  text-align: justify;
+  
+  /* Gray 1 */
+  color: #333333;
+   }
