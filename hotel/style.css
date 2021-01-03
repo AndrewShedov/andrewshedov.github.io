@@ -1738,35 +1738,16 @@ height: 100%;
        {
 .nav ul li {
  
+ 
  cursor: pointer;
  padding-right: 43px;
  padding-left: 43px;
+ align-items: center;
  display: flex;
  justify-content: center;
- align-items: center;
-
-
 }
 
-
-
-
-
-@-moz-document url-prefix() {
-.nav ul li {
-
- cursor: pointer;
- padding-right: 43.1px;
- padding-left: 43.1px;
-
- display: flex;
- justify-content: center;
- align-items: center;
- 
-
 }
-}
-       }
 
 
 
@@ -1786,24 +1767,6 @@ height: 100%;
          }
          
 
-
-
-
-
-@-moz-document url-prefix() {
- .nav ul li {
-   
-   cursor: pointer;
-   padding-right: 38px;
-   padding-left: 38px;
-   
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  
- 
- }
-}
        }
 
 
@@ -1823,24 +1786,6 @@ height: 100%;
          }
          
 
-
-
-
-
-@-moz-document url-prefix() {
- .nav ul li {
-  
-   cursor: pointer;
-   padding-right: 30px;
-   padding-left: 30px;
- 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
- 
- }
-}
        }
 
 
