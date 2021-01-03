@@ -2605,12 +2605,7 @@ height: 100%!important;
 
 
 
- .swiper_container_2{
-  cursor: pointer;
-
-
- }
-
+ 
 
 
 
@@ -7220,7 +7215,7 @@ flex-wrap: wrap;
  justify-content: center;
 width: 100%;
 max-width: 731px;
-border: 1px solid rgb(255, 0, 0) !important; 
+border: 1px solid rgb(32, 119, 79) !important; 
 margin-top: 115px;
 background-color: rgb(255, 255, 255);
  }
@@ -7401,13 +7396,15 @@ transition: all 500ms ease;
 
 
 
+    .swiper_container_2{
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+       cursor: pointer;
+       border: 6px solid rgb(255, 0, 0) !important; 
+    
+     }
+    
 
-
-    .swiper_2_container {
-     
-    display: flex;
-    justify-content: center;
-     cursor: pointer;
-     border: 1px solid rgb(255, 0, 0) !important; 
-    }
+   
  
