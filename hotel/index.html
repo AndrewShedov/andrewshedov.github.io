@@ -4050,6 +4050,30 @@ var mySwiper = new Swiper('.swiper-container', {
    
   });
 
+
+
+
+  var mySwiper2 = new Swiper('.swiper_2_container', {
+    zoom: true,
+    loop: true,
+    observeSlideChildren: true,
+    observer: true, 
+    observeParents: true,
+    slidesPerView: "auto",
+   pagination: {
+      /*el: '.swiper-pagination',*/
+      /*type: 'progressbar',*/
+    },
+    navigation: {
+      nextEl: '.swiper_2_button_next',
+      prevEl: '.swiper_2_button_prev',
+    },
+   /* autoplay:{delay:4000,disableOnInteraction:false}*/
+   
+  });
+
+
+
 </script>
 <script src=script.js></script>
 
