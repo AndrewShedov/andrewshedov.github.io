@@ -7434,6 +7434,16 @@ align-items: center;
 
 
 
+
+     .thinks_slider_button_next_wrap:hover .thinks_slider_button_next_svg{
+      fill:#F2994A ;
+    }
+
+
+
+
+
+
      .thinks_slider_button_next{
 cursor: pointer;
       border: 1px solid rgb(255, 0, 0) !important; 
