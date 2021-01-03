@@ -7418,7 +7418,7 @@ transition: all 500ms ease;
 
      .thinks_slider_button_next_wrap{
 display: flex;
-justify-content: start;
+justify-content: flex-end;
 align-items: center;
       border: 1px solid rgb(0, 60, 255) !important; 
 cursor: pointer;
@@ -7448,7 +7448,6 @@ cursor: pointer;
 
      .thinks_slider_button_next_svg{
       fill:rgba(130, 130, 130, 1);
-      ;
       transition: all 400ms ease;
     
       
@@ -7467,3 +7466,47 @@ cursor: pointer;
 
 
 
+
+
+      .thinks_slider_button_prev_wrap {
+
+        display: flex;
+        justify-content: start;
+        align-items: center;
+              border: 1px solid rgb(0, 60, 255) !important; 
+        cursor: pointer;
+              width: 100%;
+              outline: none;
+              max-width: 140px;
+
+
+      }     
+
+
+
+      .thinks_slider_button_prev_wrap:hover .thinks_slider_button_prev_svg{
+        fill:#F2994A ;
+      }
+
+
+
+
+
+      .thinks_slider_button_prev_svg{
+        fill:rgba(130, 130, 130, 1);
+        
+        transition: all 400ms ease;
+      
+        
+        
+      }
+      
+      
+        @media screen and (min-width:1000px) and (max-width: 99999999px) {
+    
+          .thinks_slider_button_prev_svg:hover {
+            fill:#F2994A ;
+      transition: all 400ms ease;
+      }
+    
+        }   
