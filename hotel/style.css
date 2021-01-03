@@ -824,8 +824,17 @@ transition: all 500ms ease;
  }
  
 
+
+
+
+
+
+
+
+
+
  @media screen and (min-width:630px) and (max-width: 99999999999px) {
- .header_search_1_input{
+ .header_search_1 input[type=text]{
    position: relative;
    flex-wrap: nowrap;
  max-width: 285px !important;
@@ -883,7 +892,7 @@ transition: all 500ms ease;
 
 
    @media screen and (min-width:0px) and (max-width: 630px) {
-     .header_search_1_input{
+     .header_search_1 input[type=text]{
        position: relative;
        flex-wrap: nowrap;
      max-width: 285px !important;
