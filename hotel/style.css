@@ -7254,7 +7254,7 @@ flex-wrap: wrap;
 
 
 .thinks_slider_wrap{
- 
+ padding-bottom: 67px;
   display: flex;
   justify-content: center;
   background-color: rgba(245, 250, 254, 1);
@@ -7722,18 +7722,20 @@ height: 29px;
 
 
  .Newsletter {
- 
+  
   display: flex;
   margin-left: 15px;
   margin-right: 15px;
- 
-  justify-content: center;
+  width: 100%;
+ max-width: 350px;
+  justify-content: space-between;
  }
 
 
 
+
+
  .Newsletter_wrap{
- margin-top: 68px;
  background: url(images/Newsletter.png) no-repeat ;
  width: 100%;
 height: 260px;
@@ -7750,7 +7752,9 @@ overflow: hidden;
  .Newsletter_wrap:after{
  height: 100%;
  
+ /*
  background: url(images/Newsletter_bg.png) no-repeat;
+ */
  content: '';
  display: block;
 position: absolute;
@@ -7763,3 +7767,153 @@ z-index: 1;
 
  
  }
+
+
+
+
+ .Newsletter_send_wrap{
+   z-index: 9999999;
+display: flex;
+width: 100%;
+ 
+
+
+
+ }
+
+
+
+ .Newsletter_send_1{
+  flex-wrap: nowrap !important;
+  display: flex;
+ transition: all 500ms ease;
+ max-width: 285px !important;
+ width: 100%;
+}
+
+
+
+
+
+  .Newsletter_send_1 input[type=text]{
+    max-width: 285px !important;
+    width: 100%;
+    transition: all 500ms ease;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background: #F5FAFE;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333 !important;
+  
+    }
+  
+  
+    .Newsletter_send_2{
+      background: rgba(236, 31, 70, 1);
+      max-width: 65px !important;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 6px;
+    border-bottom-right-radius:6px;
+    cursor: pointer;
+    transition: all 500ms ease;
+      }
+    
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+    @media screen and (min-width:0px) and (max-width: 630px) {
+      .Newsletter_send_1 input[type=text]{
+        position: relative;
+        flex-wrap: nowrap;
+      max-width: 285px !important;
+      width: 100%;
+      height: 30px;
+      transition: all 500ms ease;
+        border: 1px solid rgba(255, 255, 255, 0);
+        background: #F5FAFE;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius:6px;
+       
+       -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: none;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: Mulish;
+        font-style: normal;
+        
+        font-size: 12px;
+        line-height: 15px;
+        
+        /* identical to box height */
+        
+        /* Gray 1 */
+        color: #333333 !important;
+      
+      
+      
+      
+        }
+      
+      
+        .Newsletter_send_2{
+          background: rgba(236, 31, 70, 1);
+          max-width: 65px !important;
+      width: 100%;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      border-top-right-radius: 6px;
+        border-bottom-right-radius:6px;
+        cursor: pointer;
+        transition: all 500ms ease;
+          }
+        }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      @media screen and (min-width:1000px) and (max-width: 99999999px) {
+      .Newsletter_send_2:hover{
+        background: #1576c5;
+        transition: all 500ms ease;
+        }
+      }
+ 
+ 
+ 
+ 
+      .Newsletter_send_2_text{
+        display: flex;
+        align-items: center;
+        transition: all 500ms ease;
+  
+      }
