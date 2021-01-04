@@ -7693,9 +7693,9 @@ overflow: hidden;
  .Newsletter_wrap:after{
  height: 100%;
  
- /*
+ 
  background: url(images/Newsletter_bg.png) no-repeat;
- */
+
  content: '';
  display: block;
 position: absolute;
@@ -7823,7 +7823,7 @@ color: #8a8a8a;
         
         width: 100%;
         max-width: 242px;
-       
+       z-index: 9999999;
         
   
       }
@@ -7871,7 +7871,7 @@ right: 3px;
       .Newsletter_text_2 p{
         font-family: Mulish;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 200;
         font-size: 36px;
         line-height: 45px;
         text-transform: uppercase;
