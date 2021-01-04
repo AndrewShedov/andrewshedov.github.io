@@ -7778,7 +7778,7 @@ display: flex;
 width: 100%;
 max-width: 350px !important;
 width: 100%;
-height: 100%;
+height: 55px;
 position: relative;
 top: 7px;
 }
@@ -7983,8 +7983,11 @@ max-width: 350px;
 
 font-size: 24px;
   }
-
-
+  .Newsletter_send_wrap{
+ 
+ height: 45px;
+  }
+  
   .Newsletter_send_2{
    
 height: 45px;
