@@ -7931,7 +7931,7 @@ font-size: 24px;
  height: 45px;
   }
   
-  .Newsletter_send_1{
+  .Newsletter_send_1 input[type=text]{
     height: 45px;
 
 
