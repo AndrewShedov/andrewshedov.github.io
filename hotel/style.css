@@ -7831,7 +7831,8 @@ color: #8a8a8a;
       background: rgba(236, 31, 70, 1);
       max-width: 65px !important;
   width: 100%;
-  
+  -moz-box-sizing: border-box;
+    box-sizing: border-box;
   display: flex;
   justify-content: center;
   border-top-right-radius: 6px;
