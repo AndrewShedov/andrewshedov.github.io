@@ -7779,6 +7779,8 @@ width: 100%;
 max-width: 350px !important;
 width: 100%;
 height: 100%;
+position: relative;
+top: 7px;
 }
 
 
@@ -7806,7 +7808,7 @@ height: 100%;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     outline: none;
-    padding-left: 23px;
+    padding-left: 31px;
     padding-right: 23px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -7946,6 +7948,9 @@ display: flex;
 flex-wrap: wrap;
 width: 100%;
 max-width: 242px;
+position: relative;
+top: 7px;
+right: 3px;
       }
 
 
