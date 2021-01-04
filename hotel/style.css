@@ -2697,7 +2697,7 @@ height: 100%!important;
  .swiper-container-rtl .swiper-button-next {
    left: 18px;
    right: auto;
-   
+   outline: none;
  }
  .swiper-button-prev:after,
  .swiper-container-rtl .swiper-button-next:after {
@@ -2709,6 +2709,7 @@ height: 100%!important;
  .swiper-container-rtl .swiper-button-prev {
    right: 18px;
    left: auto;
+   outline: none;
  }
  .swiper-button-next:after,
  .swiper-container-rtl .swiper-button-prev:after {
@@ -7620,7 +7621,7 @@ height: 29px;
 
 
 .thinks_slider_upper_commas_wrap {
-  left: 10px;
+  left: 8px;
 top: 10px;
 
 }
