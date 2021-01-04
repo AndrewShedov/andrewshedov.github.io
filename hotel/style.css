@@ -7804,7 +7804,7 @@ overflow: hidden;
     max-width: 285px !important;
     width: 100%;
     transition: all 500ms ease;
-    border: 1px solid rgba(255, 255, 255, 0);
+    border: 1px solid #F5FAFE;
     background: #F5FAFE;
     border-top-left-radius: 6px;
     border-bottom-left-radius:6px;
