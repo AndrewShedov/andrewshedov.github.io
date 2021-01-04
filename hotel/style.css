@@ -7722,30 +7722,29 @@ height: 29px;
 
 
  .Newsletter {
- margin-top: 130px;
- margin-bottom: 130px; 
+ 
   display: flex;
   margin-left: 15px;
   margin-right: 15px;
-  border: 1px solid rgb(255, 0, 0) !important; 
+ 
   justify-content: center;
  }
 
 
 
  .Newsletter_wrap{
- 
+ margin-top: 68px;
  background: url(images/Newsletter.png) no-repeat ;
  width: 100%;
+height: 260px;
 
 
-border: 1px solid rgb(255, 0, 0) !important; 
 display: flex;
 justify-content: center;
 align-items: center;
 overflow: hidden;
  position: relative;
- background-size: cover;
+ background-size: 100% 100%;
  }
  
  .Newsletter_wrap:after{
@@ -7756,7 +7755,7 @@ overflow: hidden;
  display: block;
 position: absolute;
 width: 100%;
-background-size: cover;
+background-size: 100% 100%;
 
 
 left: 0;
