@@ -7917,3 +7917,11 @@ width: 100%;
         transition: all 500ms ease;
   
       }
+
+
+
+      .Newsletter_text_wrap{
+display: flex;
+flex-wrap: wrap;
+
+      }
