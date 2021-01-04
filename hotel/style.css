@@ -7782,6 +7782,7 @@ height: 55px;
 position: relative;
 top: 7px;
 overflow: hidden;
+
 }
 
 
@@ -7792,6 +7793,7 @@ overflow: hidden;
  transition: all 500ms ease;
  max-width: 285px !important;
  width: 100%;
+ 
 }
 
 
@@ -7806,8 +7808,7 @@ overflow: hidden;
     background: #F5FAFE;
     border-top-left-radius: 6px;
     border-bottom-left-radius:6px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+   
     outline: none;
     padding-left: 31px;
     padding-right: 23px;
@@ -7831,8 +7832,7 @@ color: #8a8a8a;
       background: rgba(236, 31, 70, 1);
       max-width: 65px !important;
   width: 100%;
-  -moz-box-sizing: border-box;
-    box-sizing: border-box;
+ 
   display: flex;
   justify-content: center;
   border-top-right-radius: 6px;
