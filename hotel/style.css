@@ -7562,3 +7562,156 @@ cursor: pointer;
       }
     
         }   
+
+
+ 
+        @media screen and (min-width:0px) and (max-width: 1000px) { 
+
+
+          .thinks_slider_text {
+            margin-top: 120px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+        }
+
+
+
+
+        .thinks_slider_button_prev_wrap {
+         
+          max-width: 30px;
+          margin-left: 15px;
+      }
+
+
+
+      .thinks_slider_button_prev {
+        position: relative;
+        top: 60px;
+    }
+
+
+    .thinks_slider_button_next_wrap {
+         
+      max-width: 30px;
+      margin-left: 15px;
+  }
+
+
+
+  .thinks_slider_button_next {
+    position: relative;
+    top: 60px;
+}
+
+} 
+
+
+@media screen and (min-width:380px) and (max-width: 1000px) {
+
+  .thinks_slider_upper_commas_svg {
+    fill: #f2f2f2c5;
+    transition: all 1500ms ease;
+width: 45px;
+height: 29px;
+
+}
+
+
+.thinks_slider_upper_commas_wrap {
+  left: 10px;
+top: 10px;
+
+}
+
+
+
+.thinks_slider_lower_commas_svg {
+  fill: #f2f2f2c5;
+  transition: all 1500ms ease;
+width: 45px;
+height: 29px;
+
+}
+
+.thinks_slider_lower_commas_wrap {
+  top: 115px;
+  right: 10px;
+
+}
+
+}
+
+
+
+@media screen and (min-width:315px) and (max-width: 380px) {
+
+  .thinks_slider_upper_commas_svg {
+    fill: #f2f2f2c5;
+    transition: all 1500ms ease;
+width: 45px;
+height: 29px;
+
+}
+
+
+.thinks_slider_upper_commas_wrap {
+  left: -10px;
+top: 10px;
+
+}
+
+
+
+.thinks_slider_lower_commas_svg {
+  fill: #f2f2f2c5;
+  transition: all 1500ms ease;
+width: 45px;
+height: 29px;
+
+}
+
+.thinks_slider_lower_commas_wrap {
+  top: 115px;
+  right: -10px;
+
+}
+}
+
+
+
+@media screen and (min-width:0px) and (max-width: 315px) {
+
+  .thinks_slider_upper_commas_svg {
+    fill: #f2f2f2c5;
+    transition: all 1500ms ease;
+width: 45px;
+height: 29px;
+
+}
+
+
+.thinks_slider_upper_commas_wrap {
+  left: -10px;
+top: 10px;
+display: none;
+}
+
+
+
+.thinks_slider_lower_commas_svg {
+  fill: #f2f2f2c5;
+  transition: all 1500ms ease;
+width: 45px;
+height: 29px;
+
+}
+
+.thinks_slider_lower_commas_wrap {
+  top: 115px;
+  right: -10px;
+  display: none;
+
+}
+}
