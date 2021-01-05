@@ -4518,6 +4518,47 @@ mySwiper2.autoplay.start();
  
   slidesPerView: 4,
         spaceBetween: 29,
+        centeredSlides: false,
+breakpoints: {
+    // when window width is >= 320px
+   
+0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      centeredSlides: true,
+    },
+
+
+
+
+
+    460: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      centeredSlides: true,
+    },
+
+
+
+
+
+
+    // when window width is >= 480px
+    685: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      centeredSlides: false,
+    },
+    // when window width is >= 640px
+    920: {
+      slidesPerView: 4,
+        spaceBetween: 29,
+        centeredSlides: false,
+    }
+  },
+
+
+
  pagination: {
     /*el: '.swiper-pagination',*/
     /*type: 'progressbar',*/

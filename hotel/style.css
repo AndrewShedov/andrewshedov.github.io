@@ -5845,6 +5845,24 @@ height: 100%;
   max-width: 1110px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 670px) {
+.Other_Activities {
+  justify-content: center !important;
+  
+}
+.Other_Activities_wrap {
+  padding-top: 45px;}
+
+
+.Other_Activities_slider_wrap {
+  padding-top: 45px !important;
+   
+ }
+
+
+}
+
+
 .Other_Activities p {
   font-family: Mulish;
   font-style: normal;
@@ -5873,6 +5891,16 @@ height: 100%;
   margin-left: 15px !important;
   min-height: 255px;
   cursor: pointer;
+  
+}
+
+@media screen and (min-width: 0px) and (max-width: 460px) {
+.swiper_container_3 {
+  
+  width: 100%;
+  max-width: 255px;
+ 
+}
 }
 
 
@@ -5926,12 +5954,16 @@ min-height: 88px;
 display: flex;
 margin-top:  120px;
 margin-left: 27px;
-margin-right: 21px;
+margin-right: 27px;
 z-index: 99999;
 position: absolute;
 flex-wrap: wrap;
 
 }
+
+
+
+
 
 
 .Other_Activities_description_title_wrap{
