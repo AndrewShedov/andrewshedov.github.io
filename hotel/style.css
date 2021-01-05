@@ -5943,7 +5943,8 @@ height: 100%;
 
 
 .Other_Activities_description_wrap{
-
+  width: 100%;
+  max-width: 200px;
 min-height: 88px;
 display: flex;
 margin-top:  120px;
@@ -5952,7 +5953,7 @@ margin-right: 27px;
 z-index: 99999;
 position: absolute;
 flex-wrap: wrap;
-border: 1px solid rgb(255, 0, 0) !important; 
+border: 1px solid rgb(0, 255, 42) !important; 
 }
 
 
@@ -5961,7 +5962,7 @@ border: 1px solid rgb(255, 0, 0) !important;
 
 
 .Other_Activities_description_title_wrap{
-display: flex;
+display: none;
 margin-top: 0px;
 
 flex-wrap: wrap; 
