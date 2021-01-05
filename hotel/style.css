@@ -1056,34 +1056,6 @@ body {
   transition: all 300ms ease;
 }
 
-/*///////////////////////FOOTER///////////////////////*/
-
-.footer_wrap {
-  /*
-  background: rgba(10, 34, 61, 1);
-  */
-display: flex;
-  transition: all 300ms ease;
-  justify-content: center;
-/*
-  height: 150px;
-  margin-top: 340px;
-*/
-  flex: 0 0 auto;
-}
-
-.footer{
-
-  width: 100%;
-  max-width: 1110px;
-  display: flex;
-  margin-left: 15px;
-  margin-right: 15px;
-  
-  border: 1px solid rgb(255, 0, 0) !important; 
-}
-
-
 
 
 
@@ -5987,3 +5959,209 @@ line-height: 16px;
 
 color: #FFFFFF;
   } 
+
+
+
+ /*///////////////////////FOOTER///////////////////////*/
+
+.footer_wrap {
+  /*
+  background: rgba(10, 34, 61, 1);
+  */
+display: flex;
+  transition: all 300ms ease;
+  justify-content: center;
+/*
+  height: 150px;
+  margin-top: 340px;
+*/
+  flex: 0 0 auto;
+}
+
+.footer{
+
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+  border: 1px solid rgb(255, 0, 0) !important; 
+} 
+
+
+.footer_part_1_wrap{
+display: flex;
+order: 1px solid rgb(255, 0, 0) !important;
+}
+
+.footer_part_1{
+  display: flex;
+  order: 1px solid rgb(255, 0, 0) !important;
+
+
+}
+
+
+
+
+.footer_part_1_title_wrap{
+  width: 100%;
+  max-width: 166px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 99999;
+  border: 1px solid rgb(255, 0, 0) !important;
+}
+
+.footer_part_1_title_1 {
+width: 100%;
+}
+
+.footer_part_1_title_1 p {
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  
+  /* Gray 1 */
+  color: #333333;
+}
+
+
+.footer_part_1_title_2{
+  width: 100%;
+  display: flex;
+}
+
+.footer_part_1_title_2 span:nth-child(1){
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  transition: all 500ms ease;
+  /* Gray 1 */
+  color: #333333;
+  cursor: pointer;
+  }
+
+
+  
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+ 
+  .footer_part_1_title_2 span:nth-child(1):hover{
+    transition: all 500ms ease;
+    color: #3a8be2;
+  
+  }
+  
+  }
+
+
+.footer_part_1_title_2 span:nth-child(2){
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  transition: all 500ms ease;
+  /* Gray 1 */
+  color: #333333;
+  cursor: pointer;
+  
+}
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+ 
+  .footer_part_1_title_2 span:nth-child(2):hover{
+    transition: all 500ms ease;
+    color: #3a8be2;
+  
+  }
+  
+  }
+
+
+
+.footer_part_1_title_2 span:nth-child(3){
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  transition: all 500ms ease;
+  /* Gray 1 */
+  color: #333333;
+  cursor: pointer;
+  
+}
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+ 
+  .footer_part_1_title_2 span:nth-child(3):hover{
+    transition: all 500ms ease;
+    color: #3a8be2;
+  
+  }
+  
+  }
+
+
+
+
+
+.footer_part_1_title_2 span:nth-child(4){
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  transition: all 500ms ease;
+  /* Gray 1 */
+  color: #333333;
+  cursor: pointer;
+  
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+ 
+.footer_part_1_title_2 span:nth-child(4):hover{
+  transition: all 500ms ease;
+  color: #3a8be2;
+
+}
+
+}
+
+
+
+
+
+.footer_part_1_title_3{
+
+  width: 100%;
+}
+
+
+.footer_part_1_title_3 p{
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  
+  /* Gray 1 */
+  color: #333333;
+
+}
+
+
+
+.footer_part_2_wrap{
+  order: 1px solid rgb(255, 0, 0) !important;
+  display: flex;
+}
