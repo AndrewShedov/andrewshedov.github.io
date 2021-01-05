@@ -6239,8 +6239,10 @@ width: 100%;
 
 
 .footer_part_1_cat_wrap{
+
   width: 100%;
-  max-width: 156px;
+  max-width: 165px;
+ 
 display: flex;
 flex-wrap: wrap;
 border: 2px solid rgb(255, 0, 0) !important; 
