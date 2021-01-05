@@ -5970,7 +5970,7 @@ flex-wrap: wrap;
 
 
 .Other_Activities_description_title{
-  
+  display: none;
   width: 100%;
   max-width: 150px;
   }
@@ -5996,6 +5996,7 @@ color: #FFFFFF;
     width: 100px;
     z-index: 999999;
     margin-top: 15px;
+    
   }
   
   .Other_Activities_description_button {
