@@ -5965,9 +5965,10 @@ color: #FFFFFF;
  /*///////////////////////FOOTER///////////////////////*/
 
 .footer_wrap {
-  /*
+  
   background: rgba(10, 34, 61, 1);
-  */
+ 
+
 display: flex;
   transition: all 300ms ease;
   justify-content: center;
@@ -6004,7 +6005,7 @@ flex-wrap: wrap ;
 
 .footer_part_1_title_cat_wrap{
   display: flex;
-  
+  margin-bottom: 5px;
 width: 100%;
 
 }
@@ -6015,8 +6016,7 @@ width: 100%;
   max-width: 166px;
   display: flex;
   flex-wrap: wrap;
-  z-index: 99999;
-  
+  border: 1px solid rgb(255, 0, 0) !important; 
 }
 
 .footer_part_1_title_1 {
@@ -6029,9 +6029,9 @@ width: 100%;
   font-weight: normal;
   font-size: 64px;
   line-height: 64px;
-  
+  border: 1px solid rgb(255, 0, 0) !important; 
   /* Gray 1 */
-  color: #333333;
+  color: #ffffff;
 }
 
 
@@ -6048,7 +6048,7 @@ width: 100%;
   line-height: 64px;
   transition: all 500ms ease;
   /* Gray 1 */
-  color: #333333;
+  color: rgba(236, 31, 70, 1);
   cursor: pointer;
   }
 
@@ -6074,7 +6074,7 @@ width: 100%;
   line-height: 64px;
   transition: all 500ms ease;
   /* Gray 1 */
-  color: #333333;
+  color: rgba(236, 31, 70, 1);
   cursor: pointer;
   
 }
@@ -6099,7 +6099,7 @@ width: 100%;
   line-height: 64px;
   transition: all 500ms ease;
   /* Gray 1 */
-  color: #333333;
+  color: rgba(236, 31, 70, 1);
   cursor: pointer;
   
 }
@@ -6126,7 +6126,7 @@ width: 100%;
   line-height: 64px;
   transition: all 500ms ease;
   /* Gray 1 */
-  color: #333333;
+  color: rgba(236, 31, 70, 1);
   cursor: pointer;
   
 }
@@ -6147,7 +6147,7 @@ width: 100%;
 
 
 .footer_part_1_title_3{
-
+  border: 1px solid rgb(255, 0, 0) !important; 
   width: 100%;
 }
 
@@ -6160,13 +6160,63 @@ width: 100%;
   line-height: 64px;
   
   /* Gray 1 */
-  color: #333333;
+  color: #ffffff;
 
 }
 
 
 
 .footer_part_2_wrap{
-  order: 1px solid rgb(255, 0, 0) !important;
+  
   display: flex;
 }
+
+
+.footer_part_1_cat_wrap{
+  width: 100%;
+  max-width: 156px;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.footer_part_1_cat_title{
+width: 100%;
+
+
+}
+
+.footer_part_1_cat_title p{
+  font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+  
+  
+  }
+
+
+
+  .footer_part_1_cat_list_wrap{
+display:flex;
+flex-wrap:wrap;
+
+  }
+
+
+
+  .footer_part_1_cat_list_wrap p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    
+    /* or 22px */
+    
+    color: #BDBDBD;
+    
+      }
