@@ -2938,20 +2938,7 @@ transition: all 500ms ease;
 }
 
 
-.package_options_t_text:before {
-  content: "";
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='50' height='50'%3E%3Ccircle r='50%25' cx='50%25' cy='50%25' fill='gold'/%3E%3C/svg%3E"); 
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgb(255, 0, 0) !important; 
-}
 
-.package_options_t_text:before:hover {
-
-background-color: red;
-
-
-}
 
 
 
@@ -3064,6 +3051,27 @@ background-color: red;
   justify-content: start !important;
   border: 1px solid rgb(255, 0, 0) !important; 
 }
+
+
+
+
+.package_highlights_options_1 li:before {
+  content: url(images/circle.svg);
+margin-right: 15px;
+  
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+.package_options_t_text:before:hover {
+
+background-color: red;
+
+
+}
+
+
+
+
 
 
 .package_highlights_options_1 li {
