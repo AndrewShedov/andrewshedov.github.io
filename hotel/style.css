@@ -3043,6 +3043,7 @@ transition: all 500ms ease;
 }
 
 .package_highlights_options_1 {
+
   margin-right: 30px;
   margin-left: 27px;
   margin-top: 27px;
@@ -3058,7 +3059,8 @@ transition: all 500ms ease;
 .package_highlights_options_1 li:before {
   content: url(images/circle.svg);
 margin-right: 15px;
-  
+display:flex;
+
   border: 1px solid rgb(255, 0, 0) !important; 
 }
 
@@ -3075,7 +3077,7 @@ background-color: red;
 
 
 .package_highlights_options_1 li {
-
+  display:flex;
   text-align: left;
   font-family: Mulish;
   font-style: normal;
