@@ -40,6 +40,16 @@ dd {
   margin: 0;
 }
 
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+
+
 .header_contact_wrap {
   display: flex;
   justify-content: center !important;
@@ -6177,7 +6187,7 @@ width: 100%;
   max-width: 156px;
 display: flex;
 flex-wrap: wrap;
-
+border: 2px solid rgb(255, 0, 0) !important; 
 }
 
 .footer_part_1_cat_title{
@@ -6204,19 +6214,23 @@ color: #FFFFFF;
 display:flex;
 flex-wrap:wrap;
 
+border: 1px solid rgb(255, 0, 0) !important; 
   }
 
 
 
-  .footer_part_1_cat_list_wrap p{
+  .footer_part_1_cat_list_wrap li{
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 160%;
-    
+    list-style: none;
     /* or 22px */
-    
+  
+  
     color: #BDBDBD;
-    
+    border: 1px solid rgb(255, 0, 0) !important; 
       }
+
+
