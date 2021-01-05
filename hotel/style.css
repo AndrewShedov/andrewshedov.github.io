@@ -3043,14 +3043,16 @@ transition: all 500ms ease;
 }
 
 .package_highlights_options_1 {
-
+  width: 100%;
+  max-width: 210px;
+  
   margin-right: 30px;
   margin-left: 27px;
   margin-top: 27px;
   display: flex;
   flex-wrap: wrap;
   justify-content: start !important;
-  border: 1px solid rgb(255, 0, 0) !important; 
+ 
 }
 
 
@@ -3058,10 +3060,10 @@ transition: all 500ms ease;
 
 .package_highlights_options_1 li:before {
   content: url(images/circle.svg);
-margin-right: 15px;
+margin-right: 20px;
 display:flex;
 
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
 }
 
 .package_options_t_text:before:hover {
@@ -3085,7 +3087,7 @@ background-color: red;
   font-size: 12px;
   line-height: 15px;
   color: #333333;
-
+margin-bottom: 19px;
 
 }
 
@@ -3253,6 +3255,7 @@ background-color: red;
   justify-content: center;
   width: 100%;
   max-width: 538px;
+  height: 100%;
 }
 
 .package_offer {
@@ -3260,6 +3263,8 @@ background-color: red;
   flex-wrap: wrap;
   width: 100%;
   max-width: 538px;
+  height: 100%;
+min-height: 200px;
 }
 
 .package_offer_header_wrap {
