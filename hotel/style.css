@@ -2934,7 +2934,29 @@ transition: all 500ms ease;
 
 .package_options_t_text {
   display: flex;
+  
 }
+
+
+.package_options_t_text:before {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='50' height='50'%3E%3Ccircle r='50%25' cx='50%25' cy='50%25' fill='gold'/%3E%3C/svg%3E"); 
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+.package_options_t_text:before:hover {
+
+background-color: red;
+
+
+}
+
+
+
+
+
 
 .package_options_t_text p {
   text-align: left;
@@ -3037,6 +3059,24 @@ transition: all 500ms ease;
   margin-right: 30px;
   margin-left: 27px;
   margin-top: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start !important;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+
+.package_highlights_options_1 li {
+
+  text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+
+
 }
 
 .offer_details_t_wrap {
