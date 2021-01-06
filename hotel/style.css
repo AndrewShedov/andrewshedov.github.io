@@ -6488,7 +6488,7 @@ display: flex;
   display: flex;
   margin-left: 15px;
   margin-right: 15px;
-  
+  border: 4px solid rgb(255, 0, 0) !important; 
   
 } 
 
@@ -6497,6 +6497,8 @@ display: flex;
 display: flex;
 flex-wrap:wrap;
 border: 1px solid rgb(41, 255, 4) !important; 
+width: 100%;
+  max-width: 574px;
 }
 
 
@@ -6506,7 +6508,8 @@ border: 1px solid rgb(41, 255, 4) !important;
   display: flex;
   flex-wrap:wrap;
 width: 100%;
-border: 1px solid rgb(255, 0, 0) !important; 
+
+border: 1px solid rgb(38, 0, 255) !important; 
 }
 
 .footer_part_1_contacts{
@@ -6523,8 +6526,10 @@ border: 1px solid rgb(255, 0, 0) !important;
 
 .footer_part_1{
   display: flex;
-  
+  width: 100%;
+  max-width: 574px;
 flex-wrap: wrap ;
+border: 4px solid rgb(255, 0, 0) !important; 
 
 }
 
