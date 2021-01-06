@@ -4067,8 +4067,45 @@ justify-content: start;
   width: 100%;
   max-width: 260px;
 
-  margin-top: 40px;
+  margin-top: 39px;
 }
+
+
+
+.Package_Summery_Details_options_1 li:before {
+  content: url(images/circle_2.svg);
+margin-right: 23px;
+display:flex;
+
+  
+}
+
+
+
+.Package_Summery_Details_options_1 li {
+  display:flex;
+  font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+/* identical to box height */
+
+/* Gray 1 */
+color: #333333;
+margin-bottom: 19px;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 0px) and (max-width: 685px) {
   .Package_Summery_Details_options_1 {
