@@ -949,10 +949,19 @@ ul {
   display: block !important;
 }
 
+.menu ul {
+
+  
+}
+
+
+
 .menu ul li {
   margin-bottom: 15px;
+  margin-top: 16px;
   list-style: none;
-  margin-right: 37px;
+  margin-right: 37px !important;
+  margin-left: 37px !important;
 }
 .menuMoveLeft {
   transform: translateX(0%);
@@ -6798,12 +6807,16 @@ justify-content: start;
 flex-wrap: wrap;
 }
 
+.footer_part_1_contacts_list li svg{
+margin-right: 15px;
 
+}
 
 .footer_part_1_contacts_list_place_svg {
   cursor: pointer;
   fill:#BDBDBD;
   transition: all 1000ms ease;
+ 
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -6818,6 +6831,7 @@ flex-wrap: wrap;
   cursor: pointer;
   fill:#BDBDBD;
   transition: all 1000ms ease;
+  
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
