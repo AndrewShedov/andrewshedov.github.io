@@ -4019,7 +4019,7 @@ justify-content: start;
   justify-content: space-between;
   background-color: #ffffff;
   height: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 13px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 711px) {
@@ -4034,7 +4034,7 @@ justify-content: start;
   max-width: 285px;
   min-height: 150px !important;
   max-height: 100%;
-
+ 
   margin-left: 25px;
 }
 
@@ -4066,7 +4066,7 @@ justify-content: start;
 .Package_Summery_Details_options_1 {
   width: 100%;
   max-width: 260px;
-
+  
   margin-top: 39px;
 }
 
@@ -4098,14 +4098,26 @@ margin-bottom: 19px;
 align-items: center;
 }
 
+/*
+.Package_Summery_Details_options_1 li:nth-child(6) {
+
+margin-bottom: 0px;
+
+}
+
+.Package_Summery_Details_options_3 li:nth-child(6) {
+
+  margin-bottom: 0px;
+  
+  }
 
 
+  .Package_Summery_Details_options_2 li:nth-child(6) {
 
-
-
-
-
-
+    margin-bottom: 0px;
+    
+    }
+*/
 
 @media screen and (min-width: 0px) and (max-width: 685px) {
   .Package_Summery_Details_options_1 {
@@ -4198,8 +4210,47 @@ align-items: center;
   margin-left: 12px;
   width: 100%;
   max-width: 250px;
-  margin-top: 40px !important;
+  margin-top: 39px !important;
 }
+
+
+
+.Package_Summery_Details_options_2 li:before {
+  content: url(images/circle_2.svg);
+margin-right: 23px;
+display:flex;
+
+  
+}
+
+
+
+.Package_Summery_Details_options_2 li {
+  display:flex;
+  font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+/* identical to box height */
+
+/* Gray 1 */
+color: #333333;
+margin-bottom: 19px;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 0px) and (max-width: 530px) {
   .Package_Summery_Details_options_2 {
@@ -4222,7 +4273,38 @@ align-items: center;
   width: 100%;
   max-width: 245px;
 
-  margin-top: 40px;
+  margin-top: 39px;
+}
+
+
+
+
+
+
+.Package_Summery_Details_options_3 li:before {
+  content: url(images/circle_2.svg);
+margin-right: 23px;
+display:flex;
+
+  
+}
+
+
+
+.Package_Summery_Details_options_3 li {
+  display:flex;
+  font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+/* identical to box height */
+
+/* Gray 1 */
+color: #333333;
+margin-bottom: 19px;
+align-items: center;
 }
 
 @media screen and (min-width: 790px) and (max-width: 1070px) {
@@ -4409,6 +4491,40 @@ align-items: center;
   margin-top: 32px;
 }
 
+
+
+.Package_Summery_Details_options_1_under_dashed li:before {
+content: url(images/circle_2.svg);
+margin-right: 23px;
+display:flex;
+}
+
+
+
+.Package_Summery_Details_options_1_under_dashed li {
+  display:flex;
+  font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+/* identical to box height */
+
+/* Gray 1 */
+color: #333333;
+margin-bottom: 19px;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 0px) and (max-width: 685px) {
   .Package_Summery_Details_options_1_under_dashed {
     width: 100%;
@@ -4424,6 +4540,44 @@ align-items: center;
   max-width: 250px;
   margin-top: 32px !important;
 }
+
+
+
+
+.Package_Summery_Details_options_2_under_dashed li:before {
+  content: url(images/circle_2.svg);
+margin-right: 23px;
+display:flex;
+
+  
+}
+
+
+
+.Package_Summery_Details_options_2_under_dashed li {
+  display:flex;
+  font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+/* identical to box height */
+
+/* Gray 1 */
+color: #333333;
+margin-bottom: 19px;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 0px) and (max-width: 530px) {
   .Package_Summery_Details_options_2_under_dashed {
@@ -4448,6 +4602,42 @@ align-items: center;
   max-width: 245px;
   margin-top: 32px;
 }
+
+
+
+.Package_Summery_Details_options_3_under_dashed li:before {
+  content: url(images/circle_2.svg);
+margin-right: 23px;
+display:flex;
+
+  
+}
+
+
+
+.Package_Summery_Details_options_3_under_dashed li {
+  display:flex;
+  font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+/* identical to box height */
+
+/* Gray 1 */
+color: #333333;
+margin-bottom: 19px;
+align-items: center;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 685px) and (max-width: 1000px) {
   .Package_Summery_Details_options_3_under_dashed {
@@ -4805,7 +4995,7 @@ align-items: center;
 .Other_Packages_p_1_description_sale_wrap {
   display: flex;
 
-  margin-top: 33px;
+  margin-top: 36px;
 }
 
 .Other_Packages_p_1_description_sale p {
@@ -5176,7 +5366,7 @@ align-items: center;
 .Other_Packages_p_2_description_sale_wrap {
   display: flex;
 
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 .Other_Packages_p_2_description_sale p {
@@ -6239,7 +6429,7 @@ color: #FFFFFF;
     max-width: 100px;
     width: 100px;
     z-index: 999999;
-    margin-top: 15px;
+    margin-top: 19px;
     
     margin-left:20px;
     height: 30px;
