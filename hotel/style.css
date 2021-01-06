@@ -2976,11 +2976,55 @@ transition: all 500ms ease;
   max-width: 227px;
   min-height: 150px !important;
   max-height: 100%;
+  margin-left: 40px;
 }
 
 .package_highlights_options_2 {
   margin-top: 27px;
+  
 }
+
+
+
+
+
+
+
+.package_highlights_options_2 li:before {
+  content: url(images/circle.svg);
+margin-right: 20px;
+display:flex;
+
+  
+}
+
+
+
+.package_highlights_options_2 li {
+  display:flex;
+  text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+margin-bottom: 19px;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .package_highlights_wrap {
   display: flex;
@@ -3040,6 +3084,8 @@ transition: all 500ms ease;
 .package_highlights_options_1_wrap {
   min-height: 150px !important;
   max-height: 100%;
+  width: 100%;
+  max-width: 210px;
 }
 
 .package_highlights_options_1 {
@@ -3235,11 +3281,49 @@ align-items: center;
 
 .package_options_offer_1 {
   margin-left: 25px;
+  margin-top: 27px;
 }
+
+
+
+
+
+
+.package_options_offer_1 li:before {
+  content: url(images/circle.svg);
+margin-right: 20px;
+display:flex;
+
+  
+}
+
+
+
+.package_options_offer_1 li {
+  display:flex;
+  text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+margin-bottom: 19px;
+align-items: start;
+justify-content: start;
+}
+
+
+
+
+
+
+
 
 .package_options_offer_1_wrap {
   min-height: 150px !important;
   max-height: 100%;
+  margin-right: 20px;
 }
 
 .package_options_offer_wrap {
@@ -3306,6 +3390,43 @@ min-height: 200px;
   margin-top: 27px;
 }
 
+
+
+
+
+.package_offer_options_2 li:before {
+  content: url(images/date.svg);
+margin-right: 20px;
+display:flex;
+
+  
+}
+
+
+
+.package_offer_options_2 li {
+  display:flex;
+  font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #333333;
+margin-bottom: 19px;
+align-items: start;
+justify-content: start;
+}
+
+
+
+
+
+
+
+
+
+
+
 .package_offer_options_t_date_wrap {
   display: flex;
   justify-content: start;
@@ -3351,12 +3472,14 @@ min-height: 200px;
 .package_options_valid_t_wrap {
   margin-top: 47px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  margin-left: 40px;
+  margin-bottom: 10px;
 }
 
 .package_options_valid_t_text {
   display: flex;
-
+  
   width: 100%;
   max-width: 170px;
   justify-content: left;
