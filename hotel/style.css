@@ -6797,3 +6797,18 @@ align-items: start;
 justify-content: start;
 flex-wrap: wrap;
 }
+
+
+
+.footer_part_1_contacts_list_place_svg {
+  cursor: pointer;
+  fill:#BDBDBD;
+  transition: all 1000ms ease;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+  .footer_part_1_contacts_list_place_svg:hover {
+    fill: rgb(0, 162, 255);
+    transition: all 500ms ease;
+  }
+}
