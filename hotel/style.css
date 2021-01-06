@@ -5961,22 +5961,18 @@ left: 7px;
 
 
 .Other_Activities_description_title_wrap{
-  border: 1px solid rgb(255, 0, 0) !important;
+
 margin-top: 0px;
 margin-left:20px;
-display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
 display: flex;
 flex-wrap: wrap; 
 width: 100%;
- 
+max-width: 200px;
 }
 
 
 .Other_Activities_description_title{
-  border: 1px solid rgb(255, 0, 0) !important; 
+
   width: 100%;
  max-width: 150px;
   }
@@ -5985,7 +5981,7 @@ width: 100%;
   .Other_Activities_description_title p{
     font-family: Mulish;
 font-style: normal;
-font-weight: 600;
+font-weight: 200;
 font-size: 16px;
 line-height: 20px;
 
@@ -6002,6 +5998,7 @@ color: #FFFFFF;
     width: 100px;
     z-index: 999999;
     margin-top: 15px;
+    
     margin-left:20px;
     height: 30px;
   }
