@@ -3282,6 +3282,9 @@ align-items: center;
 .package_options_offer_1 {
   margin-left: 25px;
   margin-top: 27px;
+
+  width: 100%;
+  max-width: 210px;
 }
 
 
@@ -3384,11 +3387,96 @@ min-height: 200px;
   max-height: 100%;
   width: 100%;
   max-width: 256px;
+  display: flex;
+  margin-left: 20px;
+ 
 }
 
 .package_offer_options_2 {
   margin-top: 27px;
+  
 }
+
+@media screen and (min-width:0px) and (max-width: 1000px) {
+  .package_offer_options_2 {
+    margin-top: 27px;
+    width: 100%;
+  max-width: 150px;
+  
+  }
+  
+  
+  .package_offer_options_2 li:before {
+    content: url(images/date.svg);
+  margin-right: 15px !important;
+  }
+
+
+
+}
+
+
+
+@media screen and (min-width:710px) and (max-width: 1000px) {
+ 
+  
+  .package_offer_options_2_wrap {
+    
+    display: flex;
+   justify-content: flex-end;
+  }
+
+
+
+}
+
+
+@media screen and (min-width:0px) and (max-width: 710px) {
+ 
+  
+  .package_offer_options_2_wrap {
+    
+    display: flex;
+   justify-content: center;
+  }
+  
+
+}
+
+
+
+
+
+@media screen and (min-width:530px) and (max-width: 710px) {
+ 
+  
+  .package_offer_options_2 {
+position: relative;
+right: 19px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width: 530px) {
+ 
+
+  .package_offer_options_2 {
+position: relative;
+left: 0px;
+  }
+
+
+}
+
+
 
 
 
@@ -3554,7 +3642,7 @@ justify-content: start;
 
   .package_offer_options_2_wrap {
     display: flex;
-    justify-content: flex-end;
+    
     margin-right: 20px;
   }
 
@@ -3593,7 +3681,7 @@ justify-content: start;
 
   .package_offer_options_2_wrap {
     display: flex;
-    justify-content: flex-end;
+    
     margin-right: 20px;
   }
 
@@ -3696,7 +3784,7 @@ justify-content: start;
 
   .package_offer_options_2_wrap {
     display: flex;
-    justify-content: flex-end;
+    
     margin-right: 20px;
   }
 
@@ -3731,7 +3819,7 @@ justify-content: start;
 
   .package_offer_options_2_wrap {
     display: flex;
-    justify-content: flex-end;
+    
     margin-right: 20px;
   }
 
@@ -4111,7 +4199,7 @@ justify-content: start;
 
   .package_offer_options_2_wrap {
     display: flex;
-    justify-content: flex-end;
+    
     margin-right: 20px;
   }
 
