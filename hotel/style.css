@@ -6333,12 +6333,17 @@ height: 100%;
   
 }
 
+.swiper-slide{
+
+  
+}
+
 @media screen and (min-width: 0px) and (max-width: 410px) {
 .swiper_container_3 {
+
   
-  width: 100%;
-  max-width: 255px;
- 
+  
+
 }
 }
 
@@ -6351,7 +6356,7 @@ height: 100%;
   height: 100%;
 */
   width: 100%;
-  max-width: 350px;
+  
 }
 
 
@@ -6367,6 +6372,9 @@ height: 100%;
   border-bottom-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+  width: 100% !important;
+  
+  
 }
 
 
