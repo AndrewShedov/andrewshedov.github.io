@@ -6824,10 +6824,15 @@ color: #BDBDBD;
   
   }
 
+  @media screen and (min-width: 1000px) and (max-width: 99999999px) {
+
   .footer_part_1_contacts_list li a:hover{
     color: rgb(0, 162, 255);
     transition: all 500ms ease;
   }
+  }
+
+
 
   .footer_part_1_contacts_list li:nth-child(2){
     
@@ -7377,6 +7382,39 @@ width: 100%;
 
 }
 
+.footer_part_3_name_Andrew a{
+  text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  transition: all 500ms ease;
+  /* identical to box height */
+  
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+
+  .footer_part_3_name_Andrew a:hover{
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    
+    /* identical to box height */
+    
+    color: #3a8be2;
+    transition: all 500ms ease;
+  }
+
+}
+
+
+
 
 .footer_part_3_name_Andrew p{
 text-align: center;
@@ -7409,6 +7447,47 @@ text-align: center;
   
   color: #FFFFFF;
 }
+
+
+
+.footer_part_3_name_Mohammad a{
+  text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  transition: all 500ms ease;
+  /* identical to box height */
+  
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+
+  .footer_part_3_name_Mohammad a:hover{
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    
+    /* identical to box height */
+    
+    color: #3a8be2;
+    transition: all 500ms ease;
+  }
+
+}
+
+
+
+
+
+
+
+
 
 
 .footer_part_3_payment_wrap{
