@@ -6583,7 +6583,7 @@ border: 1px solid rgb(38, 0, 255) !important;
   display: flex;
   width: 100%;
   max-width: 493px;
-
+justify-content: space-between;
 border: 4px solid rgb(255, 0, 0) !important; 
 
 }
@@ -6964,7 +6964,7 @@ flex-wrap: nowrap;
 .footer_infor_wrap{
   display: flex;
 width: 100%;
-
+justify-content: space-between;
 border: 3px solid rgb(255, 0, 0) !important; 
 }
 
