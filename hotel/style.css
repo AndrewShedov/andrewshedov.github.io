@@ -6498,7 +6498,7 @@ flex-wrap:wrap ;
   display: flex;
   margin-left: 15px;
   margin-right: 15px;
-  border: 4px solid rgb(255, 0, 0) !important;
+ 
   
   
 } 
@@ -6513,7 +6513,7 @@ flex-wrap:wrap ;
 
 
 .footer_part_1_wrap{
-border: 5px solid rgb(41, 255, 4) !important; 
+
 width: 100%;
 max-width: 493px;
 margin-right: 81px;
@@ -6524,7 +6524,7 @@ justify-content: center;
 
 .footer_part_1{
 
-  border: 5px solid rgb(41, 255, 4) !important; 
+  
   width: 100%;
   max-width: 493px;
  
@@ -6536,7 +6536,7 @@ justify-content: center;
   
   
   display: flex;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
   width: 100%;
   max-width: 539px;
   justify-content: center;
@@ -6545,7 +6545,7 @@ justify-content: center;
 
 .footer_part_2{
 
-  border: 5px solid rgb(41, 255, 4) !important; 
+  
   width: 100%;
   max-width: 539px;
  
@@ -6555,7 +6555,7 @@ justify-content: center;
 
 .footer_part_1_cat_title_wrap{
   display: flex;
-  border: 4px solid rgb(38, 0, 255) !important; 
+  
 }
 
 
@@ -6564,13 +6564,12 @@ justify-content: center;
   flex-wrap:wrap;
 width: 100%;
 
-border: 1px solid rgb(38, 0, 255) !important; 
 }
 
 .footer_part_1_contacts{
   display: flex;
   flex-wrap:wrap;
-  border: 1px solid rgb(76, 0, 255) !important; 
+  
   width: 100%;
   max-width: 493px;
 }
@@ -6584,7 +6583,7 @@ border: 1px solid rgb(38, 0, 255) !important;
   width: 100%;
   max-width: 493px;
 justify-content: space-between;
-border: 4px solid rgb(255, 0, 0) !important; 
+
 
 }
 
@@ -6748,7 +6747,7 @@ width: 100%;
 
 
 .footer_part_1_cat_wrap{
-  border: 1px solid rgb(255, 0, 0) !important; 
+ 
   width: 100%;
   max-width: 165px;
  
@@ -6780,7 +6779,7 @@ color: #FFFFFF;
   .footer_part_1_cat_list_wrap{
 display:flex;
 flex-wrap:wrap;
-border: 1px solid rgb(255, 0, 0) !important; 
+
 
   }
 
@@ -6818,7 +6817,7 @@ border: 1px solid rgb(255, 0, 0) !important;
 
 
 .footer_part_1_contacts_title{
-  border: 1px solid rgb(0, 255, 34) !important; 
+  
   display: flex;
 }
 
@@ -6965,7 +6964,7 @@ flex-wrap: nowrap;
   display: flex;
 width: 100%;
 justify-content: space-between;
-border: 3px solid rgb(255, 0, 0) !important; 
+ 
 }
 
 
@@ -6973,14 +6972,14 @@ border: 3px solid rgb(255, 0, 0) !important;
 .footer_infor_1{
   flex-wrap: wrap;
   display: flex;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
   
 }
 
 .footer_infor_1_list_wrap{
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid rgb(255, 0, 0) !important;
+ 
 
 
 }
@@ -7039,7 +7038,7 @@ display: flex;
 .footer_infor_2{
   flex-wrap: wrap;
   display: flex;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
 }
 
 
@@ -7067,7 +7066,7 @@ display: flex;
 .footer_infor_2_list_wrap{
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid rgb(255, 0, 0) !important;
+ 
 
 
 }
@@ -7113,7 +7112,7 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 width: 100%;
-border: 1px solid rgb(255, 0, 0) !important; 
+
 }
 
 
@@ -7220,7 +7219,7 @@ text-align: left;
 display:flex;
 width: 100%;
 flex-wrap: wrap;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
 }
 
 
@@ -7255,7 +7254,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100%;
-border: 1px solid rgb(255, 0, 0) !important; 
+
 }
 
 
@@ -7439,7 +7438,7 @@ color: #FFFFFF;
 .footer_part_3_wrap{
   width: 100%;
   display: flex;
-  border: 1px solid rgb(255, 0, 0) !important; 
+  
   
 }
 
@@ -7447,7 +7446,7 @@ color: #FFFFFF;
 .footer_part_3_names_wrap{
   
   display: flex;
-  border: 1px solid rgb(255, 0, 0) !important; 
+ 
 }
 
 
@@ -7455,7 +7454,7 @@ color: #FFFFFF;
   display: flex;
  
  
- border: 1px solid rgb(9, 255, 0) !important; 
+  
 }
 
 
