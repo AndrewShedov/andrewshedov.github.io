@@ -7129,7 +7129,7 @@ flex-wrap: wrap;
 
 
 .footer_part_2_send_name_phone_wrap{
-
+width: 100%;
   display:flex;
   justify-content: space-between;
 }
@@ -7221,3 +7221,40 @@ line-height: 16px;
 
 color: #FFFFFF;
 } 
+
+
+.footer_part_2_send_name {
+  flex-wrap: nowrap !important;
+  display: flex;
+  transition: all 500ms ease;
+  max-width: 285px !important;
+  width: 100%;
+}
+
+.footer_part_2_send_name input[type="text"] {
+  max-width: 285px !important;
+  width: 100%;
+  transition: all 500ms ease;
+  border: none;
+  background: #f5fafe;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 55px;
+  outline: none;
+  padding-left: 31px;
+  padding-right: 23px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* identical to box height */
+
+  /* Gray 4 */
+  color: #8a8a8a;
+}
