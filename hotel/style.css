@@ -6491,7 +6491,7 @@ display: flex;
 }
 
 .footer{
-
+flex-wrap:wrap ;
   width: 100%;
   max-width: 1110px;
   display: flex;
@@ -7334,4 +7334,42 @@ color: #FFFFFF;
   
   /* Gray 4 */
   color: #474747;
+}
+
+
+
+.footer_part_1_part2_wrap{
+display: flex;
+width: 100%;
+}
+
+.footer_part_3_wrap{
+  width: 100%;
+  display: flex;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+
+.footer_part_3_names_wrap{
+  
+  display: flex;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+
+.footer_part_3_names{
+
+
+}
+
+
+.footer_part_3_name_Andrew{
+
+
+
+}
+
+.footer_part_3_name_Mohammad{
+
+
 }
