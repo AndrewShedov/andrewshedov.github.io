@@ -3713,7 +3713,7 @@ justify-content: start;
   }
 
   .package_offer_options_2_wrap {
-    margin-right: 7px;
+    margin-right: 10px;
   }
 }
 
@@ -3839,7 +3839,7 @@ justify-content: start;
   }
 
   .package_offer_options_2_wrap {
-    margin-right: 7px;
+    margin-right: 10px;
   }
 }
 
@@ -6901,3 +6901,4 @@ flex-wrap: nowrap;
     transition: all 500ms ease;
   }
 }
+
