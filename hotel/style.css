@@ -6920,6 +6920,7 @@ border: 3px solid rgb(255, 0, 0) !important;
   flex-wrap: wrap;
   display: flex;
   border: 1px solid rgb(255, 0, 0) !important; 
+  
 }
 
 .footer_infor_1_list_wrap{
@@ -6947,7 +6948,7 @@ border: 3px solid rgb(255, 0, 0) !important;
 
 .footer_infor_1_title {
  
-
+display: flex;
 }
 
 .footer_infor_1_title p{
@@ -6972,7 +6973,94 @@ border: 3px solid rgb(255, 0, 0) !important;
 }
 
 
+.footer_infor_2_title{
+
+
+}
+
+
+
+.footer_infor_2_title p{
+  text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  
+  color: #FFFFFF;
+
+}
+
+
+
+.footer_infor_2_list_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgb(255, 0, 0) !important;
+
+
+}
+
+.footer_infor_2_list_wrap ul li{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  
+  /* or 22px */
+  
+  color: #BDBDBD;
+
+
+}
+
+
+
 .footer_social_wrap{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+border: 1px solid rgb(255, 0, 0) !important; 
+}
 
 
+.footer_social_title p{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  
+  /* identical to box height */
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+
+
+}
+
+
+
+.footer_social{
+
+display: flex;
+justify-content: center;
+
+}
+
+
+.footer_social_facebooK_svg {
+  cursor: pointer;
+  fill: #BDBDBD;
+  transition: all 1000ms ease;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+  .footer_social_facebooK_svg:hover {
+    fill: rgb(0, 162, 255);
+    transition: all 500ms ease;
+  }
 }
