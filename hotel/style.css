@@ -6706,11 +6706,6 @@ width: 100%;
 
 
 
-.footer_part_2_wrap{
-  
-  display: flex;
-}
-
 
 .footer_part_1_cat_wrap{
   border: 1px solid rgb(255, 0, 0) !important; 
@@ -6905,3 +6900,79 @@ flex-wrap: nowrap;
 
 
 
+
+.footer_part_2_wrap{
+  flex-wrap: wrap;
+  display: flex;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+.footer_infor_wrap{
+  display: flex;
+width: 100%;
+
+border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+
+
+.footer_infor_1{
+  flex-wrap: wrap;
+  display: flex;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+.footer_infor_1_list_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgb(255, 0, 0) !important;
+
+
+}
+
+.footer_infor_1_list_wrap ul li{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  
+  /* or 22px */
+  
+  color: #BDBDBD;
+
+
+}
+
+
+.footer_infor_1_title {
+ 
+
+}
+
+.footer_infor_1_title p{
+  text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  
+  color: #FFFFFF;
+
+}
+
+
+
+
+.footer_infor_2{
+  flex-wrap: wrap;
+  display: flex;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+
+.footer_social_wrap{
+
+
+}
