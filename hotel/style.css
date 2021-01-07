@@ -6507,7 +6507,7 @@ flex-wrap:wrap ;
 
 .footer_part_1_part2_wrap{
   display: flex;
- margin-top: 50px;
+ margin-top: 108px;
   width: 100%;
   }
 
@@ -6786,7 +6786,7 @@ flex-wrap:wrap;
 
 
 
-  .footer_part_1_cat_list_wrap li{
+  .footer_part_1_cat_list_wrap ul li a{
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -6797,12 +6797,12 @@ flex-wrap:wrap;
     transition: all 200ms ease;
   cursor: pointer;
     color: #BDBDBD;
-     
+    
       }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
 
-  .footer_part_1_cat_list_wrap li:hover{
+  .footer_part_1_cat_list_wrap ul li a:hover{
     transition: all 200ms ease;
   
   
