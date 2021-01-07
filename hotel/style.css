@@ -6507,7 +6507,8 @@ display: flex;
 flex-wrap:wrap;
 border: 1px solid rgb(41, 255, 4) !important; 
 width: 100%;
-  max-width: 574px;
+max-width: 493px;
+margin-right: 81px;
 }
 
 
@@ -6526,17 +6527,17 @@ border: 1px solid rgb(38, 0, 255) !important;
   flex-wrap:wrap;
   border: 1px solid rgb(76, 0, 255) !important; 
   width: 100%;
-  max-width: 574px;
+  max-width: 493px;
 }
 
 
 
 
 
-.footer_part_1{
+.footer_part_1_title_cat_wrap{
   display: flex;
   width: 100%;
-  max-width: 574px;
+  max-width: 493px;
 flex-wrap: wrap ;
 border: 4px solid rgb(255, 0, 0) !important; 
 
@@ -6901,4 +6902,6 @@ flex-wrap: nowrap;
     transition: all 500ms ease;
   }
 }
+
+
 
