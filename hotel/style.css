@@ -7094,3 +7094,130 @@ justify-content: center;
     transition: all 500ms ease;
   }
 }
+
+
+.footer_part_2_send_title{
+width: 100%;
+
+
+}
+
+
+
+.footer_part_2_send_title p{
+text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  
+  /* identical to box height */
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+
+}
+
+
+.footer_part_2_send_wrap {
+display:flex;
+width: 100%;
+flex-wrap: wrap;
+  border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+
+.footer_part_2_send_name_phone_wrap{
+
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+.footer_part_2_send_name{
+
+
+}
+
+
+.footer_part_2_send_phone{
+
+
+}
+
+
+.footer_part_2_send_message{
+
+
+}
+
+
+.footer_part_2_send_button_req_wrap{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+border: 1px solid rgb(255, 0, 0) !important; 
+}
+
+
+.footer_part_2_req{
+
+
+}
+
+
+.footer_part_2_req p{
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  
+  /* identical to box height */
+  
+  /* Gray 5 */
+  color: #E0E0E0;
+
+}
+
+
+
+.footer_part_2_send_button_href {
+  transition: all 500ms ease;
+  max-width: 100px;
+  width: 100px;
+  z-index: 999999;
+ 
+  height: 30px;
+}
+
+.footer_part_2_send_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ec1f46;
+  border-radius: 3px;
+  transition: all 500ms ease;
+  height: 30px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+  .footer_part_2_send_button:hover {
+    transition: all 500ms ease;
+    background: #1576c5;
+  }
+}
+
+.footer_part_2_send_button p {
+  font-family: Nunito;
+font-style: normal;
+font-weight:200;
+font-size: 12px;
+line-height: 16px;
+
+color: #FFFFFF;
+} 
