@@ -6538,7 +6538,7 @@ border: 1px solid rgb(38, 0, 255) !important;
   display: flex;
   width: 100%;
   max-width: 493px;
-flex-wrap: wrap ;
+
 border: 4px solid rgb(255, 0, 0) !important; 
 
 }
@@ -6911,7 +6911,7 @@ flex-wrap: nowrap;
   display: flex;
 width: 100%;
 
-border: 1px solid rgb(255, 0, 0) !important; 
+border: 3px solid rgb(255, 0, 0) !important; 
 }
 
 
