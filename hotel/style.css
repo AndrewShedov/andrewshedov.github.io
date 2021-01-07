@@ -7067,6 +7067,12 @@ justify-content: center;
 
 
 
+
+
+
+
+
+
 .footer_social_youtube_svg {
   cursor: pointer;
   fill: #BDBDBD;
@@ -7358,18 +7364,60 @@ width: 100%;
 
 
 .footer_part_3_names{
-
-
+  display: flex;
+ 
+ 
+ border: 1px solid rgb(9, 255, 0) !important; 
 }
 
 
 .footer_part_3_name_Andrew{
+  order: 2;
+
+
+}
+
+
+.footer_part_3_name_Andrew p{
+text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+
+}
+
+.footer_part_3_name_Mohammad{
+  order: 1;
+  
+}
+
+.footer_part_3_name_Mohammad p{
+  text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+}
+
+
+.footer_part_3_payment_wrap{
 
 
 
 }
 
-.footer_part_3_name_Mohammad{
+.footer_part_3_payment{
 
 
 }
