@@ -5879,7 +5879,10 @@ height: 100%;
   width: 100%;
   outline: none;
   max-width: 160px;
+  /*
   margin-right: 15px;
+  */
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -5915,7 +5918,10 @@ height: 100%;
   width: 100%;
   outline: none;
   max-width: 160px;
+/*
   margin-left: 15px;
+*/
+  padding-left: 15px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -5951,7 +5957,7 @@ height: 100%;
   }
 
   .thinks_slider_button_prev_wrap {
-    max-width: 30px;
+    max-width: 40px;
   }
 
   .thinks_slider_button_prev {
@@ -5960,7 +5966,7 @@ height: 100%;
   }
 
   .thinks_slider_button_next_wrap {
-    max-width: 30px;
+    max-width: 40px;
   }
 
   .thinks_slider_button_next {
@@ -7820,8 +7826,10 @@ position: relative;
 
 }
 
+}
 
-@media screen and (min-width: 0px) and (max-width: 360px) {
+
+ @media screen and (min-width: 0px) and (max-width: 360px) {
 
   .footer_part_1_cat_wrap {
     margin-left: 15px;
