@@ -1185,10 +1185,13 @@ body {
     border-radius: 50%;
     height: 7px;
     width: 7px;
-    background: rgb(17, 78, 143);
+    background: rgb(89, 159, 233);
     right: 12px;
     top: -3px;
   }
+
+
+  /*
   @-moz-document url-prefix() {
     .burger-open .burger-bar-middle {
       border-radius: 50%;
@@ -1197,19 +1200,23 @@ body {
       right: -3.2px !important;
 
       top: 33px;
-      background: rgb(17, 78, 143);
+      background: rgb(89, 159, 233);
       transform: rotate(270deg);
     }
   }
+*/
+
 
   .burger-open .burger-bar-middle {
     border-radius: 50%;
     height: 7px;
     width: 7px;
-    right: -3px;
-
+    left: 29.5px;
+    /*
+right: -3px;
+*/
     top: 33px;
-    background: rgb(17, 78, 143);
+    background: rgb(89, 159, 233);
     transform: rotate(270deg);
   }
 
@@ -1218,7 +1225,7 @@ body {
     border-radius: 50%;
     height: 7px;
     width: 7px;
-    background: rgb(17, 78, 143);
+    background: rgb(89, 159, 233);
     right: 7.8px;
     top: 13px;
   }
@@ -1231,7 +1238,7 @@ body {
     right: 3.8px !important;
     top: 31px;
 
-    background: rgb(17, 78, 143);
+    background: rgb(89, 159, 233);
   }
 }
 
@@ -7788,7 +7795,7 @@ margin-top: 5px;
 
 
     .footer_part_3_wrap {
-
+margin-top: 55px;
       flex-wrap:wrap;
     }
     .footer_part_3_name_Andrew {
