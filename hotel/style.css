@@ -7607,6 +7607,7 @@ text-align: center;
 
 
 .footer_part_3_payment_wrap{
+  display: flex;
   /*
   order: 1;
 */
@@ -7746,5 +7747,27 @@ margin-top: 45px;
   .footer_part_2_send_wrap {
     
     margin-top: 45px;}
+
+
+
+    .footer_part_3_payment_wrap{
+     justify-content: center;
+      order: 1;
+   width: 100%;
+    
+    }
+
+
+    .footer_part_3_names_wrap{
+      width: 100%;
+      order: 2;
+     
+    }
+
+    .footer_part_3_wrap {
+
+      flex-wrap:wrap;
+    }
+
 
 }
