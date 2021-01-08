@@ -7074,7 +7074,7 @@ display: flex;
   /*
   display: flex;
   */
-  margin-right: 10px;
+  margin-left: 15px;
 }
 
 
@@ -7273,7 +7273,7 @@ width: 100%;
 
 
 .footer_part_2_send_name{
-
+margin-right: 15px;
 
 }
 
@@ -7306,7 +7306,7 @@ margin-top: 23px;
 
   font-family: Mulish;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 200;
   font-size: 12px;
   line-height: 15px;
   
@@ -7477,19 +7477,25 @@ margin-top: 23px;
   justify-content: start;
   align-items: center;
   margin-top: 96px;
+  border: 1px solid rgb(255, 0, 0) !important; 
+  margin-bottom: 10px;
 }
 
 
 .footer_part_3_names_wrap{
-  
+  border: 1px solid rgb(255, 0, 0) !important; 
   display: flex;
- 
+  width: 100%;
+  justify-content: center;
+  /*
+  order: 2;
+  */
 }
 
 
 .footer_part_3_names{
   display: flex;
- 
+  border: 1px solid rgb(255, 0, 0) !important; 
  
   
 }
@@ -7497,8 +7503,6 @@ margin-top: 23px;
 
 .footer_part_3_name_Andrew{
   order: 2;
-
-
 }
 
 .footer_part_3_name_Andrew a{
@@ -7542,7 +7546,7 @@ text-align: center;
 
 .footer_part_3_name_Mohammad{
   order: 1;
-  
+  margin-right: 20px;
 }
 
 .footer_part_3_name_Mohammad p{
@@ -7593,12 +7597,51 @@ text-align: center;
 
 
 .footer_part_3_payment_wrap{
-
-
+  /*
+  order: 1;
+*/
 
 }
 
 .footer_part_3_payment{
+
+
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 730px) {
+
+  .footer_part_1_cat_wrap {
+   
+    margin-left: 30px;
+  }
+
+
+  .footer_part_1_wrap {
+    width: 100%;
+    max-width: 493px;
+    margin-right: 30px;
+
+  }
+
+  .footer_part_2_send_button {
+    height: 30px;
+
+    max-width: 100px;
+width: 100px;
+  }
+
+
+  .footer_part_2_send_name input[type="text"] {
+height: 35px;
+
+  }
+
+  .footer_part_2_send_phone input[type="text"] {
+
+    height: 35px;
+  }
 
 
 }
