@@ -7145,7 +7145,7 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 width: 100%;
-
+margin-top: 24px;
 }
 
 
@@ -7170,7 +7170,12 @@ width: 100%;
 
 display: flex;
 justify-content: center;
+margin-left: 48px;
+}
 
+.footer_social svg {
+
+margin-right: 12px;
 }
 
 
@@ -7252,7 +7257,7 @@ text-align: left;
 display:flex;
 width: 100%;
 flex-wrap: wrap;
-  
+margin-top: 95px;
 }
 
 
@@ -7260,6 +7265,7 @@ flex-wrap: wrap;
 width: 100%;
   display:flex;
   justify-content: space-between;
+  margin-top: 35px;
 }
 
 
@@ -7276,10 +7282,7 @@ width: 100%;
 }
 
 
-.footer_part_2_send_message{
 
-
-}
 
 
 .footer_part_2_send_button_req_wrap{
@@ -7371,7 +7374,7 @@ color: #FFFFFF;
   box-sizing: border-box;
   height: 50px;
   outline: none;
-  padding-left: 31px;
+  padding-left: 23px;
   padding-right: 23px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -7403,13 +7406,12 @@ color: #FFFFFF;
   transition: all 500ms ease;
   border: none;
   background: #f5fafe;
- 
   border-radius: 6px 6px 6px 6px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 50px;
   outline: none;
-  padding-left: 31px;
+  padding-left: 23px;
   padding-right: 23px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -7430,27 +7432,28 @@ color: #FFFFFF;
 .footer_part_2_send_message {
   flex-wrap: nowrap !important;
   display: flex;
-  transition: all 500ms ease;
   
+  transition: all 500ms ease;
+  margin-top: 15px;
   width: 100%;
 }
 
-.footer_part_2_send_message input[type="text"] {
-  
+.footer_part_2_send_message textarea {
+  resize: none;
   width: 100%;
   transition: all 500ms ease;
   border: none;
   background: #f5fafe;
- 
-  border-radius: 6px 6px 6px 6px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  border-radius: 6px 6px 6px 6px;
+  
 
   min-height: 123px;
   outline: none;
-  padding-left: 31px;
+  padding-left: 23px;
   padding-right: 23px;
-  padding-top: 5px;
+  padding-top: 18px;
   padding-bottom: 5px;
   font-family: Mulish;
   font-style: normal;
