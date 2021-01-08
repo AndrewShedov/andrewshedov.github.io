@@ -1703,7 +1703,11 @@ ul.Breadcrumbs_ul li a {
   transition: all 500ms ease;
 }
 
+
+
 .gh_hotel_offer {
+  max-width: 70px;
+  width: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1711,7 +1715,10 @@ ul.Breadcrumbs_ul li a {
   border-radius: 3px;
   transition: all 500ms ease;
   height: 20px;
+  cursor: pointer;
 }
+
+
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
   .gh_hotel_offer:hover {
@@ -1720,18 +1727,11 @@ ul.Breadcrumbs_ul li a {
   }
 }
 
-.gh_hotel_offer_href {
-  transition: all 500ms ease;
-  max-width: 70px;
-  width: 70px;
-}
 
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  .gh_hotel_offer_href {
-    max-width: 70px;
-    width: 100%;
-  }
-}
+
+
+
+
 
 .gh_hotel_offer p {
   font-family: Mulish;
@@ -1831,18 +1831,17 @@ ul.Breadcrumbs_ul li a {
     width: 100%;
   }
 
-  .options_button_href {
-    transition: all 500ms ease;
-    max-width: 100% !important;
-    width: 100%;
-  }
+
 
   .options_button {
     margin-top: 10px;
     max-width: 100% !important;
     width: 100%;
+    cursor: pointer;
+    transition: all 500ms ease;
   }
 }
+
 
 @media screen and (min-width: 670px) and (max-width: 1040px) {
   .gh_hotel_options_map_wrap {
@@ -2195,7 +2194,8 @@ transition: all 500ms ease;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  max-width: 100% !important;
+  width: 100%;
   height: 45px;
   background: #ec1f46;
   border-radius: 4px;
@@ -5048,11 +5048,7 @@ align-items: center;
 .Other_Packages_p_1_description_book {
 }
 
-.Other_Packages_p_1_description_book_href {
-  transition: all 500ms ease;
-  max-width: 120px;
-  width: 120px;
-}
+
 
 .Other_Packages_p_1_description_book {
   display: flex;
@@ -5062,6 +5058,9 @@ align-items: center;
   border-radius: 3px;
   transition: all 500ms ease;
   height: 40px;
+  max-width: 120px;
+  width: 120px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -5096,11 +5095,7 @@ align-items: center;
   right: 0px;
 }
 
-.Other_Packages_p_1_image_offer_href {
-  transition: all 500ms ease;
-  max-width: 95px;
-  width: 95px;
-}
+
 
 .Other_Packages_p_1_image_offer {
   display: flex;
@@ -5111,6 +5106,9 @@ align-items: center;
   border-bottom-right-radius: 4px;
   transition: all 500ms ease;
   height: 30px;
+  max-width: 95px;
+  width: 95px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -5176,11 +5174,7 @@ align-items: center;
   right: 0px;
 }
 
-.Other_Packages_p_2_image_offer_href {
-  transition: all 500ms ease;
-  max-width: 60px;
-  width: 60px;
-}
+
 
 .Other_Packages_p_2_image_offer {
   display: flex;
@@ -5191,6 +5185,9 @@ align-items: center;
   border-bottom-right-radius: 4px;
   transition: all 500ms ease;
   height: 18px;
+  max-width: 60px;
+  width: 60px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -5416,11 +5413,6 @@ align-items: center;
   color: #ffffff;
 }
 
-.Other_Packages_p_2_description_book_href {
-  transition: all 500ms ease;
-  max-width: 120px;
-  width: 120px;
-}
 
 .Other_Packages_p_2_description_book {
   display: flex;
@@ -5430,6 +5422,9 @@ align-items: center;
   border-radius: 3px;
   transition: all 500ms ease;
   height: 40px;
+  max-width: 120px;
+  width: 120px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
