@@ -6459,6 +6459,13 @@ color: #FFFFFF;
     border-radius: 3px;
     transition: all 500ms ease;
     height: 30px;
+    max-width: 100px;
+    width: 100px;
+    z-index: 999999;
+    margin-top: 19px;
+    
+    margin-left:20px;
+    cursor: pointer;
   }
   
   @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -7312,14 +7319,6 @@ margin-top: 23px;
 
 
 
-.footer_part_2_send_button_href {
-  transition: all 500ms ease;
-  max-width: 160px;
-  width: 160px;
-  z-index: 999999;
- 
-  height: 50px;
-}
 
 .footer_part_2_send_button {
   display: flex;
@@ -7329,7 +7328,10 @@ margin-top: 23px;
   border-radius: 3px;
   transition: all 500ms ease;
   height: 50px;
-
+  max-width: 160px;
+  width: 160px;
+  z-index: 999999;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -7474,7 +7476,7 @@ margin-top: 23px;
   display: flex;
   justify-content: start;
   align-items: center;
-  
+  margin-top: 96px;
 }
 
 
