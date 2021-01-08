@@ -6604,7 +6604,7 @@ justify-content: space-between;
   max-width: 166px;
   display: flex;
   flex-wrap: wrap;
-  
+  margin-top: 22px;
 }
 
 .footer_part_1_title_1 {
@@ -6759,10 +6759,10 @@ width: 100%;
  
   width: 100%;
   max-width: 165px;
- 
+ /*
 display: flex;
 flex-wrap: wrap;
-
+*/
 }
 
 .footer_part_1_cat_title{
@@ -6979,9 +6979,10 @@ justify-content: space-between;
 
 
 .footer_infor_1{
+  /*
   flex-wrap: wrap;
   display: flex;
-  
+  */
   
 }
 
@@ -6993,7 +6994,7 @@ justify-content: space-between;
 
 }
 
-.footer_infor_1_list_wrap ul li{
+.footer_infor_1_list_wrap ul li a{
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
@@ -7011,7 +7012,7 @@ cursor: pointer;
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
 
-  .footer_infor_1_list_wrap ul li:hover{
+  .footer_infor_1_list_wrap ul li a:hover{
     transition: all 200ms ease;
   
   
@@ -7046,14 +7047,14 @@ display: flex;
 
 .footer_infor_2{
   flex-wrap: wrap;
+  /*
   display: flex;
-  
+  */
 }
 
 
 .footer_infor_2_title{
-
-
+  
 }
 
 
@@ -7080,7 +7081,7 @@ display: flex;
 
 }
 
-.footer_infor_2_list_wrap ul li{
+.footer_infor_2_list_wrap ul li a{
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
@@ -7099,7 +7100,7 @@ display: flex;
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
 
-  .footer_infor_2_list_wrap ul li:hover{
+  .footer_infor_2_list_wrap ul li a:hover{
     transition: all 200ms ease;
   
   
