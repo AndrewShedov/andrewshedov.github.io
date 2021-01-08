@@ -7758,16 +7758,123 @@ margin-top: 45px;
     }
 
 
+    .footer_part_3_payment{
+
+
+    }
+
+
     .footer_part_3_names_wrap{
       width: 100%;
       order: 2;
-     
+    margin-top: 5px;
     }
+
+    .footer_part_3_names{
+      
+     flex-wrap: wrap;
+    }
+
+    .footer_part_3_name_Andrew{
+width: 100%;
+margin-top: 5px;
+    }
+
+
+.footer_part_3_name_Mohammad{
+  width: 100%;
+
+}
+
 
     .footer_part_3_wrap {
 
       flex-wrap:wrap;
     }
+    .footer_part_3_name_Andrew {
+position: relative;
+
+
+    }
+
+
+
+
+    .footer_part_3_name_Mohammad {
+      order: 1;
+      margin-right: 0px;
+  }
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 360px) {
+
+  .footer_part_1_cat_wrap {
+    margin-left: 15px;
+
+}
+
+
+.footer_part_1_title_1 p {
+
+  font-size: 18vw;
+
+}
+
+
+.footer_part_1_title_3 p {
+
+  font-size: 18vw;
+
+}
+
+
+.footer_part_1_title_2 span:nth-child(1){
+  font-size: 18vw;
+
+}
+
+.footer_part_1_title_2 span:nth-child(2){
+  font-size: 18vw;
+
+}
+
+.footer_part_1_title_2 span:nth-child(3){
+  font-size: 18vw;
+
+}
+
+.footer_part_1_title_2 span:nth-child(4){
+  font-size: 18vw;
+
+}
+
+
+.footer_infor_2 {
+  
+  
+}
+.footer_part_1_cat_title p {
+  font-size: 5vw;
+}
+
+.footer_infor_1_title p {
+  font-size: 5vw;
+
+}
+
+
+
+.footer_infor_2_title p {
+  font-size: 5vw;
+
+}
+
 
 
 }
