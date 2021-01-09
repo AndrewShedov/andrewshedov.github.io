@@ -1,3 +1,5 @@
+ /*
+
 @font-face {
 font-family: "Mulish";
 src: url("fonts/Mulish/Mulish-VariableFont_wght.ttf");
@@ -12,7 +14,7 @@ src: url("fonts/Nunito/Nunito-Regular.ttf");
 font-family: "Luckiest Guy";
 src: url("fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf");
 }
-
+*/
 @-webkit-keyframes fade-in {
 0% {
 opacity: 0.1;
