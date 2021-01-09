@@ -780,6 +780,20 @@ ul {
   }
 }
 
+@media screen and (min-width: 630px) and (max-width: 900px) {
+  .header_wrap_2_0 {
+    transition: all 500ms ease;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 475px;
+    justify-content: flex-end;
+    margin-bottom: 35px;
+  }
+}
+
+
+
 @media screen and (min-width: 630px) and (max-width: 99999999px) {
   .header_wrap_2_0 {
     transition: all 500ms ease;
@@ -798,10 +812,10 @@ ul {
     flex-wrap: nowrap;
     width: 100%;
     max-width: 100%;
-
-    margin-top: 30px;
+     
+    margin-top: 35px;
     justify-content: center;
-
+margin-bottom: 30px;
     height: 30px !important;
   }
 }
