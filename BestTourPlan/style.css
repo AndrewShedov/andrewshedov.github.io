@@ -6278,6 +6278,22 @@ height: 100%;
   max-width: 200px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 630px) {
+
+.Other_Activities_description_title_wrap {
+ 
+  margin-left: 10px !important;
+ 
+}
+
+
+.Other_Activities_description_button{
+  margin-left: 10px !important;
+  
+}
+
+}
+
 .Other_Activities_description_title {
   width: 100%;
   max-width: 150px;
