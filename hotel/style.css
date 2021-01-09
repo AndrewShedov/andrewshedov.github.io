@@ -6887,6 +6887,17 @@ flex-wrap: wrap;
 
 
 }
+@media screen and (min-width: 0px) and (max-width: 630px) {
+  .footer_part_1_cat_title{
+
+position: relative;
+right: 2px;
+  }
+
+}
+
+
+
 
 .footer_part_1_cat_title p{
   font-family: Mulish;
