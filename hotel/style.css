@@ -6,10 +6,12 @@ body {
   overflow-x: hidden;
   */
   overflow-anchor: none;
+  overflow-x:hidden;
 }
 
 * {
   text-decoration: none;
+ 
 }
 
 svg path {
