@@ -590,6 +590,8 @@ ul {
     align-items: center;
     transition: all 500ms ease;
     height: 70px !important;
+    margin-top: 2px;
+    margin-bottom: 1px;
   }
 }
 
