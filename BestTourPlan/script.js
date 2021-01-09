@@ -64,7 +64,7 @@ document.getElementById('menu').onclick = function(event) {
 
 
 
-/*Menu scrolling
+/*Menu scrolling*/
 
 
 
@@ -76,8 +76,8 @@ let nav = document.querySelector('.nav');
 let li = document.querySelectorAll(".nav  ul  li")
     
 if(scrollTop >= 180){
-    li.forEach(el => el.style.height = "40px");
-    nav.style.height = "40px";
+    li.forEach(el => el.style.height = "45px");
+    nav.style.height = "45px";
 
 }
 else{
@@ -87,7 +87,7 @@ else{
      
     };
 });
-    */
+    
 
 /*Menu_2*/
 
