@@ -6,6 +6,18 @@
  
 }
 
+@font-face {
+  font-family: 'Nunito';
+  src: url('fonts/Nunito/Nunito-Regular.ttf'); 
+      }
+
+@font-face {
+  font-family: 'Luckiest Guy';
+  src: url('fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf'); 
+}
+
+
+
 
 body {
   /*
@@ -1389,8 +1401,8 @@ input[type="search"] {
 @media screen and (min-width: 1200px) and (max-width: 99999999999px) {
   .nav ul li {
     cursor: pointer;
-    padding-right: 43px;
-    padding-left: 43px;
+    padding-right: 43.4px;
+    padding-left: 43.4px;
     align-items: center;
     display: flex;
     justify-content: center;
