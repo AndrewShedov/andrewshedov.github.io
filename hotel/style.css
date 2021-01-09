@@ -1,3 +1,12 @@
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('fonts/Mulish/Mulish-VariableFont_wght.ttf'); 
+      
+ 
+}
+
+
 body {
   /*
   -moz-user-select: none;
@@ -3218,7 +3227,7 @@ background-color: red;
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 15px;
   color: #333333;
 margin-bottom: 19px;
