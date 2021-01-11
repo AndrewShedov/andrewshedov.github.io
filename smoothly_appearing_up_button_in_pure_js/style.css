@@ -13,7 +13,7 @@
   font-size: 50px;
   z-index: 99999999999999;
   cursor: pointer;
-  color: #ec1f44a6;
+  color: rgba(93, 191, 236, 0.753);
   border-radius: 4px;
   opacity: 0;
   visibility: hidden;
@@ -236,7 +236,7 @@ margin-bottom: 10px;
 .title h1{
   font-size: 35px;
 text-align: center;
-color: rgba(202, 172, 88, 0.753);
+color: rgba(202, 172, 88, 0.924);
 font-family: "Trebuchet MS";
 }
 
