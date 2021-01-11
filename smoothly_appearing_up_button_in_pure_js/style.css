@@ -36,9 +36,12 @@ opacity: 1;
 visibility: visible;
 transition: all 300ms ease;
 }
-/*  UP BUTTON */
 
 
+
+
+
+/*//////////////////////////////////////////////////////////////////*/
 
 @-webkit-keyframes fade-in {
 0% {
