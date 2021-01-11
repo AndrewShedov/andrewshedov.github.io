@@ -6740,6 +6740,14 @@ order: 2;
 display: flex;
 }
 
+@media screen and (min-width: 650px) and (max-width: 9999999999px) {
+  .footer_part_3_names {
+    position: relative;
+    left: 50px
+    }
+
+}
+
 .footer_part_3_name_Andrew {
 order: 2;
 }
