@@ -45,6 +45,7 @@ function scrollTo(to, duration = 700) {
     // When you click, scroll to the very top
     btn.onclick = function (click) {
         click.preventDefault();
+        //Speed up
         scrollTo(0, 200);
     }
   });
@@ -54,7 +55,7 @@ function scrollTo(to, duration = 700) {
 
 
 
-///////////////SCROL
+///////////////scrol when you click on the title
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
 for (let smoothLink of smoothLinks) {
     smoothLink.addEventListener('click', function (e) {
