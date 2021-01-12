@@ -305,19 +305,19 @@ right: -10px;
 }
 .hoverBurger .burger-bar-top {
 width: 7px;
-background-color: #a88a28;
+background-color: #000000;
 }
 .hoverBurger .burger-bar-middle {
 width: 7px;
-background-color: #a88a28;
+background-color: #000000;
 }
 .hoverBurger .burger-bar-bottom {
 width: 7px;
-background-color: #a88a28;
+background-color: #000000;
 }
 .hoverBurger .burger-bar-bottom1 {
 width: 7px;
-background-color: #a88a28;
+background-color: #000000;
 }
 .burger-open .burger-bar-top {
 transform: rotate(270deg) translate(-4px, 15px);
@@ -325,7 +325,7 @@ transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 border-radius: 50%;
 height: 7px;
 width: 7px;
-background-color: #a88a28;
+background-color: #000000;
 right: 12px;
 top: -3px;
 }
@@ -338,7 +338,7 @@ left: 29.5px;
 right: -3px;
 */
 top: 33px;
-background-color: #a88a28;
+background-color: #000000;
 transform: rotate(270deg);
 }
 .burger-open .burger-bar-bottom {
@@ -346,7 +346,7 @@ transform: rotate(270deg) translate(1px, 11px);
 border-radius: 50%;
 height: 7px;
 width: 7px;
-background-color: #a88a28;
+background-color: #000000;
 right: 7.8px;
 top: 13px;
 }
@@ -357,7 +357,7 @@ height: 7px;
 width: 7px;
 right: 3.8px !important;
 top: 31px;
-background-color: #a88a28;
+background-color: #000000;
 }
 }
 
