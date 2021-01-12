@@ -34,7 +34,7 @@ transition: all 300ms ease !important;
 
 .Wrap_Button:hover{
   transition: all 500ms ease !important;
-  background-color: rgba(214, 184, 86, 0.726);
+  background-color: rgba(100, 83, 27, 0.726);
 
 }
 
@@ -186,7 +186,7 @@ right: calc(2%);
   right: 0;
   transform: translateX(101%);
   height: 100%;
-  background: rgb(11, 33, 56);
+  background: #272626;
   text-align: center;
   transition: all 200ms ease;
   overflow-y: auto;
@@ -228,76 +228,29 @@ right: calc(2%);
   .menu li:nth-child(1) a {
   white-space: nowrap;
   position: relative;
-  font-family: Luckiest Guy;
+  font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
   line-height: 24px;
-  color: #ffffff;
+  color: rgba(202, 172, 88, 0.924);
   }
   
-  .menu li:nth-child(1) {
-  padding-top: 10px;
-  padding-bottom: 15px !important;
-  }
   
-  .menu li:nth-child(5) {
-  /*
-  padding-bottom: 6.5px !important;
-  */
-  }
   
   .menu li:nth-child(1) a:hover {
   font-size: 28px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.924);
   }
   
   .menu ul li a:hover {
   /* identical to box height */
   text-transform: uppercase;
-  color: #ec1f46;
+  color:#8f7b3b;
   transition: all 300ms ease;
   }
   
-  .menu ul li a span:nth-child(1) {
-  font-family: Luckiest Guy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 24px;
-  color: rgba(236, 31, 70, 1);
-  transition: all 500ms ease;
-  }
-  
-  .menu ul li a span:nth-child(2) {
-  font-family: Luckiest Guy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 24px;
-  color: rgba(236, 31, 70, 1);
-  transition: all 500ms ease;
-  }
-  
-  .menu ul li a span:nth-child(3) {
-  font-family: Luckiest Guy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 24px;
-  color: rgba(236, 31, 70, 1);
-  transition: all 500ms ease;
-  }
-  
-  .menu ul li a span:nth-child(4) {
-  font-family: Luckiest Guy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 24px;
-  color: rgba(236, 31, 70, 1);
-  transition: all 500ms ease;
-  }
+ 
 
 
 /*//////////BURGER//////////*/
@@ -335,20 +288,20 @@ right: calc(2%);
   width: 7px;
   border-bottom: none;
   top: 0;
-  background-color: #ec1f4486;
+  background-color:#D6B856;
   }
   .burger .burger-bar-middle {
   border-radius: 50%;
   height: 7px;
   width: 7px;
-  background-color: #ec1f4486;
+  background-color:#D6B856;
   top: 11px;
   }
   .burger .burger-bar-bottom {
   border-radius: 50%;
   height: 7px;
   width: 7px;
-  background-color: #ec1f4486;
+  background-color:#D6B856;
   border-top: none;
   top: 22px;
   }
@@ -356,7 +309,7 @@ right: calc(2%);
   border-radius: 50%;
   height: 7px;
   width: 7px;
-  background-color: #ec1f4486;
+  background-color:#D6B856;
   border-top: none;
   top: 33px;
   }
@@ -370,19 +323,19 @@ right: calc(2%);
   }
   .hoverBurger .burger-bar-top {
   width: 7px;
-  background-color: #ec1f46;
+  background-color:#8f7b3b;
   }
   .hoverBurger .burger-bar-middle {
   width: 7px;
-  background-color: #ec1f46;
+  background-color:#8f7b3b;
   }
   .hoverBurger .burger-bar-bottom {
   width: 7px;
-  background-color: #ec1f46;
+  background-color:#8f7b3b;
   }
   .hoverBurger .burger-bar-bottom1 {
   width: 7px;
-  background-color: #ec1f46;
+  background-color:#8f7b3b;
   }
   .burger-open .burger-bar-top {
   transform: rotate(270deg) translate(-4px, 15px);
@@ -390,27 +343,11 @@ right: calc(2%);
   border-radius: 50%;
   height: 7px;
   width: 7px;
-  /*
-  background: rgb(89, 159, 233);
-  */
-  background-color: #ec1f46;
+  background-color:#8f7b3b;
   right: 12px;
   top: -3px;
   }
-  /*
-  @-moz-document url-prefix() {
-  .burger-open .burger-bar-middle {
-  border-radius: 50%;
-  height: 7px;
-  width: 7px;
-  right: -3.2px !important;
-  
-  top: 33px;
-  background: rgb(89, 159, 233);
-  transform: rotate(270deg);
-  }
-  }
-  */
+ 
   .burger-open .burger-bar-middle {
   border-radius: 50%;
   height: 7px;
@@ -420,7 +357,7 @@ right: calc(2%);
   right: -3px;
   */
   top: 33px;
-  background-color: #ec1f46;
+  background-color:#8f7b3b;
   transform: rotate(270deg);
   }
   .burger-open .burger-bar-bottom {
@@ -428,7 +365,7 @@ right: calc(2%);
   border-radius: 50%;
   height: 7px;
   width: 7px;
-  background-color: #ec1f46;
+  background-color:#8f7b3b;
   right: 7.8px;
   top: 13px;
   }
@@ -439,7 +376,7 @@ right: calc(2%);
   width: 7px;
   right: 3.8px !important;
   top: 31px;
-  background-color: #ec1f46;
+  background-color:#8f7b3b;
   }
   }
 
