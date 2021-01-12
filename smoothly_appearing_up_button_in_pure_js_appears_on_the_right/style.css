@@ -23,32 +23,37 @@ transition: all 300ms ease !important;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50% ;
-  width: 40px;
-  height: 40px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  
   background-color: rgba(255, 255, 255, 0.377);
   transition: all 500ms ease !important;
 }
 
 .Wrap_Button:hover{
   transition: all 500ms ease !important;
-  background-color: rgba(214, 184, 86, 0.685);
+  background-color: rgb(214, 184, 86);
 
 }
 
 
 .Button{
-  color: rgba(93, 191, 236, 0.835);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(4, 25, 34);
   font-size: 50px;
   transition: all 500ms ease !important;
 }
 
 
 .Button:hover {
-
+/*
 transition: all 500ms ease !important;
-color: rgba(0, 0, 0, 0.842);
 
+color: rgb(0, 0, 0);
+*/
 }
 
 
