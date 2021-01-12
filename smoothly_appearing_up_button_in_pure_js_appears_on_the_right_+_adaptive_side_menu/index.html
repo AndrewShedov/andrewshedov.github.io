@@ -2,18 +2,34 @@
 <html lang="en" >
 <head>
 <meta charset="UTF-8">
-<title>Smoothly appearing up button in pure js (appears on the right)</title>
+<title>Smoothly appearing up button in pure js appears on the right + adaptive side menu</title>
 <link rel="stylesheet" href="./style.css">
 <meta name=viewport content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous>
+<link href="https://fonts.googleapis.com/css2?family=Mulish" rel="stylesheet">
 </head>
 <body>
 <div class="wrap" id="wrap">
 <div id="home" class="content">
+  <div class="nav">
+    <ul>
+    <li ><a href="#a" >All Deals</a></li>
+    <li ><a href="#a" >Hotels</a></li>
+    <li ><a href="#a" >Activities</a></li>
+    <li ><a href="#a" >Hotel Day Packages</a></li>
+    <li ><a href="#a" >Restaurants</a></li>
+    <li ><a href="#a" >Events</a></li>
+    <li ><a href="#a" >Rodrigues</a></li>
+    </ul>
+    </div>
 <div  class="title ">
-<h1>Smoothly appearing up button in pure js <br/>(appears on the right)</h1>
+  <h1>Smoothly appearing up button in pure js appears on the right <br/> + adaptive side menu</h1>
 </div>
+
+<div class="block_wrap">
+
+<div class="block_wrap_2">
 <div class=block1 >
 <div class=blocks></div>
 <div class=blockt1>
@@ -79,13 +95,20 @@ Next day I checked out of the hotel, caught a taxi and went on the excursion aro
 </p>
 </div>
 </div>
+</div>
+
+</div>
+
 <div class="look">
 <p>Look at <a href="https://codepen.io/AndrewShedov/pen/VwKpJOO" target="blank">СodePen</a>, <a href="https://github.com/AndrewShedov/andrewshedov.github.io/tree/master/smoothly_appearing_up_button_in_pure_js_appears_on_the_right" target="blank">GitHub</a>.
 <p> 
 </div>
 </div>
-
-
+<div id="UpButton">
+<div class="Wrap_Button">
+<div class="Button"><i class="fas fa-arrow-alt-circle-up"></i></div>
+</div>
+</div>
 <div class="footer_wrap">
 <div class="Contacts_Wrap">
 <div class="Contacts_Icons_Wrap">
@@ -112,10 +135,29 @@ Next day I checked out of the hotel, caught a taxi and went on the excursion aro
 </div>
 </div>
 </div>
-<div id="UpButton">
-  <div class="Wrap_Button">
-  <div class="Button"><i class="fas fa-arrow-alt-circle-up"></i></div>
+<div class="burger" id="burger">
+  <div class="burger-bar burger-bar-top"></div>
+  <div class="burger-bar burger-bar-middle"></div>
+  <div class="burger-bar burger-bar-bottom"></div>
+  <div class="burger-bar burger-bar-bottom1"></div>
+  <div class="burger-bar burger-bar-bottom2"></div>
   </div>
+
+<div class="menu" id="menu">
+  <ul>
+  <li>
+  <div class="header_logo_menu">
+  <a href="https://andrewshedov.github.io/BestTourPlan">Best <span>t</span><span>o</span><span>u</span><span>r</span> plan</a>
+  </div>
+  </li>
+  <li><a href="#home">All Deals</a></li>
+  <li><a href="#about">Hotels</a></li>
+  <li><a href="#dancing">Activities</a></li>
+  <li><a href="#contact">Hotel Day Packages</a></li>
+  <li><a href="#contact">Restaurants</a></li>
+  <li><a href="#contact">Events</a></li>
+  <li><a href="#contact">Rodrigues</a></li>
+  </ul>
   </div>
 <script  src="./script.js"></script>
 </body>

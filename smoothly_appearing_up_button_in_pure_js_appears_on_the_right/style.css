@@ -33,7 +33,7 @@ transition: all 300ms ease !important;
 
 .Wrap_Button:hover{
   transition: all 500ms ease !important;
-  background-color: rgb(214, 184, 86);
+  background-color: rgba(214, 184, 86, 0.726);
 
 }
 
@@ -256,6 +256,7 @@ font-size: 35px;
 text-align: center;
 color: rgba(202, 172, 88, 0.924);
 font-family: "Trebuchet MS";
+
 }
 
 
@@ -304,7 +305,7 @@ cursor: default;
 
 @media screen and (min-width:1000px) and (max-width: 99999999px) {
 .footer a:hover {
-color: rgba(68, 68, 68, 0.781);
+color: rgba(26, 26, 26, 0.87);
 transition: 0.5s;
 }
 }
