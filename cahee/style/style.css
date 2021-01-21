@@ -33,7 +33,7 @@
 @keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 
 body{
-  
+  background-color: rgb(255, 255, 255);
   -webkit-animation: fade-in 700ms linear; /* Safari 4+ */
   -moz-animation: fade-in 700ms linear; /* Fx 5+ */
   -o-animation: fade-in 700ms linear; /* Opera 12+ */
