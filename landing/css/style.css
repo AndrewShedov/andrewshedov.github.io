@@ -31,6 +31,7 @@ body {
   line-height: 1;
   margin: 0;
   padding: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 h1, h2, h3, h4, h5, h6, ul, ol, p {
@@ -477,10 +478,12 @@ div.scrollup {
   cursor: pointer; /* форма курсора */
   display: none; /* не отображать элемент */
   text-align: center; /*выравнивание содержимого элемента по центру */
+  transition: all 100ms ease !important;
 }
 
 div.scrollup:hover {
   color: rgba(57, 124, 212, 0.692); 
+  transition: all 300ms ease !important;
 }
 
         @media screen and (max-device-width: 685px) {
