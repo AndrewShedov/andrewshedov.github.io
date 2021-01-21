@@ -52,6 +52,7 @@ p {
 a, a:hover{
   color: #E74C3C;
   text-decoration: underline;
+  transition: all 300ms ease !important;
 }
 
 /* ========================
