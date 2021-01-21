@@ -47,7 +47,8 @@ body {
     -webkit-animation: fade-in 700ms linear;
     -moz-animation: fade-in 700ms linear;
     -o-animation: fade-in 700ms linear;
-    animation: fade-in 700ms linear
+    animation: fade-in 700ms linear;
+    background-color: rgb(255, 255, 255);
 }
 
 .bone:hover {
@@ -978,7 +979,8 @@ select {
     flex-wrap: wrap;
     margin-right: 173px;
     height: 100%;
-    margin-bottom: 26px
+    margin-bottom: 26px;
+    
 }
 
 .footer-1:nth-child(2) {
@@ -990,14 +992,16 @@ select {
     flex-wrap: wrap;
     margin-right: 0;
     height: 100%;
-    margin-right: 0
+    margin-right: 0;
+     
 }
 
 .footer-1-t1 {
     height: 100%;
     max-width: 500px;
     width: 100%;
-    margin-top: 25px
+    margin-top: 25px;
+    white-space: nowrap;
 }
 
 .footer-1-t1 a {
@@ -1031,7 +1035,8 @@ select {
 .footer-1-t2 {
     height: 100%;
     max-width: 500px;
-    width: 100%
+    width: 100%;
+    white-space: nowrap;
 }
 
 .footer-1-t2 a {
