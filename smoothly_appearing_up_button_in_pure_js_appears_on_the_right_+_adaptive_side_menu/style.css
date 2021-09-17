@@ -252,9 +252,7 @@ right: -17.7px;
 top: 3px;
 /*top: 30px;*/
 }
-.hoverBurger {
-transition: all 100ms ease;
-}
+
 .burger:hover {
 cursor: pointer;
 }
@@ -295,6 +293,9 @@ background-color: #D6B856;
 border-top: none;
 top: 33px;
 }
+
+
+
 .burger .burger-bar-bottom2 {
 height: 70px;
 width: 70px;
@@ -303,19 +304,23 @@ border-top: none;
 top: -3px;
 right: -10px;
 }
-.hoverBurger .burger-bar-top {
+.burger:hover .burger-bar-top {
 width: 7px;
 background-color: #000000;
+
+
 }
-.hoverBurger .burger-bar-middle {
+.burger:hover .burger-bar-middle {
 width: 7px;
 background-color: #000000;
+
 }
-.hoverBurger .burger-bar-bottom {
+.burger:hover .burger-bar-bottom {
 width: 7px;
 background-color: #000000;
+
 }
-.hoverBurger .burger-bar-bottom1 {
+.burger:hover .burger-bar-bottom1 {
 width: 7px;
 background-color: #000000;
 }

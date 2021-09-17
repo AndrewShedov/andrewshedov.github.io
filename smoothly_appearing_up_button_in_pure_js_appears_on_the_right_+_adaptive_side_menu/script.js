@@ -19,15 +19,6 @@ function calcShowMenu(showMenu) {
 
 let showMenu = false
 
-////////////////Hover burger
-burger.onmouseover = function() {
-    burger.classList.toggle("hoverBurger");
-   }
-
-burger.onmouseout = function() {
-    burger.classList.toggle("hoverBurger");
-   }
-
 
 /////////////////Pressing a Burger
 burger.addEventListener('click', () => calcShowMenu(showMenu = !showMenu)
