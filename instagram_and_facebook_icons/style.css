@@ -3,12 +3,14 @@ background-color: #00C6F2 ;
 }
 
 .wrap{
- height: 100%;
+ height: 500px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 5px;
     margin-bottom: 110px;
     transition: all 300ms ease;
+ 
   }
   
   .inst_n {
