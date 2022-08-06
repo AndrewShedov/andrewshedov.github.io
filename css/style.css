@@ -3,8 +3,6 @@ display: flex;
 justify-content: center;
 margin-top: 150px;
 margin-bottom: 150px;
-transition: all 300ms ease;
-
 }
 
 .Site_Wrap a{
