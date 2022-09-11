@@ -68,7 +68,7 @@
 	
 		<!--	<div class="callback_window_input_phone_wrap"> 1-->
 			<div class="callback_window_input_phone_wrap">
-	<input class="callback_window_input_phone" type="number" id="phone" name="callback_window_input_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Телефон">
+	<input class="callback_window_input_phone" type="text" id="phone" name="callback_window_input_phone" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" placeholder="Телефон">
 		</div>
 			<!--	<div class="callback_window_input_phone_wrap"> 2-->
 	
