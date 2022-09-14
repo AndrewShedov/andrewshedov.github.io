@@ -1,386 +1,368 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-	<meta name=robots content=noindex,nofollow>
-  <meta charset="UTF-8">
+<meta name="robots" content="noindex,nofollow" />
+<meta charset="UTF-8" />
 <title>Call back popup on jQuery</title>
-  <link rel="stylesheet" href="./style.css">
-	<meta name=viewport content="width=device-width, initial-scale=1.0">
-
-	<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css >
-
-
+<link rel="stylesheet" href="./style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel=stylesheet
+href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css
+>
 </head>
 <body>
-
 <!-- //////////////////////	CALL BACK ///////////////////// 1 -->
-
 <!--	<div class="callback_button_wrap" > 1-->
-<div class="callback_button_wrap" >
-<div class="callback_button_pulsation" ></div>
-<i class="fa fa-phone "> </i>
+<div class="callback_button_wrap">
+<div class="callback_button_pulsation"></div>
+<i class="fa fa-phone"> </i>
 </div>
 <!--	<div class="callback_button_wrap" > 2-->
-
-
-
 <!--	<div class="callback_wrap">  1-->
 <div class="callback_wrap">
-	
-
-	<!--	<div class="callback_window_wrap">  1-->
-	<div class="callback_window_wrap">
-
-
-		<!--	<div class="callback_window">  1-->
-		<div class="callback_window">
-
-			<!--	<div class="callback_window-button_close">  1-->
-		<div class="callback_window-button_close">
-			<i class="fa fa-times callback_window-button_close_icon" aria-hidden="true"></i>
-		</div>
+<!--	<div class="callback_window_wrap">  1-->
+<div class="callback_window_wrap">
+<!--	<div class="callback_window">  1-->
+<div class="callback_window">
 <!--	<div class="callback_window-button_close">  1-->
- 
-	<!--	<div class="callback_window_title_wrap"> 1-->
+<div class="callback_window-button_close">
+<i
+class="fa fa-times callback_window-button_close_icon"
+aria-hidden="true"
+></i>
+</div>
+<!--	<div class="callback_window-button_close">  1-->
+<!--	<div class="callback_window_title_wrap"> 1-->
 <div class="callback_window_title_wrap">
-	
-				<p>Request a call back</p>
-
-
-
-		</div>
+<p>Request a call back</p>
+</div>
 <!--	<div class="callback_window_title_wrap"> 2-->
-
-
-
-
-
-	<div class="callback_window_2_wrap">
-
+<div class="callback_window_2_wrap">
 <!--	<div class="callback_window_input_name_wrap"> 1-->
-	<div class="callback_window_input_name_wrap">
-		<input class="callback_window_input_name" id="username" type="text" name="callback_window_input_name" placeholder="Name">
-	
-		</div>
-	<!--	<div class="callback_window_input_name_wrap"> 2-->
-	
-	
-	
-		<!--	<div class="callback_window_input_phone_wrap"> 1-->
-			<div class="callback_window_input_phone_wrap">
-	<input class="callback_window_input_phone" type="text" id="phone" name="callback_window_input_phone" onkeyup="this.value = this.value.replace(/[^+\d]/g, '');" placeholder="Phone number
-	">
-		</div>
-			<!--	<div class="callback_window_input_phone_wrap"> 2-->
-	
-	
-	
-	
-		<!--	<div class="callback_privacy_policy_wrap"> 1-->
-			<div class="callback_privacy_policy_wrap">
-				<div class="callback_privacy_policy">
-	
-					<div class="checkbox_callback_privacy_policy_wrap">
-	<input class="checkbox_callback_privacy_policy" type="checkbox" id="accept-terms">
-	
-	</div>
-	<label class="callback_privacy_policy_label" for="accept-terms">
-		<p>I consent to the processing of my personal data.</p></label>
-	
-	</div>
-	</div>
-	<!--	<div class="callback_privacy_policy_wrap"> 2-->
-	
-	
-		<!--	<div class="callback_send_button_wrap"> 1-->
-			<div class="callback_send_button_wrap">
-	
-		<input type="hidden" name="callback_send_button_recaptcha_response" id="callback_send_button_recaptcha_token">
-	
-		
-		<input class="callback_send_button" id="callback_send_button" type="submit" value="Send">
-	
-	</div>	
-	
-	<!--	<div class="callback_send_button_wrap">  2-->
-	
-
-	</div>
-
-
-
-	
-
-	</div>	
-
+<div class="callback_window_input_name_wrap">
+<input
+class="callback_window_input_name"
+id="username"
+type="text"
+name="callback_window_input_name"
+placeholder="Name"
+/>
+</div>
+<!--	<div class="callback_window_input_name_wrap"> 2-->
+<!--	<div class="callback_window_input_phone_wrap"> 1-->
+<div class="callback_window_input_phone_wrap">
+<input
+class="callback_window_input_phone"
+type="text"
+id="phone"
+name="callback_window_input_phone"
+onkeyup="this.value = this.value.replace(/[^+\d]/g, '');"
+placeholder="Phone number
+"
+/>
+</div>
+<!--	<div class="callback_window_input_phone_wrap"> 2-->
+<!--	<div class="callback_privacy_policy_wrap"> 1-->
+<div class="callback_privacy_policy_wrap">
+<div class="callback_privacy_policy">
+<div class="checkbox_callback_privacy_policy_wrap">
+<input
+class="checkbox_callback_privacy_policy"
+type="checkbox"
+id="accept-terms"
+/>
+</div>
+<label class="callback_privacy_policy_label" for="accept-terms">
+<p>I consent to the processing of my personal data.</p></label
+>
+</div>
+</div>
+<!--	<div class="callback_privacy_policy_wrap"> 2-->
+<!--	<div class="callback_send_button_wrap"> 1-->
+<div class="callback_send_button_wrap">
+<input
+type="hidden"
+name="callback_send_button_recaptcha_response"
+id="callback_send_button_recaptcha_token"
+/>
+<input
+class="callback_send_button"
+id="callback_send_button"
+type="submit"
+value="Send"
+/>
+</div>
+<!--	<div class="callback_send_button_wrap">  2-->
+</div>
+</div>
 <!--	<div class="callback_window">  2-->
-
-
-	</div>		
-
+</div>
 <!--	<div class="callback_window_wrap">  2-->
-
-
-
 </div>
 <!--	<div class="callback_wrap">  2 -->
-
-
-
 <!-- //////////////////////	CALL BACK ///////////////////// 2 -->
+<div class="wrap">
+<div class="title">
+<h1>Call back popup on jQuery</h1>
+</div>
+<div class="look">
+<p>
+Watch it on
+<a href="https://codepen.io/AndrewShedov/pen/ZEpMZdr" target="blank"
+>СodePen</a
+>,
+<a
+href="https://github.com/AndrewShedov/andrewshedov.github.io/tree/master/smoothly_appearing_up_button_in_pure_js"
+target="blank"
+>GitHub</a
+>.
+</p>
+<p></p>
+</div>
 
-<div  class="wrap">
-
-
-	<div  class="title">
-	<h1>Call back popup on jQuery</h1>
-	</div>
-
-	<div class="look">
-		<p>Watch it on <a href="https://codepen.io/AndrewShedov/pen/ZEpMZdr" target="blank">СodePen</a>, <a href="https://github.com/AndrewShedov/andrewshedov.github.io/tree/master/smoothly_appearing_up_button_in_pure_js" target="blank">GitHub</a>.
-		<p> 
-		</div>
-
-
-
-	<div  class="title_contacting_wrap">
-
-	<div  class="title_contacting">
-		<p>Please subscribe to my social networks:</p>
-	</div>
-
-	</div>
-
-
-	<div class="Contacts_Wrap">
-	
-		
-		
-		<div class="Contacts_Icons_Wrap">
-		<!-- <div class="Contacts_Icons_Wrap_level_1_wrap"> 1-->
-		<div class="Contacts_Icons_Wrap_level_1_wrap">
-	
-		
-		<div class="twitter">
-		<a class="twitter2" href="https://twitter.com/AndrewShedov" target="blank" rel="noopener"><i class="fab fa-twitter"></i>
-		</a>
-		
-		</div>
-		<div class="vk_icon">
-		<a class="vk_icon_2" href="https://vk.com/andrewshedov" target="blank" rel="noopener"><i class="fab fa-vk"></i>
-		</a>
-		</div>
-		
-		<div class="vk_icon_public">
-		<a class="vk_icon_2_public" href="https://vk.com/shedovs" target="blank" rel="noopener"><img src="https://shedov.top/wp-content/images/vk_public_3.png" alt="vk_public">
-		</a>
-		</div>
-		
-		
-		<div class="discord_icon">
-		<a class="discord_icon_2" href="https://discordapp.com/channels/1006372235172384849/1006372235692486790" target="blank" rel="noopener"><i class="fab fa-discord"></i>
-		</a>
-		</div>
-		
-		
-		
-		<div class="telegram_icon">
-		<a class="telegram_icon_2" href="https://t.me/Shedovs" target="blank" rel="noopener"><i class="fab fa-telegram"></i>
-		</a>
-		</div>
-		<!-- <div class="Contacts_Icons_Wrap_level_1_wrap"> 2-->
-		</div>
-		
-		
-		
-		<!-- <div class="Contacts_text_wrap"> 1-->
-		<div class="Contacts_text_wrap">
-		<!-- <div class="Contacts_text"> 1-->
-		<div class="Contacts_text">
-		<p>Streams, videos</p>
-		<!-- <div class="Contacts_text"> 2-->
-		</div>
-		<!-- <div class="Contacts_text_wrap"> 2-->
-		</div>
-		
-		
-		<!-- <div class="Contacts_Icons_Wrap_level_2_wrap"> 1-->
-		<div class="Contacts_Icons_Wrap_level_2_wrap">
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		<div class="trovo_icon">
-		<a class="trovo_icon_2" href="https://trovo.live/s/ShedovShow" target="blank" rel="noopener"><img src="https://shedov.top/wp-content/images/Trovo.png" alt="trovo">
-		</a>
-		</div>
-		
-		
-		
-		<div class="youtube_icon">
-		<a class="youtube_icon_2" href="https://www.youtube.com/channel/UCsJiiS9XOmWKQ600_CkNTEg" target="blank" rel="noopener"><i class="fab fa-youtube"></i>
-		</a>
-		</div>
-		
-		<div class="twitch_icon">
-		<a class="twitch_icon_2" href="https://www.twitch.tv/shedov__" target="blank" rel="noopener"><i class="fab fa-twitch"></i>
-		</a>
-		</div>
-		
-		
-		
-		<!-- <div class="Contacts_Icons_Wrap_level_2_wrap"> 2-->
-		</div>
-		
-		
-		<!-- <div class="Contacts_text_wrap"> 1-->
-		<div class="Contacts_text_wrap">
-		<!-- <div class="Contacts_text"> 1-->
-		<div class="Contacts_text">
-		<p>Prog</p>
-		<!-- <div class="Contacts_text"> 2-->
-		</div>
-		<!-- <div class="Contacts_text_wrap"> 2-->
-		</div>
-		
-		
-		
-		<!-- <div class="Contacts_Icons_Wrap_level_4_wrap"> 1-->
-		<div class="Contacts_Icons_Wrap_level_4_wrap">
-		
-		
-		<div class="codepen">
-		<a class="codepen2" href="https://codepen.io/AndrewShedov" target="blank" rel="noopener"><i class="fab fa-codepen"></i>
-		</a>
-		</div>
-		<div class="github">
-		<a class="github2" href="https://github.com/AndrewShedov" target="blank" rel="noopener"><i class="fab fa-github"></i>
-		</a>
-		</div>
-		
-		
-		<!-- <div class="Contacts_Icons_Wrap_level_4_wrap"> 2-->
-		</div>
-		
-
-	
-		<div  class="title_contacting_2_wrap">
-
-			<div  class="title_contacting_2">
-				<p>If you want to support me:</p>
-			</div>
-
-		</div>
-
-		
-		<!-- <div class="donate_subscribe_buttons_wrap"> 1-->
-		<div class="donate_subscribe_buttons_wrap">
-		
-		<!-- <div class="donate_subscribe_buttons"> 1-->
-		<div class="donate_subscribe_buttons">
-		
-		
-		<!-- <div class="donate_button_wrap"> 1-->
-		<a class="donate_button_wrap_a" href="https://www.donationalerts.com/r/andrewshedov" target="blank" rel="noopener">
-		<div class="donate_button_wrap">
-		<p>Donate</p>
-		</div>
-		</a>
-		<!-- <div class="donate_button_wrap"> 2-->
-		
-		
-		
-		<!-- <div class="subscribe_button_wrap"> 1-->
-		<a href="https://boosty.to/shedov" target="blank" rel="noopener">
-		<div class="subscribe_button_wrap">
-		<p>Subscribe</p>
-		</div>
-		</a>
-		<!-- <div class="subscribe_button_wrap"> 2-->
-		
-		
-		
-		
-		<!-- <div class="donate_subscribe_buttons"> 2-->
-		</div>
-		
-		
-		
-		<!-- <div class="donate_subscribe_buttons_wrap"> 2-->
-		</div>
-		
-		
-		
-		
-		
-		<!-- <div class="Contacts_text_wrap"> 1-->
-		<div class="Contacts_text_wrap">
-		<!-- <div class="Contacts_text"> 1-->
-		<div class="Contacts_text">
-		<p>Payment Details</p>
-		
-		<!-- <div class="Contacts_text"> 2-->
-		</div>
-		<!-- <div class="Contacts_text_wrap"> 2-->
-		</div>
-		
-		
-		
-		<!-- <div class="Contacts_Icons_Wrap_level_3_wrap"> 1-->
-		<div class="Contacts_Icons_Wrap_level_3_wrap">
-		
-		
-		<div class="qiwi_icon">
-		<a class="qiwi_icon_2" href="https://qiwi.com/n/ANDREWSHEDOV" target="blank" rel="noopener"><img src="https://shedov.top/wp-content/images/qiwi.png" alt="qiwi">
-		</a>
-		</div>
-		
-		
-		<div class="yoomoney_icon">
-		<a class="yoomoney_icon_2" href="https://yoomoney.ru/to/410011226872318" target="blank" rel="noopener"><img src="https://shedov.top/wp-content/images/yoomoney.png" alt="yoomoney">
-		</a>
-		</div>
-		
-		<div class="paypal_icon">
-		<a class="paypal_icon_2" href="https://paypal.me/AndrewShedov" target="blank" rel="noopener"><i class="fab fa-paypal"></i>
-		</a>
-		</div>
-		
-		<div class="tinkoff_icon">
-		<a class="tinkoff_icon_2" href="https://www.tinkoff.ru/rm/shedov.andrey2/lGla256001" target="blank" rel="noopener"><img src="https://shedov.top/wp-content/images/tinkoff_logo.png" alt="tinkoff">
-		</a>
-		</div>
-		
-		<!-- <div class="Contacts_Icons_Wrap_level_3_wrap"> 2-->
-		</div>
-		
-		<!-- <div class="Contacts_Icons_Wrap_level_5_wrap"> 1-->
-		<div class="Contacts_Icons_Wrap_level_5_wrap">
-		<!-- <div class="Contacts_Icons_Wrap_level_5"> 1-->
-		<div class="Contacts_Icons_Wrap_level_5">
-		<p>BTC (Network - BTC Bitcoin):
-		1C2EWWeEXVhg93hJA9KovpkSd3Rn3BkcYm </p>
-		<p>ETH (Network - ETH Ethereum (ERC20)):
-		0x4c2cc23dcf86f0b39db499c951984f40d7bdf3ac</p>
-		<!-- <div class="Contacts_Icons_Wrap_level_5"> 2-->
-		</div>
-		<!-- <div class="Contacts_Icons_Wrap_level_5_wrap"> 2-->
-		</div>
-		
-		</div>
-		</div>
-
-	</div>
-
-
-
+<div class="title_contacting_wrap">
+<div class="title_contacting">
+<p>Please subscribe to my social networks:</p>
+</div>
+</div>
+<div class="Contacts_Wrap">
+<div class="Contacts_Icons_Wrap">
+<!-- <div class="Contacts_Icons_Wrap_level_1_wrap"> 1-->
+<div class="Contacts_Icons_Wrap_level_1_wrap">
+<div class="twitter">
+<a
+class="twitter2"
+href="https://twitter.com/AndrewShedov"
+target="blank"
+rel="noopener"
+><i class="fab fa-twitter"></i>
+</a>
+</div>
+<div class="vk_icon">
+<a
+class="vk_icon_2"
+href="https://vk.com/andrewshedov"
+target="blank"
+rel="noopener"
+><i class="fab fa-vk"></i>
+</a>
+</div>
+<div class="vk_icon_public">
+<a
+class="vk_icon_2_public"
+href="https://vk.com/shedovs"
+target="blank"
+rel="noopener"
+><img
+src="https://shedov.top/wp-content/images/vk_public_3.png"
+alt="vk_public"
+/>
+</a>
+</div>
+<div class="discord_icon">
+<a
+class="discord_icon_2"
+href="https://discordapp.com/channels/1006372235172384849/1006372235692486790"
+target="blank"
+rel="noopener"
+><i class="fab fa-discord"></i>
+</a>
+</div>
+<div class="telegram_icon">
+<a
+class="telegram_icon_2"
+href="https://t.me/Shedovs"
+target="blank"
+rel="noopener"
+><i class="fab fa-telegram"></i>
+</a>
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_1_wrap"> 2-->
+</div>
+<!-- <div class="Contacts_text_wrap"> 1-->
+<div class="Contacts_text_wrap">
+<!-- <div class="Contacts_text"> 1-->
+<div class="Contacts_text">
+<p>Streams, videos</p>
+<!-- <div class="Contacts_text"> 2-->
+</div>
+<!-- <div class="Contacts_text_wrap"> 2-->
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_2_wrap"> 1-->
+<div class="Contacts_Icons_Wrap_level_2_wrap">
+<div class="trovo_icon">
+<a
+class="trovo_icon_2"
+href="https://trovo.live/s/ShedovShow"
+target="blank"
+rel="noopener"
+><img
+src="https://shedov.top/wp-content/images/Trovo.png"
+alt="trovo"
+/>
+</a>
+</div>
+<div class="youtube_icon">
+<a
+class="youtube_icon_2"
+href="https://www.youtube.com/channel/UCsJiiS9XOmWKQ600_CkNTEg"
+target="blank"
+rel="noopener"
+><i class="fab fa-youtube"></i>
+</a>
+</div>
+<div class="twitch_icon">
+<a
+class="twitch_icon_2"
+href="https://www.twitch.tv/shedov__"
+target="blank"
+rel="noopener"
+><i class="fab fa-twitch"></i>
+</a>
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_2_wrap"> 2-->
+</div>
+<!-- <div class="Contacts_text_wrap"> 1-->
+<div class="Contacts_text_wrap">
+<!-- <div class="Contacts_text"> 1-->
+<div class="Contacts_text">
+<p>Prog</p>
+<!-- <div class="Contacts_text"> 2-->
+</div>
+<!-- <div class="Contacts_text_wrap"> 2-->
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_4_wrap"> 1-->
+<div class="Contacts_Icons_Wrap_level_4_wrap">
+<div class="codepen">
+<a
+class="codepen2"
+href="https://codepen.io/AndrewShedov"
+target="blank"
+rel="noopener"
+><i class="fab fa-codepen"></i>
+</a>
+</div>
+<div class="github">
+<a
+class="github2"
+href="https://github.com/AndrewShedov"
+target="blank"
+rel="noopener"
+><i class="fab fa-github"></i>
+</a>
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_4_wrap"> 2-->
+</div>
+<div class="title_contacting_2_wrap">
+<div class="title_contacting_2">
+<p>If you want to support me:</p>
+</div>
+</div>
+<!-- <div class="donate_subscribe_buttons_wrap"> 1-->
+<div class="donate_subscribe_buttons_wrap">
+<!-- <div class="donate_subscribe_buttons"> 1-->
+<div class="donate_subscribe_buttons">
+<!-- <div class="donate_button_wrap"> 1-->
+<a
+class="donate_button_wrap_a"
+href="https://www.donationalerts.com/r/andrewshedov"
+target="blank"
+rel="noopener"
+>
+<div class="donate_button_wrap">
+<p>Donate</p>
+</div>
+</a>
+<!-- <div class="donate_button_wrap"> 2-->
+<!-- <div class="subscribe_button_wrap"> 1-->
+<a href="https://boosty.to/shedov" target="blank" rel="noopener">
+<div class="subscribe_button_wrap">
+<p>Subscribe</p>
+</div>
+</a>
+<!-- <div class="subscribe_button_wrap"> 2-->
+<!-- <div class="donate_subscribe_buttons"> 2-->
+</div>
+<!-- <div class="donate_subscribe_buttons_wrap"> 2-->
+</div>
+<!-- <div class="Contacts_text_wrap"> 1-->
+<div class="Contacts_text_wrap">
+<!-- <div class="Contacts_text"> 1-->
+<div class="Contacts_text">
+<p>Payment Details</p>
+<!-- <div class="Contacts_text"> 2-->
+</div>
+<!-- <div class="Contacts_text_wrap"> 2-->
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_3_wrap"> 1-->
+<div class="Contacts_Icons_Wrap_level_3_wrap">
+<div class="qiwi_icon">
+<a
+class="qiwi_icon_2"
+href="https://qiwi.com/n/ANDREWSHEDOV"
+target="blank"
+rel="noopener"
+><img
+src="https://shedov.top/wp-content/images/qiwi.png"
+alt="qiwi"
+/>
+</a>
+</div>
+<div class="yoomoney_icon">
+<a
+class="yoomoney_icon_2"
+href="https://yoomoney.ru/to/410011226872318"
+target="blank"
+rel="noopener"
+><img
+src="https://shedov.top/wp-content/images/yoomoney.png"
+alt="yoomoney"
+/>
+</a>
+</div>
+<div class="paypal_icon">
+<a
+class="paypal_icon_2"
+href="https://paypal.me/AndrewShedov"
+target="blank"
+rel="noopener"
+><i class="fab fa-paypal"></i>
+</a>
+</div>
+<div class="tinkoff_icon">
+<a
+class="tinkoff_icon_2"
+href="https://www.tinkoff.ru/rm/shedov.andrey2/lGla256001"
+target="blank"
+rel="noopener"
+><img
+src="https://shedov.top/wp-content/images/tinkoff_logo.png"
+alt="tinkoff"
+/>
+</a>
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_3_wrap"> 2-->
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_5_wrap"> 1-->
+<div class="Contacts_Icons_Wrap_level_5_wrap">
+<!-- <div class="Contacts_Icons_Wrap_level_5"> 1-->
+<div class="Contacts_Icons_Wrap_level_5">
+<p>
+BTC (Network - BTC Bitcoin): 1C2EWWeEXVhg93hJA9KovpkSd3Rn3BkcYm
+</p>
+<p>
+ETH (Network - ETH Ethereum (ERC20)):
+0x4c2cc23dcf86f0b39db499c951984f40d7bdf3ac
+</p>
+<!-- <div class="Contacts_Icons_Wrap_level_5"> 2-->
+</div>
+<!-- <div class="Contacts_Icons_Wrap_level_5_wrap"> 2-->
+</div>
+</div>
+</div>
+</div>
 <!-- partial -->
-  <script src='https://yandex.st/jquery/2.1.1/jquery.min.js'></script><script  src="./script.js"></script>
-
+<script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
