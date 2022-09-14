@@ -1824,182 +1824,7 @@ justify-content: center;
 	}
 	}
 	
-	.Contacts_Wrap {}
 	
-	.Contacts_Icons_Wrap {
-	display: flex;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	transition: all 300ms ease;
-	}
-	
-	.github {
-	transition: all 300ms ease;
-	max-height: 70px;
-	height: 100%;
-	color: rgb(214, 184, 86) !important;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-	margin-top: 15px;
-	margin-left: 30px;
-	margin-right: 30px;
-	}
-	
-	.github:hover {
-	width: 70px;
-	height: 70px;
-	background-color: #000000;
-	transition: all 300ms ease
-	}
-	
-	.github2 {
-	font-size: 60px;
-	color: rgb(0, 0, 0);
-	justify-content: center;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	transition: all 300ms ease;
-	text-decoration: none;
-	}
-	
-	.github2:hover {
-	font-size: 80px;
-	color: rgb(214, 184, 86) !important;
-	justify-content: center;
-	display: flex;
-	align-items: center;
-	transition: all 300ms ease;
-	}
-	
-	.behance {
-	transition: all 300ms ease;
-	width: 60px;
-	height: 60px;
-	color: rgb(214, 184, 86) !important;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-	margin-top: 15px;
-	}
-	
-	.behance:hover {
-	width: 75px;
-	height: 75px;
-	background-color: #000000 !important;
-	transition: all 300ms ease
-	}
-	
-	.behance2 {
-	color: #000000;
-	font-size: 45px;
-	text-decoration: none;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	transition: all 300ms ease;
-	}
-	
-	.behance2:hover {
-	color: #fff;
-	transition: all 300ms ease
-	}
-	
-	.twitter {
-	transition: all 300ms ease;
-	width: 60px;
-	height: 60px;
-	color: rgb(214, 184, 86) !important;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-	margin-top: 15px;
-	margin-left: 25px;
-	}
-	
-	.twitter:hover {
-	width: 75px;
-	height: 75px;
-	background-color: #1DA1F2 !important;
-	transition: all 300ms ease
-	}
-	
-	.twitter2 {
-	color: #1DA1F2;
-	font-size: 45px;
-	text-decoration: none;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	transition: all 300ms ease;
-	}
-	
-	.twitter2:hover {
-	color: #fff;
-	transition: all 300ms ease
-	}
-	
-	.codepen {
-	transition: all 300ms ease;
-	width: 60px;
-	height: 60px;
-	color: rgb(214, 184, 86) !important;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-	margin-top: 15px;
-	}
-	
-	.codepen:hover {
-	width: 75px;
-	height: 75px;
-	background-color: #000000;
-	transition: all 300ms ease
-	}
-	
-	.codepen2 {
-	color: #000000;
-	font-size: 45px;
-	text-decoration: none;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	transition: all 300ms ease;
-	}
-	
-	.codepen2:hover {
-	color: #fff;
-	transition: all 300ms ease
-	}
-	
-	@media screen and (min-width:0px) and (max-width: 350px) {
-	.twitter {
-	margin-left: 15px;
-	}
-	.github {
-	margin-left: 20px;
-	margin-right: 20px;
-	}
-	}
 
 
 
@@ -2024,3 +1849,12 @@ dd {
   margin: 0;
 }
 
+body img {
+  border: none;
+  max-width: 100%;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
