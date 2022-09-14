@@ -4,7 +4,7 @@
   right: 30px;
   bottom: 50px;
   border-radius: 50%;
-  background-color: rgba(52, 147, 231, 0.564);
+  background-color: rgb(223 179 58 / 46%);
   color: rgb(255, 255, 255);
   width: 80px;
   height: 80px;
@@ -35,7 +35,7 @@
 .callback_button_pulsation {
   width: 95px;
   height: 95px;
-  background: rgba(52, 147, 231, 0.504);
+  background: rgba(200, 158, 30, 0.504);
   border-radius: 50%;
   transform: scale(0.85);
   animation: pulse 2s ease-in-out infinite;
@@ -71,8 +71,8 @@
   border-radius: 8px;
   width: 100%;
   max-width: 300px;
-  border: 2px solid rgb(40 101 159) !important;
-  background: rgb(40 101 159);
+  border: 2px solid rgb(0, 0, 0) !important;
+  background: rgb(0, 0, 0);
   margin-left: 20px;
   margin-right: 20px;
   z-index: 2;
@@ -85,7 +85,7 @@
 }
 .callback_window-button_close {
   position: absolute;
-  border: 2px solid rgb(40 101 159) !important;
+  border: 2px solid rgb(0, 0, 0) !important;
   top: -11px;
   right: -10px;
   cursor: pointer;
@@ -100,14 +100,14 @@
 }
 .callback_window-button_close i {
   font-size: 25px;
-  color: rgb(40 101 159);
+  color: rgb(0, 0, 0);
   transition: all 300ms ease;
 }
 .callback_window-button_close_icon {
   transition: all 500ms ease;
 }
 .callback_window-button_close:hover .callback_window-button_close_icon {
-  color: rgb(57, 124, 187);
+  color: rgb(0, 0, 0);
   transition: all 500ms ease;
   transform: rotate(360deg);
 }
@@ -129,7 +129,7 @@
 .callback_privacy_policy_label {
   text-align: left;
   font-size: 12px;
-  color: rgb(6, 51, 76) !important;
+  color: rgb(0, 0, 0) !important;
   margin-left: 5px;
   margin-right: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -139,7 +139,7 @@
   cursor: pointer;
 }
 .callback_window_title_wrap {
-  background-color: rgb(40 101 159);
+  background-color: rgb(0, 0, 0);
   cursor: default;
 }
 .callback_window_title_wrap p {
@@ -155,7 +155,7 @@
 }
 .callback_window_input_name::placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(10, 71, 104) !important;
+  color: rgb(0, 0, 0) !important;
 }
 input {
   outline: none;
@@ -168,11 +168,11 @@ input {
   font-family: Arial, Helvetica, sans-serif;
   height: 25px !important;
   padding-left: 15px;
-  border: 2px solid rgb(40 101 159) !important;
+  border: 2px solid rgb(0, 0, 0) !important;
   border-radius: 20px;
   resize: none;
   background-color: transparent;
-  color: rgb(10, 71, 104) !important;
+  color: rgb(0, 0, 0) !important;
   transition: all 500ms ease;
   font-size: 15px;
   font-weight: 400;
@@ -190,7 +190,7 @@ input::-webkit-inner-spin-button {
 }
 .callback_window_input_phone::placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(10, 71, 104) !important;
+  color: rgb(0, 0, 0) !important;
 }
 .callback_window_input_phone {
   font-family: Arial, Helvetica, sans-serif;
@@ -201,11 +201,11 @@ input::-webkit-inner-spin-button {
   margin-top: 10px !important;
   height: 25px !important;
   padding-left: 15px;
-  border: 2px solid rgb(40 101 159) !important;
+  border: 2px solid rgb(0, 0, 0) !important;
   border-radius: 20px;
   resize: none;
   background-color: transparent;
-  color: rgb(10, 71, 104) !important;
+  color: rgb(0, 0, 0) !important;
   margin-bottom: 10px;
   transition: all 500ms ease;
   font-size: 15px;
@@ -223,7 +223,7 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
   border-radius: 25px;
   height: 30px;
-  background: rgb(40 101 159);
+  background: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 15px;
   color: #fff;
@@ -233,13 +233,14 @@ input::-webkit-inner-spin-button {
   -moz-appearance: none;
   -o-appearance: none;
   appearance: none;
-  transition: all 300ms ease;
+  transition: all 500ms ease;
   padding-left: 10px;
   padding-right: 10px;
 }
 .callback_send_button:hover {
-  background: rgb(53, 127, 195);
-  transition: all 300ms ease;
+  background: rgb(43, 42, 42);
+  transition: all 500ms ease;
+
 }
 /*/////////////////////// CALL BACK ///////////////////// 2 */
 
