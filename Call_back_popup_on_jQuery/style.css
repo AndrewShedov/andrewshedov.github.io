@@ -1491,6 +1491,38 @@ ul {
   }
 }
 
+
+
+
+
+.site_link_wrap {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
+
+
+
+.site_link_wrap a {
+  font-size: 20px;
+  color: rgb(202, 172, 88);
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: all 300ms ease;
+}
+
+
+
+
+
+
+
 .look {
   text-align: center;
   margin-left: 20px;
@@ -1524,11 +1556,18 @@ ul {
   .look a:hover {
     color: rgb(0, 0, 0);
     transition: all 300ms ease;
-  }
+}
   .look a:nth-child(2):hover {
     color: rgb(0, 0, 0);
     transition: all 300ms ease;
   }
+
+	.site_link_wrap a:hover {
+    color: rgb(0, 0, 0);
+    transition: all 300ms ease;
+}
+
+
 }
 
 body {
