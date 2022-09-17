@@ -702,7 +702,7 @@ input::-webkit-inner-spin-button {
 }
 }
 .telegram_icon_club_2 {
-  color: #712ed4;
+  color: #833ee9;
   font-size: 45px;
   text-decoration: none;
   width: 100%;
@@ -716,7 +716,7 @@ input::-webkit-inner-spin-button {
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
 .telegram_icon_club_2:hover {
-  color: #712ed4;
+  color: #833ee9;
   font-size: 55px;
   transition: all 300ms ease;
 }
