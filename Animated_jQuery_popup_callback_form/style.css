@@ -425,6 +425,7 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
   margin-top: 15px;
   margin-left: 30px;
+  margin-right: 4px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
@@ -681,7 +682,7 @@ input::-webkit-inner-spin-button {
   height: 40px;
   background-color: rgb(0, 0, 0) !important;
   border-radius: 50%;
-  margin-left: 27px;
+  margin-left: 28px;
   margin-right: 0px;
   color: #000000;
   display: flex;
