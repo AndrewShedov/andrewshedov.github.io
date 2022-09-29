@@ -1,0 +1,28 @@
+
+
+
+#grid { 
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+
+  border-style: solid;
+border-color: #000000;
+border-width: 1px;
+
+
+  }
+
+#grid > div {
+  font-size: 5vw;
+  padding: .5em;
+  background: gold;
+  text-align: center;
+
+
+
+  border-style: solid;
+  border-color: #e72525;
+  border-width: 1px;
+}
