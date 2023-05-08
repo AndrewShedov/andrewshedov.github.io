@@ -50,11 +50,6 @@ function scrollTo(to, duration = 700) {
     }
   });
 
-
-
-
-
-
 ///////////////scrol when you click on the title
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
 for (let smoothLink of smoothLinks) {
