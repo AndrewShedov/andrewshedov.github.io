@@ -2,7 +2,6 @@ ul[class],
 ol[class] {
   padding: 0;
 }
-
 body,
 h1,
 h2,
@@ -17,170 +16,119 @@ figcaption,
 blockquote,
 dl,
 dd {
-
   margin: 0;
 }
-*{text-decoration: none;list-style-type: none;}
-.Tabs_wrap{
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+.Tabs_wrap {
   display: flex;
   justify-content: center;
-  
- 
-  }
-.Tabs{
-display: flex;
-justify-content: center;
-width: 100%;
-max-width: 1115px;
-margin-right: 15px;
-margin-left: 15px;
 }
-
-
-
-
-
-
-
+.Tabs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1115px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
 .tab {
-  
-width: 100%;
-/*
-border: 2px solid rgba(155, 155, 155, 0.137);
-*/
-display: none;
-border-radius: 7px;
- }
-
-
-.tab_content_wrap{
-display: flex;
-justify-content: center;
-
+  width: 100%; /* border: 2px solid rgba(155, 155, 155, 0.137); */
+  display: none;
+  border-radius: 7px;
 }
-
-.tab_content{
- 
+.tab_content_wrap {
+  display: flex;
+  justify-content: center;
+}
+.tab_content {
   width: 100%;
   max-width: 500px;
   height: 100%;
   text-align: center;
-  }
-
-
-  .tab_content p{
-    
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 18px;
-    height:100%;
-    color: #000000;
- }
-
-
+}
+.tab_content p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 18px;
+  height: 100%;
+  color: #000000;
+}
 .tab.active {
   display: block;
-  
   transition: all 300ms ease;
 }
-
-
-
 .nav-tab.active {
-  color: #FF0000;
+  color: #ff0000;
   transition: all 300ms ease;
 }
-
-.nav__item a{
+.nav__item a {
   transition: all 400ms ease;
- } 
-
-.nav__item a:hover{
+}
+.nav__item a:hover {
   transition: all 400ms ease;
-  color: #FF0000;
-} 
-
-
-
+  color: #ff0000;
+}
 .nav__item :after {
-  background-color: #FF0000;
+  background-color: #ff0000;
   display: block;
   content: "";
   height: 4px;
   width: 0%;
   transition: all 300ms ease;
-top: 5px;
-position: relative;
-border-radius: 2px;
+  top: 5px;
+  position: relative;
+  border-radius: 2px;
 }
-
-
 .nav__item :hover:after,
 .nav__item :focus :after {
-width: 100%;
-
+  width: 100%;
 }
-
-
 .active:after {
-width: 100%;
-
+  width: 100%;
 }
-
-
-
-.nav{
-margin-top:30px ;
-margin-bottom: 20px;
-z-index: 99999999;
+.nav {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  z-index: 99999999;
 }
-
-        .nav ul li{
-          height: 40px;
-          display: flex;
-           align-items: center;
-          justify-content: center;
-          transition: all 200ms ease;
-          }
-
-
- .nav ul li:hover {
-          transition: all 300ms ease;
-        }
-
-.nav ul{
+.nav ul li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 200ms ease;
+}
+.nav ul li:hover {
+  transition: all 300ms ease;
+}
+.nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 0; 
+  margin: 0;
   padding: 0;
   height: 100%;
 }
-   
-
-
 .nav ul li {
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
- }
-
-
-
-.nav ul a{
+}
+.nav ul a {
   font-family: Mulish;
   font-style: normal;
   font-weight: 200;
   font-size: 18px;
   line-height: 18px;
-  height:100%;
+  height: 100%;
   color: #000000;
-
 }
-
