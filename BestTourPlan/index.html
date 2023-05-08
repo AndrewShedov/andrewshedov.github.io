@@ -2161,33 +2161,17 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-
       autoplay: { delay: 4000, disableOnInteraction: false }
-
     });
-
-
-
     let stop = document.getElementById("stop");
-
-
     stop.onmouseover = function () {
       mySwiper.autoplay.stop();
-
     }
-
-
     stop.onmouseout = function () {
-
       mySwiper.autoplay.start();
-
     }
-
-
     let mySwiper2 = new Swiper('.swiper_container_2', {
-
       loop: true,
-
       slidesPerView: "auto",
       pagination: {
         /*el: '.swiper-pagination',*/
@@ -2198,60 +2182,32 @@
         prevEl: '.swiper_2_button_prev',
       },
       autoplay: { delay: 4000, disableOnInteraction: false }
-
     });
-
-
-
-    let stop2 = document.getElementById("stop2");
-
-
-    stop2.onmouseover = function () {
-      mySwiper2.autoplay.stop();
-
+ let stop2 = document.getElementById("stop2");
+   stop2.onmouseover = function () {
+    mySwiper2.autoplay.stop();
     }
-
-
     stop2.onmouseout = function () {
-
-      mySwiper2.autoplay.start();
-
+    mySwiper2.autoplay.start();
     }
-
-
-
     let mySwiper3 = new Swiper('.swiper_container_3', {
-
       loop: true,
-
       slidesPerView: 4,
       spaceBetween: 29,
       centeredSlides: false,
       breakpoints: {
         // when window width is >= 320px
-
         0: {
           slidesPerView: 1,
           spaceBetween: 20,
           centeredSlides: true,
         },
-
-
-
-
-
         410: {
           slidesPerView: 2,
           spaceBetween: 20,
           centeredSlides: true,
         },
-
-
-
-
-
-
-        // when window width is >= 480px
+      // when window width is >= 480px
         685: {
           slidesPerView: 3,
           spaceBetween: 20,
@@ -2264,9 +2220,6 @@
           centeredSlides: false,
         }
       },
-
-
-
       pagination: {
         /*el: '.swiper-pagination',*/
         /*type: 'progressbar',*/
@@ -2278,32 +2231,15 @@
       },
       */
       speed: 6000,
-
-
-
       autoplay: { delay: 0, disableOnInteraction: false },
-
     });
-
-
     let stop3 = document.getElementById("stop3");
-
-
-
-
     stop3.onmouseover = function () {
       mySwiper3.autoplay.stop();
-
     }
-
-
     stop3.onmouseout = function () {
-
       mySwiper3.autoplay.start();
-
     }
-
-
   </script>
   <script src=script.js></script>
 </body>
