@@ -1,28 +1,23 @@
-/* ========================
-Utilities
-======================== */
-
+/* ======================== Utilities ======================== */
 * {
   box-sizing: border-box;
 }
 
 .cf::before,
 .cf::after {
-    content: "";
-    display: table; 
+  content: "";
+  display: table;
 }
 
 .cf::after {
-    clear: both;
+  clear: both;
 }
 
 html {
   position: relative;
 }
-/* ========================
-Global
-======================== */
 
+/* ======================== Global ======================== */
 body {
   color: #444;
   font-family: Roboto, sans-serif;
@@ -34,13 +29,20 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-h1, h2, h3, h4, h5, h6, ul, ol, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
   margin-top: 0;
 }
 
 h1 {
   font-weight: 900;
-  
 }
 
 p {
@@ -48,17 +50,14 @@ p {
   line-height: 1.5;
 }
 
-
-a, a:hover{
+a,
+a:hover {
   color: #E74C3C;
   text-decoration: underline;
   transition: all 300ms ease !important;
 }
 
-/* ========================
-Containers
-======================== */
-
+/* ======================== Containers ======================== */
 .container-fluid {
   padding: 0 1em;
 }
@@ -68,40 +67,43 @@ Containers
   max-width: 996px;
 }
 
-/* ========================
-Navigation
-======================== */
-
+/* ======================== Navigation ======================== */
 @-webkit-keyframes show-header {
-    0% {
-        top: -4em;
-        opacity: 0;
-    }
-    100% {
-        top: 0;
-        opacity: 1;
-    }
+  0% {
+    top: -4em;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 @keyframes show-header {
-    0% {
-        top: -4em;
-        opacity: 0;
-    }
-    100% {
-        top: 0;
-        opacity: 1;
-    }
+  0% {
+    top: -4em;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 nav {
   background-color: #fff;
-  box-shadow: 0 2px 2px rgba(0,0,0,.45);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .45);
   position: relative;
   top: 0;
 }
 
-nav a, nav a:hover, nav a:focus,  nav a:active, nav a:visited {
+nav a,
+nav a:hover,
+nav a:focus,
+nav a:active,
+nav a:visited {
   text-decoration: none;
 }
 
@@ -150,30 +152,24 @@ nav ul li a {
 
 nav.sticky {
   -webkit-animation: show-header .5s ease;
-          animation: show-header .5s ease;
+  animation: show-header .5s ease;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* ========================
-Sections
-======================== */
-
-
-
-
+/* ======================== Sections ======================== */
 .splash {
-  background: 
-        url(5.jpg) no-repeat fixed center; 
-        
-	background-size: cover;
-	color: #fff;
+  background: url(5.jpg) no-repeat fixed center;
+  background-size: cover;
+  color: #fff;
 }
 
 .splash .container {
-  padding-top: 25vh; /* No JS fallback*/
-  padding-bottom: 25vh; /* No JS fallback*/
+  padding-top: 25vh;
+  /* No JS fallback*/
+  padding-bottom: 25vh;
+  /* No JS fallback*/
 }
 
 .profile-image {
@@ -189,10 +185,10 @@ Sections
   margin-bottom: .15em;
   text-align: center;
   color: rgba(255, 255, 255, 0.733);
-  
 }
 
-.splash .lead, .splash .continue {
+.splash .lead,
+.splash .continue {
   display: block;
   text-align: center;
 }
@@ -208,25 +204,27 @@ Sections
 }
 
 .splash .continue a {
-  
   color: rgba(255, 255, 255, 0.61);
   display: inline-block;
   text-decoration: none;
   width: 80px;
 }
-.splash .continue a:hover{
 
+.splash .continue a:hover {
   color: rgb(255, 255, 255);
-
 }
 
-
-
-.intro .container, .features .container, .places .container, .contact .container {
+.intro .container,
+.features .container,
+.places .container,
+.contact .container {
   padding: 5em 0;
 }
 
-.intro, .features, .places, .contact {
+.intro,
+.features,
+.places,
+.contact {
   text-align: center;
 }
 
@@ -235,7 +233,11 @@ Sections
   color: #fff;
 }
 
-.intro a, .intro a:hover, .intro a:focus, .intro a:active, .intro a:visited {
+.intro a,
+.intro a:hover,
+.intro a:focus,
+.intro a:active,
+.intro a:visited {
   color: #fff;
 }
 
@@ -251,15 +253,14 @@ Sections
 }
 
 .places {
-  border-top: 2px solid rgba(0, 0, 0, 0.295); 
-  border-bottom: 2px solid rgba(0, 0, 0, 0.295); 
+  border-top: 2px solid rgba(0, 0, 0, 0.295);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.295);
   background: rgb(178, 186, 255);
 }
 
 .gallery .gallery-image {
   margin: 1em auto;
   width: 100%;
-  
 }
 
 .gallery .gallery-image img {
@@ -275,11 +276,12 @@ Sections
   background-color: #f0f0f0;
   border-radius: 4px;
   border-top: 8px solid #E74C3C;
-  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
   padding: 1em;
 }
 
-.contact form input, .contact form textarea {
+.contact form input,
+.contact form textarea {
   border: none;
   border-radius: 4px;
   display: block;
@@ -300,14 +302,10 @@ Sections
   text-transform: uppercase;
 }
 
-/* ========================
-Footer
-======================== */
-
+/* ======================== Footer ======================== */
 .footer {
   background-color: rgb(67, 160, 189);
-  color:  #fff;
-  
+  color: #fff;
   text-align: center;
   text-decoration: none;
 }
@@ -323,107 +321,101 @@ Footer
 }
 
 .footer a:hover {
-
   color: rgba(255, 0, 0, 0.808);
-  }
-
+}
 
 .footer a:last-of-type {
   margin-right: 0;
 }
 
-/* ========================
-Media Queries
-======================== */
+/* ======================== Media Queries ======================== */
 /*@media (min-width: 768px) old*/
 @media (min-width: 900px) {
-  
   nav .nav-toggle {
     display: none;
   }
-  
+
   nav ul {
-    position: relative; /*new, need del = use old*/
+    position: relative;
+    /*new, need del = use old*/
     border: none;
     clear: none;
     display: inline-block !important;
-    left: 230px; /*del = old*/
-    float: left; /*float: right; old*/
+    left: 230px;
+    /*del = old*/
+    float: left;
+    /*float: right; old*/
     margin: 0;
     padding: 25px 0;
   }
-  
+
   nav ul li {
     border: none;
     display: inline-block;
     float: left;
     margin-right: 1.5em;
   }
-  
+
   nav ul li:last-of-type {
     margin-right: 0;
-    
   }
-  
+
   nav ul li a {
     padding: 0;
   }
-  
+
   .splash h1 {
     font-size: 6em;
-    
   }
-  
+
   .splash .lead {
     font-size: 3em;
   }
-  
+
   .features .col-3 {
     float: left;
     margin: 2em 5% 0 0;
     padding: 0 1em;
     width: 30%;
   }
-  
+
   .features .col-3:last-of-type {
     margin-right: 0;
   }
-  
+
   .gallery .gallery-image {
     float: left;
     margin-right: 2.5%;
     width: 31.6666666667%;
   }
-  
+
   .gallery .gallery-image:nth-of-type(3n) {
     margin-right: 0;
   }
-  
+
   .contact form {
     padding: 3em 2em 2em;
   }
-  
+
   .contact form input[type="submit"] {
     padding: 1em 3em;
     width: auto;
   }
-  
+
   .contact form input.full-half {
     float: left;
     margin-right: 2.5%;
     width: 48.75%;
   }
-  
+
   .contact form input.full-half:nth-of-type(2n) {
     margin-right: 0;
   }
-  
+
   .contact form textarea {
     height: 12em;
   }
-  
 }
-
 
 .fullscreen-bg {
   overflow: hidden;
@@ -431,8 +423,7 @@ Media Queries
   position: relative;
   height: 100%;
   width: 100%;
-  padding-top:45%;
-  
+  padding-top: 45%;
 }
 
 .fullscreen-bg__video {
@@ -440,118 +431,114 @@ Media Queries
   top: 0;
   left: 0;
   width: 100%;
-  
 }
 
 .overlay {
-  
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   z-index: 4;
-  border-bottom-width: 3px; /* Толщина линии внизу */
-    border-bottom-style: solid; /* Стиль линии внизу */
-    border-bottom-color: rgba(0, 0, 0, 0.452); /* Цвет линии внизу */
+  border-bottom-width: 3px;
+  /* Толщина линии внизу */
+  border-bottom-style: solid;
+  /* Стиль линии внизу */
+  border-bottom-color: rgba(0, 0, 0, 0.452);
+  /* Цвет линии внизу */
 }
 
 .overlay h1 {
-  text-align:center;
-  color:rgba(255, 255, 255, 0.87);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
   font-size: 40px;
-  margin-top:17%;
-
+  margin-top: 17%;
 }
 
-
-
 div.scrollup {
-  position: fixed; /* фиксированная позиция */
-  color: rgba(57, 124, 212, 0.781); 
+  position: fixed;
+  /* фиксированная позиция */
+  color: rgba(57, 124, 212, 0.781);
   /*color: rgba(93, 196, 248, 0.692);*/
-  right: 10px; /* расстояние от правого края */
-  bottom: 10px; /* расстояние от нижнего края */
-  padding: 9px 10px; /* отступы до содержимого блока */
-  font-size: 40px; /* размер шрифта (иконки) */
-  border-top-left-radius: 4px; /* скругление верхнего левого угла */
-  border-top-right-radius: 4px; /* скругление верхнего правого угла */
-  cursor: pointer; /* форма курсора */
-  display: none; /* не отображать элемент */
-  text-align: center; /*выравнивание содержимого элемента по центру */
+  right: 10px;
+  /* расстояние от правого края */
+  bottom: 10px;
+  /* расстояние от нижнего края */
+  padding: 9px 10px;
+  /* отступы до содержимого блока */
+  font-size: 40px;
+  /* размер шрифта (иконки) */
+  border-top-left-radius: 4px;
+  /* скругление верхнего левого угла */
+  border-top-right-radius: 4px;
+  /* скругление верхнего правого угла */
+  cursor: pointer;
+  /* форма курсора */
+  display: none;
+  /* не отображать элемент */
+  text-align: center;
+  /*выравнивание содержимого элемента по центру */
   transition: all 100ms ease !important;
 }
 
 div.scrollup:hover {
-  color: rgba(57, 124, 212, 0.692); 
+  color: rgba(57, 124, 212, 0.692);
   transition: all 300ms ease !important;
 }
 
-        @media screen and (max-device-width: 685px) {
-          .overlay h1 {text-align:center;
-            color:rgba(255, 255, 255, 0.63);
-            font-size: 30px;
-            margin-top:17%;
-          
-          }
-        
-        
-          @media screen and (max-device-width: 405px) {
-            .overlay h1 {text-align:center;
-              color:rgba(255, 255, 255, 0.63);
-              font-size: 20px;
-              margin-top:17%;
-            
-            }
-        
-            @media screen and (max-device-width: 295px) {
-              .overlay h1 {text-align:center;
-                color:rgba(255, 255, 255, 0.63);
-                font-size: 20px;
-                margin-top:17%;
-              
-              }
-        
-              @media screen and (max-device-width: 195px) {
-                .overlay h1 {text-align:center;
-                  color:rgba(255, 255, 255, 0.63);
-                  font-size: 15px;
-                  margin-top:17%;
-                
-                }
-
-                /*a:active, a:focus { outline: none; }
-
-input, textarea {outline:none;}
-input:active, textarea:active {outline:none;}
-:focus {outline:none;}
-textarea {resize:none;}
-textarea {resize:vertical;}
-textarea {resize:horizontal;}*/
-
-
-
-a.active.focus,
-a.active:focus,
-a.focus,
-a:active.focus,
-a:active:focus,
-a:focus,
-button.active.focus,
-button.active:focus,
-button.focus,
-button:active.focus,
-button:active:focus,
-button:focus,
-.btn.active.focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn:active:focus,
-.btn:focus {
-outline: 0!important;
-outline-color: transparent!important;
-outline-width: 0!important;
-outline-style: none!important;
-box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
-} 
+@media screen and (max-device-width: 685px) {
+  .overlay h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 30px;
+    margin-top: 17%;
+  }
+}
+  @media screen and (max-device-width: 405px) {
+    .overlay h1 {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.63);
+      font-size: 20px;
+      margin-top: 17%;
+    }
+  }
+    @media screen and (max-device-width: 295px) {
+      .overlay h1 {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.63);
+        font-size: 20px;
+        margin-top: 17%;
+      }
+    }
+      @media screen and (max-device-width: 195px) {
+        .overlay h1 {
+          text-align: center;
+          color: rgba(255, 255, 255, 0.63);
+          font-size: 15px;
+          margin-top: 17%;
+        }
+      }
+        a.active.focus,
+        a.active:focus,
+        a.focus,
+        a:active.focus,
+        a:active:focus,
+        a:focus,
+        button.active.focus,
+        button.active:focus,
+        button.focus,
+        button:active.focus,
+        button:active:focus,
+        button:focus,
+        .btn.active.focus,
+        .btn.active:focus,
+        .btn.focus,
+        .btn:active.focus,
+        .btn:active:focus,
+        .btn:focus {
+          outline: 0 !important;
+          outline-color: transparent !important;
+          outline-width: 0 !important;
+          outline-style: none !important;
+          box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+        }
