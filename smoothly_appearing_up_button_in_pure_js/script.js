@@ -1,5 +1,4 @@
 /* UP BUTTON */
-
 function scrollTo(to, duration = 700) {
     const
         element = document.scrollingElement || document.documentElement,
