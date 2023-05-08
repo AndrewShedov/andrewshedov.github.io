@@ -1,4 +1,3 @@
-'use strict';
 function Tabs() {
   let bindAll = function() {
     let menuElements = document.querySelectorAll('[data-tab]');
