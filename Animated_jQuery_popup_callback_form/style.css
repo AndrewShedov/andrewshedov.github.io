@@ -1,4 +1,3 @@
-/*/////////////////////// CALL BACK ///////////////////// 1 */
 .callback_button_wrap {
   position: fixed;
   right: 30px;
@@ -116,7 +115,7 @@
   margin-bottom: 11px;
 }
 .callback_privacy_policy {
-	display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -240,9 +239,7 @@ input::-webkit-inner-spin-button {
 .callback_send_button:hover {
   background: rgb(43, 42, 42);
   transition: all 500ms ease;
-
 }
-/*/////////////////////// CALL BACK ///////////////////// 2 */
 
 .title_contacting_wrap {
   display: flex;
@@ -459,23 +456,20 @@ input::-webkit-inner-spin-button {
   }
 }
 
-
-.telegram_icon_pro_svg_contacts_a  {
+.telegram_icon_pro_svg_contacts_a {
   margin-left: 30px;
 }
 
-
 @media screen and (min-width: 0px) and (max-width: 600px) {
-  .telegram_icon_pro_svg_contacts_a  {
+  .telegram_icon_pro_svg_contacts_a {
     margin-left: 22px;
-  
   }
-  }
+}
 
-.telegram_icon_pro_svg_contacts_wrap{
-display: flex;
-justify-content: center;
-align-items: center;
+.telegram_icon_pro_svg_contacts_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .telegram_icon_pro_svg_contacts {
@@ -483,19 +477,15 @@ align-items: center;
   transition: all 300ms ease;
   display: flex;
   align-items: center;
-  
-  
-  }
-  
-  @media screen and (min-width: 1000px) and (max-width: 99999999px) {
-  .telegram_icon_pro_svg_contacts:hover {
- 
-  transition: all 300ms ease;
- width: 53px;
- height: 53px;
-  }
-  }
+}
 
+@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+  .telegram_icon_pro_svg_contacts:hover {
+    transition: all 300ms ease;
+    width: 53px;
+    height: 53px;
+  }
+}
 
 .behance {
   transition: all 300ms ease;
@@ -706,17 +696,6 @@ align-items: center;
     transition: all 300ms ease;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .youtube_icon {
   transition: all 300ms ease;
@@ -1259,10 +1238,6 @@ align-items: center;
   .donationalerts_icon {
     margin-left: 5px;
   }
-
- 
-
-
 }
 
 .donate_subscribe_buttons_wrap {
@@ -1564,12 +1539,6 @@ ul {
   transition: all 300ms ease;
 }
 
-
-
-
-
-
-
 .look {
   text-align: center;
   margin-left: 20px;
@@ -1603,18 +1572,16 @@ ul {
   .look a:hover {
     color: rgb(0, 0, 0);
     transition: all 300ms ease;
-}
+  }
   .look a:nth-child(2):hover {
     color: rgb(0, 0, 0);
     transition: all 300ms ease;
   }
 
-	.site_link_wrap a:hover {
+  .site_link_wrap a:hover {
     color: rgb(0, 0, 0);
     transition: all 300ms ease;
-}
-
-
+  }
 }
 
 body {
