@@ -473,7 +473,7 @@ input::-webkit-inner-spin-button {
 }
 
 .telegram_icon_pro_svg_contacts {
-  fill: rgb(0, 0, 0);
+  fill: #249DD8;
   transition: all 300ms ease;
   display: flex;
   align-items: center;
