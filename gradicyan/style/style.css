@@ -1904,17 +1904,17 @@ select {
     width: 35px;
     background: #fff;
     transition: all .2s ease-in-out;
-    top: 1px
+    top: 20px
 }
 
 .burger__icon::before,
 .burger__icon::after {
     content: '';
     position: absolute;
-    background: #fff 255, 255);
+    background: #fff;
     height: 2px;
     width: 35px;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
 }
 
 .burger__icon::before {
@@ -1993,7 +1993,8 @@ button {
 
 .navq__link {
     margin-top: 10px;
-    position: relative
+    position: relative;
+
 }
 
 .navq__link:hover {
@@ -2004,20 +2005,18 @@ button {
 .burger {
     transition: all 300ms ease;
     cursor: pointer;
-    display: none;
+    display: block;
     float:right;
     position: relative;
-    z-index: 999;
+    width: 40px;
+    height:40px;
+   
+    z-index: 99;
+    top: 5px;
+    right: 24px;
 }
 
-@media all and (max-width:1040px) {
-    .burger {
-        top: 24px;
-        right: 24px;
-        display: block;
-        z-index: 99
-    }
-}
+
 
 
 .burger__icon::before,
@@ -2027,7 +2026,8 @@ button {
     background: #fff;
     height: 2px;
     width: 35px;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    
 }
 
 .burger__icon::before {
