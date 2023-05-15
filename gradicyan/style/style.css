@@ -2005,13 +2005,22 @@ button {
     transition: all 300ms ease;
     cursor: pointer;
     display: flex;
-    top: 50%;
     display: none;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    z-index: 999
+    float:right;
+    position: relative;
+    z-index: 999;
+
 }
+
+@media all and (max-width:1040px) {
+    .burger {
+        top: 24px;
+        right: 24px;
+        display: block;
+        z-index: 99
+    }
+}
+
 
 .burger__icon::before,
 .burger__icon::after {
