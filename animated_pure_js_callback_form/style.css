@@ -13,7 +13,7 @@
   cursor: pointer;
   transform: rotate(100deg);
   align-items: center;
-  z-index: 1;
+
   opacity: 1;
   transition: all 300ms ease;
   visibility: visible;
@@ -50,7 +50,7 @@
   transform: scale(0.85);
   animation: pulse 2s ease-in-out infinite;
   position: absolute;
-  z-index: 0;
+  
 }
 @keyframes pulse {
   from {
@@ -87,7 +87,7 @@
   background: rgb(0 0 0 / 14%);
   height: 100%;
   width: 100%;
-  z-index: 1;
+ 
   opacity: 1;
 }
 .callback_window {
@@ -98,7 +98,7 @@
   background: rgb(0, 0, 0);
   margin-left: 20px;
   margin-right: 20px;
-  z-index: 2;
+
   position: relative;
 }
 .callback_window_2_wrap {
@@ -458,6 +458,7 @@ input::-webkit-inner-spin-button {
   margin-top: 7px;
   margin-bottom: 7px;
   margin-right: 20px;
+
 }
 
 .Contacts_Icons_Wrap_level_5_wrap {
