@@ -73,20 +73,21 @@
 
 .callback_wrap.active {
   opacity: 1;
-
   display: block;
   transition: all 0.15s ease-out;
 }
 
 
 .callback_window_wrap {
-  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   background: rgb(0 0 0 / 14%);
-  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
+  height: 100%;
   z-index: 1;
   opacity: 1;
 }
@@ -98,7 +99,7 @@
   background: rgb(0, 0, 0);
   margin-left: 20px;
   margin-right: 20px;
- 
+
   position: relative;
 }
 .callback_window_2_wrap {
@@ -284,12 +285,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-.wrap {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  transition: all 300ms ease;
-}
+
 
 
 .title {
@@ -1414,7 +1410,7 @@ input::-webkit-inner-spin-button {
   position: relative;
   top: 10px;
   right: 2px;
-
+ 
 }
 
 .telegram_icon_pro_svg_contacts {
@@ -1424,6 +1420,7 @@ input::-webkit-inner-spin-button {
   align-items: center;
 position: relative;
 bottom: 5px;
+
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
