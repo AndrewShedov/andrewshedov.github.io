@@ -8,19 +8,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   callback_button_wrap.addEventListener("click", (e) => {
     e.stopPropagation();
-    animateDisplay_callback_button(
-      document.querySelector(".callback_button_wrap"),
-      "hide",
-      "none",
-      300
-    );
-
-    animateDisplay(
+      animateDisplay(
       document.querySelector(".callback_wrap"),
       "active",
       "block",
       300
     );
+
+    document.getElementsByClassName('callback_button_wrap')[0].style= "visibility: hidden";
+    document.getElementsByClassName('callback_button_wrap')[0].style= "opacity: 0";
+
   });
 
   callback_window_button_close.addEventListener("click", (e) => {
@@ -32,12 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
       300
     );
 
-    animateDisplay_callback_button(
-      document.querySelector(".callback_button_wrap"),
-      "hide",
-      "none",
-      300
-    );
+    document.getElementsByClassName('callback_button_wrap')[0].style= "visibility: visible";
+    document.getElementsByClassName('callback_button_wrap')[0].style= "opacity: 1";
   });
 
   document.addEventListener("click", (e) => {
@@ -59,12 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
         300
       );
 
-      animateDisplay_callback_button(
-        document.querySelector(".callback_button_wrap"),
-        "hide",
-        "none",
-        300
-      );
+      document.getElementsByClassName('callback_button_wrap')[0].style= "visibility: visible";
+      document.getElementsByClassName('callback_button_wrap')[0].style= "opacity: 1";
     }
   });
 
@@ -95,41 +84,6 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
         if (!doneTimedDisplay) {
           target.style.display = "none";
-        }
-        doneTimedDisplay = true;
-      }, timeout);
-    }
-  }
-
-  // Animation function
-  function animateDisplay_callback_button(
-    target,
-    animationClass,
-    displayType,
-    timeout
-  ) {
-    var doneTimedDisplay = false,
-      displaying = false;
-    target.addEventListener("transitionend", function () {
-      if (!target.classList.contains("hide")) {
-        target.style.visibility = "visible";
-      }
-      doneTimedDisplay = true;
-    });
-    if (!target.style.visibility || target.style.visibility === "visible") {
-      displaying = true;
-      target.style.visibility = displayType;
-    } else {
-      displaying = false;
-    }
-     setTimeout(function () {
-      target.classList.toggle(animationClass);
-      doneTimedDisplay = false;
-    }, 10);
-     if (!displaying) {
-      setTimeout(function () {
-        if (!doneTimedDisplay) {
-          target.style.visibility = "visible";
         }
         doneTimedDisplay = true;
       }, timeout);

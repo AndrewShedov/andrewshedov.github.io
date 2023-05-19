@@ -18,12 +18,6 @@
   visibility: visible;
 }
 
-.callback_button_wrap.hide {
-  opacity: 0;
-  transition: all 300ms ease;
-  visibility: hidden;
-}
-
 .callback_button_wrap i {
   font-size: 40px;
   animation-name: joomly-callback-tossing;
