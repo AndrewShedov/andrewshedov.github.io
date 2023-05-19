@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementsByClassName('callback_button_wrap')[0].style= "opacity: 1";
   });
 
-  // Click outside the form field
+  // Click outside the callback form
   document.addEventListener("click", (e) => {
     let target = e.target;
     let target_callback_window =
