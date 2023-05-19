@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  
   let callback_button_wrap = document.querySelector(".callback_button_wrap");
   let callback_window = document.querySelector(".callback_window");
   let callback_window_button_close = document.querySelector(
@@ -71,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Animation function
   function animateDisplay(target, animationClass, displayType, timeout) {
     var doneTimedDisplay = false,
       displaying = false;
@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  // Animation function
   function animateDisplay_callback_button(
     target,
     animationClass,
