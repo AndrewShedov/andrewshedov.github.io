@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   callback_button_wrap.addEventListener("click", (e) => {
     e.stopPropagation();
-
     animateDisplay_callback_button(
       document.querySelector(".callback_button_wrap"),
       "hide",
@@ -26,8 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   callback_window_button_close.addEventListener("click", (e) => {
     e.stopPropagation();
-
-    animateDisplay(
+   animateDisplay(
       document.querySelector(".callback_wrap"),
       "active",
       "block",
@@ -112,7 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
   ) {
     var doneTimedDisplay = false,
       displaying = false;
-
     target.addEventListener("transitionend", function () {
       if (!target.classList.contains("hide")) {
         target.style.visibility = "visible";
@@ -125,13 +122,11 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       displaying = false;
     }
-
-    setTimeout(function () {
+     setTimeout(function () {
       target.classList.toggle(animationClass);
       doneTimedDisplay = false;
     }, 10);
-
-    if (!displaying) {
+     if (!displaying) {
       setTimeout(function () {
         if (!doneTimedDisplay) {
           target.style.visibility = "visible";
