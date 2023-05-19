@@ -66,16 +66,15 @@
 .callback_wrap {
   display: none;
   opacity: 0;
-  transition: all 300ms ease;
- 
+  transition: 0.3s ease-in-out;
+
 }
 
 
 .callback_wrap.active {
   opacity: 1;
   display: block;
-  transition: all 300ms ease;
- 
+  transition: 0.3s ease-in-out;
 }
 
 
@@ -91,6 +90,7 @@
   height: 100%;
   z-index: 1;
   opacity: 1;
+  
 }
 .callback_window {
   border-radius: 8px;
