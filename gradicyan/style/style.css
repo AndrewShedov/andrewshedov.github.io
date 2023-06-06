@@ -164,14 +164,13 @@ input[type="search"]::-moz-placeholder {
     right: 7px;
     width: 20px;
     height: 20px;
-    cursor: pointer;
+    
   
 }
 
 @font-face {
-    font-family: 'FontAwesome';
-  
-    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf') format('truetype');
+font-family: 'FontAwesome';
+src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf') format('truetype');
 }
 
 
@@ -182,15 +181,15 @@ input[type="search"]::-moz-placeholder {
     position: absolute;
     top:3px;
     font-size: 16px;
-    cursor: pointer !important;
+    cursor: pointer;
     color: #b3b3b3;
     transition: all 300ms ease;
  }
 
  .search :hover::after {
-    color: #4f4e4e !important;
+    color: #4f4e4e;
     transition: all 300ms ease;
-    cursor: pointer !important;
+    cursor: pointer;
  }
 
 
