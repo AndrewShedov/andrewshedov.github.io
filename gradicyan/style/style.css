@@ -182,7 +182,7 @@ input[type="search"]::-moz-placeholder {
     position: absolute;
     top:3px;
     font-size: 16px;
-    cursor: pointer;
+    cursor: pointer !important;
     color: #b3b3b3;
     transition: all 300ms ease;
  }
@@ -190,7 +190,7 @@ input[type="search"]::-moz-placeholder {
  .search :hover::after {
     color: #4f4e4e !important;
     transition: all 300ms ease;
-    cursor: pointer;
+    cursor: pointer !important;
  }
 
 
