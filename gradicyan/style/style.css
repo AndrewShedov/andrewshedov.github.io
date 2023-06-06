@@ -120,14 +120,15 @@ body {
 }
 
 .search {
-    max-width: 186px;
+    max-width: 184px;
     width: 100%;
     max-height: 25px;
     height: 100%;
     position: relative;
     margin-left: 5px;
     right: 2px;
-    margin-top: 14px
+    margin-top: 28px;
+    
 }
 
 .search input {
@@ -164,8 +165,33 @@ input[type="search"]::-moz-placeholder {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    background: url(../images/search.png) no-repeat
+  
 }
+
+@font-face {
+    font-family: 'FontAwesome';
+  
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf') format('truetype');
+}
+
+
+.search ::after {
+    content: "\f002";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    font-family: FontAwesome;
+    right:10px;
+    position: absolute;
+    top:3px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #b3b3b3;
+    transition: all 300ms ease;
+ }
+
+ .search :hover::after {
+    color: #494949 !important;
+    transition: all 300ms ease;
+ }
+
 
 .search .submit:hover {
     opacity: .8
