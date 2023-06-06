@@ -173,7 +173,7 @@ input[type="search"]::-moz-placeholder {
     height: 100%;
     right:0px;
     position: absolute;
-    top:0.5px;
+    top:0.2px;
     font-size: 15px;
     cursor: pointer;
     color: #b3b3b3;
