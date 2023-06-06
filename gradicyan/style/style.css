@@ -169,16 +169,23 @@ input[type="search"]::-moz-placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20px;
+    width: 30px;
     height: 100%;
-    right:8px;
+    right:0px;
     position: absolute;
     top:0.5px;
     font-size: 15px;
     cursor: pointer;
     color: #b3b3b3;
-    transition: all 300ms ease;    
-}
+    transition: all 300ms ease; 
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    }
+
+    .search_icon i{
+        position: relative;
+        right: 3px;
+    }
 
 .search_icon:hover {
     color: #4f4e4e;
