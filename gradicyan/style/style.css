@@ -166,31 +166,21 @@ input[type="search"]::-moz-placeholder {
     
   
 }
-
-@font-face {
-font-family: 'FontAwesome';
-src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf') format('truetype');
-}
-
-
-.search ::after {
-    content: "\f002";  /* this is your text. You can also use UTF-8 character codes as I do here */
-    font-family: FontAwesome;
+.search_icon{
     right:10px;
     position: absolute;
-    top:3px;
-    font-size: 16px;
+    top:4px;
+    font-size: 15px;
     cursor: pointer;
     color: #b3b3b3;
-    transition: all 300ms ease;
-  }
+    transition: all 300ms ease;    
+}
 
- .search :hover::after {
+.search_icon:hover {
     color: #4f4e4e;
     transition: all 300ms ease;
-    cursor: pointer;
+ 
  }
-
 
 .search .submit:hover {
     opacity: .8
