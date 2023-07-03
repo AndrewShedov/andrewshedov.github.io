@@ -660,8 +660,6 @@ input::-webkit-inner-spin-button {
   }
 }
 
-
-
 .youtube_icon {
   transition: all 300ms ease;
   width: 55px;
@@ -1135,7 +1133,8 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (min-width: 0px) and (max-width: 350px) {
-  .twitter {}
+  .twitter {
+  }
 
   .github {
     margin-left: 20px;
