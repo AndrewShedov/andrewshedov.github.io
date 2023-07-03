@@ -430,7 +430,7 @@ input::-webkit-inner-spin-button {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-right: 7px;
+  margin-right: 37px;
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
@@ -571,21 +571,27 @@ input::-webkit-inner-spin-button {
 
 .behance {
   transition: all 300ms ease;
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   background-color: #fff !important;
   border-radius: 50%;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  margin-top: 15px;
+  margin-left: 24px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .behance {
+    margin-left: 14px;
+  }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
   .behance:hover {
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     background-color: #000000 !important;
     transition: all 300ms ease;
   }
@@ -593,7 +599,7 @@ input::-webkit-inner-spin-button {
 
 .behance2 {
   color: #000000;
-  font-size: 45px;
+  font-size: 40px;
   text-decoration: none;
   width: 100%;
   height: 100%;
@@ -606,92 +612,6 @@ input::-webkit-inner-spin-button {
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
   .behance2:hover {
-    color: #fff;
-    transition: all 300ms ease;
-  }
-}
-
-.vk_icon_public {
-  transition: all 300ms ease;
-  width: 45px;
-  height: 45px;
-  background-color: #fff !important;
-  border-radius: 50%;
-  margin-left: 15px;
-  margin-right: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
-  .vk_icon_public:hover {
-    width: 55px;
-    height: 55px;
-    background-color: #0378ff !important;
-    transition: all 300ms ease;
-  }
-}
-
-.vk_icon_2_public {
-  color: #67adfe;
-  font-size: 38px;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: all 300ms ease;
-}
-
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
-  .vk_icon_2_public:hover {
-    color: #fff;
-    transition: all 300ms ease;
-  }
-}
-
-.vk_icon {
-  transition: all 300ms ease;
-  width: 55px;
-  height: 55px;
-  background-color: #fff !important;
-  border-radius: 50%;
-  margin-left: 15px;
-  margin-right: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
-  .vk_icon:hover {
-    width: 65px;
-    height: 65px;
-    background-color: #0378ff !important;
-    transition: all 300ms ease;
-  }
-}
-
-.vk_icon_2 {
-  color: #0378ff;
-  font-size: 38px;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: all 300ms ease;
-}
-
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
-  .vk_icon_2:hover {
     color: #fff;
     transition: all 300ms ease;
   }
@@ -740,49 +660,7 @@ input::-webkit-inner-spin-button {
   }
 }
 
-.telegram_icon {
-  transition: all 300ms ease;
-  width: 43px;
-  height: 43px;
-  background-color: #fff !important;
-  border-radius: 50%;
-  margin-left: 15px;
-  margin-right: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
-  .telegram_icon:hover {
-    width: 65px;
-    height: 65px;
-    background-color: #ffffff !important;
-    transition: all 300ms ease;
-  }
-}
-
-.telegram_icon_2 {
-  color: #27a3e2;
-  font-size: 45px;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: all 300ms ease;
-}
-
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
-  .telegram_icon_2:hover {
-    color: #27a3e2;
-    font-size: 55px;
-    transition: all 300ms ease;
-  }
-}
 
 .youtube_icon {
   transition: all 300ms ease;
