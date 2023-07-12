@@ -2858,16 +2858,11 @@ padding-right: 0px;
   color: #333333;
 }
 
-.package_summery_wrap {
-  display: flex;
-  justify-content: start;
-  margin-top: 36px;
-}
-
-.package_summery {
+ .package_summery {
   display: flex;
   justify-content: start;
   position: relative;
+  margin-top: 36px;
   right: 2px;
 }
 
@@ -3726,7 +3721,7 @@ justify-content: center;
 }
 
 @media screen and (min-width: 0px) and (max-width: 711px) {
-  .package_summery_wrap {
+  .package_summery {
     justify-content: center;
     margin-top: 25px;
   }
