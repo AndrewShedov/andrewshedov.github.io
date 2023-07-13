@@ -332,52 +332,6 @@ input::-webkit-inner-spin-button {
   transition: all 300ms ease;
 }
 
-.look {
-  text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.look p {
-  font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.look a {
-  font-size: 20px;
-  color: rgb(202, 172, 88);
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  transition: all 300ms ease;
-}
-
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
-  .look a:hover {
-    color: rgb(0, 0, 0);
-    transition: all 300ms ease;
-  }
-
-  .look a:nth-child(2):hover {
-    color: rgb(0, 0, 0);
-    transition: all 300ms ease;
-  }
-
-  .site_link_wrap a:hover {
-    color: rgb(0, 0, 0);
-    transition: all 300ms ease;
-  }
-}
-
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0.1;
