@@ -105,17 +105,18 @@
   right: -8px;
   cursor: pointer;
   border-radius: 50%;
-  width: 23px;
+  width: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  border: 2px solid #1f1e1e !important; 
   padding: 2px;
   transition: all 300ms ease;
 }
 
 .callback_window_button_close i {
-  font-size: 23px;
+  font-size: 22px;
   color: #1f1e1e;
   transition: all 300ms ease;
 }
