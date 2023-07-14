@@ -322,7 +322,7 @@ input::-webkit-inner-spin-button {
 
 .site_link_wrap a {
   font-size: 20px;
-  color: rgb(202, 172, 88);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -334,7 +334,7 @@ input::-webkit-inner-spin-button {
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
   .site_link_wrap a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(92, 91, 91);
     transition: all 300ms ease;
   }
 }
