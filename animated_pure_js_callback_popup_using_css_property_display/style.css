@@ -105,7 +105,7 @@
   right: -8px;
   cursor: pointer;
   border-radius: 50%;
-  width: 22px;
+  width: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +116,7 @@
 }
 
 .callback_window_button_close i {
-  font-size: 22px;
+  font-size: 21px;
   color: #1f1e1e;
   transition: all 300ms ease;
 }
