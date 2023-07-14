@@ -93,7 +93,6 @@
   border-radius: 8px;
   width: 100%;
   max-width: 300px;
-  border: 2px solid #1f1e1e;
   background: rgb(255, 255, 255);
   margin-left: 20px;
   margin-right: 20px;
@@ -102,7 +101,6 @@
 
 .callback_window_button_close {
   position: absolute;
-  border: 2px solid #1f1e1e;
   top: -11px;
   right: -10px;
   cursor: pointer;
@@ -167,6 +165,8 @@
 .callback_window_title_wrap {
   background-color: #1f1e1e;
   cursor: default;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .callback_window_title_wrap p {
@@ -276,7 +276,7 @@ input::-webkit-inner-spin-button {
 }
 
 .callback_send_button:hover {
-  background: rgb(43, 42, 42);
+  background: rgb(53, 53, 53);
   transition: all 500ms ease;
 }
 
@@ -322,7 +322,7 @@ input::-webkit-inner-spin-button {
 
 .site_link_wrap a {
   font-size: 20px;
-  color: rgb(202, 172, 88);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -334,7 +334,7 @@ input::-webkit-inner-spin-button {
 
 @media screen and (min-width: 1000px) and (max-width: 99999999px) {
   .site_link_wrap a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(80, 79, 79);
     transition: all 300ms ease;
   }
 }
