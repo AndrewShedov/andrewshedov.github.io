@@ -5901,7 +5901,11 @@ height: 100%;
   border-bottom-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-  width: 100% !important;
+  width: 100%;
+}
+
+.Other_Activities_slide_image_wrap img {
+  width: 100%;
 }
 
 .Other_Activities_slide_image_wrap::after {
