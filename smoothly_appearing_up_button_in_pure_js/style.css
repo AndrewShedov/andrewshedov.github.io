@@ -5,7 +5,7 @@
   align-items: center;
   bottom: 10px;
   right: -40px;
-  z-index: 99999;
+  z-index: 99;
   cursor: pointer;
   opacity: 0;
   visibility: hidden;

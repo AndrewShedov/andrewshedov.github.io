@@ -1,26 +1,27 @@
-body{
+body {
   -moz-user-select: none;
   -khtml-user-select: none;
-  user-select: none;  
+  user-select: none;
   overflow-x: hidden;
   overflow-anchor: none;
 }
 
-   html, body {
-      height: 100%;
-      margin: 0;
-      transition: all 300ms ease;
-    }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  transition: all 300ms ease;
+}
 
-.wrap{
+.wrap {
   padding: 20px;
   min-height: 100%;
   transition: all 300ms ease;
 }
 
- /*///////////////////////MENU//////////////////////*/
+/*///////////////////////MENU//////////////////////*/
 
- .menu{
+.menu {
   position: fixed;
   top: 0;
   right: 0;
@@ -31,187 +32,160 @@ body{
   text-align: center;
   transition: all 200ms ease;
   overflow-y: auto;
- }
-
-.menu-open{
-  transition: all 300ms ease;
-display: block !important;
 }
 
-.menu ul li{
+.menu-open {
+  transition: all 300ms ease;
+  display: block !important;
+}
+
+.menu ul li {
   margin-bottom: 15px;
   list-style: none;
   margin-right: 37px;
 }
-.menuMoveLeft{
- transform: translateX(0%);
+.menuMoveLeft {
+  transform: translateX(0%);
 }
-.wrapMoveLeft{
- 
+.wrapMoveLeft {
 }
 
-
-.menu ul li  a{
+.menu ul li a {
   color: rgb(255, 255, 255);
-    font-family: "Trebuchet MS";
-    font-size: 25px;
-    text-decoration: none;
-    transition: all 300ms ease;
-    
-  }
-  
-  .menu li:nth-child(1) a {
-    position: relative;
-    font-size: 37px;
-    color: rgb(241, 106, 196);
-    font-family: 'Pacifico', cursive; 
-  }
-  
-  .menu li:nth-child(1) {
-    padding-top: 10px;
+  font-family: "Trebuchet MS";
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+
+.menu li:nth-child(1) a {
+  position: relative;
+  font-size: 37px;
+  color: rgb(241, 106, 196);
+  font-family: "Pacifico", cursive;
+}
+
+.menu li:nth-child(1) {
+  padding-top: 10px;
   padding-bottom: 15px !important;
-  
+}
+
+.menu li:nth-child(5) {
+  padding-bottom: 6.5px !important;
+}
+
+@media screen and (min-width: 1000px) {
+  .menu li:nth-child(1) a:hover {
+    font-size: 37px;
+    color: rgb(36, 248, 114) !important;
   }
 
-
-
-  .menu li:nth-child(5) {
-    padding-bottom: 6.5px !important;
-    
-    }
-  
-
-    @media screen and (min-width: 1000px){
-    .menu li:nth-child(1) a:hover {
-      font-size: 37px;
-      color: rgb(36, 248, 114) !important;
-      }
-  
-  .menu ul li a:hover{
+  .menu ul li a:hover {
     font-size: 30px;
     transition: all 300ms ease;
     color: rgb(36, 248, 114) !important;
-    
   }
-    }
+}
 
+.menu li:nth-child(1) a:hover {
+  transition: all 300ms ease;
+  color: rgb(36, 248, 114) !important;
+}
 
-    .menu li:nth-child(1) a:hover {
-      transition: all 300ms ease;
-      color: rgb(36, 248, 114) !important;
-      }
-  
-  .menu ul li a:hover{
-    
-    transition: all 300ms ease;
-    color: rgb(36, 248, 114) !important;
-    
-  }
-
-
-
-
+.menu ul li a:hover {
+  transition: all 300ms ease;
+  color: rgb(36, 248, 114) !important;
+}
 
 /*///////////////EXAMPLE BLOCKS/////////////////*/
-  .block1 {
-    display: flex;
-      transition: all 300ms ease !important;
-   flex-wrap: wrap !important;
+.block1 {
+  display: flex;
+  transition: all 300ms ease !important;
+  flex-wrap: wrap !important;
   justify-content: center;
   position: relative;
-  }
-  
+}
+
 .block {
   display: flex;
   transition: all 300ms ease !important;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
- }
-  
-/*//////////////////Scroll Level Control/////////////////*/ 
+}
+
+/*//////////////////Scroll Level Control/////////////////*/
 .blocks {
-    position: relative;
-    top: -20px;
-   }
-/*//////////////////Scroll Level Control/////////////////*/ 
-  
-  .blockt1  a{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    font-family: "Trebuchet MS";
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 18px;
-    text-decoration: none !important;
-    transition: all 300ms ease;
-    color: rgb(218, 200, 44);
-    cursor: pointer;
-    }
-  
-    .blockt1:hover{
-      transition: all 300ms ease;
-      padding-bottom: 10px;
-    }
+  position: relative;
+  top: -20px;
+}
+/*//////////////////Scroll Level Control/////////////////*/
 
+.blockt1 a {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none !important;
+  transition: all 300ms ease;
+  color: rgb(218, 200, 44);
+  cursor: pointer;
+}
 
-    .blockt1 {
-      transition: all 300ms ease;
-      
-    }
-    
-    .blockt1 a:hover {
-     
-      font-size: 45px;
-      
-      transition: all 300ms ease;
-      color: rgb(241, 106, 196);
-      }
+.blockt1:hover {
+  transition: all 300ms ease;
+  padding-bottom: 10px;
+}
 
+.blockt1 {
+  transition: all 300ms ease;
+}
 
+.blockt1 a:hover {
+  font-size: 45px;
 
+  transition: all 300ms ease;
+  color: rgb(241, 106, 196);
+}
 
-
-
- .blockt2  {
-    font-size: 20px;
-    padding: 10px;
-    font-family: "Trebuchet MS";
-    text-align: justify;
-    transition: all 300ms ease;
-    text-decoration: none !important;
-    position: relative;
-    color: #00ABD1;
-    line-height: 35px;
-    }
-
+.blockt2 {
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Trebuchet MS";
+  text-align: justify;
+  transition: all 300ms ease;
+  text-decoration: none !important;
+  position: relative;
+  color: #00abd1;
+  line-height: 35px;
+}
 
 /*///////////////////////FOOTER///////////////////////*/
 
+.footer {
+  background: rgb(43, 186, 243);
+  display: flex;
+  flex-wrap: wrap !important;
+  transition: all 300ms ease;
+  justify-content: center;
+  height: 150px;
+}
 
- .footer {
-      background: rgb(43, 186, 243);
-    display: flex;
-    flex-wrap: wrap !important;
-    transition: all 300ms ease;
-    justify-content: center;
-   height: 150px;
-    }
+.block1-footer {
+  display: flex;
+  transition: all 300ms ease;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  position: relative;
+}
 
-    .block1-footer {
-      display: flex;
-transition: all 300ms ease;
- flex-wrap: wrap !important;
-    justify-content: center;
-    position: relative;
-    }
-
-@media screen and (min-width:750px) and (max-width: 9999999px)
-  {
-    .blockt1-footer a{
+@media (min-width: 750px) {
+  .blockt1-footer a {
     text-align: center;
     padding-top: 70px;
     display: flex;
@@ -227,25 +201,23 @@ transition: all 300ms ease;
     text-decoration: none;
   }
 
-
-.blockt1-footer a:hover {
-  text-align: center;
-  padding-top: 70px;
-  display: flex;
-  justify-content: center;
-  font-family: "Trebuchet MS";
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 18px;
-  text-decoration: none !important;
-  transition: all 300ms ease;
-  color: rgb(77, 235, 63);
+  .blockt1-footer a:hover {
+    text-align: center;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: "Trebuchet MS";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none !important;
+    transition: all 300ms ease;
+    color: rgb(77, 235, 63);
+  }
 }
-}
 
-@media screen and (min-width:0px) and (max-width: 750px)
-  {
-  .blockt1-footer a{
+@media screen and (min-width: 0px) and (max-width: 750px) {
+  .blockt1-footer a {
     text-align: center;
     padding-top: 70px;
     display: flex;
@@ -259,150 +231,138 @@ transition: all 300ms ease;
     color: rgb(255, 255, 255);
     cursor: pointer;
   }
-  
-.blockt1-footer a:hover {
-  text-align: center;
-  padding-top: 70px;
-  display: flex;
-  justify-content: center;
-  font-family: "Trebuchet MS";
-  font-weight: 400;
-  line-height: 18px;
-  text-decoration: none !important;
-  transition: all 300ms ease;
-  color: rgb(77, 235, 63);
-}
+
+  .blockt1-footer a:hover {
+    text-align: center;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: "Trebuchet MS";
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none !important;
+    transition: all 300ms ease;
+    color: rgb(77, 235, 63);
+  }
 }
 
 /*//////////BURGER//////////*/
 
-    .burger {
-      /*width: 35px;*/
-      width: 25px;
-      height: 20px;
-       padding: 4px;
-      transition: all 300ms ease;
-      z-index: 999;
-      cursor: pointer;
-      position: fixed;
-      /*right: 25px;*/
-      right: -1.5px;
-      top: 3px;
-      /*top: 30px;*/
-      
-    }
+.burger {
+  width: 25px;
+  height: 20px;
+  padding: 4px;
+  transition: all 300ms ease;
+  z-index: 99;
+  cursor: pointer;
+  position: fixed;
+  right: -1.5px;
+  top: 3px;
+}
 
+.hoverBurger {
+  transition: all 300ms ease;
+}
 
-    .hoverBurger{
-      transition: all 300ms ease;
-    }
+.burger:hover {
+  cursor: pointer;
+}
 
-    .burger:hover {
-      cursor: pointer;
-      }
-    
-    .burger .burger-bar {
-      position: absolute;
-      border-radius: 2px;
-      width: 25px;
-      transition: all 500ms ease !important ;
-      
-    }
-    
-    .burger .burger-bar-top {
-      height: 4px;
-      border-bottom: none;
-      top: 0;
-      background-color: rgba(131, 236, 140, 0.664);
-       }
-    
-    .burger .burger-bar-middle {
-      height: 4px;
-      background-color: rgba(131, 236, 140, 0.664);
-      margin-top: 7px;
-      margin-bottom: 7px;
-      top: 4px;
-    }
-    
-    .burger .burger-bar-bottom {
-      height: 4px;
-      background-color: rgba(131, 236, 140, 0.664);
-      border-top: none;
-      top: 22px;
-     }
-    
- .burger .burger-bar-bottom1 {
-      height: 4px;
-      background-color: rgba(131, 236, 140, 0.664);
-      border-top: none;
-      top: 33px;
-     }
-     .burger .burger-bar-bottom2 {
-      height:110px;
-      width: 110px;
-      background-color: rgba(131, 236, 140, 0);
-      border-top: none;
-      top: -3px;
-      right: 0px;
-     }
+.burger .burger-bar {
+  position: absolute;
+  border-radius: 2px;
+  width: 25px;
+  transition: all 500ms ease !important ;
+}
 
-    
+.burger .burger-bar-top {
+  height: 4px;
+  border-bottom: none;
+  top: 0;
+  background-color: rgba(131, 236, 140, 0.664);
+}
+
+.burger .burger-bar-middle {
+  height: 4px;
+  background-color: rgba(131, 236, 140, 0.664);
+  margin-top: 7px;
+  margin-bottom: 7px;
+  top: 4px;
+}
+
+.burger .burger-bar-bottom {
+  height: 4px;
+  background-color: rgba(131, 236, 140, 0.664);
+  border-top: none;
+  top: 22px;
+}
+
+.burger .burger-bar-bottom1 {
+  height: 4px;
+  background-color: rgba(131, 236, 140, 0.664);
+  border-top: none;
+  top: 33px;
+}
+.burger .burger-bar-bottom2 {
+  height: 110px;
+  width: 110px;
+  background-color: rgba(131, 236, 140, 0);
+  border-top: none;
+  top: -3px;
+  right: 0px;
+}
+
 .hoverBurger .burger-bar-top {
-      width: 25px;
-      background-color: rgb(54, 194, 96);
-      }
-    
-    .hoverBurger .burger-bar-middle {
-      width: 25px;
-      background-color: rgb(54, 194, 96);
-      
-    }
-    
-    .hoverBurger .burger-bar-bottom {
-      width: 25px;
-      background-color: rgb(54, 194, 96);
-      
-     }
+  width: 25px;
+  background-color: rgb(54, 194, 96);
+}
 
-     .hoverBurger .burger-bar-bottom1 {
-      width: 25px;
-      background-color: rgb(54, 194, 96);
-      }
+.hoverBurger .burger-bar-middle {
+  width: 25px;
+  background-color: rgb(54, 194, 96);
+}
 
-    .burger-open .burger-bar-top {
-      transform: rotate(270deg)  translate(-4px, 15px);
-      transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
-      height: 4px !important;
-      width: 39px !important;
-      background-color: rgb(54, 194, 96);
-      right: -7px;
-      top: 18px;
-     
-     }
+.hoverBurger .burger-bar-bottom {
+  width: 25px;
+  background-color: rgb(54, 194, 96);
+}
 
- .burger-open .burger-bar-middle {
-      width: 39px !important;
-      height: 4px !important;
-      right: -4.4px;
-      top: 15px;
-      background-color: rgb(54, 194, 96);
-      transform: rotate(270deg);
-      
-    }
+.hoverBurger .burger-bar-bottom1 {
+  width: 25px;
+  background-color: rgb(54, 194, 96);
+}
+
+.burger-open .burger-bar-top {
+  transform: rotate(270deg) translate(-4px, 15px);
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  height: 4px !important;
+  width: 39px !important;
+  background-color: rgb(54, 194, 96);
+  right: -7px;
+  top: 18px;
+}
+
+.burger-open .burger-bar-middle {
+  width: 39px !important;
+  height: 4px !important;
+  right: -4.4px;
+  top: 15px;
+  background-color: rgb(54, 194, 96);
+  transform: rotate(270deg);
+}
 
 .burger-open .burger-bar-bottom {
-  transform: rotate(270deg)  translate(1px, 11px);
+  transform: rotate(270deg) translate(1px, 11px);
   height: 4px !important;
   width: 39px !important;
   background-color: rgb(54, 194, 96);
   right: -2.4px;
   top: 18px;
-  
 }
-  
-    .burger-open .burger-bar-bottom1 {
-      transform: rotate(225deg)  translate(1px, 11px);
-      height: 0px;
-      width: 0px;
-      opacity: 0;
-    }
+
+.burger-open .burger-bar-bottom1 {
+  transform: rotate(225deg) translate(1px, 11px);
+  height: 0px;
+  width: 0px;
+  opacity: 0;
+}
