@@ -149,7 +149,7 @@ display: inline-block;
   background: #f5fafe;
 }
 
-@media screen and (min-width: 405px) and (max-width: 99999999px) {
+@media (min-width: 405px) {
   .header_contact_wrap_0 {
     flex-wrap: nowrap;
     width: 100%;
@@ -173,7 +173,7 @@ display: inline-block;
   }
 }
 
-@media screen and (min-width: 405px) and (max-width: 99999999px) {
+@media (min-width: 405px) {
   .header_contact_wrap_2 {
     transition: all 500ms ease;
     display: flex;
@@ -202,7 +202,7 @@ display: inline-block;
   max-width: 794px;
 }
 
-@media screen and (min-width: 700px) and (max-width: 99999999px) {
+@media (min-width: 700px) {
   .Questions_wrap {
     position: relative;
     transition: all 200ms ease;
@@ -299,7 +299,7 @@ display: inline-block;
   transition: all 200ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Call a:hover {
     white-space: nowrap;
     font-family: Mulish;
@@ -318,7 +318,7 @@ display: inline-block;
   position: relative;
 }
 
-@media screen and (min-width: 700px) and (max-width: 99999999px) {
+@media (min-width: 700px) {
   .Gift_wrap {
     display: flex;
     flex-wrap: nowrap;
@@ -370,7 +370,7 @@ display: inline-block;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Gift_image_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -387,7 +387,7 @@ display: inline-block;
   white-space: nowrap;
 }
 
-@media screen and (min-width: 700px) and (max-width: 99999999px) {
+@media (min-width: 700px) {
   .Loyalty_wrap {
     display: flex;
     flex-wrap: nowrap;
@@ -448,7 +448,7 @@ display: inline-block;
   transition: all 1500ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Loyalty_image_svg:hover {
     fill: rgb(247, 212, 17);
     transition: all 500ms ease;
@@ -472,7 +472,7 @@ display: inline-block;
   transition: all 500ms ease;
 }
 
-@media screen and (min-width: 900px) and (max-width: 99999999px) {
+@media (min-width: 900px) {
   .header_wrap_0 {
     display: flex;
     justify-content: center;
@@ -654,7 +654,7 @@ right: 216px;
   transition: all 500ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .header_logo a span:nth-child(1):hover {
     font-family: Luckiest Guy;
     font-style: normal;
@@ -693,7 +693,7 @@ right: 216px;
   }
 }
 
-@media screen and (min-width: 1150px) and (max-width: 99999999px) {
+@media (min-width: 1150px) {
   .header_search_wrap {
     transition: all 500ms ease;
     display: flex;
@@ -816,7 +816,7 @@ right: 216px;
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .header_search_2:hover {
     background: #1576c5;
     transition: all 500ms ease;
@@ -834,7 +834,7 @@ right: 216px;
   transition: all 500ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .header_search_2_search_svg:hover {
     fill: rgb(255, 0, 34);
     transition: all 500ms ease;
@@ -853,7 +853,7 @@ right: 216px;
   }
 }
 
-@media screen and (min-width: 630px) and (max-width: 99999999px) {
+@media (min-width: 630px) {
   .header_wrap_2_0 {
     transition: all 500ms ease;
     display: flex;
@@ -905,7 +905,7 @@ right: 216px;
   transition: all 500ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .header_basket_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -927,7 +927,7 @@ right: 216px;
   right: 10px;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .header_basket_number:hover {
     width: 20px;
     height: 20px;
@@ -973,7 +973,7 @@ right: 216px;
   transition: all 500ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .header_user_select_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -1553,7 +1553,7 @@ button:focus,
   box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
 }
 
-@media screen and (min-width: 1040px) and (max-width: 99999999px) {
+@media (min-width: 1040px) {
   .Breadcrumbs_wrap {
     display: flex;
     justify-content: center;
@@ -1628,7 +1628,7 @@ ul.Breadcrumbs_ul li a {
   line-height: 13px;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   ul.Breadcrumbs_ul li a:hover {
     color: #000000;
     font-weight: 500;
@@ -1653,7 +1653,7 @@ ul.Breadcrumbs_ul li a {
   margin-right: 15px;
 }
 
-@media screen and (min-width: 1100px) and (max-width: 99999999px) {
+@media (min-width: 1100px) {
   .gh_hotel_stars_wrap {
     transition: all 500ms ease;
     display: flex;
@@ -1681,7 +1681,7 @@ ul.Breadcrumbs_ul li a {
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .gh_hotel_stars_svg:hover {
     transition: all 500ms ease;
   }
@@ -1766,7 +1766,7 @@ ul.Breadcrumbs_ul li a {
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .gh_hotel_offer:hover {
     transition: all 500ms ease;
     background: #1576c5;
@@ -2014,7 +2014,7 @@ content: "prev";
   transition: all 400ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .slider_button_next_1_svg:hover {
     fill: #ec1f46;
     transition: all 400ms ease;
@@ -2027,7 +2027,7 @@ content: "prev";
   transition: all 400ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .slider_button_prev_1_svg:hover {
     fill: #ec1f46;
     transition: all 400ms ease;
@@ -2248,7 +2248,7 @@ transition: all 500ms ease;
   color: #ffffff;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .options_button:hover {
     background: #1576c5;
     transition: all 500ms ease;
@@ -2362,7 +2362,7 @@ transition: all 500ms ease;
   margin-right: 9px;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .gh_hotel_options_guests_1_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -2382,7 +2382,7 @@ transition: all 500ms ease;
   margin-right: 14px;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .gh_hotel_options_guests_2_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -2422,7 +2422,7 @@ transition: all 500ms ease;
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
 }
 
 .gh_hotel_options_guests_3 p {
@@ -2443,7 +2443,7 @@ transition: all 500ms ease;
   margin-right: 8px;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .gh_hotel_options_guests_3_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -2904,29 +2904,10 @@ padding-right: 0px;
   margin-right: 21px;
 }
 
-/*
-@media screen and (min-width:1000px) and (max-width: 99999999px) {
-
-.package_options_t_circle:hover{
-background-color: rgb(0, 162, 255);
-}
-
-}
-*/
-
 .package_options_t_circle_svg {
   fill: #ffffff;
   transition: all 1000ms ease;
 }
-
-/*
-@media screen and (min-width:1000px) and (max-width: 99999999px) {
-.package_options_t_circle_svg:hover {
-fill:rgb(0, 162, 255);
-transition: all 500ms ease;
-}
-}
-*/
 
 .package_options_t_text {
   display: flex;
@@ -3105,37 +3086,13 @@ font-size: 11px;
   margin-right: 21px;
 }
 
-/*
-@media screen and (min-width:1000px) and (max-width: 99999999px) {
-
-.offer_details_t_circle:hover{
-background-color: rgb(0, 162, 255);
-}
-
-}
-*/
-
 .offer_details_t_circle_svg {
   fill: #ffffff;
   transition: all 1000ms ease;
 }
 
-/*
-@media screen and (min-width:1000px) and (max-width: 99999999px) {
-.offer_details_t_circle_svg:hover {
-fill:rgb(0, 162, 255);
-transition: all 500ms ease;
-}
-}
-*/
-
 .offer_details_t_text {
   display: flex;
-  /*
-width: 100%;
-max-width: 100px;
-justify-content: center;
-*/
 }
 
 .offer_details_t_text p {
@@ -3144,12 +3101,7 @@ justify-content: center;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
-  /* Gray 1 */
   color: #333333;
-}
-
-.offer_details_options_2_wrap {
 }
 
 .offer_details_options_2 {
@@ -4569,7 +4521,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_1_description_address_map_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -4606,7 +4558,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_1_description_guests_user_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -4646,7 +4598,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_1_description_room_home_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -4722,7 +4674,7 @@ display: flex;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_1_description_book:hover {
     transition: all 500ms ease;
     background: #1576c5;
@@ -4766,7 +4718,7 @@ display: flex;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_1_image_offer:hover {
     transition: all 500ms ease;
     background: #1576c5;
@@ -4839,7 +4791,7 @@ display: flex;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_2_image_offer:hover {
     transition: all 500ms ease;
     background: #1576c5;
@@ -4910,7 +4862,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_2_description_address_map_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -4947,7 +4899,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_2_description_guests_user_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -4987,7 +4939,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_2_description_room_home_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -5060,7 +5012,7 @@ display: flex;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Packages_p_2_description_book:hover {
     transition: all 500ms ease;
     background: #1576c5;
@@ -5388,7 +5340,7 @@ height: 100%;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .thinks_slider_user_stars_svg:hover {
     transition: all 500ms ease;
   }
@@ -5409,7 +5361,7 @@ height: 100%;
   transition: all 1500ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .thinks_slider_upper_commas_svg:hover {
     fill: #f2994a;
     transition: all 500ms ease;
@@ -5431,7 +5383,7 @@ height: 100%;
   transition: all 1500ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .thinks_slider_lower_commas_svg:hover {
     fill: #f2994a;
     transition: all 500ms ease;
@@ -5463,7 +5415,7 @@ margin-right: 15px;
   padding-right: 15px;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .thinks_slider_button_next_wrap:hover .thinks_slider_button_next_svg {
     fill: #f2994a;
   }
@@ -5480,7 +5432,7 @@ margin-right: 15px;
   transition: all 400ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .thinks_slider_button_next_svg:hover {
     fill: #f2994a;
     transition: all 400ms ease;
@@ -5501,7 +5453,7 @@ margin-left: 15px;
   padding-left: 15px;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .thinks_slider_button_prev_wrap:hover .thinks_slider_button_prev_svg {
     fill: #f2994a;
   }
@@ -5517,7 +5469,7 @@ margin-left: 15px;
   transition: all 400ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px)  {
   .thinks_slider_button_prev_svg:hover {
     fill: #f2994a;
     transition: all 400ms ease;
@@ -5709,7 +5661,7 @@ margin-left: 15px;
   transition: all 500ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Newsletter_send_2:hover {
     background: #1576c5;
     transition: all 500ms ease;
@@ -5991,7 +5943,7 @@ height: 100%;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .Other_Activities_description_button:hover {
     transition: all 500ms ease;
     background: #1576c5;
@@ -6122,7 +6074,7 @@ height: 100%;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_title_2 span:nth-child(1):hover {
     transition: all 500ms ease;
     color: #3a8be2;
@@ -6141,7 +6093,7 @@ height: 100%;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_title_2 span:nth-child(2):hover {
     transition: all 500ms ease;
     color: #3a8be2;
@@ -6160,7 +6112,7 @@ height: 100%;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_title_2 span:nth-child(3):hover {
     transition: all 500ms ease;
     color: #3a8be2;
@@ -6179,7 +6131,7 @@ height: 100%;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_title_2 span:nth-child(4):hover {
     transition: all 500ms ease;
     color: #3a8be2;
@@ -6252,7 +6204,7 @@ height: 100%;
   color: #bdbdbd;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_cat_list_wrap ul li a:hover {
     transition: all 200ms ease;
     color: #3a8be2;
@@ -6310,7 +6262,7 @@ height: 100%;
   color: #bdbdbd;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_contacts_list li a:hover {
     color: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -6348,7 +6300,7 @@ height: 100%;
   min-width: 20px !important;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_contacts_list_place_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -6362,7 +6314,7 @@ height: 100%;
   min-width: 20px !important;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_contacts_list_tel_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -6376,7 +6328,7 @@ height: 100%;
   min-width: 20px !important;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_1_contacts_list_mail_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -6415,7 +6367,7 @@ display: flex;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_infor_1_list_wrap ul li a:hover {
     transition: all 200ms ease;
     color: #3a8be2;
@@ -6475,7 +6427,7 @@ display: flex;
   color: #bdbdbd;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_infor_2_list_wrap ul li a:hover {
     transition: all 200ms ease;
     color: #3a8be2;
@@ -6517,7 +6469,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_social_facebooK_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -6530,7 +6482,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_social_youtube_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -6543,7 +6495,7 @@ display: flex;
   transition: all 1000ms ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_social_instagram_svg:hover {
     fill: rgb(0, 162, 255);
     transition: all 500ms ease;
@@ -6623,7 +6575,7 @@ display: flex;
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_2_send_button:hover {
     transition: all 500ms ease;
     background: #1576c5;
@@ -6784,7 +6736,7 @@ order: 2;
   color: #ffffff;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_3_name_Andrew a:hover {
     color: #3a8be2;
     transition: all 500ms ease;
@@ -6830,7 +6782,7 @@ order: 2;
   color: #ffffff;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 99999999px) {
+@media (min-width: 1000px) {
   .footer_part_3_name_Mohammad a:hover {
     color: #3a8be2;
     transition: all 500ms ease;

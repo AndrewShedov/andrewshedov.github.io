@@ -113,52 +113,7 @@
         transition: all 300ms ease
     }
 }
-/*
-@media screen and (min-width:0px) and (max-width: 1000px) {
-    input[type=text],
-[type=email],
-[type=tel],
-select {
-    transition: all 500ms ease;
-    margin-bottom: 20px !important;
-    width: 550px !important;
-    height: 34px !important;
-    padding-left: 15px;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    resize: none;
-    background-color: #ffffff91 !important;
-    color: rgb(0, 0, 0) !important;
-    
-    margin-bottom: 10px;
-    transition: all 500ms ease;
-    font-family: "Quicksand Light Oblique";
-    font-size: 15px;
-    opacity: .7;
-    font-weight: 400;
-    line-height: 18px
-}
 
-.contact-form textarea {
-    transition: all 500ms ease;
-    width: 550px !important;
-    margin-bottom: 21px !important;
-    resize: none;
-    font-family: "Quicksand Light Oblique";
-    font-size: 15px;
-    opacity: .7;
-    font-weight: 400;
-    line-height: 18px;
-    background-color: #ffffff83 !important;
-    height: 200px !important;
-    padding-left: 15px;
-    padding-top: 10px;
-    color: rgb(0, 0, 0) !important;
-    border: 2px solid #fff;
-    border-radius: 20px
-}
-}
-*/
 @media screen and (min-width:490px) and (max-width: 639px) {
     .scrollup {
         position: fixed;
