@@ -1912,18 +1912,6 @@ ul.Breadcrumbs_ul li a {
   margin-right: 30px;
 }
 
-/*
-.img-adaptive {
-width: 100% !important;
-
-height: auto !important;
-
-max-width: 1200px;
-width: 100%;
-height: auto !important;
-}
-*/
-
 .img-adaptive {
   width: 100% !important;
   height: 100% !important;
@@ -2029,9 +2017,6 @@ content: "prev";
   }
 }
 
-.slider_button_next_1 {
-}
-
 .gh_hotel_slider {
   display: flex;
   justify-content: center;
@@ -2074,9 +2059,6 @@ content: "prev";
   border-radius: 5px;
 }
 
-.swiper-wrapper {
-}
-
 .hotel_slider_image_wrap {
   display: flex;
   justify-content: center;
@@ -2109,28 +2091,6 @@ content: "prev";
   right: 60px;
   border-radius: 0px;
 }
-
-/*
-.swiper-slide {
-text-align: center;
-font-size: 18px;
-background: #fff;
-
-
-display: -webkit-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
--webkit-box-pack: center;
--ms-flex-pack: center;
--webkit-justify-content: center;
-justify-content: center;
--webkit-box-align: center;
--ms-flex-align: center;
--webkit-align-items: center;
-align-items: center;
-}
-*/
 
 .sliiiii_wrap {
   display: flex;
@@ -2174,9 +2134,6 @@ align-items: center;
   max-width: 350px;
   width: 100%;
   justify-content: center;
-  /*
-transition: all 500ms ease;
-*/
 }
 
 .gh_hotel_options_wrap {
@@ -2188,9 +2145,6 @@ transition: all 500ms ease;
   background: #0a223d;
   border-radius: 8px;
   justify-content: center;
-  /*
-transition: all 500ms ease;
-*/
   align-items: center;
 }
 
