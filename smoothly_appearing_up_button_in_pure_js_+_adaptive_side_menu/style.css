@@ -29,27 +29,22 @@
   transition: all 500ms ease !important;
 }
 
-.Wrap_Button:hover {
-  transition: all 500ms ease !important;
-  background-color: rgba(100, 83, 27, 0.726);
-}
-
 .Button {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(4, 25, 34);
+  color: rgb(22, 22, 22);
   font-size: 50px;
   transition: all 500ms ease !important;
 }
 
-.Button:hover {
-  /*
-transition: all 500ms ease !important;
-
-color: rgb(0, 0, 0);
-*/
+@media (min-width: 1000px) {
+  .Button:hover {
+    color: rgba(31, 30, 30, 0.907);
+    transition: all 500ms ease !important;
+  }
 }
+
 
 #UpButton.show {
   opacity: 1;
@@ -298,22 +293,6 @@ color: rgb(0, 0, 0);
     border-top: none;
     top: -3px;
     right: -10px;
-  }
-  .burger:hover .burger-bar-top {
-    width: 7px;
-    background-color: #000000;
-  }
-  .burger:hover .burger-bar-middle {
-    width: 7px;
-    background-color: #000000;
-  }
-  .burger:hover .burger-bar-bottom {
-    width: 7px;
-    background-color: #000000;
-  }
-  .burger:hover .burger-bar-bottom1 {
-    width: 7px;
-    background-color: #000000;
   }
   .burger-open .burger-bar-top {
     transform: rotate(270deg) translate(-4px, 15px);
