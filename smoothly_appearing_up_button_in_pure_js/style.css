@@ -24,21 +24,22 @@
   background-color: rgba(255, 255, 255, 0);
   transition: all 500ms ease !important;
 }
-.Wrap_Button:hover {
-  transition: all 500ms ease !important;
-  background-color: rgba(214, 184, 86, 0.726);
-}
 .Button {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(4, 25, 34);
+  color: rgb(22, 22, 22);
   font-size: 50px;
   transition: all 500ms ease !important;
 }
-.Button:hover {
-  /* transition: all 500ms ease !important; color: rgb(0, 0, 0); */
+
+@media (min-width: 1000px) {
+  .Button:hover {
+    color: rgba(31, 30, 30, 0.907);
+    transition: all 500ms ease !important;
+  }
 }
+
 #UpButton.show {
   opacity: 1;
   visibility: visible;
