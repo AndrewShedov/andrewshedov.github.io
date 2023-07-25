@@ -1227,7 +1227,7 @@ select {
 @media (max-width:500px) {
     .navi-1_wrap {
         width: calc((100%)/1);
-        justify-content: center;
+        justify-content: flex-start;
         transition: all 300ms ease;
     }
 }
