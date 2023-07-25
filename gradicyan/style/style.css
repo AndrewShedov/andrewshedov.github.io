@@ -1053,8 +1053,6 @@ select {
     max-width: 1180px;
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 30px;
     height: 100%;
 }
 
