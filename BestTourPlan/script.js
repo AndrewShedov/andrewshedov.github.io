@@ -51,7 +51,7 @@ document.getElementById("menu").onclick = function (event) {
 };
 
 /*Menu scrolling*/
-
+/*
 document.addEventListener("scroll", () => {
   let scrollTop = window.scrollY;
 
@@ -66,7 +66,7 @@ document.addEventListener("scroll", () => {
     li.forEach((el) => (el.style.height = "80px"));
   }
 });
-
+*/
 /*Menu_2*/
 
 function Tabs() {
