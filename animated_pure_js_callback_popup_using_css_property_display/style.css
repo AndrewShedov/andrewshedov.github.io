@@ -1,4 +1,48 @@
-/* --- Сallback section --- */
+* {
+  text-decoration: none;
+}
+
+svg path {
+  stroke: inherit;
+  stroke-width: inherit;
+  fill: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body {
+  -webkit-animation: fade-in 700ms linear;
+  -moz-animation: fade-in 700ms linear;
+  -o-animation: fade-in 700ms linear;
+  animation: fade-in 700ms linear;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .callback_button_wrap {
   position: fixed;
   right: 30px;
@@ -110,7 +154,7 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  border: 2px solid #1f1e1e !important; 
+  border: 2px solid #1f1e1e !important;
   padding: 2px;
   transition: all 300ms ease;
 }
@@ -281,8 +325,6 @@ input::-webkit-inner-spin-button {
   transition: all 500ms ease;
 }
 
-/* --- Сallback section --- */
-
 .title_contacting_wrap {
   display: flex;
   justify-content: center;
@@ -378,59 +420,4 @@ input::-webkit-inner-spin-button {
   100% {
     opacity: 1;
   }
-}
-
-* {
-  text-decoration: none;
-}
-
-svg path {
-  stroke: inherit;
-  stroke-width: inherit;
-  fill: inherit;
-}
-
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-body {
-  -webkit-animation: fade-in 700ms linear;
-  -moz-animation: fade-in 700ms linear;
-  -o-animation: fade-in 700ms linear;
-  animation: fade-in 700ms linear;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-body img {
-  border: none;
-  max-width: 100%;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
 }

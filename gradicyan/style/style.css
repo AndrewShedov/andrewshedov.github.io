@@ -1344,7 +1344,6 @@ select {
 }
 
 .navi-3-t2-2 ul li {
-    cursor: pointer;
     text-decoration: none;
     color: #898989;
     font-family: "Quicksand Light";
@@ -1354,7 +1353,8 @@ select {
     transition: all 200ms ease;
 }
 
-.navi-3-t2-2 ul li:hover {
+
+.navi-3-t2-2 ul li a:hover {
     cursor: pointer;
     color: #000;
     transition: all 200ms ease
