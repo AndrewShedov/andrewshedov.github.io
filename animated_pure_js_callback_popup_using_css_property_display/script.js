@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "opacity: 1";
   });
 
-  // Click outside the callback form
+  // Tracking a click outside of a modal window
   document.addEventListener("click", (e) => {
     let target = e.target;
     let target_callback_window =
