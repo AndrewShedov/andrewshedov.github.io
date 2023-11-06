@@ -33,12 +33,6 @@ jQuery(document).ready(function (a) {
         })
     })
 });
-$(document).ready(function () {
-    $("div[class^=contents]:not(:first)").hide();
-    $(".dropdown").change(function () {
-        value = $(this).find("option:selected").val();
-        $(".dropdown option[value=" + value + "]").removeAttr("disabled");
-        $('div[class^="contents"]').hide();
-        $(".contents" + value).show()
-    })
-});
+ 
+//Slider
+ 
