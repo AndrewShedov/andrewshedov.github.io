@@ -2187,6 +2187,20 @@ button:focus,
     box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important
 }
 
+
+@media (max-width: 560px) {
+
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: -9px !important;
+        left: 0;
+        width: 100%;
+    }
+}
+
+
+
 @media screen and (min-width:490px) and (max-width: 639px) {
     .scrollup {
         position: fixed;
@@ -3593,30 +3607,5 @@ button:focus,
         text-align: center;
         -webkit-transform: translate3d(0, 36px, 0);
         transform: translate3d(0, 36px, 0)
-    }
-
-    a.active.focus,
-    a.active:focus,
-    a.focus,
-    a:active.focus,
-    a:active:focus,
-    a:focus,
-    button.active.focus,
-    button.active:focus,
-    button.focus,
-    button:active.focus,
-    button:active:focus,
-    button:focus,
-    .btn.active.focus,
-    .btn.active:focus,
-    .btn.focus,
-    .btn:active.focus,
-    .btn:active:focus,
-    .btn:focus {
-        outline: 0 !important;
-        outline-color: transparent !important;
-        outline-width: 0 !important;
-        outline-style: none !important;
-        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important
     }
 }
