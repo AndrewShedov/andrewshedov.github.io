@@ -176,10 +176,9 @@
                      labore et dolore magna aliqua.
                   </p>
                </div>
-               <div class=projextbutton>
+             
                   <button class=button2>READ MORE</button>
-               </div>
-            </div>
+              </div>
             <div class=project>
                <div class=projectimg1>
                   <img src=images/project2.png class=img-adaptive alt=image>
@@ -195,9 +194,7 @@
                      labore et dolore magna aliqua.
                   </p>
                </div>
-               <div class=projextbutton>
-                  <button class=button2>READ MORE</button>
-               </div>
+               <button class=button2>READ MORE</button>
             </div>
             <div class=project>
                <div class=projectimg1>
@@ -214,9 +211,7 @@
                      labore et dolore magna aliqua.
                   </p>
                </div>
-               <div class=projextbutton>
-                  <button class=button2>READ MORE</button>
-               </div>
+               <button class=button2>READ MORE</button>
             </div>
             <div class=project>
                <div class=projectimg1>
@@ -233,9 +228,7 @@
                      labore et dolore magna aliqua.
                   </p>
                </div>
-               <div class=projextbutton>
-                  <button class=button2>READ MORE</button>
-               </div>
+               <button class=button2>READ MORE</button>
             </div>
          </div>
       </div>
@@ -613,9 +606,7 @@
                <input type=tel id=phone name=phone pattern=[0-9]{3}-[0-9]{3}-[0-9]{4}
                   placeholder="Your phone number...">
                <textarea name=comment placeholder=Message...></textarea>
-               <div class=contact-button>
                   <button class=button3>GET START NOW</button>
-               </div>
             </div>
          </div>
       </div>
@@ -718,15 +709,15 @@
       <script src=vendors/jquery/jquery-3.2.1.min.js></script>
       <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script>
       <script src=js/script.js></script>
-      <script src=js/scriptsm.js></script>
       <script src=js/swiper.min.js></script>
       <script src=dist/js/lightgallery-all.min.js></script>
       <script src=lib/jquery.mousewheel.min.js></script>
       <script src=https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js></script>
       <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.js></script>
       <script>var swiper = new Swiper(".swiper-container", { speed: 400, spaceBetween: 0, centeredSlides: true, pagination: { el: ".swiper-pagination", clickable: true, }, loop: true, navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev", }, autoplay: { delay: 5000, disableOnInteraction: false } });</script>
-      <script>$(function () { $(".scrollup").click(function () { $("html, body").animate({ scrollTop: 0 }, 600) }) }); $(window).scroll(function () { if ($(this).scrollTop() > 200) { $(".scrollup").fadeIn() } else { $(".scrollup").fadeOut() } });</script>
-      <script>$(".selector1").lightGallery({ hideBarsDelay: 1000000, slideEndAnimatoin: true, backdropDuration: 100, thumbnail: true, showThumbByDefault: false, selector: ".iter", closable: true, share: false, });</script>
+      <script>$(function () { $(".scrollup").click(function () { $("html, body").animate({ scrollTop: 0 }, 600) }) }); $(window).scroll(function () { if ($(this).scrollTop() > 200) { $(".scrollup").fadeIn() } else { $(".scrollup").fadeOut() } });
+      $(".selector1").lightGallery({ hideBarsDelay: 1000000, slideEndAnimatoin: true, backdropDuration: 100, thumbnail: true, showThumbByDefault: false, selector: ".iter", closable: true, share: false, });
+      </script>
       <div class=scrollup>
          <i class="fas fa-chevron-up"></i>
       </div>
