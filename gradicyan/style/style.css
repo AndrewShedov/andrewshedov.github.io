@@ -2193,7 +2193,7 @@ button:focus,
     .swiper-container-horizontal>.swiper-pagination-bullets,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-        bottom: -9px !important;
+        bottom: -7px !important;
         left: 0;
         width: 100%;
     }
