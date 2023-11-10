@@ -2197,6 +2197,13 @@ button:focus,
         left: 0;
         width: 100%;
     }
+
+    .swiper-pagination-bullet {
+
+        width: 10px !important;
+    height: 10px !important;
+    }
+
 }
 
 
