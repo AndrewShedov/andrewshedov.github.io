@@ -1304,11 +1304,9 @@ right: -3px;
 
 .nav {
   background-color: rgb(10, 34, 61);
-
   position: sticky;
-
   transition: all 200ms ease !important;
-  top: 0px;
+  top: -1px;
   height: 80px;
   z-index: 999;
 }

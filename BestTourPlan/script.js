@@ -51,7 +51,7 @@ document.getElementById("menu").onclick = function (event) {
 };
 
 /*Menu scrolling*/
-/*
+
 document.addEventListener("scroll", () => {
   let scrollTop = window.scrollY;
 
@@ -59,14 +59,14 @@ document.addEventListener("scroll", () => {
   let li = document.querySelectorAll(".nav  ul  li");
 
   if (scrollTop >= 180) {
-    li.forEach((el) => (el.style.height = "45px"));
-    nav.style.height = "45px";
+    li.forEach((el) => (el.style.height = "55px"));
+    nav.style.height = "55px";
   } else {
     nav.style.height = "80px";
     li.forEach((el) => (el.style.height = "80px"));
   }
 });
-*/
+
 /*Menu_2*/
 
 function Tabs() {
