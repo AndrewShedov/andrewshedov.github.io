@@ -49,7 +49,7 @@ document.getElementById("menu").onclick = function (event) {
   }
 };
 
-///////////////SCROLLLLLLLLLLLLL
+///////////////SCROL
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
 for (let smoothLink of smoothLinks) {
   smoothLink.addEventListener("click", function (e) {
