@@ -61,8 +61,8 @@ document.addEventListener('scroll', () => {
 
     }
     else {
-        nav.style.height = "80px";
-        li.forEach(el => el.style.height = "80px");
+        nav.style.height = "60px";
+        li.forEach(el => el.style.height = "60px");
 
 
     };
