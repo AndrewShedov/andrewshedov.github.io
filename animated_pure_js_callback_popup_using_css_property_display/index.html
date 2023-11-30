@@ -5,78 +5,47 @@
     <title>Animated pure js callback popup using css property - display</title>
     <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel=stylesheet
-    href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css
-    >
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css>
   </head>
   <body>
     <div class="title">
       <h1>Animated pure js callback popup using css property - display</h1>
     </div>
-    <div class="site_link_wrap">
+    <div class="site_link">
       <a href="https://shedov.top/" target="blank">SHEDOV.TOP</a>
     </div>
-    <div class="callback_button_wrap">
+    <button class="callback_button">
       <div class="callback_button_pulsation"></div>
       <i class="fa fa-phone"> </i>
-    </div>
+    </button>
     <div class="callback_wrap">
       <div class="callback_window_wrap">
         <div class="callback_window">
-          <div class="callback_window_button_close">
-            <i
-              class="fa fa-times callback_window-button_close_icon"
-              aria-hidden="true"
-            ></i>
-          </div>
-          <div class="callback_window_title_wrap">
+          <button class="callback_window_button_close">
+          <i class="fa fa-times callback_window-button_close_icon" aria-hidden="true"></i>
+          </button>
+          <div class="callback_window_title">
             <p>Request a call back</p>
           </div>
-          <div class="callback_window_input_name_wrap">
-            <input
-              class="callback_window_input_name"
-              id="username"
-              type="text"
-              name="callback_window_input_name"
-              placeholder="Name"
-            />
+          <div class="callback_window_input_name">
+            <input id="username" type="text" name="callback_window_input_name" placeholder="Name" />
           </div>
-          <div class="callback_window_input_phone_wrap">
-            <input
-              class="callback_window_input_phone"
-              type="text"
-              id="phone"
-              name="callback_window_input_phone"
-              onkeyup="this.value = this.value.replace(/[^+\d]/g, '');"
-              placeholder="Phone number"
-            />
+          <div class="callback_window_input_phone">
+            <input type="text" id="phone" name="callback_window_input_phone"
+              onkeyup="this.value = this.value.replace(/[^+\d]/g, '');" placeholder="Phone number" />
           </div>
-          <div class="callback_privacy_policy_wrap">
-            <div class="callback_privacy_policy">
-              <div class="checkbox_callback_privacy_policy_wrap">
-                <input
-                  class="checkbox_callback_privacy_policy"
-                  type="checkbox"
-                  id="accept-terms"
-                />
-              </div>
-              <label class="callback_privacy_policy_label" for="accept-terms">
-                <p>I consent to the processing of my personal data.</p></label
-              >
+          <div class="callback_privacy_policy">
+            <div class="checkbox_callback_privacy_policy">
+              <input type="checkbox" id="accept-terms" />
             </div>
+            <label class="callback_privacy_policy_label" for="accept-terms">
+              <p>I consent to the processing of my personal data.</p>
+            </label>
           </div>
-          <div class="callback_send_button_wrap">
-            <input
-              type="hidden"
-              name="callback_send_button_recaptcha_response"
-              id="callback_send_button_recaptcha_token"
-            />
-            <input
-              class="callback_send_button"
-              id="callback_send_button"
-              type="submit"
-              value="Send"
-            />
+          <div class="callback_send_button">
+            <button>
+            Send
+            </button>
           </div>
         </div>
       </div>

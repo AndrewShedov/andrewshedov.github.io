@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let callback_button_wrap = document.querySelector(".callback_button_wrap");
+  let callback_button = document.querySelector(".callback_button");
   let callback_window = document.querySelector(".callback_window");
   let callback_window_button_close = document.querySelector(
     ".callback_window_button_close"
   );
   let callback_wrap = document.querySelector(".callback_wrap");
 
-  callback_button_wrap.addEventListener("click", (e) => {
+  callback_button.addEventListener("click", (e) => {
     e.stopPropagation();
     animateDisplay(
       document.querySelector(".callback_wrap"),
@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
       "block",
       300
     );
-    document.getElementsByClassName("callback_button_wrap")[0].style =
+    document.getElementsByClassName("callback_button")[0].style =
       "visibility: hidden";
-    document.getElementsByClassName("callback_button_wrap")[0].style =
+    document.getElementsByClassName("callback_button")[0].style =
       "opacity: 0";
   });
 
@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded", function () {
       "block",
       300
     );
-    document.getElementsByClassName("callback_button_wrap")[0].style =
+    document.getElementsByClassName("callback_button")[0].style =
       "visibility: visible";
-    document.getElementsByClassName("callback_button_wrap")[0].style =
+    document.getElementsByClassName("callback_button")[0].style =
       "opacity: 1";
   });
 
@@ -39,11 +39,11 @@ document.addEventListener("DOMContentLoaded", function () {
     let target = e.target;
     let target_callback_window =
       target == callback_window || callback_window.contains(target);
-    let target_callback_button_wrap = target == callback_button_wrap;
+    let target_callback_button = target == callback_button;
     let callback_wrap_active = callback_wrap.classList.contains("active");
     if (
       !target_callback_window &&
-      !target_callback_button_wrap &&
+      !target_callback_button &&
       callback_wrap_active
     ) {
       animateDisplay(
@@ -52,9 +52,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "block",
         300
       );
-      document.getElementsByClassName("callback_button_wrap")[0].style =
+      document.getElementsByClassName("callback_button")[0].style =
         "visibility: visible";
-      document.getElementsByClassName("callback_button_wrap")[0].style =
+      document.getElementsByClassName("callback_button")[0].style =
         "opacity: 1";
     }
   });
