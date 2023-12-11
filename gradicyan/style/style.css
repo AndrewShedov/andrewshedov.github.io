@@ -726,7 +726,7 @@ figcaption {
     justify-content: center;
     align-content: center;
     flex-wrap: nowrap;
-    transition: all 500ms ease
+    transition: all 500ms ease;
 }
 
 .services {
