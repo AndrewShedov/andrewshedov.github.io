@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
       $targetm.addClass("f-nav");
       $(".nav ul li").css("margin-top", "10px");
       $(".burger").css("top", "5px");
-      $(".brand").css("top", "24px");
+      $(".brand").css("bottom", "9px");
       $(".brandm").css("top", "15px");
       $(".burger").css("right", "4px");
       return;
@@ -40,7 +40,7 @@ jQuery(document).ready(function ($) {
       $(".nav ul li").css("margin-top", "40px");
       $(".burger").css("top", "24px");
       $(".burger").css("right", "24px");
-      $(".brand").css("top", "50px");
+      $(".brand").css("bottom", "15px");
       $(".brandm").css("top", "30px");
       $target.removeClass("f-nav");
       $targetm.removeClass("f-nav");
