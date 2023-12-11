@@ -496,7 +496,6 @@ ul {
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
-    position: relative;
     text-align: left;
     transition: all 500ms ease;
     cursor: pointer;
@@ -504,6 +503,13 @@ ul {
     top: 27px;
     padding-left: 13px;
     border-radius: 18px
+}
+
+.servicestext2-1-5 a {
+    color: #cfcfcf;
+}
+.servicestext2-1-5:hover a {
+    color: #000;
 }
 
 .servicestext2-1-5:hover {
@@ -539,6 +545,13 @@ ul {
     position: relative;
     top: 25px;
     padding-left: 13px
+}
+
+.servicestext2-1-6 a {
+    color: #cfcfcf;
+}
+.servicestext2-1-6:hover a {
+    color: #000;
 }
 
 .servicestext2-1-6:hover {
@@ -587,6 +600,13 @@ ul {
     color: #000
 }
 
+.servicestext2-1-7 a {
+    color: #cfcfcf;
+}
+.servicestext2-1-7:hover a {
+    color: #000;
+}
+
 .servicestext2-1-7 img {
     position: relative;
     top: 2px;
@@ -620,6 +640,13 @@ ul {
     position: relative;
     padding-left: 30px;
     color: #000
+}
+
+.servicestext2-1-8 a {
+    color: #cfcfcf;
+}
+.servicestext2-1-8:hover a {
+    color: #000;
 }
 
 .servicestext2-1-8 img {
@@ -1861,6 +1888,9 @@ select {
     line-height: 18px
 }
 
+ 
+
+
 .figcaptiongt2 {
     width: 100%;
     display: flex;
@@ -1873,6 +1903,9 @@ select {
     line-height: 18px;
     text-transform: uppercase
 }
+
+ 
+
 
 .gallery1_1img {
     width: 100%;
