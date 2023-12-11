@@ -653,7 +653,7 @@ figcaption {
     justify-content: center;
     align-items: center;
     opacity: 0;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .img-adaptive {
