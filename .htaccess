@@ -1,2 +1,0 @@
-RewriteCond %{THE_REQUEST} /index\.html(/(.*?))? [NC]
-RewriteRule ^(.*?)index\.html(/(.*?))?$ /$1$2 [L,R=301,NC,NE]
