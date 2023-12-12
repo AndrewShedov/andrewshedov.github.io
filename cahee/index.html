@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="zxx">
+
 <head>
   <meta charset="UTF-8">
   <title>Cahee</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-   content="Landing page based on designer layout">
+  <meta name="description" content="Landing page based on designer layout">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -25,6 +25,7 @@
   <meta name="msapplication-TileColor" content="#9f00a7">
   <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
   <div class="header" id="home">
     <nav class="menu-mobile">
@@ -97,7 +98,8 @@
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
               dolor in reprehenderit in voluptate velit esse cillum.
               Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</a></div>
+              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</a>
+          </div>
         </div>
       </div>
     </div>
@@ -216,11 +218,12 @@
               </div>
               <div class="col-xl-6 col-lg-6  col-md-7 col-sm-12 col-12">
                 <div class="subttwo"><a>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam.</a></div>
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam.</a>
+                </div>
               </div>
             </div>
             <div class="inp">
-              <input type="email"  placeholder="Your email address...">
+              <input type="email" placeholder="Your email address...">
             </div>
             <div class="bthree">
               <button>SUBSCRIBE</button>
@@ -281,7 +284,7 @@
           <div class="row">
             <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 contactfo">
               <input type="text" id="fname" name="firstname" placeholder="Your name...">
-              <input type="email"  pattern=".+@globex.com" placeholder="Your email address...">
+              <input type="email" pattern=".+@globex.com" placeholder="Your email address...">
               <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                 placeholder="Your phone number...">
               <textarea name="comment" placeholder="Your message..."></textarea>
@@ -365,22 +368,16 @@
   </script>
   <script>
     $(function () {
-      // при нажатии на кнопку scrollup
       $('.scrollup').click(function () {
-        // переместиться в верхнюю часть страницы
         $("html, body").animate({
           scrollTop: 0
         }, 100);
       })
     })
-    // при прокрутке окна (window)
     $(window).scroll(function () {
-      // если пользователь прокрутил страницу более чем на 200px
       if ($(this).scrollTop() > 200) {
-        // то сделать кнопку scrollup видимой
         $('.scrollup').fadeIn();
       }
-      // иначе скрыть кнопку scrollup
       else {
         $('.scrollup').fadeOut();
       }
@@ -391,4 +388,5 @@
     <i class="fas fa-chevron-up"></i>
   </div>
 </body>
+
 </html>
