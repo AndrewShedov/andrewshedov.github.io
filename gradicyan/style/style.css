@@ -870,7 +870,7 @@ figcaption {
 }
 
 .contact {
-    background: url(../images/contact.png) no-repeat;
+    background: url(../images/contact.webp) no-repeat;
     background-position: center center;
     background-size: cover;
     /* background-color: #000000a6 !important;
@@ -1351,6 +1351,17 @@ select {
     line-height: 25px;
     transition: all 200ms ease;
 }
+
+.navi-3-t2-2 ul li a {
+    text-decoration: none;
+    color: #898989;
+    font-family: "Quicksand Light";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    transition: all 200ms ease;
+}
+
 
 .navi-3-t2-2 ul li a:hover {
     cursor: pointer;
