@@ -210,7 +210,7 @@ input[type="search"]::-moz-placeholder {
     align-items: center;
     width: 30px;
     height: 100%;
-    right: 0px;
+    right: 0;
     position: absolute;
     top: 0.2px;
     font-size: 15px;
@@ -1108,7 +1108,7 @@ select {
     }
 
     .footer-ball-wr {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .footer-1 {
@@ -2238,13 +2238,13 @@ button:focus,
     }
 }
 
-@media screen and (min-width:0px) and (max-width: 500px) {
+@media (max-width: 500px) {
     .figcaptionbg-2-1 {
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0px !important;
+        bottom: 0 !important;
         display: flex;
         align-items: center;
         transition: all 500ms ease;
@@ -2348,7 +2348,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media (max-width: 500px) {
     .bone:hover {
         cursor: pointer;
         background-color: #33de8a;
@@ -2379,7 +2379,7 @@ button:focus,
     bottom: 7px
 }
 
-@media screen and (min-width: 0px) and (max-width:1040px) {
+@media (max-width:1040px) {
     .blogt3 {
         display: flex;
         flex-wrap: nowrap;
@@ -2407,7 +2407,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width:600px) {
+@media (max-width:600px) {
 
     input[type=text],
     [type=email],
@@ -2421,7 +2421,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width:1040px) {
+@media (max-width:1040px) {
     .contacts {
         position: relative;
         top: 11px
@@ -2482,14 +2482,14 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 365px) {
+@media (max-width: 365px) {
     .contact-t1 {
         font-size: 10vw;
         line-height: 45px
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 619px) {
+@media (max-width: 619px) {
     .serviceswrapper {
         background-image: linear-gradient(to right, #00abd1 0%, #13cef7 47%, #7ae7ff 100%);
         display: flex;
@@ -2607,7 +2607,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 950px) {
+@media (max-width: 950px) {
     .gallery {
         width: 100%;
         height: 100%;
@@ -2618,7 +2618,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media (max-width: 500px) {
     .figcaptionbgt1-1 {
         width: 280px;
         height: 49px;
@@ -2810,7 +2810,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media (max-width: 500px) {
     .blogt2-2 {
         text-align: left
     }
@@ -2837,7 +2837,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 1630px) {
+@media (max-width: 1630px) {
     .figcaptiongimg img {
         width: 30%
     }
@@ -2861,7 +2861,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .servicestext2-1-1 {
         width: 565px;
         height: 100%;
@@ -2983,7 +2983,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 640px) {
+@media (max-width: 640px) {
     .aboutwrapper {
         display: flex;
         justify-content: center;
@@ -3301,7 +3301,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 545px) {
+@media (max-width: 545px) {
     .aboutwrapper {
         transition: all 500ms ease;
         display: flex;
@@ -3376,7 +3376,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media (max-width: 400px) {
     .swiper-pagination-bullet {
         width: 3px;
         height: 3px;
@@ -3488,7 +3488,7 @@ button:focus,
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 360px) {
+@media (max-width: 360px) {
     .brandm {
         top: 12px
     }
